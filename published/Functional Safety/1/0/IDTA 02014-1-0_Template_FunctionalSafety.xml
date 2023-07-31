@@ -1305,35 +1305,6 @@
       </aas:isCaseOf>
     </aas:conceptDescription>
     <aas:conceptDescription>
-      <aas:idShort>ProofTestInterval</aas:idShort>
-      <aas:identification idType="IRDI">0112/2///62683#ACE058#001</aas:identification>
-      <aas:embeddedDataSpecification>
-        <aas:dataSpecificationContent>
-          <aas:dataSpecificationIEC61360>
-            <IEC:preferredName>
-              <IEC:langString lang="en">proof test interval</IEC:langString>
-              <IEC:langString lang="fr">intervalle entre essai périodique</IEC:langString>
-            </IEC:preferredName>
-            <IEC:shortName />
-            <IEC:unit>y</IEC:unit>
-            <IEC:valueFormat>NR2..2.1</IEC:valueFormat>
-            <IEC:dataType />
-            <IEC:definition />
-          </aas:dataSpecificationIEC61360>
-        </aas:dataSpecificationContent>
-        <aas:dataSpecification>
-          <aas:keys>
-            <aas:key type="ConceptDescription" local="true" idType="IRDI">0112/2///62683#ACE058#001</aas:key>
-          </aas:keys>
-        </aas:dataSpecification>
-      </aas:embeddedDataSpecification>
-      <aas:isCaseOf>
-        <aas:keys>
-          <aas:key type="GlobalReference" local="false" idType="IRDI">0112/2///62683#ACE058#001</aas:key>
-        </aas:keys>
-      </aas:isCaseOf>
-    </aas:conceptDescription>
-    <aas:conceptDescription>
       <aas:idShort>ElectromechanicalElement</aas:idShort>
       <aas:identification idType="IRDI">0112/2///62683#ACG067#001</aas:identification>
       <aas:embeddedDataSpecification>
@@ -1398,35 +1369,6 @@
       </aas:isCaseOf>
     </aas:conceptDescription>
     <aas:conceptDescription>
-      <aas:idShort>ProofTestInterval</aas:idShort>
-      <aas:identification idType="IRDI">0112/2///62683#ACE058#001</aas:identification>
-      <aas:embeddedDataSpecification>
-        <aas:dataSpecificationContent>
-          <aas:dataSpecificationIEC61360>
-            <IEC:preferredName>
-              <IEC:langString lang="en">proof test interval</IEC:langString>
-              <IEC:langString lang="fr">intervalle entre essai périodique</IEC:langString>
-            </IEC:preferredName>
-            <IEC:shortName />
-            <IEC:unit>y</IEC:unit>
-            <IEC:valueFormat>NR2..2.1</IEC:valueFormat>
-            <IEC:dataType />
-            <IEC:definition />
-          </aas:dataSpecificationIEC61360>
-        </aas:dataSpecificationContent>
-        <aas:dataSpecification>
-          <aas:keys>
-            <aas:key type="ConceptDescription" local="true" idType="IRDI">0112/2///62683#ACE058#001</aas:key>
-          </aas:keys>
-        </aas:dataSpecification>
-      </aas:embeddedDataSpecification>
-      <aas:isCaseOf>
-        <aas:keys>
-          <aas:key type="GlobalReference" local="false" idType="IRDI">0112/2///62683#ACE058#001</aas:key>
-        </aas:keys>
-      </aas:isCaseOf>
-    </aas:conceptDescription>
-    <aas:conceptDescription>
       <aas:idShort>InherentlySafeSubsystem</aas:idShort>
       <aas:identification idType="IRDI">0112/2///62683#ACG069#001</aas:identification>
       <aas:embeddedDataSpecification>
@@ -1482,35 +1424,6 @@
       <aas:isCaseOf>
         <aas:keys>
           <aas:key type="GlobalReference" local="false" idType="IRDI">0112/2///62683#ACE051#001</aas:key>
-        </aas:keys>
-      </aas:isCaseOf>
-    </aas:conceptDescription>
-    <aas:conceptDescription>
-      <aas:idShort>ProofTestInterval</aas:idShort>
-      <aas:identification idType="IRDI">0112/2///62683#ACE058#001</aas:identification>
-      <aas:embeddedDataSpecification>
-        <aas:dataSpecificationContent>
-          <aas:dataSpecificationIEC61360>
-            <IEC:preferredName>
-              <IEC:langString lang="en">proof test interval</IEC:langString>
-              <IEC:langString lang="fr">intervalle entre essai périodique</IEC:langString>
-            </IEC:preferredName>
-            <IEC:shortName />
-            <IEC:unit>y</IEC:unit>
-            <IEC:valueFormat>NR2..2.1</IEC:valueFormat>
-            <IEC:dataType />
-            <IEC:definition />
-          </aas:dataSpecificationIEC61360>
-        </aas:dataSpecificationContent>
-        <aas:dataSpecification>
-          <aas:keys>
-            <aas:key type="ConceptDescription" local="true" idType="IRDI">0112/2///62683#ACE058#001</aas:key>
-          </aas:keys>
-        </aas:dataSpecification>
-      </aas:embeddedDataSpecification>
-      <aas:isCaseOf>
-        <aas:keys>
-          <aas:key type="GlobalReference" local="false" idType="IRDI">0112/2///62683#ACE058#001</aas:key>
         </aas:keys>
       </aas:isCaseOf>
     </aas:conceptDescription>
