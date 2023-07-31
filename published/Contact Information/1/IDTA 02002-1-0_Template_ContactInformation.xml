@@ -814,7 +814,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+                <IEC:langString lang="en">RoleOfContactPerson</IEC:langString>
+            </IEC:preferredName>
             <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
@@ -836,7 +838,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+                <IEC:langString lang="en">NationalCode</IEC:langString>
+            </IEC:preferredName>
             <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
@@ -858,7 +862,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+                <IEC:langString lang="en">Language</IEC:langString>
+            </IEC:preferredName>
             <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
@@ -885,7 +891,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+                <IEC:langString lang="en">CityTown</IEC:langString>
+            </IEC:preferredName>
             <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
@@ -907,7 +915,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+                <IEC:langString lang="en">Company</IEC:langString>
+            </IEC:preferredName>
             <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
@@ -929,7 +939,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+                <IEC:langString lang="en">Department</IEC:langString>
+            </IEC:preferredName>
             <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
@@ -951,7 +963,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+                <IEC:langString lang="en">Phone</IEC:langString>
+            </IEC:preferredName>
             <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
@@ -973,7 +987,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+                <IEC:langString lang="en">Fax</IEC:langString>
+            </IEC:preferredName>
             <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
@@ -995,7 +1011,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+                <IEC:langString lang="en">Email</IEC:langString>
+            </IEC:preferredName>
             <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
@@ -1017,7 +1035,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+                <IEC:langString lang="en">IPCommunication</IEC:langString>
+            </IEC:preferredName>
             <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
@@ -1039,7 +1059,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+                <IEC:langString lang="en">Street</IEC:langString>
+            </IEC:preferredName>
             <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
@@ -1061,7 +1083,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+                <IEC:langString lang="en">Zipcode</IEC:langString>
+            </IEC:preferredName>
             <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
@@ -1083,7 +1107,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+                <IEC:langString lang="en">POBox</IEC:langString>
+            </IEC:preferredName>
             <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
@@ -1105,7 +1131,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+                <IEC:langString lang="en">ZipCodeOfPOBox</IEC:langString>
+            </IEC:preferredName>
             <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
@@ -1127,7 +1155,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+                <IEC:langString lang="en">StateCounty</IEC:langString>
+            </IEC:preferredName>
             <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
@@ -1149,7 +1179,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+                <IEC:langString lang="en">NameOfContact</IEC:langString>
+            </IEC:preferredName>
             <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
@@ -1171,7 +1203,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+                <IEC:langString lang="en">FirstName</IEC:langString>
+            </IEC:preferredName>
             <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
@@ -1193,7 +1227,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+                <IEC:langString lang="en">MiddleNames</IEC:langString>
+            </IEC:preferredName>
             <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
@@ -1215,7 +1251,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+                <IEC:langString lang="en">Title</IEC:langString>
+            </IEC:preferredName>
             <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
@@ -1237,7 +1275,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+                <IEC:langString lang="en">AcademicTitle</IEC:langString>
+            </IEC:preferredName>
             <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
@@ -1259,7 +1299,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+                <IEC:langString lang="en">FurtherDetailsOfContact</IEC:langString>
+            </IEC:preferredName>
             <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
@@ -1281,7 +1323,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+                <IEC:langString lang="en">AddressOfAdditionalLink</IEC:langString>
+            </IEC:preferredName>
             <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
@@ -1303,7 +1347,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+                <IEC:langString lang="en">TelephoneNumber</IEC:langString>
+            </IEC:preferredName>
             <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
@@ -1325,7 +1371,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+                <IEC:langString lang="en">TypeOfTelephone</IEC:langString>
+            </IEC:preferredName>
             <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
@@ -1347,7 +1395,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+                <IEC:langString lang="en">AvailableTime</IEC:langString>
+            </IEC:preferredName>
             <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
@@ -1369,7 +1419,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+                <IEC:langString lang="en">FaxNumber</IEC:langString>
+            </IEC:preferredName>
             <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
@@ -1391,7 +1443,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+                <IEC:langString lang="en">TypeOfFaxNumber</IEC:langString>
+            </IEC:preferredName>
             <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
@@ -1413,7 +1467,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+                <IEC:langString lang="en">EmailAddress</IEC:langString>
+            </IEC:preferredName>
             <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
@@ -1435,7 +1491,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+                <IEC:langString lang="en">PublicKey</IEC:langString>
+            </IEC:preferredName>
             <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
@@ -1457,7 +1515,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+                <IEC:langString lang="en">TypeOfEmailAddress</IEC:langString>
+            </IEC:preferredName>
             <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
@@ -1479,7 +1539,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+                <IEC:langString lang="en">TypeOfPublicKey</IEC:langString>
+            </IEC:preferredName>
             <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
@@ -1501,7 +1563,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+                <IEC:langString lang="en">TypeOfCommunication</IEC:langString>
+            </IEC:preferredName>
             <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
@@ -1523,7 +1587,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+                <IEC:langString lang="en">ContactInformations</IEC:langString>
+            </IEC:preferredName>
             <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
@@ -1549,7 +1615,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+                <IEC:langString lang="en">ContactInformation</IEC:langString>
+            </IEC:preferredName>
             <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
@@ -1576,7 +1644,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+                <IEC:langString lang="en">TimeZone</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
