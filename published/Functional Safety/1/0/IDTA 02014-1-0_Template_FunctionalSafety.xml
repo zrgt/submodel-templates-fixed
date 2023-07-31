@@ -1432,35 +1432,6 @@
       </aas:isCaseOf>
     </aas:conceptDescription>
     <aas:conceptDescription>
-      <aas:idShort>Category</aas:idShort>
-      <aas:identification idType="IRDI">0112/2///62683#ACE063#001</aas:identification>
-      <aas:embeddedDataSpecification>
-        <aas:dataSpecificationContent>
-          <aas:dataSpecificationIEC61360>
-            <IEC:preferredName>
-              <IEC:langString lang="en">category</IEC:langString>
-              <IEC:langString lang="fr">catégory</IEC:langString>
-            </IEC:preferredName>
-            <IEC:shortName />
-            <IEC:unit />
-            <IEC:valueFormat>X10</IEC:valueFormat>
-            <IEC:dataType />
-            <IEC:definition />
-          </aas:dataSpecificationIEC61360>
-        </aas:dataSpecificationContent>
-        <aas:dataSpecification>
-          <aas:keys>
-            <aas:key type="ConceptDescription" local="true" idType="IRDI">0112/2///62683#ACE063#001</aas:key>
-          </aas:keys>
-        </aas:dataSpecification>
-      </aas:embeddedDataSpecification>
-      <aas:isCaseOf>
-        <aas:keys>
-          <aas:key type="GlobalReference" local="false" idType="IRDI">0112/2///62683#ACE063#001</aas:key>
-        </aas:keys>
-      </aas:isCaseOf>
-    </aas:conceptDescription>
-    <aas:conceptDescription>
       <aas:idShort>RDF</aas:idShort>
       <aas:identification idType="IRI">https://admin-shell.io/idta/FunctionalSafety/RDF/1/0</aas:identification>
       <aas:embeddedDataSpecification>
