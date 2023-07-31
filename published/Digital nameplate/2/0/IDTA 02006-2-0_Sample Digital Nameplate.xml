@@ -1273,7 +1273,7 @@
                             <aas:value>ZeroToOne</aas:value>
                           </aas:qualifier>
                         </aas:qualifier>
-                        <aas:valueType>Date</aas:valueType>
+                        <aas:valueType>date</aas:valueType>
                         <aas:value>2022-01-01</aas:value>
                       </aas:property>
                     </aas:submodelElement>
@@ -1296,7 +1296,7 @@
                             <aas:value>ZeroToOne</aas:value>
                           </aas:qualifier>
                         </aas:qualifier>
-                        <aas:valueType>Date</aas:valueType>
+                        <aas:valueType>date</aas:valueType>
                         <aas:value>2022-01-01</aas:value>
                       </aas:property>
                     </aas:submodelElement>
