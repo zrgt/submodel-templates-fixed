@@ -548,7 +548,7 @@
               </aas:submodelElement>
               <aas:submodelElement>
                 <aas:submodelElementCollection>
-                  <aas:idShort>IPCommunication{00}</aas:idShort>
+                  <aas:idShort>IPCommunication_00</aas:idShort>
                   <aas:kind>Template</aas:kind>
                   <aas:semanticId>
                     <aas:keys>
@@ -2552,7 +2552,7 @@
             <aas:value>
               <aas:submodelElement>
                 <aas:submodelElementCollection>
-                  <aas:idShort>GuidelineSpecificProperties{00}</aas:idShort>
+                  <aas:idShort>GuidelineSpecificProperties_00</aas:idShort>
                   <aas:kind>Template</aas:kind>
                   <aas:semanticId>
                     <aas:keys>
@@ -3122,7 +3122,7 @@
       </aas:embeddedDataSpecification>
     </aas:conceptDescription>
     <aas:conceptDescription>
-      <aas:idShort>MarkingAdditionalText{00}</aas:idShort>
+      <aas:idShort>MarkingAdditionalText_00</aas:idShort>
       <aas:identification idType="IRI">https://admin-shell.io/zvei/nameplate/2/0/Nameplate/Markings/Marking/MarkingAdditionalText</aas:identification>
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
@@ -4545,7 +4545,7 @@
       </aas:embeddedDataSpecification>
     </aas:conceptDescription>
     <aas:conceptDescription>
-      <aas:idShort>IPCommunication{00}</aas:idShort>
+      <aas:idShort>IPCommunication_00</aas:idShort>
       <aas:identification idType="IRI">https://admin-shell.io/zvei/nameplate/1/0/ContactInformations/</aas:identification>
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
