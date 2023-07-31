@@ -1013,34 +1013,6 @@
       </aas:isCaseOf>
     </aas:conceptDescription>
     <aas:conceptDescription>
-      <aas:idShort>SafetyDeviceTypes</aas:idShort>
-      <aas:identification idType="IRDI">0112/2///62683#ACG070#001</aas:identification>
-      <aas:embeddedDataSpecification>
-        <aas:dataSpecificationContent>
-          <aas:dataSpecificationIEC61360>
-            <IEC:preferredName>
-              <IEC:langString lang="en">Safety device types</IEC:langString>
-              <IEC:langString lang="fr">Types de dispositif de sécurité</IEC:langString>
-            </IEC:preferredName>
-            <IEC:shortName />
-            <IEC:unit />
-            <IEC:dataType />
-            <IEC:definition />
-          </aas:dataSpecificationIEC61360>
-        </aas:dataSpecificationContent>
-        <aas:dataSpecification>
-          <aas:keys>
-            <aas:key type="ConceptDescription" local="true" idType="IRDI">0112/2///62683#ACG070#001</aas:key>
-          </aas:keys>
-        </aas:dataSpecification>
-      </aas:embeddedDataSpecification>
-      <aas:isCaseOf>
-        <aas:keys>
-          <aas:key type="GlobalReference" local="false" idType="IRDI">0112/2///62683#ACG070#001</aas:key>
-        </aas:keys>
-      </aas:isCaseOf>
-    </aas:conceptDescription>
-    <aas:conceptDescription>
       <aas:idShort>FunctionalSafetyDeviceType</aas:idShort>
       <aas:identification idType="IRDI">0112/2///62683#ACE071#001</aas:identification>
       <aas:embeddedDataSpecification>
