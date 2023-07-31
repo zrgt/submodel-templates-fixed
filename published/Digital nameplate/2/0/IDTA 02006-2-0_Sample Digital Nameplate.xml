@@ -4197,29 +4197,6 @@
       </aas:embeddedDataSpecification>
     </aas:conceptDescription>
     <aas:conceptDescription>
-      <aas:idShort>SpecificConditionsForUse</aas:idShort>
-      <aas:identification idType="IRI">https://admin-shell.io/zvei/nameplate/2/0/Nameplate/Markings/Marking/ExplosionSafeties/ExplosionSafety/SpecificConditionsForUse</aas:identification>
-      <aas:embeddedDataSpecification>
-        <aas:dataSpecificationContent>
-          <aas:dataSpecificationIEC61360>
-            <IEC:preferredName>
-              <IEC:langString>SpecificConditionsForUse</IEC:langString>
-            </IEC:preferredName>
-            <IEC:unit />
-            <IEC:dataType />
-            <IEC:definition>
-              <IEC:langString lang="en">X if any, otherwise no entry</IEC:langString>
-            </IEC:definition>
-          </aas:dataSpecificationIEC61360>
-        </aas:dataSpecificationContent>
-        <aas:dataSpecification>
-          <aas:keys>
-            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
-          </aas:keys>
-        </aas:dataSpecification>
-      </aas:embeddedDataSpecification>
-    </aas:conceptDescription>
-    <aas:conceptDescription>
       <aas:idShort>IncompleteDevice</aas:idShort>
       <aas:identification idType="IRI">https://admin-shell.io/zvei/nameplate/2/0/Nameplate/Markings/Marking/ExplosionSafeties/ExplosionSafety/IncompleteDevice</aas:identification>
       <aas:embeddedDataSpecification>
