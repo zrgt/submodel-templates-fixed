@@ -1490,7 +1490,7 @@
                                         <aas:value>ZeroToOne</aas:value>
                                       </aas:qualifier>
                                     </aas:qualifier>
-                                    <aas:valueType>Decimal</aas:valueType>
+                                    <aas:valueType>decimal</aas:valueType>
                                     <aas:value>250</aas:value>
                                   </aas:property>
                                 </aas:submodelElement>
@@ -1713,7 +1713,7 @@
                                               <aas:value>ZeroToOne</aas:value>
                                             </aas:qualifier>
                                           </aas:qualifier>
-                                          <aas:valueType>Decimal</aas:valueType>
+                                          <aas:valueType>decimal</aas:valueType>
                                           <aas:value>-40</aas:value>
                                         </aas:property>
                                       </aas:submodelElement>
@@ -1736,7 +1736,7 @@
                                               <aas:value>ZeroToOne</aas:value>
                                             </aas:qualifier>
                                           </aas:qualifier>
-                                          <aas:valueType>Decimal</aas:valueType>
+                                          <aas:valueType>decimal</aas:valueType>
                                           <aas:value>120</aas:value>
                                         </aas:property>
                                       </aas:submodelElement>
@@ -1759,7 +1759,7 @@
                                               <aas:value>ZeroToOne</aas:value>
                                             </aas:qualifier>
                                           </aas:qualifier>
-                                          <aas:valueType>Decimal</aas:valueType>
+                                          <aas:valueType>decimal</aas:valueType>
                                           <aas:value>100</aas:value>
                                         </aas:property>
                                       </aas:submodelElement>
@@ -1943,7 +1943,7 @@
                                               <aas:value>ZeroToOne</aas:value>
                                             </aas:qualifier>
                                           </aas:qualifier>
-                                          <aas:valueType>Decimal</aas:valueType>
+                                          <aas:valueType>decimal</aas:valueType>
                                           <aas:value>-40</aas:value>
                                         </aas:property>
                                       </aas:submodelElement>
@@ -1966,7 +1966,7 @@
                                               <aas:value>ZeroToOne</aas:value>
                                             </aas:qualifier>
                                           </aas:qualifier>
-                                          <aas:valueType>Decimal</aas:valueType>
+                                          <aas:valueType>decimal</aas:valueType>
                                           <aas:value>120</aas:value>
                                         </aas:property>
                                       </aas:submodelElement>
@@ -1989,7 +1989,7 @@
                                               <aas:value>ZeroToOne</aas:value>
                                             </aas:qualifier>
                                           </aas:qualifier>
-                                          <aas:valueType>Decimal</aas:valueType>
+                                          <aas:valueType>decimal</aas:valueType>
                                           <aas:value>85</aas:value>
                                         </aas:property>
                                       </aas:submodelElement>
@@ -2242,7 +2242,7 @@
                                                     <aas:value>ZeroToOne</aas:value>
                                                   </aas:qualifier>
                                                 </aas:qualifier>
-                                                <aas:valueType>Decimal</aas:valueType>
+                                                <aas:valueType>decimal</aas:valueType>
                                                 <aas:value>1250</aas:value>
                                               </aas:property>
                                             </aas:submodelElement>
@@ -2265,7 +2265,7 @@
                                                     <aas:value>ZeroToOne</aas:value>
                                                   </aas:qualifier>
                                                 </aas:qualifier>
-                                                <aas:valueType>Decimal</aas:valueType>
+                                                <aas:valueType>decimal</aas:valueType>
                                                 <aas:value>30</aas:value>
                                               </aas:property>
                                             </aas:submodelElement>
@@ -2288,7 +2288,7 @@
                                                     <aas:value>ZeroToOne</aas:value>
                                                   </aas:qualifier>
                                                 </aas:qualifier>
-                                                <aas:valueType>Decimal</aas:valueType>
+                                                <aas:valueType>decimal</aas:valueType>
                                                 <aas:value>100</aas:value>
                                               </aas:property>
                                             </aas:submodelElement>
@@ -2311,7 +2311,7 @@
                                                     <aas:value>ZeroToOne</aas:value>
                                                   </aas:qualifier>
                                                 </aas:qualifier>
-                                                <aas:valueType>Decimal</aas:valueType>
+                                                <aas:valueType>decimal</aas:valueType>
                                                 <aas:value>0</aas:value>
                                               </aas:property>
                                             </aas:submodelElement>
@@ -2334,7 +2334,7 @@
                                                     <aas:value>ZeroToOne</aas:value>
                                                   </aas:qualifier>
                                                 </aas:qualifier>
-                                                <aas:valueType>Decimal</aas:valueType>
+                                                <aas:valueType>decimal</aas:valueType>
                                                 <aas:value>0</aas:value>
                                               </aas:property>
                                             </aas:submodelElement>
@@ -2382,7 +2382,7 @@
                                                     <aas:value>ZeroToOne</aas:value>
                                                   </aas:qualifier>
                                                 </aas:qualifier>
-                                                <aas:valueType>Decimal</aas:valueType>
+                                                <aas:valueType>decimal</aas:valueType>
                                                 <aas:value>960</aas:value>
                                               </aas:property>
                                             </aas:submodelElement>
@@ -2405,7 +2405,7 @@
                                                     <aas:value>ZeroToOne</aas:value>
                                                   </aas:qualifier>
                                                 </aas:qualifier>
-                                                <aas:valueType>Decimal</aas:valueType>
+                                                <aas:valueType>decimal</aas:valueType>
                                                 <aas:value>15.7</aas:value>
                                               </aas:property>
                                             </aas:submodelElement>
@@ -2428,7 +2428,7 @@
                                                     <aas:value>ZeroToOne</aas:value>
                                                   </aas:qualifier>
                                                 </aas:qualifier>
-                                                <aas:valueType>Decimal</aas:valueType>
+                                                <aas:valueType>decimal</aas:valueType>
                                                 <aas:value>245</aas:value>
                                               </aas:property>
                                             </aas:submodelElement>
@@ -2451,7 +2451,7 @@
                                                     <aas:value>ZeroToOne</aas:value>
                                                   </aas:qualifier>
                                                 </aas:qualifier>
-                                                <aas:valueType>Decimal</aas:valueType>
+                                                <aas:valueType>decimal</aas:valueType>
                                                 <aas:value>2878</aas:value>
                                               </aas:property>
                                             </aas:submodelElement>
@@ -2474,7 +2474,7 @@
                                                     <aas:value>ZeroToOne</aas:value>
                                                   </aas:qualifier>
                                                 </aas:qualifier>
-                                                <aas:valueType>Decimal</aas:valueType>
+                                                <aas:valueType>decimal</aas:valueType>
                                                 <aas:value>2.9</aas:value>
                                               </aas:property>
                                             </aas:submodelElement>
@@ -2497,7 +2497,7 @@
                                                     <aas:value>ZeroToOne</aas:value>
                                                   </aas:qualifier>
                                                 </aas:qualifier>
-                                                <aas:valueType>Decimal</aas:valueType>
+                                                <aas:valueType>decimal</aas:valueType>
                                               </aas:property>
                                             </aas:submodelElement>
                                           </aas:value>
