@@ -123,8 +123,6 @@
                 <aas:value>One</aas:value>
               </aas:qualifier>
             </aas:qualifier>
-            <aas:ordered>false</aas:ordered>
-            <aas:allowDuplicates>true</aas:allowDuplicates>
             <aas:value>
               <aas:submodelElement>
                 <aas:property>
@@ -301,8 +299,6 @@
                       <aas:value>ZeroToOne</aas:value>
                     </aas:qualifier>
                   </aas:qualifier>
-                  <aas:ordered>false</aas:ordered>
-                  <aas:allowDuplicates>false</aas:allowDuplicates>
                   <aas:value>
                     <aas:submodelElement>
                       <aas:multiLanguageProperty>
@@ -373,6 +369,8 @@
                       </aas:multiLanguageProperty>
                     </aas:submodelElement>
                   </aas:value>
+                  <aas:ordered>false</aas:ordered>
+                  <aas:allowDuplicates>false</aas:allowDuplicates>
                 </aas:submodelElementCollection>
               </aas:submodelElement>
               <aas:submodelElement>
@@ -391,8 +389,6 @@
                       <aas:value>ZeroToOne</aas:value>
                     </aas:qualifier>
                   </aas:qualifier>
-                  <aas:ordered>false</aas:ordered>
-                  <aas:allowDuplicates>false</aas:allowDuplicates>
                   <aas:value>
                     <aas:submodelElement>
                       <aas:multiLanguageProperty>
@@ -442,6 +438,8 @@
                       </aas:property>
                     </aas:submodelElement>
                   </aas:value>
+                  <aas:ordered>false</aas:ordered>
+                  <aas:allowDuplicates>false</aas:allowDuplicates>
                 </aas:submodelElementCollection>
               </aas:submodelElement>
               <aas:submodelElement>
@@ -460,8 +458,6 @@
                       <aas:value>ZeroToOne</aas:value>
                     </aas:qualifier>
                   </aas:qualifier>
-                  <aas:ordered>false</aas:ordered>
-                  <aas:allowDuplicates>false</aas:allowDuplicates>
                   <aas:value>
                     <aas:submodelElement>
                       <aas:property>
@@ -548,6 +544,8 @@
                       </aas:multiLanguageProperty>
                     </aas:submodelElement>
                   </aas:value>
+                  <aas:ordered>false</aas:ordered>
+                  <aas:allowDuplicates>false</aas:allowDuplicates>
                 </aas:submodelElementCollection>
               </aas:submodelElement>
               <aas:submodelElement>
@@ -566,8 +564,6 @@
                       <aas:value>ZeroToMany</aas:value>
                     </aas:qualifier>
                   </aas:qualifier>
-                  <aas:ordered>false</aas:ordered>
-                  <aas:allowDuplicates>false</aas:allowDuplicates>
                   <aas:value>
                     <aas:submodelElement>
                       <aas:property>
@@ -631,6 +627,8 @@
                       </aas:multiLanguageProperty>
                     </aas:submodelElement>
                   </aas:value>
+                  <aas:ordered>false</aas:ordered>
+                  <aas:allowDuplicates>false</aas:allowDuplicates>
                 </aas:submodelElementCollection>
               </aas:submodelElement>
               <aas:submodelElement>
@@ -882,6 +880,8 @@
                 </aas:property>
               </aas:submodelElement>
             </aas:value>
+            <aas:ordered>false</aas:ordered>
+            <aas:allowDuplicates>true</aas:allowDuplicates>
           </aas:submodelElementCollection>
         </aas:submodelElement>
         <aas:submodelElement>
@@ -1204,8 +1204,6 @@
                 <aas:value>ZeroToOne</aas:value>
               </aas:qualifier>
             </aas:qualifier>
-            <aas:ordered>false</aas:ordered>
-            <aas:allowDuplicates>true</aas:allowDuplicates>
             <aas:value>
               <aas:submodelElement>
                 <aas:submodelElementCollection>
@@ -1220,8 +1218,6 @@
                     </aas:keys>
                   </aas:semanticId>
                   <aas:qualifier />
-                  <aas:ordered>false</aas:ordered>
-                  <aas:allowDuplicates>true</aas:allowDuplicates>
                   <aas:value>
                     <aas:submodelElement>
                       <aas:property>
@@ -1374,8 +1370,6 @@
                             <aas:value>ZeroToOne</aas:value>
                           </aas:qualifier>
                         </aas:qualifier>
-                        <aas:ordered>false</aas:ordered>
-                        <aas:allowDuplicates>true</aas:allowDuplicates>
                         <aas:value>
                           <aas:submodelElement>
                             <aas:submodelElementCollection>
@@ -1393,8 +1387,6 @@
                                   <aas:value>OneToMany</aas:value>
                                 </aas:qualifier>
                               </aas:qualifier>
-                              <aas:ordered>false</aas:ordered>
-                              <aas:allowDuplicates>true</aas:allowDuplicates>
                               <aas:value>
                                 <aas:submodelElement>
                                   <aas:property>
@@ -1599,8 +1591,6 @@
                                         <aas:value>ZeroToOne</aas:value>
                                       </aas:qualifier>
                                     </aas:qualifier>
-                                    <aas:ordered>false</aas:ordered>
-                                    <aas:allowDuplicates>false</aas:allowDuplicates>
                                     <aas:value>
                                       <aas:submodelElement>
                                         <aas:property>
@@ -1808,6 +1798,8 @@
                                         </aas:property>
                                       </aas:submodelElement>
                                     </aas:value>
+                                    <aas:ordered>false</aas:ordered>
+                                    <aas:allowDuplicates>false</aas:allowDuplicates>
                                   </aas:submodelElementCollection>
                                 </aas:submodelElement>
                                 <aas:submodelElement>
@@ -1829,8 +1821,6 @@
                                         <aas:value>ZeroToOne</aas:value>
                                       </aas:qualifier>
                                     </aas:qualifier>
-                                    <aas:ordered>false</aas:ordered>
-                                    <aas:allowDuplicates>false</aas:allowDuplicates>
                                     <aas:value>
                                       <aas:submodelElement>
                                         <aas:property>
@@ -2038,6 +2028,8 @@
                                         </aas:property>
                                       </aas:submodelElement>
                                     </aas:value>
+                                    <aas:ordered>false</aas:ordered>
+                                    <aas:allowDuplicates>false</aas:allowDuplicates>
                                   </aas:submodelElementCollection>
                                 </aas:submodelElement>
                                 <aas:submodelElement>
@@ -2059,8 +2051,6 @@
                                         <aas:value>ZeroToMany</aas:value>
                                       </aas:qualifier>
                                     </aas:qualifier>
-                                    <aas:ordered>false</aas:ordered>
-                                    <aas:allowDuplicates>false</aas:allowDuplicates>
                                     <aas:value>
                                       <aas:submodelElement>
                                         <aas:property>
@@ -2243,8 +2233,6 @@
                                               <aas:value>ZeroToOne</aas:value>
                                             </aas:qualifier>
                                           </aas:qualifier>
-                                          <aas:ordered>false</aas:ordered>
-                                          <aas:allowDuplicates>false</aas:allowDuplicates>
                                           <aas:value>
                                             <aas:submodelElement>
                                               <aas:property>
@@ -2362,6 +2350,8 @@
                                               </aas:property>
                                             </aas:submodelElement>
                                           </aas:value>
+                                          <aas:ordered>false</aas:ordered>
+                                          <aas:allowDuplicates>false</aas:allowDuplicates>
                                         </aas:submodelElementCollection>
                                       </aas:submodelElement>
                                       <aas:submodelElement>
@@ -2383,8 +2373,6 @@
                                               <aas:value>ZeroToOne</aas:value>
                                             </aas:qualifier>
                                           </aas:qualifier>
-                                          <aas:ordered>false</aas:ordered>
-                                          <aas:allowDuplicates>false</aas:allowDuplicates>
                                           <aas:value>
                                             <aas:submodelElement>
                                               <aas:property>
@@ -2525,21 +2513,33 @@
                                               </aas:property>
                                             </aas:submodelElement>
                                           </aas:value>
+                                          <aas:ordered>false</aas:ordered>
+                                          <aas:allowDuplicates>false</aas:allowDuplicates>
                                         </aas:submodelElementCollection>
                                       </aas:submodelElement>
                                     </aas:value>
+                                    <aas:ordered>false</aas:ordered>
+                                    <aas:allowDuplicates>false</aas:allowDuplicates>
                                   </aas:submodelElementCollection>
                                 </aas:submodelElement>
                               </aas:value>
+                              <aas:ordered>false</aas:ordered>
+                              <aas:allowDuplicates>true</aas:allowDuplicates>
                             </aas:submodelElementCollection>
                           </aas:submodelElement>
                         </aas:value>
+                        <aas:ordered>false</aas:ordered>
+                        <aas:allowDuplicates>true</aas:allowDuplicates>
                       </aas:submodelElementCollection>
                     </aas:submodelElement>
                   </aas:value>
+                  <aas:ordered>false</aas:ordered>
+                  <aas:allowDuplicates>true</aas:allowDuplicates>
                 </aas:submodelElementCollection>
               </aas:submodelElement>
             </aas:value>
+            <aas:ordered>false</aas:ordered>
+            <aas:allowDuplicates>true</aas:allowDuplicates>
           </aas:submodelElementCollection>
         </aas:submodelElement>
         <aas:submodelElement>
@@ -2561,8 +2561,6 @@
                 <aas:value>ZeroToOne</aas:value>
               </aas:qualifier>
             </aas:qualifier>
-            <aas:ordered>false</aas:ordered>
-            <aas:allowDuplicates>true</aas:allowDuplicates>
             <aas:value>
               <aas:submodelElement>
                 <aas:submodelElementCollection>
@@ -2580,8 +2578,6 @@
                       <aas:value>OneToMany</aas:value>
                     </aas:qualifier>
                   </aas:qualifier>
-                  <aas:ordered>false</aas:ordered>
-                  <aas:allowDuplicates>false</aas:allowDuplicates>
                   <aas:value>
                     <aas:submodelElement>
                       <aas:property>
@@ -2624,6 +2620,8 @@
                       </aas:property>
                     </aas:submodelElement>
                   </aas:value>
+                  <aas:ordered>false</aas:ordered>
+                  <aas:allowDuplicates>false</aas:allowDuplicates>
                 </aas:submodelElementCollection>
               </aas:submodelElement>
               <aas:submodelElement>
@@ -2647,6 +2645,8 @@
                 </aas:property>
               </aas:submodelElement>
             </aas:value>
+            <aas:ordered>false</aas:ordered>
+            <aas:allowDuplicates>true</aas:allowDuplicates>
           </aas:submodelElementCollection>
         </aas:submodelElement>
       </aas:submodelElements>
