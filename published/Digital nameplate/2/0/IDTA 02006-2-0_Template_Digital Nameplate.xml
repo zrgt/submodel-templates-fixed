@@ -2644,7 +2644,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">URIOfTheProduct</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -2665,7 +2667,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">ManufacturerName</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -2686,7 +2690,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">ManufacturerProductDesignation</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -2707,7 +2713,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">ManufacturerProductRoot</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -2728,7 +2736,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">ManufacturerProductFamily</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -2749,7 +2759,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">ManufacturerProductType</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -2770,7 +2782,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">OrderCodeOfManufacturer</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -2791,7 +2805,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">ProductArticleNumberOfManufacturer</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -2812,7 +2828,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">SerialNumber</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -2833,7 +2851,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">YearOfConstruction</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -2854,7 +2874,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">DateOfManufacture</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -2875,7 +2897,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">HardwareVersion</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -2896,7 +2920,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">FirmwareVersion</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -2917,7 +2943,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">SoftwareVersion</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -2938,7 +2966,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">CountryOfOrigin</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -2959,7 +2989,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">CompanyLogo</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -2980,7 +3012,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">Markings</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -3001,7 +3035,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">AssetSpecificProperties</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -3022,7 +3058,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">MarkingName</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -3043,7 +3081,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">DesignationOfCertificateOrApproval</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -3064,7 +3104,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">IssueDate</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -3085,7 +3127,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">ExpiryDate</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -3106,7 +3150,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">MarkingFile</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -3127,7 +3173,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">MarkingAdditionalText_00</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -3148,7 +3196,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">ExplosionSafety</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -3169,7 +3219,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">TypeOfApproval</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -3190,7 +3242,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">ApprovalAgencyTestingAgency</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -3211,7 +3265,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">TypeOfProtection</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -3232,7 +3288,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">RatedInsulationVoltage</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit>V</IEC:unit>
             <IEC:unitId>
               <IEC:keys>
@@ -3258,7 +3316,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">InstructionsControlDrawing</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -3279,7 +3339,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">SpecificConditionsForUse</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -3300,7 +3362,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">IncompleteDevice</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -3321,7 +3385,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">AmbientConditions</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -3342,7 +3408,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">ProcessConditions</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -3363,7 +3431,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">ExternalElectricalCircuit</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -3384,7 +3454,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">DeviceCategory</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -3405,7 +3477,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">EquipmentProtectionLevel</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -3426,7 +3500,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">RegionalSpecificMarking</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -3447,7 +3523,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">ExplosionGroup</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -3468,7 +3546,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">MinimumAmbientTemperature</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit>ºC</IEC:unit>
             <IEC:unitId>
               <IEC:keys>
@@ -3494,7 +3574,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">MaxAmbientTemperature</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit>ºC</IEC:unit>
             <IEC:unitId>
               <IEC:keys>
@@ -3520,7 +3602,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">MaxSurfaceTemperatureForDustProof</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit>ºC</IEC:unit>
             <IEC:unitId>
               <IEC:keys>
@@ -3546,7 +3630,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">LowerLimitingValueOfProcessTemperature</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit>ºC</IEC:unit>
             <IEC:unitId>
               <IEC:keys>
@@ -3572,7 +3658,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">UpperLimitingValueOfProcessTemperature</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit>ºC</IEC:unit>
             <IEC:unitId>
               <IEC:keys>
@@ -3598,7 +3686,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">TemperatureClass</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -3619,7 +3709,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">DesignationOfElectricalTerminal</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -3640,7 +3732,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">Characteristics</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -3661,7 +3755,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">Fisco</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -3682,7 +3778,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">TwoWISE</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -3703,7 +3801,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">SafetyRelatedPropertiesForPassiveBehaviour</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -3724,7 +3824,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">SafetyRelatedPropertiesForActiveBehaviour</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -3745,7 +3847,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">MaxInputPower</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit>mW</IEC:unit>
             <IEC:unitId>
               <IEC:keys>
@@ -3771,7 +3875,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">MaxInputVoltage</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit>V</IEC:unit>
             <IEC:unitId>
               <IEC:keys>
@@ -3797,7 +3903,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">MaxInputCurrent</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit> mA</IEC:unit>
             <IEC:unitId>
               <IEC:keys>
@@ -3823,7 +3931,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">MaxInternalCapacitance</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit>µF</IEC:unit>
             <IEC:unitId>
               <IEC:keys>
@@ -3849,7 +3959,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">MaxInternalInductance</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit>mH</IEC:unit>
             <IEC:unitId>
               <IEC:keys>
@@ -3875,7 +3987,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">MaxOutputPower</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit> mW</IEC:unit>
             <IEC:unitId>
               <IEC:keys>
@@ -3901,7 +4015,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">MaxOutputVoltage</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit>V</IEC:unit>
             <IEC:unitId>
               <IEC:keys>
@@ -3927,7 +4043,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">MaxOutputCurrent</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit>mA</IEC:unit>
             <IEC:unitId>
               <IEC:keys>
@@ -3953,7 +4071,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">MaxExternalCapacitance</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit> µF</IEC:unit>
             <IEC:unitId>
               <IEC:keys>
@@ -3979,7 +4099,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">MaxExternalInductance</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit> mH</IEC:unit>
             <IEC:unitId>
               <IEC:keys>
@@ -4005,7 +4127,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">MaxExternalInductanceResistanceRatio</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit>mH/Ω</IEC:unit>
             <IEC:unitId>
               <IEC:keys>
@@ -4032,7 +4156,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">GuidelineSpecificProperties</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4053,7 +4179,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">GuidelineForConformityDeclaration</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4074,7 +4202,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">SpecificConditionsForUse</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4095,7 +4225,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">IncompleteDevice</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4120,7 +4252,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">ContactInformation</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4146,7 +4280,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">RoleOfContactPerson</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4167,7 +4303,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">NationalCode</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4188,7 +4326,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">Language</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4214,7 +4354,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">TimeZone</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4235,7 +4377,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">CityTown</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4256,7 +4400,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">Company</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4277,7 +4423,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">Department</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4298,7 +4446,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">Phone</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4319,7 +4469,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">TelephoneNumber</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4340,7 +4492,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">TypeOfTelephone</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4361,7 +4515,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">AvailableTime</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4382,7 +4538,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">Fax</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4403,7 +4561,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">FaxNumber</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4424,7 +4584,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">TypeOfFaxNumber</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4445,7 +4607,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">Email</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4466,7 +4630,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">EmailAddress</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4487,7 +4653,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">PublicKey</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4508,7 +4676,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">TypeOfEmailAddress</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4529,7 +4699,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">TypeOfPublicKey</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4550,7 +4722,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">IPCommunication_00</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4571,7 +4745,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">AddressOfAdditionalLink</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4592,7 +4768,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">TypeOfCommunication</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4613,7 +4791,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">Street</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4634,7 +4814,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">Zipcode</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4655,7 +4837,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">POBox</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4676,7 +4860,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">ZipCodeOfPOBox</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4697,7 +4883,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">StateCounty</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4718,7 +4906,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">NameOfContact</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4739,7 +4929,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">FirstName</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4760,7 +4952,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">MiddleNames</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4781,7 +4975,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">Title</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4802,7 +4998,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">AcademicTitle</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4823,7 +5021,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">FurtherDetailsOfContact</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4844,7 +5044,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">ExplosionSafeties</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
