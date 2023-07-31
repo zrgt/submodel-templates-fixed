@@ -2645,7 +2645,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -2667,7 +2666,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -2689,7 +2687,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -2711,7 +2708,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -2733,7 +2729,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -2755,7 +2750,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -2777,7 +2771,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -2799,7 +2792,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -2821,7 +2813,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -2843,7 +2834,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -2865,7 +2855,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -2887,7 +2876,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -2909,7 +2897,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -2931,7 +2918,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -2953,7 +2939,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -2975,7 +2960,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -2997,7 +2981,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -3019,7 +3002,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -3041,7 +3023,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -3063,7 +3044,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -3085,7 +3065,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -3107,7 +3086,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -3129,7 +3107,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -3151,7 +3128,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -3173,7 +3149,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -3195,7 +3170,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -3217,7 +3191,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -3239,7 +3212,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -3261,7 +3233,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit>V</IEC:unit>
             <IEC:unitId>
               <IEC:keys>
@@ -3288,7 +3259,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -3310,7 +3280,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -3332,7 +3301,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -3354,7 +3322,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -3376,7 +3343,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -3398,7 +3364,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -3420,7 +3385,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -3442,7 +3406,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -3464,7 +3427,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -3486,7 +3448,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -3508,7 +3469,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit>ºC</IEC:unit>
             <IEC:unitId>
               <IEC:keys>
@@ -3535,7 +3495,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit>ºC</IEC:unit>
             <IEC:unitId>
               <IEC:keys>
@@ -3562,7 +3521,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit>ºC</IEC:unit>
             <IEC:unitId>
               <IEC:keys>
@@ -3589,7 +3547,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit>ºC</IEC:unit>
             <IEC:unitId>
               <IEC:keys>
@@ -3616,7 +3573,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit>ºC</IEC:unit>
             <IEC:unitId>
               <IEC:keys>
@@ -3643,7 +3599,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -3665,7 +3620,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -3687,7 +3641,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -3709,7 +3662,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -3731,7 +3683,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -3753,7 +3704,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -3775,7 +3725,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -3797,7 +3746,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit>mW</IEC:unit>
             <IEC:unitId>
               <IEC:keys>
@@ -3824,7 +3772,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit>V</IEC:unit>
             <IEC:unitId>
               <IEC:keys>
@@ -3851,7 +3798,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit> mA</IEC:unit>
             <IEC:unitId>
               <IEC:keys>
@@ -3878,7 +3824,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit>µF</IEC:unit>
             <IEC:unitId>
               <IEC:keys>
@@ -3905,7 +3850,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit>mH</IEC:unit>
             <IEC:unitId>
               <IEC:keys>
@@ -3932,7 +3876,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit> mW</IEC:unit>
             <IEC:unitId>
               <IEC:keys>
@@ -3959,7 +3902,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit>V</IEC:unit>
             <IEC:unitId>
               <IEC:keys>
@@ -3986,7 +3928,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit>mA</IEC:unit>
             <IEC:unitId>
               <IEC:keys>
@@ -4013,7 +3954,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit> µF</IEC:unit>
             <IEC:unitId>
               <IEC:keys>
@@ -4040,7 +3980,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit> mH</IEC:unit>
             <IEC:unitId>
               <IEC:keys>
@@ -4067,7 +4006,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit>mH/Ω</IEC:unit>
             <IEC:unitId>
               <IEC:keys>
@@ -4095,7 +4033,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4117,7 +4054,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4139,7 +4075,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4161,7 +4096,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4187,7 +4121,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4214,7 +4147,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4236,7 +4168,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4258,7 +4189,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4285,7 +4215,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4307,7 +4236,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4329,7 +4257,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4351,7 +4278,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4373,7 +4299,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4395,7 +4320,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4417,7 +4341,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4439,7 +4362,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4461,7 +4383,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4483,7 +4404,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4505,7 +4425,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4527,7 +4446,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4549,7 +4467,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4571,7 +4488,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4593,7 +4509,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4615,7 +4530,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4637,7 +4551,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4659,7 +4572,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4681,7 +4593,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4703,7 +4614,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4725,7 +4635,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4747,7 +4656,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4769,7 +4677,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4791,7 +4698,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4813,7 +4719,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4835,7 +4740,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4857,7 +4761,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4879,7 +4782,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4901,7 +4803,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4923,7 +4824,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4945,7 +4845,6 @@
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
             <IEC:preferredName />
-            <IEC:shortName />
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
