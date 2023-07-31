@@ -487,8 +487,6 @@
                       <aas:value>ZeroToMany</aas:value>
                     </aas:qualifier>
                   </aas:qualifier>
-                  <aas:ordered>false</aas:ordered>
-                  <aas:allowDuplicates>false</aas:allowDuplicates>
                   <aas:value>
                     <aas:submodelElement>
                       <aas:property>
@@ -552,6 +550,8 @@
                       </aas:multiLanguageProperty>
                     </aas:submodelElement>
                   </aas:value>
+                  <aas:ordered>false</aas:ordered>
+                  <aas:allowDuplicates>false</aas:allowDuplicates>
                 </aas:submodelElementCollection>
               </aas:submodelElement>
               <aas:submodelElement>
