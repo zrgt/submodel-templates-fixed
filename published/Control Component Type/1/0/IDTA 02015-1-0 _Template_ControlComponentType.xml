@@ -34,7 +34,7 @@
       <aas:kind>Template</aas:kind>
       <aas:semanticId>
         <aas:keys>
-          <aas:key type="" local="false" idType="IRI">https://admin-shell.io/idta/ControlComponent/Type/1/0</aas:key>
+          <aas:key type="ConceptDescription" local="false" idType="IRI">https://admin-shell.io/idta/ControlComponent/Type/1/0</aas:key>
         </aas:keys>
       </aas:semanticId>
       <aas:qualifier />
