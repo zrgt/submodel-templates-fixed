@@ -1,0 +1,1155 @@
+<?xml version="1.0"?>
+<aas:aasenv xmlns:IEC="http://www.admin-shell.io/IEC61360/2/0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:abac="http://www.admin-shell.io/aas/abac/2/0" xsi:schemaLocation="http://www.admin-shell.io/aas/2/0 AAS.xsd http://www.admin-shell.io/IEC61360/2/0 IEC61360.xsd" xmlns:aas="http://www.admin-shell.io/aas/2/0">
+  <aas:assetAdministrationShells>
+    <aas:assetAdministrationShell>
+      <aas:idShort>test</aas:idShort>
+      <aas:identification idType="IRI">www.company.com/ids/aas/9455_5160_3002_2366</aas:identification>
+      <aas:assetRef>
+        <aas:keys />
+      </aas:assetRef>
+      <aas:submodelRefs>
+        <aas:submodelRef>
+          <aas:keys>
+            <aas:key type="Submodel" local="true" idType="IRI">www.company.com/ids/sm/8552_9161_4002_5836</aas:key>
+          </aas:keys>
+        </aas:submodelRef>
+      </aas:submodelRefs>
+      <aas:conceptDictionaries />
+    </aas:assetAdministrationShell>
+  </aas:assetAdministrationShells>
+  <aas:assets>
+    <aas:asset>
+      <aas:idShort>test</aas:idShort>
+      <aas:identification idType="IRI">www.company.com/ids/asset/1455_5160_3002_1403</aas:identification>
+      <aas:kind>Instance</aas:kind>
+    </aas:asset>
+  </aas:assets>
+  <aas:submodels>
+    <aas:submodel>
+      <aas:idShort>TechnicalData</aas:idShort>
+      <aas:description>
+        <aas:langString lang="DE">Submodel für technische Daten eines Assets und zugehörige Konformitäten zu Produktklassifikationen</aas:langString>
+        <aas:langString lang="EN">Submodel containing techical data to the asset and associated product classificatons</aas:langString>
+      </aas:description>
+      <aas:identification idType="IRI">www.company.com/ids/sm/8552_9161_4002_5836</aas:identification>
+      <aas:administration>
+        <aas:version>1</aas:version>
+        <aas:revision>1</aas:revision>
+      </aas:administration>
+      <aas:kind>Instance</aas:kind>
+      <aas:semanticId>
+        <aas:keys>
+          <aas:key type="Submodel" local="false" idType="IRI">http://admin-shell.io/sandbox/SG2/TechnicalData/Submodel/1/1</aas:key>
+        </aas:keys>
+      </aas:semanticId>
+      <aas:qualifier>
+        <aas:qualifier>
+          <aas:type>FormTag</aas:type>
+          <aas:valueType />
+          <aas:value>TEC</aas:value>
+        </aas:qualifier>
+        <aas:qualifier>
+          <aas:type>FormTitle</aas:type>
+          <aas:valueType />
+          <aas:value>Technical data (sheet) model</aas:value>
+        </aas:qualifier>
+      </aas:qualifier>
+      <aas:submodelElements>
+        <aas:submodelElement>
+          <aas:submodelElementCollection>
+            <aas:idShort>GeneralInformation</aas:idShort>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys>
+                <aas:key type="ConceptDescription" local="true" idType="IRI">https://admin-shell.io/sandbox/SG2/TechnicalData/GeneralInformation/1/1</aas:key>
+              </aas:keys>
+            </aas:semanticId>
+            <aas:qualifier>
+              <aas:qualifier>
+                <aas:type>Multiplicity</aas:type>
+                <aas:valueType />
+                <aas:value>One</aas:value>
+              </aas:qualifier>
+            </aas:qualifier>
+            <aas:value>
+              <aas:submodelElement>
+                <aas:property>
+                  <aas:idShort>ManufacturerName</aas:idShort>
+                  <aas:kind>Instance</aas:kind>
+                  <aas:semanticId>
+                    <aas:keys>
+                      <aas:key type="ConceptDescription" local="true" idType="IRI">https://admin-shell.io/sandbox/SG2/TechnicalData/ManufacturerName/1/1</aas:key>
+                    </aas:keys>
+                  </aas:semanticId>
+                  <aas:qualifier>
+                    <aas:qualifier>
+                      <aas:type>Multiplicity</aas:type>
+                      <aas:valueType />
+                      <aas:value>One</aas:value>
+                    </aas:qualifier>
+                  </aas:qualifier>
+                  <aas:valueType />
+                  <aas:value />
+                </aas:property>
+              </aas:submodelElement>
+              <aas:submodelElement>
+                <aas:file>
+                  <aas:idShort>ManufacturerLogo</aas:idShort>
+                  <aas:kind>Instance</aas:kind>
+                  <aas:semanticId>
+                    <aas:keys>
+                      <aas:key type="ConceptDescription" local="true" idType="IRI">https://admin-shell.io/sandbox/SG2/TechnicalData/ManufacturerLogo/1/1</aas:key>
+                    </aas:keys>
+                  </aas:semanticId>
+                  <aas:qualifier>
+                    <aas:qualifier>
+                      <aas:type>Multiplicity</aas:type>
+                      <aas:valueType />
+                      <aas:value>ZeroToOne</aas:value>
+                    </aas:qualifier>
+                  </aas:qualifier>
+                  <aas:mimeType />
+                  <aas:value />
+                </aas:file>
+              </aas:submodelElement>
+              <aas:submodelElement>
+                <aas:property>
+                  <aas:idShort>ManufacturerProductDesignation</aas:idShort>
+                  <aas:kind>Instance</aas:kind>
+                  <aas:semanticId>
+                    <aas:keys>
+                      <aas:key type="ConceptDescription" local="true" idType="IRI">https://admin-shell.io/sandbox/SG2/TechnicalData/ManufacturerProductDesignation/1/1</aas:key>
+                    </aas:keys>
+                  </aas:semanticId>
+                  <aas:qualifier>
+                    <aas:qualifier>
+                      <aas:type>Multiplicity</aas:type>
+                      <aas:valueType />
+                      <aas:value>One</aas:value>
+                    </aas:qualifier>
+                  </aas:qualifier>
+                  <aas:valueType>string</aas:valueType>
+                  <aas:value />
+                </aas:property>
+              </aas:submodelElement>
+              <aas:submodelElement>
+                <aas:property>
+                  <aas:idShort>ManufacturerPartNumber</aas:idShort>
+                  <aas:kind>Instance</aas:kind>
+                  <aas:semanticId>
+                    <aas:keys>
+                      <aas:key type="ConceptDescription" local="true" idType="IRI">https://admin-shell.io/sandbox/SG2/TechnicalData/ManufacturerPartNumber/1/1</aas:key>
+                    </aas:keys>
+                  </aas:semanticId>
+                  <aas:qualifier>
+                    <aas:qualifier>
+                      <aas:type>Multiplicity</aas:type>
+                      <aas:valueType />
+                      <aas:value>ZeroToOne</aas:value>
+                    </aas:qualifier>
+                  </aas:qualifier>
+                  <aas:valueType>string</aas:valueType>
+                  <aas:value />
+                </aas:property>
+              </aas:submodelElement>
+              <aas:submodelElement>
+                <aas:property>
+                  <aas:idShort>ManufacturerOrderCode</aas:idShort>
+                  <aas:kind>Instance</aas:kind>
+                  <aas:semanticId>
+                    <aas:keys>
+                      <aas:key type="ConceptDescription" local="true" idType="IRI">https://admin-shell.io/sandbox/SG2/TechnicalData/ManufacturerOrderCode/1/1</aas:key>
+                    </aas:keys>
+                  </aas:semanticId>
+                  <aas:qualifier>
+                    <aas:qualifier>
+                      <aas:type>Multiplicity</aas:type>
+                      <aas:valueType />
+                      <aas:value>ZeroToOne</aas:value>
+                    </aas:qualifier>
+                  </aas:qualifier>
+                  <aas:valueType>string</aas:valueType>
+                  <aas:value />
+                </aas:property>
+              </aas:submodelElement>
+              <aas:submodelElement>
+                <aas:file>
+                  <aas:idShort>ProductImage</aas:idShort>
+                  <aas:kind>Instance</aas:kind>
+                  <aas:semanticId>
+                    <aas:keys>
+                      <aas:key type="ConceptDescription" local="true" idType="IRI">https://admin-shell.io/sandbox/SG2/TechnicalData/ProductImage/1/1</aas:key>
+                    </aas:keys>
+                  </aas:semanticId>
+                  <aas:qualifier>
+                    <aas:qualifier>
+                      <aas:type>Multiplicity</aas:type>
+                      <aas:valueType />
+                      <aas:value>ZeroToMany</aas:value>
+                    </aas:qualifier>
+                  </aas:qualifier>
+                  <aas:mimeType />
+                  <aas:value />
+                </aas:file>
+              </aas:submodelElement>
+            </aas:value>
+            <aas:ordered>false</aas:ordered>
+            <aas:allowDuplicates>false</aas:allowDuplicates>
+          </aas:submodelElementCollection>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:submodelElementCollection>
+            <aas:idShort>ProductClassifications</aas:idShort>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys>
+                <aas:key type="ConceptDescription" local="true" idType="IRI">https://admin-shell.io/sandbox/SG2/TechnicalData/ProductClassifications/1/1</aas:key>
+              </aas:keys>
+            </aas:semanticId>
+            <aas:qualifier>
+              <aas:qualifier>
+                <aas:type>Multiplicity</aas:type>
+                <aas:valueType />
+                <aas:value>One</aas:value>
+              </aas:qualifier>
+            </aas:qualifier>
+            <aas:value>
+              <aas:submodelElement>
+                <aas:submodelElementCollection>
+                  <aas:idShort>ProductClassificationItem{00}</aas:idShort>
+                  <aas:kind>Instance</aas:kind>
+                  <aas:semanticId>
+                    <aas:keys>
+                      <aas:key type="ConceptDescription" local="true" idType="IRI">https://admin-shell.io/sandbox/SG2/TechnicalData/ProductClassificationItem/1/1</aas:key>
+                    </aas:keys>
+                  </aas:semanticId>
+                  <aas:qualifier>
+                    <aas:qualifier>
+                      <aas:type>Multiplicity</aas:type>
+                      <aas:valueType />
+                      <aas:value>ZeroToMany</aas:value>
+                    </aas:qualifier>
+                  </aas:qualifier>
+                  <aas:value>
+                    <aas:submodelElement>
+                      <aas:property>
+                        <aas:idShort>ProductClassificationSystem</aas:idShort>
+                        <aas:kind>Instance</aas:kind>
+                        <aas:semanticId>
+                          <aas:keys>
+                            <aas:key type="ConceptDescription" local="true" idType="IRI">https://admin-shell.io/sandbox/SG2/TechnicalData/ProductClassificationSystem/1/1</aas:key>
+                          </aas:keys>
+                        </aas:semanticId>
+                        <aas:qualifier>
+                          <aas:qualifier>
+                            <aas:type>Multiplicity</aas:type>
+                            <aas:valueType />
+                            <aas:value>One</aas:value>
+                          </aas:qualifier>
+                        </aas:qualifier>
+                        <aas:valueType />
+                        <aas:value />
+                      </aas:property>
+                    </aas:submodelElement>
+                    <aas:submodelElement>
+                      <aas:property>
+                        <aas:idShort>ClassificationSystemVersion</aas:idShort>
+                        <aas:kind>Instance</aas:kind>
+                        <aas:semanticId>
+                          <aas:keys>
+                            <aas:key type="ConceptDescription" local="true" idType="IRI">https://admin-shell.io/sandbox/SG2/TechnicalData/ClassificationSystemVersion/1/1</aas:key>
+                          </aas:keys>
+                        </aas:semanticId>
+                        <aas:qualifier>
+                          <aas:qualifier>
+                            <aas:type>Multiplicity</aas:type>
+                            <aas:valueType />
+                            <aas:value>ZeroToOne</aas:value>
+                          </aas:qualifier>
+                        </aas:qualifier>
+                        <aas:valueType />
+                        <aas:value />
+                      </aas:property>
+                    </aas:submodelElement>
+                    <aas:submodelElement>
+                      <aas:property>
+                        <aas:idShort>ProductClassId</aas:idShort>
+                        <aas:kind>Instance</aas:kind>
+                        <aas:semanticId>
+                          <aas:keys>
+                            <aas:key type="ConceptDescription" local="true" idType="IRI">https://admin-shell.io/sandbox/SG2/TechnicalData/ProductClassId/1/1</aas:key>
+                          </aas:keys>
+                        </aas:semanticId>
+                        <aas:qualifier>
+                          <aas:qualifier>
+                            <aas:type>Multiplicity</aas:type>
+                            <aas:valueType />
+                            <aas:value>One</aas:value>
+                          </aas:qualifier>
+                        </aas:qualifier>
+                        <aas:valueType />
+                        <aas:value />
+                      </aas:property>
+                    </aas:submodelElement>
+                  </aas:value>
+                  <aas:ordered>false</aas:ordered>
+                  <aas:allowDuplicates>false</aas:allowDuplicates>
+                </aas:submodelElementCollection>
+              </aas:submodelElement>
+            </aas:value>
+            <aas:ordered>false</aas:ordered>
+            <aas:allowDuplicates>false</aas:allowDuplicates>
+          </aas:submodelElementCollection>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:submodelElementCollection>
+            <aas:idShort>TechnicalProperties</aas:idShort>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys>
+                <aas:key type="ConceptDescription" local="true" idType="IRI">https://admin-shell.io/sandbox/SG2/TechnicalData/TechnicalProperties/1/1</aas:key>
+              </aas:keys>
+            </aas:semanticId>
+            <aas:qualifier>
+              <aas:qualifier>
+                <aas:type>Multiplicity</aas:type>
+                <aas:valueType />
+                <aas:value>One</aas:value>
+              </aas:qualifier>
+            </aas:qualifier>
+            <aas:value>
+              <aas:submodelElement>
+                <aas:property>
+                  <aas:idShort>SemanticIdNotAvailable</aas:idShort>
+                  <aas:kind>Instance</aas:kind>
+                  <aas:semanticId>
+                    <aas:keys>
+                      <aas:key type="ConceptDescription" local="true" idType="IRI">https://admin-shell.io/SemanticIdNotAvailable /1/1 </aas:key>
+                    </aas:keys>
+                  </aas:semanticId>
+                  <aas:qualifier>
+                    <aas:qualifier>
+                      <aas:type>Multiplicity</aas:type>
+                      <aas:valueType />
+                      <aas:value>ZeroToMany</aas:value>
+                    </aas:qualifier>
+                    <aas:qualifier>
+                      <aas:type>EditIdShort</aas:type>
+                      <aas:valueType />
+                      <aas:value>True</aas:value>
+                    </aas:qualifier>
+                    <aas:qualifier>
+                      <aas:type>EditDescription</aas:type>
+                      <aas:valueType />
+                      <aas:value>True</aas:value>
+                    </aas:qualifier>
+                  </aas:qualifier>
+                  <aas:valueType>string</aas:valueType>
+                  <aas:value />
+                </aas:property>
+              </aas:submodelElement>
+              <aas:submodelElement>
+                <aas:submodelElementCollection>
+                  <aas:idShort>MainSection</aas:idShort>
+                  <aas:kind>Instance</aas:kind>
+                  <aas:semanticId>
+                    <aas:keys>
+                      <aas:key type="ConceptDescription" local="true" idType="IRI">https://admin-shell.io/sandbox/SG2/TechnicalData/MainSection/1/1</aas:key>
+                    </aas:keys>
+                  </aas:semanticId>
+                  <aas:qualifier>
+                    <aas:qualifier>
+                      <aas:type>Multiplicity</aas:type>
+                      <aas:valueType />
+                      <aas:value>ZeroToMany</aas:value>
+                    </aas:qualifier>
+                  </aas:qualifier>
+                  <aas:value>
+                    <aas:submodelElement>
+                      <aas:property>
+                        <aas:idShort>SemanticIdNotAvailable</aas:idShort>
+                        <aas:kind>Instance</aas:kind>
+                        <aas:semanticId>
+                          <aas:keys>
+                            <aas:key type="ConceptDescription" local="true" idType="IRI">https://admin-shell.io/SemanticIdNotAvailable /1/1 </aas:key>
+                          </aas:keys>
+                        </aas:semanticId>
+                        <aas:qualifier>
+                          <aas:qualifier>
+                            <aas:type>Multiplicity</aas:type>
+                            <aas:valueType />
+                            <aas:value>ZeroToMany</aas:value>
+                          </aas:qualifier>
+                          <aas:qualifier>
+                            <aas:type>EditIdShort</aas:type>
+                            <aas:valueType />
+                            <aas:value>True</aas:value>
+                          </aas:qualifier>
+                          <aas:qualifier>
+                            <aas:type>EditDescription</aas:type>
+                            <aas:valueType />
+                            <aas:value>True</aas:value>
+                          </aas:qualifier>
+                        </aas:qualifier>
+                        <aas:valueType />
+                        <aas:value />
+                      </aas:property>
+                    </aas:submodelElement>
+                    <aas:submodelElement>
+                      <aas:submodelElementCollection>
+                        <aas:idShort>SubSection</aas:idShort>
+                        <aas:kind>Instance</aas:kind>
+                        <aas:semanticId>
+                          <aas:keys>
+                            <aas:key type="ConceptDescription" local="true" idType="IRI">https://admin-shell.io/sandbox/SG2/TechnicalData/SubSection/1/1</aas:key>
+                          </aas:keys>
+                        </aas:semanticId>
+                        <aas:qualifier>
+                          <aas:qualifier>
+                            <aas:type>Multiplicity</aas:type>
+                            <aas:valueType />
+                            <aas:value>ZeroToMany</aas:value>
+                          </aas:qualifier>
+                        </aas:qualifier>
+                        <aas:value>
+                          <aas:submodelElement>
+                            <aas:property>
+                              <aas:idShort>SemanticIdNotAvailable</aas:idShort>
+                              <aas:kind>Instance</aas:kind>
+                              <aas:semanticId>
+                                <aas:keys>
+                                  <aas:key type="ConceptDescription" local="true" idType="IRI">https://admin-shell.io/SemanticIdNotAvailable /1/1 </aas:key>
+                                </aas:keys>
+                              </aas:semanticId>
+                              <aas:qualifier>
+                                <aas:qualifier>
+                                  <aas:type>Multiplicity</aas:type>
+                                  <aas:valueType />
+                                  <aas:value>ZeroToMany</aas:value>
+                                </aas:qualifier>
+                                <aas:qualifier>
+                                  <aas:type>EditIdShort</aas:type>
+                                  <aas:valueType />
+                                  <aas:value>True</aas:value>
+                                </aas:qualifier>
+                                <aas:qualifier>
+                                  <aas:type>EditDescription</aas:type>
+                                  <aas:valueType />
+                                  <aas:value>True</aas:value>
+                                </aas:qualifier>
+                              </aas:qualifier>
+                              <aas:valueType />
+                              <aas:value />
+                            </aas:property>
+                          </aas:submodelElement>
+                        </aas:value>
+                        <aas:ordered>false</aas:ordered>
+                        <aas:allowDuplicates>false</aas:allowDuplicates>
+                      </aas:submodelElementCollection>
+                    </aas:submodelElement>
+                  </aas:value>
+                  <aas:ordered>false</aas:ordered>
+                  <aas:allowDuplicates>false</aas:allowDuplicates>
+                </aas:submodelElementCollection>
+              </aas:submodelElement>
+            </aas:value>
+            <aas:ordered>false</aas:ordered>
+            <aas:allowDuplicates>false</aas:allowDuplicates>
+          </aas:submodelElementCollection>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:submodelElementCollection>
+            <aas:idShort>FurtherInformation</aas:idShort>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys>
+                <aas:key type="ConceptDescription" local="true" idType="IRI">https://admin-shell.io/sandbox/SG2/TechnicalData/FurtherInformation/1/1</aas:key>
+              </aas:keys>
+            </aas:semanticId>
+            <aas:qualifier>
+              <aas:qualifier>
+                <aas:type>Multiplicity</aas:type>
+                <aas:valueType />
+                <aas:value>One</aas:value>
+              </aas:qualifier>
+            </aas:qualifier>
+            <aas:value>
+              <aas:submodelElement>
+                <aas:property>
+                  <aas:idShort>TextStatement</aas:idShort>
+                  <aas:kind>Instance</aas:kind>
+                  <aas:semanticId>
+                    <aas:keys>
+                      <aas:key type="ConceptDescription" local="true" idType="IRI">https://admin-shell.io/sandbox/SG2/TechnicalData/TextStatement/1/1</aas:key>
+                    </aas:keys>
+                  </aas:semanticId>
+                  <aas:qualifier>
+                    <aas:qualifier>
+                      <aas:type>Multiplicity</aas:type>
+                      <aas:valueType />
+                      <aas:value>ZeroToMany</aas:value>
+                    </aas:qualifier>
+                  </aas:qualifier>
+                  <aas:valueType>string</aas:valueType>
+                  <aas:value />
+                </aas:property>
+              </aas:submodelElement>
+              <aas:submodelElement>
+                <aas:property>
+                  <aas:idShort>ValidDate</aas:idShort>
+                  <aas:kind>Instance</aas:kind>
+                  <aas:semanticId>
+                    <aas:keys>
+                      <aas:key type="ConceptDescription" local="true" idType="IRI">https://admin-shell.io/sandbox/SG2/TechnicalData/ValidDate/1/1</aas:key>
+                    </aas:keys>
+                  </aas:semanticId>
+                  <aas:qualifier>
+                    <aas:qualifier>
+                      <aas:type>Multiplicity</aas:type>
+                      <aas:valueType />
+                      <aas:value>One</aas:value>
+                    </aas:qualifier>
+                  </aas:qualifier>
+                  <aas:valueType>date</aas:valueType>
+                  <aas:value />
+                </aas:property>
+              </aas:submodelElement>
+            </aas:value>
+            <aas:ordered>false</aas:ordered>
+            <aas:allowDuplicates>false</aas:allowDuplicates>
+          </aas:submodelElementCollection>
+        </aas:submodelElement>
+      </aas:submodelElements>
+    </aas:submodel>
+  </aas:submodels>
+  <aas:conceptDescriptions>
+    <aas:conceptDescription>
+      <aas:idShort>GeneralInformation</aas:idShort>
+      <aas:identification idType="IRI">https://admin-shell.io/sandbox/SG2/TechnicalData/GeneralInformation/1/1</aas:identification>
+      <aas:administration>
+        <aas:version />
+        <aas:revision>1</aas:revision>
+      </aas:administration>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="de">Generelle Informationen</IEC:langString>
+              <IEC:langString lang="en">General information</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="EN">General information</IEC:langString>
+              <IEC:langString lang="DE">Generelle Informationen</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType>STRING</IEC:dataType>
+            <IEC:definition>
+              <IEC:langString lang="de">Generelle Informationen, zum Beispiel Bestell- und Herstellerinformationen</IEC:langString>
+              <IEC:langString lang="en">General information, for example ordering and manufacturer information</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>ManufacturerName</aas:idShort>
+      <aas:identification idType="IRI">https://admin-shell.io/sandbox/SG2/TechnicalData/ManufacturerName/1/1</aas:identification>
+      <aas:administration>
+        <aas:version />
+        <aas:revision>1</aas:revision>
+      </aas:administration>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="de">Herstellername</IEC:langString>
+              <IEC:langString lang="en">Manufacturer name</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="EN">Herstellername</IEC:langString>
+              <IEC:langString lang="DE">Manufacturer name</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:symbol>string</IEC:symbol>
+            <IEC:dataType>STRING</IEC:dataType>
+            <IEC:definition>
+              <IEC:langString lang="de">Bezeichnung für eine natürliche oder juristische Person, die für die Auslegung, Herstellung und Verpackung sowie die Etikettierung eines Produkts im Hinblick auf das 'Inverkehrbringen' im eigenen Namen verantwortlich ist</IEC:langString>
+              <IEC:langString lang="en">legally valid designation of the natural or judicial person which is directly responsible for the design, production, packaging and labeling of a product in respect to its being brought into circulation</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+      <aas:isCaseOf>
+        <aas:keys>
+          <aas:key type="GlobalReference" local="false" idType="IRDI">0173-1#02-AAO677#002</aas:key>
+        </aas:keys>
+      </aas:isCaseOf>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>ManufacturerLogo</aas:idShort>
+      <aas:identification idType="IRI">https://admin-shell.io/sandbox/SG2/TechnicalData/ManufacturerLogo/1/1</aas:identification>
+      <aas:administration>
+        <aas:version />
+        <aas:revision>1</aas:revision>
+      </aas:administration>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="de">Herstellerlogo-Datei</IEC:langString>
+              <IEC:langString lang="en">File with manufactuer logo</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="EN">Herstellerlogo</IEC:langString>
+              <IEC:langString lang="DE">Manufactuer logo</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType>STRING</IEC:dataType>
+            <IEC:definition>
+              <IEC:langString lang="de">Bilddatei für Logo des Herstellers im gebräuchlichem Format (.png, .jpg). </IEC:langString>
+              <IEC:langString lang="en">Imagefile for logo of manufacturer provided in common format (.png, .jpg). </IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>ManufacturerPartNumber</aas:idShort>
+      <aas:identification idType="IRI">https://admin-shell.io/sandbox/SG2/TechnicalData/ManufacturerPartNumber/1/1</aas:identification>
+      <aas:administration>
+        <aas:version />
+        <aas:revision>1</aas:revision>
+      </aas:administration>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="de">Herstellerartikelnummer</IEC:langString>
+              <IEC:langString lang="en">product article number of manufacturer</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="EN">Manufacturer order code</IEC:langString>
+              <IEC:langString lang="DE">Herstellerbestellcode</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType>STRING</IEC:dataType>
+            <IEC:definition>
+              <IEC:langString lang="de">eindeutiger Bestellschlüssel des Herstellers</IEC:langString>
+              <IEC:langString lang="en">unique product identifier of the manufacturer</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+      <aas:isCaseOf>
+        <aas:keys>
+          <aas:key type="GlobalReference" local="false" idType="IRDI">0173-1#02-AAO676#003</aas:key>
+        </aas:keys>
+      </aas:isCaseOf>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>ManufacturerProductDesignation</aas:idShort>
+      <aas:identification idType="IRI">https://admin-shell.io/sandbox/SG2/TechnicalData/ManufacturerProductDesignation/1/1</aas:identification>
+      <aas:administration>
+        <aas:version />
+        <aas:revision>1</aas:revision>
+      </aas:administration>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="de">Herstellerproduktbezeichnung</IEC:langString>
+              <IEC:langString lang="en">Manufacturer product designation</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="EN">Product designation</IEC:langString>
+              <IEC:langString lang="DE">Produktbezeichnung</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType>STRING</IEC:dataType>
+            <IEC:definition>
+              <IEC:langString lang="de">Kurze Beschreibung des Produktes (Kurztext)</IEC:langString>
+              <IEC:langString lang="en">Short description of the product (short text)</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+      <aas:isCaseOf>
+        <aas:keys>
+          <aas:key type="GlobalReference" local="false" idType="IRDI">0173-1#02-AAW338#001</aas:key>
+        </aas:keys>
+      </aas:isCaseOf>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>ManufacturerOrderCode</aas:idShort>
+      <aas:identification idType="IRI">https://admin-shell.io/sandbox/SG2/TechnicalData/ManufacturerOrderCode/1/1</aas:identification>
+      <aas:administration>
+        <aas:version />
+        <aas:revision>1</aas:revision>
+      </aas:administration>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="de">Eindeutiger Herstellerbestellcode</IEC:langString>
+              <IEC:langString lang="en">Unique manufacturer order code</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="EN">Manufacturer order code</IEC:langString>
+              <IEC:langString lang="DE">Herstellerbestellcode</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType>STRING</IEC:dataType>
+            <IEC:definition>
+              <IEC:langString lang="de">eindeutiger Bestellschlüssel des Herstellers um exakt gleiches Produkt zu bestellen</IEC:langString>
+              <IEC:langString lang="en">unique product identifier of the manufacturer sufficient to order exact same produkt</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+      <aas:isCaseOf>
+        <aas:keys>
+          <aas:key type="GlobalReference" local="false" idType="IRDI">0173-1#02-AAO676#003</aas:key>
+        </aas:keys>
+      </aas:isCaseOf>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>ProductImage</aas:idShort>
+      <aas:identification idType="IRI">https://admin-shell.io/sandbox/SG2/TechnicalData/ProductImage/1/1</aas:identification>
+      <aas:administration>
+        <aas:version />
+        <aas:revision>1</aas:revision>
+      </aas:administration>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="de">Bilddatei für Produkt</IEC:langString>
+              <IEC:langString lang="en">Imagefile for product</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="EN">Product image</IEC:langString>
+              <IEC:langString lang="DE">Produktbild</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType>STRING</IEC:dataType>
+            <IEC:definition>
+              <IEC:langString lang="de">Bilddatei für das assozierte Produkt im gebräuchlichem Format (.png, .jpg). </IEC:langString>
+              <IEC:langString lang="en">Imagefile for associated product provided in common format (.png, .jpg). </IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>ProductClassifications</aas:idShort>
+      <aas:identification idType="IRI">https://admin-shell.io/sandbox/SG2/TechnicalData/ProductClassifications/1/1</aas:identification>
+      <aas:administration>
+        <aas:version />
+        <aas:revision>1</aas:revision>
+      </aas:administration>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="de">Produktklassifizierungen</IEC:langString>
+              <IEC:langString lang="en">ProductClassifications</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="EN">ProductClassification</IEC:langString>
+              <IEC:langString lang="DE">Produktklassifizierung</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType>STRING</IEC:dataType>
+            <IEC:definition>
+              <IEC:langString lang="de">Produktklassifizierungen durch Assoziation mit Produktklassen in gebräuchlichen Klassifizierungssystemen.</IEC:langString>
+              <IEC:langString lang="en">Product classifications by association with product classes in common classification systems.</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>ProductClassificationItem</aas:idShort>
+      <aas:identification idType="IRI">https://admin-shell.io/sandbox/SG2/TechnicalData/ProductClassificationItem/1/1</aas:identification>
+      <aas:administration>
+        <aas:version />
+        <aas:revision>1</aas:revision>
+      </aas:administration>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="de">Einzelne Produktklassifizierung</IEC:langString>
+              <IEC:langString lang="en">Single ProductClassification</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="EN">ProductClassification</IEC:langString>
+              <IEC:langString lang="DE">Produktklassifizierung</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType>STRING</IEC:dataType>
+            <IEC:definition>
+              <IEC:langString lang="de">Einzelne Produktklassifizierung durch Assoziation mit einer Produktklasse</IEC:langString>
+              <IEC:langString lang="en">Single product classification by association with product class</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>ProductClassificationSystem</aas:idShort>
+      <aas:identification idType="IRI">https://admin-shell.io/sandbox/SG2/TechnicalData/ProductClassificationSystem/1/1</aas:identification>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="DE">Klassifikationssystem</IEC:langString>
+              <IEC:langString lang="EN">Classification system</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="EN">Classification system</IEC:langString>
+              <IEC:langString lang="DE">Klassifikationssystem</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType>STRING</IEC:dataType>
+            <IEC:definition>
+              <IEC:langString lang="EN">Common name of the product classification system</IEC:langString>
+              <IEC:langString lang="DE">Gebräuchlicher Name für das Produkt-Klassifikationssystem</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>ClassificationSystemVersion</aas:idShort>
+      <aas:identification idType="IRI">https://admin-shell.io/sandbox/SG2/TechnicalData/ClassificationSystemVersion/1/1</aas:identification>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="DE">Versionskennung des Klassifikationssystems</IEC:langString>
+              <IEC:langString lang="EN">Verison id  of the classification system</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="EN">Version class. system</IEC:langString>
+              <IEC:langString lang="DE">Version Klass.-System</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType>STRING</IEC:dataType>
+            <IEC:definition>
+              <IEC:langString lang="EN">Common version identifier of the used classification system</IEC:langString>
+              <IEC:langString lang="DE">Gebräuchliche Versionskennung des genutzen Klassifikationssystems</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>ProductClassId</aas:idShort>
+      <aas:identification idType="IRI">https://admin-shell.io/sandbox/SG2/TechnicalData/ProductClassId/1/1</aas:identification>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="DE">Produktklasse im System</IEC:langString>
+              <IEC:langString lang="EN">Product class in system</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="EN">Product class</IEC:langString>
+              <IEC:langString lang="DE">Produktklasse </IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType>STRING</IEC:dataType>
+            <IEC:definition>
+              <IEC:langString lang="EN">Class of the associated product in the classification system; according to the notation of the system</IEC:langString>
+              <IEC:langString lang="DE">Klasse des assoziierten Produktes im Klassifikationssystem; entsprechend der Notationsweise des Systems.</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>TechnicalProperties</aas:idShort>
+      <aas:identification idType="IRI">https://admin-shell.io/sandbox/SG2/TechnicalData/TechnicalProperties/1/1</aas:identification>
+      <aas:administration>
+        <aas:version />
+        <aas:revision>1</aas:revision>
+      </aas:administration>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="de">Technische und Produktmerkmale</IEC:langString>
+              <IEC:langString lang="en">Technical and product properties</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="EN">Properties</IEC:langString>
+              <IEC:langString lang="DE">Merkmale</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType>STRING</IEC:dataType>
+            <IEC:definition>
+              <IEC:langString lang="de">Einzelne Merkmale die das Produkt und die technischen Eigenschaften beschreiben</IEC:langString>
+              <IEC:langString lang="en">Individual characteristics that describe the product and its technical properties</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>SemanticIdNotAvailable</aas:idShort>
+      <aas:identification idType="IRI">https://admin-shell.io/SemanticIdNotAvailable /1/1 </aas:identification>
+      <aas:administration>
+        <aas:version />
+        <aas:revision>1</aas:revision>
+      </aas:administration>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="de">Merkmal ohne SemanticId</IEC:langString>
+              <IEC:langString lang="en">Property without SemanticId</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="EN">Property without SemanticId</IEC:langString>
+              <IEC:langString lang="DE">Merkmal ohne SemanticId</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType>STRING</IEC:dataType>
+            <IEC:definition>
+              <IEC:langString lang="de">Merkmal, welches nicht über ein gebräuchliches Klassifikationssystem beschrieben ist</IEC:langString>
+              <IEC:langString lang="en">Property that is not described using a common classification system</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>MainSection</aas:idShort>
+      <aas:identification idType="IRI">https://admin-shell.io/sandbox/SG2/TechnicalData/MainSection/1/1</aas:identification>
+      <aas:administration>
+        <aas:version />
+        <aas:revision>1</aas:revision>
+      </aas:administration>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="de">Hauptsektion für Merkmale</IEC:langString>
+              <IEC:langString lang="en">Main section for properties</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="EN">Main section</IEC:langString>
+              <IEC:langString lang="DE">Hauptsektion</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType>STRING</IEC:dataType>
+            <IEC:definition>
+              <IEC:langString lang="de">Haupt-Unterteilungsmöglichkeit für Merkmale. Kann über idShort benannt werden.</IEC:langString>
+              <IEC:langString lang="en">Main subdivision possibility for properties. Can be named via idShort.</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>SubSection</aas:idShort>
+      <aas:identification idType="IRI">https://admin-shell.io/sandbox/SG2/TechnicalData/SubSection/1/1</aas:identification>
+      <aas:administration>
+        <aas:version />
+        <aas:revision>1</aas:revision>
+      </aas:administration>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="de">Untersektion für Merkmale</IEC:langString>
+              <IEC:langString lang="en">Subsection for properties</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="EN">Subsection </IEC:langString>
+              <IEC:langString lang="DE">Untersektion </IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType>STRING</IEC:dataType>
+            <IEC:definition>
+              <IEC:langString lang="de">Untergeordnete Unterteilungsmöglichkeit für Merkmale. Kann über idShort benannt werden.</IEC:langString>
+              <IEC:langString lang="en">Subordinate subdivision possibility for properties. Can be named via idShort.</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>TextStatement</aas:idShort>
+      <aas:identification idType="IRI">https://admin-shell.io/sandbox/SG2/TechnicalData/TextStatement/1/1</aas:identification>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="DE">Aussage des Herstellers als Text</IEC:langString>
+              <IEC:langString lang="EN">Statement by the manufacturer as text</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="EN">Valid on date</IEC:langString>
+              <IEC:langString lang="DE">Gültig am</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType>STRING</IEC:dataType>
+            <IEC:definition>
+              <IEC:langString lang="EN">Statement in text form, e.g. scope of validity of the statements.</IEC:langString>
+              <IEC:langString lang="DE">Aussage in Textform, etwa Gültigkeitsbereich der Aussagen.</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>FurtherInformation</aas:idShort>
+      <aas:identification idType="IRI">https://admin-shell.io/sandbox/SG2/TechnicalData/FurtherInformation/1/1</aas:identification>
+      <aas:administration>
+        <aas:version />
+        <aas:revision>1</aas:revision>
+      </aas:administration>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="de">Weitere Informationen</IEC:langString>
+              <IEC:langString lang="en">Further information</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="EN">Further information</IEC:langString>
+              <IEC:langString lang="DE">Weitere Informationen</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType>STRING</IEC:dataType>
+            <IEC:definition>
+              <IEC:langString lang="de">Weiterführende Informationen zum Produkt, der Gültigkeit der gemachten Angaben und zu diesem Datensatz</IEC:langString>
+              <IEC:langString lang="en">Further information on the product, the validity of the information provided and this data record</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>ValidDate</aas:idShort>
+      <aas:identification idType="IRI">https://admin-shell.io/sandbox/SG2/TechnicalData/ValidDate/1/1</aas:identification>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="DE">Informationen gültig am</IEC:langString>
+              <IEC:langString lang="EN">Information valid on date</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="EN">Valid on date</IEC:langString>
+              <IEC:langString lang="DE">Gültig am</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType>DATE</IEC:dataType>
+            <IEC:definition>
+              <IEC:langString lang="EN">Denotes a date on which the data specified in the submodel was valid for the associated product. Approximately: Date of the last update of the data.</IEC:langString>
+              <IEC:langString lang="DE">Bezeichnet ein Datum, an welchem die im Submodel genannten Daten für das assoziierte Produkt gültig waren. Etwa: Tag der letzten Aktualisierung der Daten.</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+    </aas:conceptDescription>
+  </aas:conceptDescriptions>
+</aas:aasenv>

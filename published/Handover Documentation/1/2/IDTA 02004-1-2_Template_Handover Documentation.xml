@@ -1,0 +1,2206 @@
+<?xml version="1.0"?>
+<aas:aasenv xmlns:IEC="http://www.admin-shell.io/IEC61360/2/0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:abac="http://www.admin-shell.io/aas/abac/2/0" xsi:schemaLocation="http://www.admin-shell.io/aas/2/0 AAS.xsd http://www.admin-shell.io/IEC61360/2/0 IEC61360.xsd" xmlns:aas="http://www.admin-shell.io/aas/2/0">
+  <aas:assetAdministrationShells>
+    <aas:assetAdministrationShell>
+      <aas:idShort>HandoverDocumentationAAS</aas:idShort>
+      <aas:identification idType="IRI">https://demo.com/HandoverDocumentationAAS</aas:identification>
+      <aas:assetRef>
+        <aas:keys />
+      </aas:assetRef>
+      <aas:submodelRefs>
+        <aas:submodelRef>
+          <aas:keys>
+            <aas:key type="Submodel" local="true" idType="IRI">https://admin-shell.io/IDTA02004-1-2</aas:key>
+          </aas:keys>
+        </aas:submodelRef>
+      </aas:submodelRefs>
+      <aas:conceptDictionaries />
+    </aas:assetAdministrationShell>
+  </aas:assetAdministrationShells>
+  <aas:assets />
+  <aas:submodels>
+    <aas:submodel>
+      <aas:idShort>HandoverDocumentation</aas:idShort>
+      <aas:category>PARAMETER</aas:category>
+      <aas:description>
+        <aas:langString lang="en">The Submodel defines a set meta data for the handover of documentation from the manufacturer to the operator for industrial equipment.</aas:langString>
+      </aas:description>
+      <aas:identification idType="IRI">https://admin-shell.io/IDTA02004-1-2</aas:identification>
+      <aas:administration>
+        <aas:version>1</aas:version>
+        <aas:revision>2</aas:revision>
+      </aas:administration>
+      <aas:kind>Template</aas:kind>
+      <aas:semanticId>
+        <aas:keys>
+          <aas:key type="Submodel" local="true" idType="IRDI">0173-1#01-AHF578#001</aas:key>
+        </aas:keys>
+      </aas:semanticId>
+      <aas:qualifier />
+      <aas:submodelElements>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>numberOfDocuments</aas:idShort>
+            <aas:category>PARAMETER</aas:category>
+            <aas:kind>Template</aas:kind>
+            <aas:semanticId>
+              <aas:keys>
+                <aas:key type="ConceptDescription" local="true" idType="IRDI">0173-1#02-ABH990#001</aas:key>
+              </aas:keys>
+            </aas:semanticId>
+            <aas:qualifier>
+              <aas:qualifier>
+                <aas:semanticId>
+                  <aas:keys>
+                    <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/SubmodelTemplates/Cardinality/1/0</aas:key>
+                  </aas:keys>
+                </aas:semanticId>
+                <aas:type>Relevance</aas:type>
+                <aas:valueType />
+                <aas:value>optional</aas:value>
+              </aas:qualifier>
+            </aas:qualifier>
+            <aas:valueType>integer</aas:valueType>
+            <aas:value />
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:submodelElementCollection>
+            <aas:idShort>Document</aas:idShort>
+            <aas:description>
+              <aas:langString lang="en">Each SMC describes a Document (see IEC 82045-1 and IEC 8245-2), which is associated to the particular Asset Administration Shell.</aas:langString>
+            </aas:description>
+            <aas:kind>Template</aas:kind>
+            <aas:semanticId>
+              <aas:keys>
+                <aas:key type="ConceptDescription" local="true" idType="IRDI">0173-1#02-ABI500#001/0173-1#01-AHF579#001*01</aas:key>
+              </aas:keys>
+            </aas:semanticId>
+            <aas:qualifier>
+              <aas:qualifier>
+                <aas:semanticId>
+                  <aas:keys>
+                    <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/SubmodelTemplates/Cardinality/1/0</aas:key>
+                  </aas:keys>
+                </aas:semanticId>
+                <aas:type>Cardinality</aas:type>
+                <aas:valueType />
+                <aas:value>ZeroToMany</aas:value>
+              </aas:qualifier>
+            </aas:qualifier>
+            <aas:ordered>false</aas:ordered>
+            <aas:allowDuplicates>false</aas:allowDuplicates>
+            <aas:value>
+              <aas:submodelElement>
+                <aas:submodelElementCollection>
+                  <aas:idShort>DocumentId</aas:idShort>
+                  <aas:category>PARAMETER</aas:category>
+                  <aas:description>
+                    <aas:langString lang="en">Set of document identifiers for the Document. One ID in this collection should be used as a preferred ID</aas:langString>
+                  </aas:description>
+                  <aas:kind>Template</aas:kind>
+                  <aas:semanticId>
+                    <aas:keys>
+                      <aas:key type="ConceptDescription" local="true" idType="IRDI">0173-1#02-ABI501#001/0173-1#01-AHF580#001*01</aas:key>
+                    </aas:keys>
+                  </aas:semanticId>
+                  <aas:qualifier>
+                    <aas:qualifier>
+                      <aas:semanticId>
+                        <aas:keys>
+                          <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/SubmodelTemplates/Cardinality/1/0</aas:key>
+                        </aas:keys>
+                      </aas:semanticId>
+                      <aas:type>Cardinality</aas:type>
+                      <aas:valueType />
+                      <aas:value>OneToMany</aas:value>
+                    </aas:qualifier>
+                  </aas:qualifier>
+                  <aas:ordered>false</aas:ordered>
+                  <aas:allowDuplicates>false</aas:allowDuplicates>
+                  <aas:value>
+                    <aas:submodelElement>
+                      <aas:property>
+                        <aas:idShort>DocumentDomainId</aas:idShort>
+                        <aas:category>PARAMETER</aas:category>
+                        <aas:description>
+                          <aas:langString lang="en">Identification of the domain in which the given DocumentId is unique. The domain ID can e.g., be the name or acronym of the providing organisation.</aas:langString>
+                        </aas:description>
+                        <aas:kind>Template</aas:kind>
+                        <aas:semanticId>
+                          <aas:keys>
+                            <aas:key type="ConceptDescription" local="true" idType="IRDI">0173-1#02-ABH994#001</aas:key>
+                          </aas:keys>
+                        </aas:semanticId>
+                        <aas:qualifier>
+                          <aas:qualifier>
+                            <aas:semanticId>
+                              <aas:keys>
+                                <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/SubmodelTemplates/Cardinality/1/0</aas:key>
+                              </aas:keys>
+                            </aas:semanticId>
+                            <aas:type>Cardinality</aas:type>
+                            <aas:valueType />
+                            <aas:value>One</aas:value>
+                          </aas:qualifier>
+                          <aas:qualifier>
+                            <aas:semanticId>
+                              <aas:keys>
+                                <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/SubmodelTemplates/ExampleValue/1/0</aas:key>
+                              </aas:keys>
+                            </aas:semanticId>
+                            <aas:type>ExampleValue</aas:type>
+                            <aas:valueType />
+                            <aas:value>1213455566</aas:value>
+                          </aas:qualifier>
+                        </aas:qualifier>
+                        <aas:valueType>string</aas:valueType>
+                        <aas:value />
+                      </aas:property>
+                    </aas:submodelElement>
+                    <aas:submodelElement>
+                      <aas:property>
+                        <aas:idShort>ValueId</aas:idShort>
+                        <aas:category>PARAMETER</aas:category>
+                        <aas:description>
+                          <aas:langString lang="en">Identification number of the Document within a given domain, e.g. the providing organisation.</aas:langString>
+                        </aas:description>
+                        <aas:kind>Template</aas:kind>
+                        <aas:semanticId>
+                          <aas:keys>
+                            <aas:key type="ConceptDescription" local="true" idType="IRDI">0173-1#02-AAO099#002</aas:key>
+                          </aas:keys>
+                        </aas:semanticId>
+                        <aas:qualifier>
+                          <aas:qualifier>
+                            <aas:semanticId>
+                              <aas:keys>
+                                <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/SubmodelTemplates/Cardinality/1/0</aas:key>
+                              </aas:keys>
+                            </aas:semanticId>
+                            <aas:type>Cardinality</aas:type>
+                            <aas:valueType />
+                            <aas:value>One</aas:value>
+                          </aas:qualifier>
+                          <aas:qualifier>
+                            <aas:semanticId>
+                              <aas:keys>
+                                <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/SubmodelTemplates/ExampleValue/1/0</aas:key>
+                              </aas:keys>
+                            </aas:semanticId>
+                            <aas:type>ExampleValue</aas:type>
+                            <aas:valueType />
+                            <aas:value>XF90-884</aas:value>
+                          </aas:qualifier>
+                        </aas:qualifier>
+                        <aas:valueType>string</aas:valueType>
+                        <aas:value />
+                      </aas:property>
+                    </aas:submodelElement>
+                    <aas:submodelElement>
+                      <aas:property>
+                        <aas:idShort>IsPrimary</aas:idShort>
+                        <aas:category>PARAMETER</aas:category>
+                        <aas:description>
+                          <aas:langString lang="en">Flag indicating that a DocumentId within a collection of at least two DocumentId`s is the ‘primary’ identifier for the document. This is the preferred ID of the document (commonly from the point of view of the owner of the asset). Note: can be omitted, if the ID is not primary. Note: can be omitted, if only one ID is for a Document. Contraint: only one DocumentId in a collection may be marked as primary.</aas:langString>
+                        </aas:description>
+                        <aas:kind>Template</aas:kind>
+                        <aas:semanticId>
+                          <aas:keys>
+                            <aas:key type="ConceptDescription" local="true" idType="IRDI">0173-1#02-ABH995#001</aas:key>
+                          </aas:keys>
+                        </aas:semanticId>
+                        <aas:qualifier>
+                          <aas:qualifier>
+                            <aas:semanticId>
+                              <aas:keys>
+                                <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/SubmodelTemplates/Cardinality/1/0</aas:key>
+                              </aas:keys>
+                            </aas:semanticId>
+                            <aas:type>Cardinality</aas:type>
+                            <aas:valueType />
+                            <aas:value>ZeroToOne</aas:value>
+                          </aas:qualifier>
+                          <aas:qualifier>
+                            <aas:semanticId>
+                              <aas:keys>
+                                <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/SubmodelTemplates/ExampleValue/1/0</aas:key>
+                              </aas:keys>
+                            </aas:semanticId>
+                            <aas:type>ExampleValue</aas:type>
+                            <aas:valueType />
+                            <aas:value>true</aas:value>
+                          </aas:qualifier>
+                        </aas:qualifier>
+                        <aas:valueType>boolean</aas:valueType>
+                        <aas:value />
+                      </aas:property>
+                    </aas:submodelElement>
+                  </aas:value>
+                </aas:submodelElementCollection>
+              </aas:submodelElement>
+              <aas:submodelElement>
+                <aas:submodelElementCollection>
+                  <aas:idShort>DocumentClassification</aas:idShort>
+                  <aas:category>PARAMETER</aas:category>
+                  <aas:description>
+                    <aas:langString lang="en">Set of information for describing the classification of the Document according to ClassificationSystems. Constraint: at least one classification according to VDI 2770 shall be provided.</aas:langString>
+                  </aas:description>
+                  <aas:kind>Template</aas:kind>
+                  <aas:semanticId>
+                    <aas:keys>
+                      <aas:key type="ConceptDescription" local="true" idType="IRDI">0173-1#02-ABI502#001/0173-1#01-AHF581#001*01</aas:key>
+                    </aas:keys>
+                  </aas:semanticId>
+                  <aas:qualifier>
+                    <aas:qualifier>
+                      <aas:semanticId>
+                        <aas:keys>
+                          <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/SubmodelTemplates/Cardinality/1/0</aas:key>
+                        </aas:keys>
+                      </aas:semanticId>
+                      <aas:type>Cardinality</aas:type>
+                      <aas:valueType />
+                      <aas:value>OneToMany</aas:value>
+                    </aas:qualifier>
+                  </aas:qualifier>
+                  <aas:ordered>false</aas:ordered>
+                  <aas:allowDuplicates>false</aas:allowDuplicates>
+                  <aas:value>
+                    <aas:submodelElement>
+                      <aas:property>
+                        <aas:idShort>ClassId</aas:idShort>
+                        <aas:category>PARAMETER</aas:category>
+                        <aas:description>
+                          <aas:langString lang="en">Unique ID of the document class within a ClassficationSystem. Constraint: If ClassificationSystem is set to “VDI2770:2018”, the given IDs of VDI2770:2018 shall be used</aas:langString>
+                        </aas:description>
+                        <aas:kind>Template</aas:kind>
+                        <aas:semanticId>
+                          <aas:keys>
+                            <aas:key type="ConceptDescription" local="true" idType="IRDI">0173-1#02-ABH996#001</aas:key>
+                          </aas:keys>
+                        </aas:semanticId>
+                        <aas:qualifier>
+                          <aas:qualifier>
+                            <aas:semanticId>
+                              <aas:keys>
+                                <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/SubmodelTemplates/Cardinality/1/0</aas:key>
+                              </aas:keys>
+                            </aas:semanticId>
+                            <aas:type>Cardinality</aas:type>
+                            <aas:valueType />
+                            <aas:value>One</aas:value>
+                          </aas:qualifier>
+                          <aas:qualifier>
+                            <aas:semanticId>
+                              <aas:keys>
+                                <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/SubmodelTemplates/ExampleValue/1/0</aas:key>
+                              </aas:keys>
+                            </aas:semanticId>
+                            <aas:type>ExampleValue</aas:type>
+                            <aas:valueType />
+                            <aas:value>03-02</aas:value>
+                          </aas:qualifier>
+                        </aas:qualifier>
+                        <aas:valueType>string</aas:valueType>
+                        <aas:value />
+                      </aas:property>
+                    </aas:submodelElement>
+                    <aas:submodelElement>
+                      <aas:multiLanguageProperty>
+                        <aas:idShort>ClassName</aas:idShort>
+                        <aas:category>PARAMETER</aas:category>
+                        <aas:description>
+                          <aas:langString lang="en">List of language-dependent names of the selected ClassID. Constraint: If ClassificationSystem is set to “VDI2770:2018” then the given names of VDI2770:2018 need be used. Constraint: languages shall match at least the language specifications of the included DocumentVersions (below).</aas:langString>
+                        </aas:description>
+                        <aas:kind>Template</aas:kind>
+                        <aas:semanticId>
+                          <aas:keys>
+                            <aas:key type="ConceptDescription" local="true" idType="IRDI">0173-1#02-AAO102#003</aas:key>
+                          </aas:keys>
+                        </aas:semanticId>
+                        <aas:qualifier>
+                          <aas:qualifier>
+                            <aas:semanticId>
+                              <aas:keys>
+                                <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/SubmodelTemplates/Cardinality/1/0</aas:key>
+                              </aas:keys>
+                            </aas:semanticId>
+                            <aas:type>Cardinality</aas:type>
+                            <aas:valueType />
+                            <aas:value>One</aas:value>
+                          </aas:qualifier>
+                          <aas:qualifier>
+                            <aas:semanticId>
+                              <aas:keys>
+                                <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/SubmodelTemplates/ExampleValue/1/0</aas:key>
+                              </aas:keys>
+                            </aas:semanticId>
+                            <aas:type>ExampleValue</aas:type>
+                            <aas:valueType />
+                            <aas:value>Operation@en</aas:value>
+                          </aas:qualifier>
+                        </aas:qualifier>
+                        <aas:value />
+                      </aas:multiLanguageProperty>
+                    </aas:submodelElement>
+                    <aas:submodelElement>
+                      <aas:property>
+                        <aas:idShort>ClassificationSystem</aas:idShort>
+                        <aas:category>PARAMETER</aas:category>
+                        <aas:description>
+                          <aas:langString lang="en">Identification of the classification system. For classifications according VDI 2270 always set to "VDI2770:2018". Further classification systems are commonly used, such as "IEC61355-1:2008".</aas:langString>
+                        </aas:description>
+                        <aas:kind>Template</aas:kind>
+                        <aas:semanticId>
+                          <aas:keys>
+                            <aas:key type="ConceptDescription" local="true" idType="IRDI">0173-1#02-ABH997#001</aas:key>
+                          </aas:keys>
+                        </aas:semanticId>
+                        <aas:qualifier>
+                          <aas:qualifier>
+                            <aas:semanticId>
+                              <aas:keys>
+                                <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/SubmodelTemplates/Cardinality/1/0</aas:key>
+                              </aas:keys>
+                            </aas:semanticId>
+                            <aas:type>Cardinality</aas:type>
+                            <aas:valueType />
+                            <aas:value>One</aas:value>
+                          </aas:qualifier>
+                          <aas:qualifier>
+                            <aas:semanticId>
+                              <aas:keys>
+                                <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/SubmodelTemplates/ExampleValue/1/0</aas:key>
+                              </aas:keys>
+                            </aas:semanticId>
+                            <aas:type>ExampleValue</aas:type>
+                            <aas:valueType />
+                            <aas:value>VDI2770:2018</aas:value>
+                          </aas:qualifier>
+                        </aas:qualifier>
+                        <aas:valueType>string</aas:valueType>
+                        <aas:value />
+                      </aas:property>
+                    </aas:submodelElement>
+                  </aas:value>
+                </aas:submodelElementCollection>
+              </aas:submodelElement>
+              <aas:submodelElement>
+                <aas:submodelElementCollection>
+                  <aas:idShort>DocumentVersion</aas:idShort>
+                  <aas:category>PARAMETER</aas:category>
+                  <aas:description>
+                    <aas:langString lang="en">Information elements of individual VDI 2770 DocumentVersion entities. Note: at the time of handover, this collection shall include at least one DocumentVersion.</aas:langString>
+                  </aas:description>
+                  <aas:kind>Template</aas:kind>
+                  <aas:semanticId>
+                    <aas:keys>
+                      <aas:key type="ConceptDescription" local="true" idType="IRDI">0173-1#02-ABI503#001/0173-1#01-AHF582#001*01</aas:key>
+                    </aas:keys>
+                  </aas:semanticId>
+                  <aas:qualifier>
+                    <aas:qualifier>
+                      <aas:semanticId>
+                        <aas:keys>
+                          <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/SubmodelTemplates/Cardinality/1/0</aas:key>
+                        </aas:keys>
+                      </aas:semanticId>
+                      <aas:type>Cardinality</aas:type>
+                      <aas:valueType />
+                      <aas:value>ZeroToMany</aas:value>
+                    </aas:qualifier>
+                  </aas:qualifier>
+                  <aas:ordered>false</aas:ordered>
+                  <aas:allowDuplicates>false</aas:allowDuplicates>
+                  <aas:value>
+                    <aas:submodelElement>
+                      <aas:property>
+                        <aas:idShort>Language</aas:idShort>
+                        <aas:category>PARAMETER</aas:category>
+                        <aas:description>
+                          <aas:langString lang="en">This property contains a list of languages used within the DocumentVersion. Each property codes one language identification according to ISO 639-1 or ISO 639-2 used in the Document.</aas:langString>
+                        </aas:description>
+                        <aas:kind>Template</aas:kind>
+                        <aas:semanticId>
+                          <aas:keys>
+                            <aas:key type="ConceptDescription" local="true" idType="IRDI">0173-1#02-AAN468#006</aas:key>
+                          </aas:keys>
+                        </aas:semanticId>
+                        <aas:qualifier>
+                          <aas:qualifier>
+                            <aas:semanticId>
+                              <aas:keys>
+                                <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/SubmodelTemplates/Cardinality/1/0</aas:key>
+                              </aas:keys>
+                            </aas:semanticId>
+                            <aas:type>Cardinality</aas:type>
+                            <aas:valueType />
+                            <aas:value>OneToMany</aas:value>
+                          </aas:qualifier>
+                          <aas:qualifier>
+                            <aas:semanticId>
+                              <aas:keys>
+                                <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/SubmodelTemplates/ExampleValue/1/0</aas:key>
+                              </aas:keys>
+                            </aas:semanticId>
+                            <aas:type>ExampleValue</aas:type>
+                            <aas:valueType />
+                            <aas:value>en</aas:value>
+                          </aas:qualifier>
+                          <aas:qualifier>
+                            <aas:semanticId>
+                              <aas:keys>
+                                <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/SubmodelTemplates/AllowedIdShort/1/0</aas:key>
+                              </aas:keys>
+                            </aas:semanticId>
+                            <aas:type>AllowedIdShort</aas:type>
+                            <aas:valueType />
+                            <aas:value>Language[\d{2,3}]</aas:value>
+                          </aas:qualifier>
+                        </aas:qualifier>
+                        <aas:valueType>string</aas:valueType>
+                        <aas:value />
+                      </aas:property>
+                    </aas:submodelElement>
+                    <aas:submodelElement>
+                      <aas:property>
+                        <aas:idShort>DocumentVersionId</aas:idShort>
+                        <aas:category>PARAMETER</aas:category>
+                        <aas:description>
+                          <aas:langString lang="en">Unambigous identification number of a DocumentVersion.</aas:langString>
+                        </aas:description>
+                        <aas:kind>Template</aas:kind>
+                        <aas:semanticId>
+                          <aas:keys>
+                            <aas:key type="ConceptDescription" local="true" idType="IRDI">0173-1#02-AAO100#002</aas:key>
+                          </aas:keys>
+                        </aas:semanticId>
+                        <aas:qualifier>
+                          <aas:qualifier>
+                            <aas:semanticId>
+                              <aas:keys>
+                                <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/SubmodelTemplates/Cardinality/1/0</aas:key>
+                              </aas:keys>
+                            </aas:semanticId>
+                            <aas:type>Cardinality</aas:type>
+                            <aas:valueType />
+                            <aas:value>One</aas:value>
+                          </aas:qualifier>
+                          <aas:qualifier>
+                            <aas:semanticId>
+                              <aas:keys>
+                                <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/SubmodelTemplates/ExampleValue/1/0</aas:key>
+                              </aas:keys>
+                            </aas:semanticId>
+                            <aas:type>ExampleValue</aas:type>
+                            <aas:valueType />
+                            <aas:value>V1.2</aas:value>
+                          </aas:qualifier>
+                        </aas:qualifier>
+                        <aas:valueType>string</aas:valueType>
+                        <aas:value />
+                      </aas:property>
+                    </aas:submodelElement>
+                    <aas:submodelElement>
+                      <aas:multiLanguageProperty>
+                        <aas:idShort>Title</aas:idShort>
+                        <aas:category>PARAMETER</aas:category>
+                        <aas:description>
+                          <aas:langString lang="en">List of language-dependent titles of the Document. Constraint: For each language-depended Title a Summary and at least one KeyWord shall exist for the given language.</aas:langString>
+                        </aas:description>
+                        <aas:kind>Template</aas:kind>
+                        <aas:semanticId>
+                          <aas:keys>
+                            <aas:key type="ConceptDescription" local="true" idType="IRDI">0173-1#02-AAO105#002</aas:key>
+                          </aas:keys>
+                        </aas:semanticId>
+                        <aas:qualifier>
+                          <aas:qualifier>
+                            <aas:semanticId>
+                              <aas:keys>
+                                <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/SubmodelTemplates/Cardinality/1/0</aas:key>
+                              </aas:keys>
+                            </aas:semanticId>
+                            <aas:type>Cardinality</aas:type>
+                            <aas:valueType />
+                            <aas:value>One</aas:value>
+                          </aas:qualifier>
+                          <aas:qualifier>
+                            <aas:semanticId>
+                              <aas:keys>
+                                <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/SubmodelTemplates/ExampleValue/1/0</aas:key>
+                              </aas:keys>
+                            </aas:semanticId>
+                            <aas:type>ExampleValue</aas:type>
+                            <aas:valueType />
+                            <aas:value>Examplary title@en</aas:value>
+                          </aas:qualifier>
+                        </aas:qualifier>
+                        <aas:value />
+                      </aas:multiLanguageProperty>
+                    </aas:submodelElement>
+                    <aas:submodelElement>
+                      <aas:multiLanguageProperty>
+                        <aas:idShort>SubTitle</aas:idShort>
+                        <aas:category>PARAMETER</aas:category>
+                        <aas:description>
+                          <aas:langString lang="en">List of language-dependent subtitles of the Document.</aas:langString>
+                        </aas:description>
+                        <aas:kind>Template</aas:kind>
+                        <aas:semanticId>
+                          <aas:keys>
+                            <aas:key type="ConceptDescription" local="true" idType="IRDI">0173-1#02-ABH998#001</aas:key>
+                          </aas:keys>
+                        </aas:semanticId>
+                        <aas:qualifier>
+                          <aas:qualifier>
+                            <aas:semanticId>
+                              <aas:keys>
+                                <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/SubmodelTemplates/Cardinality/1/0</aas:key>
+                              </aas:keys>
+                            </aas:semanticId>
+                            <aas:type>Cardinality</aas:type>
+                            <aas:valueType />
+                            <aas:value>ZeroToOne</aas:value>
+                          </aas:qualifier>
+                          <aas:qualifier>
+                            <aas:semanticId>
+                              <aas:keys>
+                                <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/SubmodelTemplates/ExampleValue/1/0</aas:key>
+                              </aas:keys>
+                            </aas:semanticId>
+                            <aas:type>ExampleValue</aas:type>
+                            <aas:valueType />
+                            <aas:value>Examplary subtitle@en</aas:value>
+                          </aas:qualifier>
+                        </aas:qualifier>
+                        <aas:value />
+                      </aas:multiLanguageProperty>
+                    </aas:submodelElement>
+                    <aas:submodelElement>
+                      <aas:multiLanguageProperty>
+                        <aas:idShort>Summary</aas:idShort>
+                        <aas:category>PARAMETER</aas:category>
+                        <aas:description>
+                          <aas:langString lang="en">List of language-dependent summaries of the Document. Constraint: For each language-depended Summary a Title and at least one KeyWord shall exist for the given language.</aas:langString>
+                        </aas:description>
+                        <aas:kind>Template</aas:kind>
+                        <aas:semanticId>
+                          <aas:keys>
+                            <aas:key type="ConceptDescription" local="true" idType="IRDI">0173-1#02-AAO106#002</aas:key>
+                          </aas:keys>
+                        </aas:semanticId>
+                        <aas:qualifier>
+                          <aas:qualifier>
+                            <aas:semanticId>
+                              <aas:keys>
+                                <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/SubmodelTemplates/Cardinality/1/0</aas:key>
+                              </aas:keys>
+                            </aas:semanticId>
+                            <aas:type>Cardinality</aas:type>
+                            <aas:valueType />
+                            <aas:value>One</aas:value>
+                          </aas:qualifier>
+                          <aas:qualifier>
+                            <aas:semanticId>
+                              <aas:keys>
+                                <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/SubmodelTemplates/ExampleValue/1/0</aas:key>
+                              </aas:keys>
+                            </aas:semanticId>
+                            <aas:type>ExampleValue</aas:type>
+                            <aas:valueType />
+                            <aas:value>Abstract@en</aas:value>
+                          </aas:qualifier>
+                        </aas:qualifier>
+                        <aas:value />
+                      </aas:multiLanguageProperty>
+                    </aas:submodelElement>
+                    <aas:submodelElement>
+                      <aas:multiLanguageProperty>
+                        <aas:idShort>KeyWords</aas:idShort>
+                        <aas:category>PARAMETER</aas:category>
+                        <aas:description>
+                          <aas:langString lang="en">List of language-dependent keywords of the Document. Note: Mutiple keywords are given as comma separated list for each language. Constraint: For each language-depended KeyWord a Title and Summary shall exist for the given language. Note: This can be intentionally a blank.</aas:langString>
+                        </aas:description>
+                        <aas:kind>Template</aas:kind>
+                        <aas:semanticId>
+                          <aas:keys>
+                            <aas:key type="ConceptDescription" local="true" idType="IRDI">0173-1#02-ABH999#001</aas:key>
+                          </aas:keys>
+                        </aas:semanticId>
+                        <aas:qualifier>
+                          <aas:qualifier>
+                            <aas:semanticId>
+                              <aas:keys>
+                                <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/SubmodelTemplates/Cardinality/1/0</aas:key>
+                              </aas:keys>
+                            </aas:semanticId>
+                            <aas:type>Cardinality</aas:type>
+                            <aas:valueType />
+                            <aas:value>One</aas:value>
+                          </aas:qualifier>
+                          <aas:qualifier>
+                            <aas:semanticId>
+                              <aas:keys>
+                                <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/SubmodelTemplates/ExampleValue/1/0</aas:key>
+                              </aas:keys>
+                            </aas:semanticId>
+                            <aas:type>ExampleValue</aas:type>
+                            <aas:valueType />
+                            <aas:value>Examplary keywords@en</aas:value>
+                          </aas:qualifier>
+                        </aas:qualifier>
+                        <aas:value />
+                      </aas:multiLanguageProperty>
+                    </aas:submodelElement>
+                    <aas:submodelElement>
+                      <aas:property>
+                        <aas:idShort>StatusSetDate</aas:idShort>
+                        <aas:category>PARAMETER</aas:category>
+                        <aas:description>
+                          <aas:langString lang="en">Date when the document status was set. Format is YYYY-MM-dd.</aas:langString>
+                        </aas:description>
+                        <aas:kind>Template</aas:kind>
+                        <aas:semanticId>
+                          <aas:keys>
+                            <aas:key type="ConceptDescription" local="true" idType="IRDI">0173-1#02-ABI000#001</aas:key>
+                          </aas:keys>
+                        </aas:semanticId>
+                        <aas:qualifier>
+                          <aas:qualifier>
+                            <aas:semanticId>
+                              <aas:keys>
+                                <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/SubmodelTemplates/Cardinality/1/0</aas:key>
+                              </aas:keys>
+                            </aas:semanticId>
+                            <aas:type>Cardinality</aas:type>
+                            <aas:valueType />
+                            <aas:value>One</aas:value>
+                          </aas:qualifier>
+                          <aas:qualifier>
+                            <aas:semanticId>
+                              <aas:keys>
+                                <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/SubmodelTemplates/ExampleValue/1/0</aas:key>
+                              </aas:keys>
+                            </aas:semanticId>
+                            <aas:type>ExampleValue</aas:type>
+                            <aas:valueType />
+                            <aas:value>2020-02-06</aas:value>
+                          </aas:qualifier>
+                        </aas:qualifier>
+                        <aas:valueType>date</aas:valueType>
+                        <aas:value />
+                      </aas:property>
+                    </aas:submodelElement>
+                    <aas:submodelElement>
+                      <aas:property>
+                        <aas:idShort>StatusValue</aas:idShort>
+                        <aas:category>PARAMETER</aas:category>
+                        <aas:description>
+                          <aas:langString lang="en">Each document version represents a point in time in the document life cycle. This status value refers to the milestones in the document life cycle. The following two values should be used for the application of this guideline: InReview (under review), Released (released)</aas:langString>
+                        </aas:description>
+                        <aas:kind>Template</aas:kind>
+                        <aas:semanticId>
+                          <aas:keys>
+                            <aas:key type="ConceptDescription" local="true" idType="IRDI">0173-1#02-ABI001#001</aas:key>
+                          </aas:keys>
+                        </aas:semanticId>
+                        <aas:qualifier>
+                          <aas:qualifier>
+                            <aas:semanticId>
+                              <aas:keys>
+                                <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/SubmodelTemplates/Cardinality/1/0</aas:key>
+                              </aas:keys>
+                            </aas:semanticId>
+                            <aas:type>Cardinality</aas:type>
+                            <aas:valueType />
+                            <aas:value>One</aas:value>
+                          </aas:qualifier>
+                          <aas:qualifier>
+                            <aas:semanticId>
+                              <aas:keys>
+                                <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/SubmodelTemplates/ExampleValue/1/0</aas:key>
+                              </aas:keys>
+                            </aas:semanticId>
+                            <aas:type>ExampleValue</aas:type>
+                            <aas:valueType />
+                            <aas:value>Released</aas:value>
+                          </aas:qualifier>
+                        </aas:qualifier>
+                        <aas:valueType>string</aas:valueType>
+                        <aas:value />
+                      </aas:property>
+                    </aas:submodelElement>
+                    <aas:submodelElement>
+                      <aas:property>
+                        <aas:idShort>OrganizationName</aas:idShort>
+                        <aas:category>PARAMETER</aas:category>
+                        <aas:description>
+                          <aas:langString lang="en">Organiziation short name of the author of the Document.</aas:langString>
+                        </aas:description>
+                        <aas:kind>Template</aas:kind>
+                        <aas:semanticId>
+                          <aas:keys>
+                            <aas:key type="ConceptDescription" local="true" idType="IRDI">0173-1#02-ABI002#001</aas:key>
+                          </aas:keys>
+                        </aas:semanticId>
+                        <aas:qualifier>
+                          <aas:qualifier>
+                            <aas:semanticId>
+                              <aas:keys>
+                                <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/SubmodelTemplates/Cardinality/1/0</aas:key>
+                              </aas:keys>
+                            </aas:semanticId>
+                            <aas:type>Cardinality</aas:type>
+                            <aas:valueType />
+                            <aas:value>One</aas:value>
+                          </aas:qualifier>
+                          <aas:qualifier>
+                            <aas:semanticId>
+                              <aas:keys>
+                                <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/SubmodelTemplates/ExampleValue/1/0</aas:key>
+                              </aas:keys>
+                            </aas:semanticId>
+                            <aas:type>ExampleValue</aas:type>
+                            <aas:valueType />
+                            <aas:value>Example company</aas:value>
+                          </aas:qualifier>
+                        </aas:qualifier>
+                        <aas:valueType>string</aas:valueType>
+                        <aas:value />
+                      </aas:property>
+                    </aas:submodelElement>
+                    <aas:submodelElement>
+                      <aas:property>
+                        <aas:idShort>OrganizationOfficialName</aas:idShort>
+                        <aas:category>PARAMETER</aas:category>
+                        <aas:description>
+                          <aas:langString lang="en">Official name of the organization of author of the Document.</aas:langString>
+                        </aas:description>
+                        <aas:kind>Template</aas:kind>
+                        <aas:semanticId>
+                          <aas:keys>
+                            <aas:key type="ConceptDescription" local="true" idType="IRDI">0173-1#02-ABI004#001</aas:key>
+                          </aas:keys>
+                        </aas:semanticId>
+                        <aas:qualifier>
+                          <aas:qualifier>
+                            <aas:semanticId>
+                              <aas:keys>
+                                <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/SubmodelTemplates/Cardinality/1/0</aas:key>
+                              </aas:keys>
+                            </aas:semanticId>
+                            <aas:type>Cardinality</aas:type>
+                            <aas:valueType />
+                            <aas:value>One</aas:value>
+                          </aas:qualifier>
+                          <aas:qualifier>
+                            <aas:semanticId>
+                              <aas:keys>
+                                <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/SubmodelTemplates/ExampleValue/1/0</aas:key>
+                              </aas:keys>
+                            </aas:semanticId>
+                            <aas:type>ExampleValue</aas:type>
+                            <aas:valueType />
+                            <aas:value>Example company Ltd.</aas:value>
+                          </aas:qualifier>
+                        </aas:qualifier>
+                        <aas:valueType>string</aas:valueType>
+                        <aas:value />
+                      </aas:property>
+                    </aas:submodelElement>
+                    <aas:submodelElement>
+                      <aas:referenceElement>
+                        <aas:idShort>RefersTo</aas:idShort>
+                        <aas:category>PARAMETER</aas:category>
+                        <aas:description>
+                          <aas:langString lang="en">Forms a generic RefersTo-relationship to another Document or DocumentVersion. They have a loose relationship. Constraint: reference targets a SMC "Document" or a “DocumentVersion”.</aas:langString>
+                        </aas:description>
+                        <aas:kind>Template</aas:kind>
+                        <aas:semanticId>
+                          <aas:keys>
+                            <aas:key type="ConceptDescription" local="true" idType="IRDI">0173-1#02-ABI006#001</aas:key>
+                          </aas:keys>
+                        </aas:semanticId>
+                        <aas:qualifier>
+                          <aas:qualifier>
+                            <aas:semanticId>
+                              <aas:keys>
+                                <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/SubmodelTemplates/Cardinality/1/0</aas:key>
+                              </aas:keys>
+                            </aas:semanticId>
+                            <aas:type>Cardinality</aas:type>
+                            <aas:valueType />
+                            <aas:value>ZeroToMany</aas:value>
+                          </aas:qualifier>
+                          <aas:qualifier>
+                            <aas:semanticId>
+                              <aas:keys>
+                                <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/SubmodelTemplates/AllowedIdShort/1/0</aas:key>
+                              </aas:keys>
+                            </aas:semanticId>
+                            <aas:type>AllowedIdShort</aas:type>
+                            <aas:valueType />
+                            <aas:value>RefersTo[\d{2,3}]</aas:value>
+                          </aas:qualifier>
+                        </aas:qualifier>
+                        <aas:value>
+                          <aas:keys />
+                        </aas:value>
+                      </aas:referenceElement>
+                    </aas:submodelElement>
+                    <aas:submodelElement>
+                      <aas:referenceElement>
+                        <aas:idShort>BasedOn</aas:idShort>
+                        <aas:category>PARAMETER</aas:category>
+                        <aas:description>
+                          <aas:langString lang="en">Forms a BasedOn-relationship to another Document or DocumentVersion. Typically states, that the content of the document bases on another document (e.g. specification requirements). Both have a strong relationship. Constraint: reference targets a SMC "Document" or a “DocumentVersion”.</aas:langString>
+                        </aas:description>
+                        <aas:kind>Template</aas:kind>
+                        <aas:semanticId>
+                          <aas:keys>
+                            <aas:key type="ConceptDescription" local="true" idType="IRDI">0173-1#02-ABI007#001</aas:key>
+                          </aas:keys>
+                        </aas:semanticId>
+                        <aas:qualifier>
+                          <aas:qualifier>
+                            <aas:semanticId>
+                              <aas:keys>
+                                <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/SubmodelTemplates/Cardinality/1/0</aas:key>
+                              </aas:keys>
+                            </aas:semanticId>
+                            <aas:type>Cardinality</aas:type>
+                            <aas:valueType />
+                            <aas:value>ZeroToMany</aas:value>
+                          </aas:qualifier>
+                          <aas:qualifier>
+                            <aas:semanticId>
+                              <aas:keys>
+                                <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/SubmodelTemplates/AllowedIdShort/1/0</aas:key>
+                              </aas:keys>
+                            </aas:semanticId>
+                            <aas:type>AllowedIdShort</aas:type>
+                            <aas:valueType />
+                            <aas:value>BasedOn[\d{2,3}]</aas:value>
+                          </aas:qualifier>
+                        </aas:qualifier>
+                        <aas:value>
+                          <aas:keys />
+                        </aas:value>
+                      </aas:referenceElement>
+                    </aas:submodelElement>
+                    <aas:submodelElement>
+                      <aas:referenceElement>
+                        <aas:idShort>TranslationOf</aas:idShort>
+                        <aas:category>PARAMETER</aas:category>
+                        <aas:description>
+                          <aas:langString lang="en">Forms a TranslationOf-relationship to another Document or DocumentVersion. Both have a strong relationship. Constaint: The (language independent) content must be identical in both documents or document versions. Constraint: reference targets a SMC "Document" or a “DocumentVersion”.</aas:langString>
+                        </aas:description>
+                        <aas:kind>Template</aas:kind>
+                        <aas:semanticId>
+                          <aas:keys>
+                            <aas:key type="ConceptDescription" local="true" idType="IRDI">0173-1#02-ABI008#001</aas:key>
+                          </aas:keys>
+                        </aas:semanticId>
+                        <aas:qualifier>
+                          <aas:qualifier>
+                            <aas:semanticId>
+                              <aas:keys>
+                                <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/SubmodelTemplates/Cardinality/1/0</aas:key>
+                              </aas:keys>
+                            </aas:semanticId>
+                            <aas:type>Cardinality</aas:type>
+                            <aas:valueType />
+                            <aas:value>ZeroToMany</aas:value>
+                          </aas:qualifier>
+                          <aas:qualifier>
+                            <aas:semanticId>
+                              <aas:keys>
+                                <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/SubmodelTemplates/AllowedIdShort/1/0</aas:key>
+                              </aas:keys>
+                            </aas:semanticId>
+                            <aas:type>AllowedIdShort</aas:type>
+                            <aas:valueType />
+                            <aas:value>TranslationOf[\d{2,3}]</aas:value>
+                          </aas:qualifier>
+                        </aas:qualifier>
+                        <aas:value>
+                          <aas:keys />
+                        </aas:value>
+                      </aas:referenceElement>
+                    </aas:submodelElement>
+                    <aas:submodelElement>
+                      <aas:submodelElementCollection>
+                        <aas:idShort>DigitalFile</aas:idShort>
+                        <aas:description>
+                          <aas:langString lang="en">Note: each DigitalFile represents the same content or Document version, but can be provided in different technical formats (PDF, PDFA, html..) or by a link.</aas:langString>
+                        </aas:description>
+                        <aas:kind>Template</aas:kind>
+                        <aas:semanticId>
+                          <aas:keys>
+                            <aas:key type="ConceptDescription" local="true" idType="IRDI">0173-1#02-ABI504#001/0173-1#01-AHF583#001</aas:key>
+                          </aas:keys>
+                        </aas:semanticId>
+                        <aas:qualifier>
+                          <aas:qualifier>
+                            <aas:semanticId>
+                              <aas:keys>
+                                <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/SubmodelTemplates/Cardinality/1/0</aas:key>
+                              </aas:keys>
+                            </aas:semanticId>
+                            <aas:type>Cardinality</aas:type>
+                            <aas:valueType />
+                            <aas:value>OneToMany</aas:value>
+                          </aas:qualifier>
+                          <aas:qualifier>
+                            <aas:semanticId>
+                              <aas:keys>
+                                <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/SubmodelTemplates/ExampleValue/1/0</aas:key>
+                              </aas:keys>
+                            </aas:semanticId>
+                            <aas:type>ExampleValue</aas:type>
+                            <aas:valueType />
+                            <aas:value>docu_cecc_fullmanual_DE.PDF</aas:value>
+                          </aas:qualifier>
+                          <aas:qualifier>
+                            <aas:semanticId>
+                              <aas:keys>
+                                <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/SubmodelTemplates/AllowedIdShort/1/0</aas:key>
+                              </aas:keys>
+                            </aas:semanticId>
+                            <aas:type>AllowedIdShort</aas:type>
+                            <aas:valueType />
+                            <aas:value>DigitalFile[\d{2,3}]</aas:value>
+                          </aas:qualifier>
+                        </aas:qualifier>
+                        <aas:ordered>false</aas:ordered>
+                        <aas:allowDuplicates>false</aas:allowDuplicates>
+                        <aas:value>
+                          <aas:submodelElement>
+                            <aas:property>
+                              <aas:idShort>MimeType</aas:idShort>
+                              <aas:category>PARAMETER</aas:category>
+                              <aas:description>
+                                <aas:langString lang="en">The MIME-Type classifies the data of massage.</aas:langString>
+                              </aas:description>
+                              <aas:kind>Template</aas:kind>
+                              <aas:semanticId>
+                                <aas:keys>
+                                  <aas:key type="ConceptDescription" local="true" idType="IRDI">0173-1#02-AAO214#002 </aas:key>
+                                </aas:keys>
+                              </aas:semanticId>
+                              <aas:qualifier>
+                                <aas:qualifier>
+                                  <aas:semanticId>
+                                    <aas:keys>
+                                      <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/SubmodelTemplates/Cardinality/1/0</aas:key>
+                                    </aas:keys>
+                                  </aas:semanticId>
+                                  <aas:type>Cardinality</aas:type>
+                                  <aas:valueType />
+                                  <aas:value>One</aas:value>
+                                </aas:qualifier>
+                              </aas:qualifier>
+                              <aas:valueType>string</aas:valueType>
+                              <aas:value />
+                            </aas:property>
+                          </aas:submodelElement>
+                          <aas:submodelElement>
+                            <aas:property>
+                              <aas:idShort>DocumentPath</aas:idShort>
+                              <aas:category>PARAMETER</aas:category>
+                              <aas:description>
+                                <aas:langString lang="en">The document path leads to the document.</aas:langString>
+                              </aas:description>
+                              <aas:kind>Template</aas:kind>
+                              <aas:semanticId>
+                                <aas:keys>
+                                  <aas:key type="ConceptDescription" local="true" idType="IRDI">0173-1#02-ABI005#001 </aas:key>
+                                </aas:keys>
+                              </aas:semanticId>
+                              <aas:qualifier>
+                                <aas:qualifier>
+                                  <aas:semanticId>
+                                    <aas:keys>
+                                      <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/SubmodelTemplates/Cardinality/1/0</aas:key>
+                                    </aas:keys>
+                                  </aas:semanticId>
+                                  <aas:type>Cardinality</aas:type>
+                                  <aas:valueType />
+                                  <aas:value>One</aas:value>
+                                </aas:qualifier>
+                              </aas:qualifier>
+                              <aas:valueType>string</aas:valueType>
+                              <aas:value />
+                            </aas:property>
+                          </aas:submodelElement>
+                        </aas:value>
+                      </aas:submodelElementCollection>
+                    </aas:submodelElement>
+                    <aas:submodelElement>
+                      <aas:submodelElementCollection>
+                        <aas:idShort>PreviewFile</aas:idShort>
+                        <aas:category>PARAMETER</aas:category>
+                        <aas:description>
+                          <aas:langString lang="en">Provides a preview image of the DocumentVersion, e.g. first page, in a commonly used image format and low resolution. Note: low resolution e.g. &lt; 512 x 512 pixels. Constraint: the MIME type needs to match the file type. Allowed file types are JPG, PNG, BMP.</aas:langString>
+                        </aas:description>
+                        <aas:kind>Template</aas:kind>
+                        <aas:semanticId>
+                          <aas:keys>
+                            <aas:key type="ConceptDescription" local="true" idType="IRDI">0173-1#02-ABI505#001 /0173-1#01-AHF584#001</aas:key>
+                          </aas:keys>
+                        </aas:semanticId>
+                        <aas:qualifier>
+                          <aas:qualifier>
+                            <aas:semanticId>
+                              <aas:keys>
+                                <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/SubmodelTemplates/Cardinality/1/0</aas:key>
+                              </aas:keys>
+                            </aas:semanticId>
+                            <aas:type>Cardinality</aas:type>
+                            <aas:valueType />
+                            <aas:value>ZeroToMany</aas:value>
+                          </aas:qualifier>
+                          <aas:qualifier>
+                            <aas:semanticId>
+                              <aas:keys>
+                                <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/SubmodelTemplates/ExampleValue/1/0</aas:key>
+                              </aas:keys>
+                            </aas:semanticId>
+                            <aas:type>ExampleValue</aas:type>
+                            <aas:valueType />
+                            <aas:value>docu_cecc_fullmanual_DE.jpg</aas:value>
+                          </aas:qualifier>
+                          <aas:qualifier>
+                            <aas:semanticId>
+                              <aas:keys>
+                                <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/SubmodelTemplates/AllowedIdShort/1/0</aas:key>
+                              </aas:keys>
+                            </aas:semanticId>
+                            <aas:type>AllowedIdShort</aas:type>
+                            <aas:valueType />
+                            <aas:value>PreviewFile[\d{2,3}]</aas:value>
+                          </aas:qualifier>
+                        </aas:qualifier>
+                        <aas:ordered>false</aas:ordered>
+                        <aas:allowDuplicates>false</aas:allowDuplicates>
+                        <aas:value>
+                          <aas:submodelElement>
+                            <aas:property>
+                              <aas:idShort>MimeType</aas:idShort>
+                              <aas:category>PARAMETER</aas:category>
+                              <aas:description>
+                                <aas:langString lang="en">The MIME-Type classifies the data of massage.</aas:langString>
+                              </aas:description>
+                              <aas:kind>Template</aas:kind>
+                              <aas:semanticId>
+                                <aas:keys>
+                                  <aas:key type="ConceptDescription" local="true" idType="IRDI">0173-1#02-AAO214#002 </aas:key>
+                                </aas:keys>
+                              </aas:semanticId>
+                              <aas:qualifier>
+                                <aas:qualifier>
+                                  <aas:semanticId>
+                                    <aas:keys>
+                                      <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/SubmodelTemplates/Cardinality/1/0</aas:key>
+                                    </aas:keys>
+                                  </aas:semanticId>
+                                  <aas:type>Cardinality</aas:type>
+                                  <aas:valueType />
+                                  <aas:value>One</aas:value>
+                                </aas:qualifier>
+                              </aas:qualifier>
+                              <aas:valueType>string</aas:valueType>
+                              <aas:value />
+                            </aas:property>
+                          </aas:submodelElement>
+                          <aas:submodelElement>
+                            <aas:property>
+                              <aas:idShort>DocumentPath</aas:idShort>
+                              <aas:category>PARAMETER</aas:category>
+                              <aas:description>
+                                <aas:langString lang="en">The document path leads to the document.</aas:langString>
+                              </aas:description>
+                              <aas:kind>Template</aas:kind>
+                              <aas:semanticId>
+                                <aas:keys>
+                                  <aas:key type="ConceptDescription" local="true" idType="IRDI">0173-1#02-ABI005#001 </aas:key>
+                                </aas:keys>
+                              </aas:semanticId>
+                              <aas:qualifier>
+                                <aas:qualifier>
+                                  <aas:semanticId>
+                                    <aas:keys>
+                                      <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/SubmodelTemplates/Cardinality/1/0</aas:key>
+                                    </aas:keys>
+                                  </aas:semanticId>
+                                  <aas:type>Cardinality</aas:type>
+                                  <aas:valueType />
+                                  <aas:value>One</aas:value>
+                                </aas:qualifier>
+                              </aas:qualifier>
+                              <aas:valueType>string</aas:valueType>
+                              <aas:value />
+                            </aas:property>
+                          </aas:submodelElement>
+                        </aas:value>
+                      </aas:submodelElementCollection>
+                    </aas:submodelElement>
+                  </aas:value>
+                </aas:submodelElementCollection>
+              </aas:submodelElement>
+              <aas:submodelElement>
+                <aas:referenceElement>
+                  <aas:idShort>DocumentedEntity</aas:idShort>
+                  <aas:category>PARAMETER</aas:category>
+                  <aas:description>
+                    <aas:langString lang="en">Identifies entities, which are subject to the Document. Note: can be omitted, if the subject of the Document is the overall Asset of the Asset Administration Shell. Note: if no Entity according clause 2.2 is referenced, this ReferenceElement is not required at all. Note: This mechanism substitutes the ObjectId-provision of the VDI2770 (see section 2.2 and appendix B).</aas:langString>
+                  </aas:description>
+                  <aas:kind>Template</aas:kind>
+                  <aas:semanticId>
+                    <aas:keys>
+                      <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/vdi/2770/1/0/Document/DocumentedEntity</aas:key>
+                    </aas:keys>
+                  </aas:semanticId>
+                  <aas:qualifier>
+                    <aas:qualifier>
+                      <aas:semanticId>
+                        <aas:keys>
+                          <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/SubmodelTemplates/Cardinality/1/0</aas:key>
+                        </aas:keys>
+                      </aas:semanticId>
+                      <aas:type>Cardinality</aas:type>
+                      <aas:valueType />
+                      <aas:value>ZeroToMany</aas:value>
+                    </aas:qualifier>
+                  </aas:qualifier>
+                  <aas:value>
+                    <aas:keys />
+                  </aas:value>
+                </aas:referenceElement>
+              </aas:submodelElement>
+            </aas:value>
+          </aas:submodelElementCollection>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:entity>
+            <aas:idShort>Entity</aas:idShort>
+            <aas:category>PARAMETER</aas:category>
+            <aas:description>
+              <aas:langString lang="en">States, that the described Entity is an important entity for documentation of the superordinate Asset of the Asset Administration Shell. Note: typically, such Entities are well-identified sub-parts of the Asset, such as supplier parts delivered to the manufacturer of the Asset.</aas:langString>
+            </aas:description>
+            <aas:kind>Template</aas:kind>
+            <aas:semanticId>
+              <aas:keys>
+                <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/vdi/2770/1/0/EntityForDocumentation</aas:key>
+              </aas:keys>
+            </aas:semanticId>
+            <aas:qualifier>
+              <aas:qualifier>
+                <aas:semanticId>
+                  <aas:keys>
+                    <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/SubmodelTemplates/Cardinality/1/0</aas:key>
+                  </aas:keys>
+                </aas:semanticId>
+                <aas:type>Cardinality</aas:type>
+                <aas:valueType />
+                <aas:value>ZeroToMany</aas:value>
+              </aas:qualifier>
+            </aas:qualifier>
+            <aas:entityType>CoManagedEntity</aas:entityType>
+            <aas:assetRef>
+              <aas:keys />
+            </aas:assetRef>
+            <aas:statements />
+          </aas:entity>
+        </aas:submodelElement>
+      </aas:submodelElements>
+    </aas:submodel>
+  </aas:submodels>
+  <aas:conceptDescriptions>
+    <aas:conceptDescription>
+      <aas:idShort>DocumentDomainId</aas:idShort>
+      <aas:category>PARAMETER</aas:category>
+      <aas:identification idType="IRDI">0173-1#02-ABH994#001</aas:identification>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">DocumentDomainId</IEC:langString>
+              <IEC:langString lang="de">Document Domain Identifikator</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="en">DocumentDomainId</IEC:langString>
+              <IEC:langString lang="de">Document Domain Identifikator</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType>STRING</IEC:dataType>
+            <IEC:definition>
+              <IEC:langString lang="en">Identification of the domain in which the given DocumentId is unique. The domain ID can e.g., be the name or acronym of the providing organisation</IEC:langString>
+              <IEC:langString lang="de">Identifikation der Domäne, in der die angegebene DocumentId eindeutig ist. Die Domain-ID kann z. B. der Name oder das Akronym der bereitstellenden Organisation sein	</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+      <aas:isCaseOf>
+        <aas:keys>
+          <aas:key type="ConceptDescription" local="true" idType="IRDI">0173-1#02-ABH994#001</aas:key>
+        </aas:keys>
+      </aas:isCaseOf>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>ValueId</aas:idShort>
+      <aas:category>PARAMETER</aas:category>
+      <aas:identification idType="IRDI">0173-1#02-AAO099#002</aas:identification>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">document number</IEC:langString>
+              <IEC:langString lang="de">Dokumentennummer</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="en">document number</IEC:langString>
+              <IEC:langString lang="de">Dokumentennummer</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType>STRING_TRANSLATABLE</IEC:dataType>
+            <IEC:definition>
+              <IEC:langString lang="en">alphanumeric character sequence uniquely identifying a document</IEC:langString>
+              <IEC:langString lang="de">alphanumerische Zeichenfolge, die ein Dokument eindeutig identifiziert	</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+      <aas:isCaseOf>
+        <aas:keys>
+          <aas:key type="ConceptDescription" local="true" idType="IRDI">0173-1#02-AAO099#002</aas:key>
+        </aas:keys>
+      </aas:isCaseOf>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>IsPrimary</aas:idShort>
+      <aas:category>PARAMETER</aas:category>
+      <aas:identification idType="IRDI">0173-1#02-ABH995#001</aas:identification>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">Document is primary</IEC:langString>
+              <IEC:langString lang="de">Dokument ist primär</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="en">Document is primary</IEC:langString>
+              <IEC:langString lang="de">Dokument ist primär</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType>BOOLEAN</IEC:dataType>
+            <IEC:definition>
+              <IEC:langString lang="en">Flag indicating that a DocumentId within a collection of at least two DocumentId`s is the ‘primary’ identifier for the document. This is the preferred ID of the document (commonly from the point of view of the owner of the asset)</IEC:langString>
+              <IEC:langString lang="de">Flag, das angibt, dass eine DocumentId innerhalb einer Sammlung von mindestens zwei DocumentIds die „primäre“ Kennung für das Dokument ist. Dies ist die bevorzugte ID des Dokuments (üblicherweise aus Sicht des Eigentümers des Assets)	</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+      <aas:isCaseOf>
+        <aas:keys>
+          <aas:key type="ConceptDescription" local="true" idType="IRDI">0173-1#02-ABH995#001</aas:key>
+        </aas:keys>
+      </aas:isCaseOf>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>ClassId</aas:idShort>
+      <aas:category>CONSTANT</aas:category>
+      <aas:identification idType="IRDI">0173-1#02-ABH996#001</aas:identification>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">Class identifyer</IEC:langString>
+              <IEC:langString lang="de">Klassenidentifikator</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="en">Class identifyer</IEC:langString>
+              <IEC:langString lang="de">Klassenidentifikator</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:valueFormat />
+            <IEC:dataType>STRING</IEC:dataType>
+            <IEC:definition>
+              <IEC:langString lang="en">Unique ID of the document class within a ClassficationSystem</IEC:langString>
+              <IEC:langString lang="de">Eindeutige ID der Dokumentenklasse innerhalb eines ClassificationSystems</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+      <aas:isCaseOf>
+        <aas:keys>
+          <aas:key type="ConceptDescription" local="true" idType="IRDI">0173-1#02-ABH996#001</aas:key>
+        </aas:keys>
+      </aas:isCaseOf>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>ClassName</aas:idShort>
+      <aas:category>PARAMETER</aas:category>
+      <aas:identification idType="IRDI">0173-1#02-AAO102#003</aas:identification>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">type of document</IEC:langString>
+              <IEC:langString lang="de">Dokumententyp</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="en">type of document</IEC:langString>
+              <IEC:langString lang="de">Dokumententyp</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType>STRING</IEC:dataType>
+            <IEC:definition>
+              <IEC:langString lang="en">classification of a document according to its purpose or the information it contains</IEC:langString>
+              <IEC:langString lang="de">Charakterisierung eines Dokuments bezüglich des Zwecks oder der Information, die es beinhaltet</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+      <aas:isCaseOf>
+        <aas:keys>
+          <aas:key type="ConceptDescription" local="true" idType="IRDI">0173-1#02-AAO102#003</aas:key>
+        </aas:keys>
+      </aas:isCaseOf>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>ClassificationSystem</aas:idShort>
+      <aas:category>PARAMETER</aas:category>
+      <aas:identification idType="IRDI">0173-1#02-ABH997#001</aas:identification>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">Classification system</IEC:langString>
+              <IEC:langString lang="de">Klassifizierungssystem</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="en">Classification system</IEC:langString>
+              <IEC:langString lang="de">Klassifizierungssystem</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType>STRING</IEC:dataType>
+            <IEC:definition>
+              <IEC:langString lang="en">Identification of the classification system</IEC:langString>
+              <IEC:langString lang="de">Identifikation des Klassifikationssystems	</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+      <aas:isCaseOf>
+        <aas:keys>
+          <aas:key type="ConceptDescription" local="true" idType="IRDI">0173-1#02-ABH997#001</aas:key>
+        </aas:keys>
+      </aas:isCaseOf>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>Language</aas:idShort>
+      <aas:category>PARAMETER</aas:category>
+      <aas:identification idType="IRDI">0173-1#02-AAN468#006</aas:identification>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">language of document</IEC:langString>
+              <IEC:langString lang="de">Sprache des Dokuments</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="en">language of document</IEC:langString>
+              <IEC:langString lang="de">Sprache des Dokuments</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType>STRING</IEC:dataType>
+            <IEC:definition>
+              <IEC:langString lang="en">language style of the document</IEC:langString>
+              <IEC:langString lang="de">Sprachstil des Dokuments	</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+      <aas:isCaseOf>
+        <aas:keys>
+          <aas:key type="ConceptDescription" local="true" idType="IRDI">0173-1#02-AAN468#006</aas:key>
+        </aas:keys>
+      </aas:isCaseOf>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>DocumentVersionId</aas:idShort>
+      <aas:identification idType="IRDI">0173-1#02-AAO100#002</aas:identification>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">Document version</IEC:langString>
+              <IEC:langString lang="de">Dokumentenversion</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="en">Document version</IEC:langString>
+              <IEC:langString lang="de">Dokumentenversion</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType>STRING_TRANSLATABLE</IEC:dataType>
+            <IEC:definition>
+              <IEC:langString lang="en">Information elements of individual VDI 2770 DocumentVersion entities</IEC:langString>
+              <IEC:langString lang="de">Informationselemente einzelner VDI 2770 DocumentVersion Entitäten	</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+      <aas:isCaseOf>
+        <aas:keys>
+          <aas:key type="ConceptDescription" local="true" idType="IRDI">0173-1#02-AAO100#002</aas:key>
+        </aas:keys>
+      </aas:isCaseOf>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>Title</aas:idShort>
+      <aas:category>PARAMETER</aas:category>
+      <aas:identification idType="IRDI">0173-1#02-AAO105#002</aas:identification>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">document name</IEC:langString>
+              <IEC:langString lang="de">Dokumentenname</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="en">document name</IEC:langString>
+              <IEC:langString lang="de">Dokumentenname</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType>STRING_TRANSLATABLE</IEC:dataType>
+            <IEC:definition>
+              <IEC:langString lang="en">name of the document</IEC:langString>
+              <IEC:langString lang="de">Name des Dokuments	</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+      <aas:isCaseOf>
+        <aas:keys>
+          <aas:key type="ConceptDescription" local="true" idType="IRDI">0173-1#02-AAO105#002</aas:key>
+        </aas:keys>
+      </aas:isCaseOf>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>SubTitle</aas:idShort>
+      <aas:category>PARAMETER</aas:category>
+      <aas:identification idType="IRDI">0173-1#02-ABH998#001</aas:identification>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">Subtitle</IEC:langString>
+              <IEC:langString lang="de">Untertitel</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="en">Subtitle</IEC:langString>
+              <IEC:langString lang="de">Untertitel</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType>STRING_TRANSLATABLE</IEC:dataType>
+            <IEC:definition>
+              <IEC:langString lang="en">List of language-dependent subtitles of the Document</IEC:langString>
+              <IEC:langString lang="de">Liste der sprachabhängigen Untertitel des Dokuments	</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+      <aas:isCaseOf>
+        <aas:keys>
+          <aas:key type="ConceptDescription" local="true" idType="IRDI">0173-1#02-ABH998#001</aas:key>
+        </aas:keys>
+      </aas:isCaseOf>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>Summary</aas:idShort>
+      <aas:category>PARAMETER</aas:category>
+      <aas:identification idType="IRDI">0173-1#02-AAO106#002</aas:identification>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">document description</IEC:langString>
+              <IEC:langString lang="de">Dokumentenbeschreibung</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="en">document description</IEC:langString>
+              <IEC:langString lang="de">Dokumentenbeschreibung</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType>STRING_TRANSLATABLE</IEC:dataType>
+            <IEC:definition>
+              <IEC:langString lang="en">plain text characterizing the content of the document</IEC:langString>
+              <IEC:langString lang="de">Klartext, der den Inhalt des Dokuments kennzeichnet	</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+      <aas:isCaseOf>
+        <aas:keys>
+          <aas:key type="ConceptDescription" local="true" idType="IRDI">0173-1#02-AAO106#002</aas:key>
+        </aas:keys>
+      </aas:isCaseOf>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>KeyWords</aas:idShort>
+      <aas:category>PARAMETER</aas:category>
+      <aas:identification idType="IRDI">0173-1#02-ABH999#001</aas:identification>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">Keyword</IEC:langString>
+              <IEC:langString lang="de">Stichwort</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="en">Keyword</IEC:langString>
+              <IEC:langString lang="de">Stichwort</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType>STRING_TRANSLATABLE</IEC:dataType>
+            <IEC:definition>
+              <IEC:langString lang="en">List of language-dependent keywords of the document</IEC:langString>
+              <IEC:langString lang="de">Liste der sprachabhängigen Schlüsselwörter des Dokuments	</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+      <aas:isCaseOf>
+        <aas:keys>
+          <aas:key type="ConceptDescription" local="true" idType="IRDI">0173-1#02-ABH999#001</aas:key>
+        </aas:keys>
+      </aas:isCaseOf>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>StatusSetDate</aas:idShort>
+      <aas:category>PARAMETER</aas:category>
+      <aas:identification idType="IRDI">0173-1#02-ABI000#001</aas:identification>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">Document status set date</IEC:langString>
+              <IEC:langString lang="de">Datum der Einstellung des Dokumentenstatus</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="en">Document status set date</IEC:langString>
+              <IEC:langString lang="de">Datum der Einstellung des Dokumentenstatus</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType>DATE</IEC:dataType>
+            <IEC:definition>
+              <IEC:langString lang="en">Date when the document status was set</IEC:langString>
+              <IEC:langString lang="de">Datum, an dem der Dokumentenstatus gesetzt wurde	</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+      <aas:isCaseOf>
+        <aas:keys>
+          <aas:key type="ConceptDescription" local="true" idType="IRDI">0173-1#02-ABI000#001</aas:key>
+        </aas:keys>
+      </aas:isCaseOf>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>StatusValue</aas:idShort>
+      <aas:category>PARAMETER</aas:category>
+      <aas:identification idType="IRDI">0173-1#02-ABI001#001</aas:identification>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">Document status</IEC:langString>
+              <IEC:langString lang="de">Dokumentstatus</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="en">Document status</IEC:langString>
+              <IEC:langString lang="de">Dokumentstatus</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType>STRING</IEC:dataType>
+            <IEC:definition>
+              <IEC:langString lang="en">Each document version represents a point in time in the document life cycle. This status value refers to the milestones in the document life cycle. The following two values should be used for the application of this guideline: InReview (under review), Released (released)</IEC:langString>
+              <IEC:langString lang="de">Jede Dokumentversion repräsentiert einen Zeitpunkt im Dokumentlebenszyklus. Dieser Statuswert bezieht sich auf die Meilensteine ​​im Dokumentenlebenszyklus. Für die Anwendung dieser Richtlinie sollten die folgenden zwei Werte verwendet werden: InReview (in Überprüfung), Released (freigegeben)	</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+      <aas:isCaseOf>
+        <aas:keys>
+          <aas:key type="ConceptDescription" local="true" idType="IRDI">0173-1#02-ABI001#001</aas:key>
+        </aas:keys>
+      </aas:isCaseOf>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>OrganizationName</aas:idShort>
+      <aas:category>PARAMETER</aas:category>
+      <aas:identification idType="IRDI">0173-1#02-ABI002#001</aas:identification>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">Organization short name</IEC:langString>
+              <IEC:langString lang="de">Kurzname der Organisation</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="en">Organization short name</IEC:langString>
+              <IEC:langString lang="de">Kurzname der Organisation</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType>STRING</IEC:dataType>
+            <IEC:definition>
+              <IEC:langString lang="en">Organiziation name of the author of the document</IEC:langString>
+              <IEC:langString lang="de">Name der Organisation des Autors des Dokuments	</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+      <aas:isCaseOf>
+        <aas:keys>
+          <aas:key type="ConceptDescription" local="true" idType="IRDI">0173-1#02-ABI002#001</aas:key>
+        </aas:keys>
+      </aas:isCaseOf>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>OrganizationOfficialName</aas:idShort>
+      <aas:category>PARAMETER</aas:category>
+      <aas:identification idType="IRDI">0173-1#02-ABI004#001</aas:identification>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">Organization official name</IEC:langString>
+              <IEC:langString lang="de">Offizieller Name der Organisation</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="en">Organization official name</IEC:langString>
+              <IEC:langString lang="de">Offizieller Name der Organisation</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType>STRING</IEC:dataType>
+            <IEC:definition>
+              <IEC:langString lang="en">Official name of the organization of author of the document</IEC:langString>
+              <IEC:langString lang="de">Offizieller Name der Organisation des Autors des Dokuments	</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+      <aas:isCaseOf>
+        <aas:keys>
+          <aas:key type="ConceptDescription" local="true" idType="IRDI">0173-1#02-ABI004#001</aas:key>
+        </aas:keys>
+      </aas:isCaseOf>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>RefersTo</aas:idShort>
+      <aas:category>PARAMETER</aas:category>
+      <aas:identification idType="IRDI">0173-1#02-ABI006#001</aas:identification>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">Reference to other document</IEC:langString>
+              <IEC:langString lang="de">Verweis auf ein anderes Dokument</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="en">Reference to other document</IEC:langString>
+              <IEC:langString lang="de">Verweis auf ein anderes Dokument</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType>STRING_TRANSLATABLE</IEC:dataType>
+            <IEC:definition>
+              <IEC:langString lang="en">Forms a generic RefersTo-relationship to another Document or DocumentVersion. They have a loose relationship</IEC:langString>
+              <IEC:langString lang="de">Bildet eine generische RefersTo-Beziehung zu einem anderen Dokument oder einer anderen Dokumentversion. Sie haben ein lockeres Verhältnis	</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+      <aas:isCaseOf>
+        <aas:keys>
+          <aas:key type="ConceptDescription" local="true" idType="IRDI">0173-1#02-ABI006#001</aas:key>
+        </aas:keys>
+      </aas:isCaseOf>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>BasedOn</aas:idShort>
+      <aas:category>PARAMETER</aas:category>
+      <aas:identification idType="IRDI">0173-1#02-ABI007#001</aas:identification>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">Based on other document</IEC:langString>
+              <IEC:langString lang="de">Basierend auf einem anderen Dokument</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="en">Based on other document</IEC:langString>
+              <IEC:langString lang="de">Basierend auf einem anderen Dokument</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType>STRING_TRANSLATABLE</IEC:dataType>
+            <IEC:definition>
+              <IEC:langString lang="en">Forms a BasedOn-relationship to another Document or DocumentVersion. Typically states, that the content of the document bases on another document (e.g. specification requirements). Both have a strong relationship</IEC:langString>
+              <IEC:langString lang="de">Bildet eine BasedOn-Beziehung zu einem anderen Dokument oder einer anderen Dokumentversion. Gibt typischerweise an, dass der Inhalt des Dokuments auf einem anderen Dokument basiert (z. B. Spezifikationsanforderungen). Beide haben eine starke Beziehung	</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+      <aas:isCaseOf>
+        <aas:keys>
+          <aas:key type="ConceptDescription" local="true" idType="IRDI">0173-1#02-ABI007#001</aas:key>
+        </aas:keys>
+      </aas:isCaseOf>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>TranslationOf</aas:idShort>
+      <aas:category>PARAMETER</aas:category>
+      <aas:identification idType="IRDI">0173-1#02-ABI008#001</aas:identification>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">Translation of other document</IEC:langString>
+              <IEC:langString lang="de">Übersetzung eines anderen Dokuments</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="en">Translation of other document</IEC:langString>
+              <IEC:langString lang="de">Übersetzung eines anderen Dokuments</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType>STRING_TRANSLATABLE</IEC:dataType>
+            <IEC:definition>
+              <IEC:langString lang="en">Forms a TranslationOf-relationship to another Document or DocumentVersion. Both have a strong relationship</IEC:langString>
+              <IEC:langString lang="de">Bildet eine TranslationOf-Beziehung zu einem anderen Dokument oder einer anderen Dokumentversion. Beide haben eine starke Beziehung	</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+      <aas:isCaseOf>
+        <aas:keys>
+          <aas:key type="ConceptDescription" local="true" idType="IRDI">0173-1#02-ABI008#001</aas:key>
+        </aas:keys>
+      </aas:isCaseOf>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>MimeType</aas:idShort>
+      <aas:category>PARAMETER</aas:category>
+      <aas:identification idType="IRDI">0173-1#02-AAO214#002 </aas:identification>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">Mimetype</IEC:langString>
+              <IEC:langString lang="de">Mimetyp</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="en">Mimetype</IEC:langString>
+              <IEC:langString lang="de">Mimetyp</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType>STRING</IEC:dataType>
+            <IEC:definition>
+              <IEC:langString lang="en">type of the additional document which is oriented towards the mime type used in the Internet</IEC:langString>
+              <IEC:langString lang="de">Typ des Zusatzdokuments, der sich an den im Internet verwendeten Mime-Typen orientiert	</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+      <aas:isCaseOf>
+        <aas:keys>
+          <aas:key type="ConceptDescription" local="true" idType="IRDI">0173-1#02-AAO214#002 </aas:key>
+        </aas:keys>
+      </aas:isCaseOf>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>DocumentPath</aas:idShort>
+      <aas:category>PARAMETER</aas:category>
+      <aas:identification idType="IRDI">0173-1#02-ABI005#001 </aas:identification>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">Document path</IEC:langString>
+              <IEC:langString lang="de">Dokumentenpfad</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="en">Document path</IEC:langString>
+              <IEC:langString lang="de">Dokumentenpfad</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType>URL</IEC:dataType>
+            <IEC:definition>
+              <IEC:langString lang="en">Path of the document</IEC:langString>
+              <IEC:langString lang="de">Pfad des Dokuments	</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+      <aas:isCaseOf>
+        <aas:keys>
+          <aas:key type="ConceptDescription" local="true" idType="IRDI">0173-1#02-ABI005#001 </aas:key>
+        </aas:keys>
+      </aas:isCaseOf>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>Document</aas:idShort>
+      <aas:identification idType="IRDI">0173-1#02-ABI500#001/0173-1#01-AHF579#001*01</aas:identification>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">Document (handover documentation)</IEC:langString>
+              <IEC:langString lang="de">Dokument (Übergabedokumentation)</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="en">Document (handover documentation)</IEC:langString>
+              <IEC:langString lang="de">Dokument (Übergabedokumentation)</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType>STRING</IEC:dataType>
+            <IEC:definition>
+              <IEC:langString lang="en">Each SubmodelElementCollection describes a document by standard, which is associated to the particular Asset Administration Shell</IEC:langString>
+              <IEC:langString lang="de">Jede SubmodelElementCollection beschreibt ein Dokument (siehe IEC 82045-1 und IEC 8245-2), das der jeweiligen Asset Administration Shell zugeordnet ist	</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+      <aas:isCaseOf>
+        <aas:keys>
+          <aas:key type="ConceptDescription" local="true" idType="IRDI">0173-1#02-ABI500#001/0173-1#01-AHF579#001*01</aas:key>
+        </aas:keys>
+      </aas:isCaseOf>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>DocumentId</aas:idShort>
+      <aas:category>PARAMETER</aas:category>
+      <aas:identification idType="IRDI">0173-1#02-ABI501#001/0173-1#01-AHF580#001*01</aas:identification>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">Document identifier</IEC:langString>
+              <IEC:langString lang="de">Dokumentidentifikator</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="en">Document identifier</IEC:langString>
+              <IEC:langString lang="de">Dokumentidentifikator</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType>STRING</IEC:dataType>
+            <IEC:definition>
+              <IEC:langString lang="en">Set of document identifiers for the Document. One ID in this collection should be used as a preferred ID</IEC:langString>
+              <IEC:langString lang="de">Satz von Dokument-IDs für das Dokument. Eine ID in dieser Sammlung sollte als bevorzugte ID verwendet werden	</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+      <aas:isCaseOf>
+        <aas:keys>
+          <aas:key type="ConceptDescription" local="true" idType="IRDI">0173-1#02-ABI501#001/0173-1#01-AHF580#001*01</aas:key>
+        </aas:keys>
+      </aas:isCaseOf>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>DocumentClassification</aas:idShort>
+      <aas:category>PARAMETER</aas:category>
+      <aas:identification idType="IRDI">0173-1#02-ABI502#001/0173-1#01-AHF581#001*01</aas:identification>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">Document classification</IEC:langString>
+              <IEC:langString lang="de">Dokumentenklassifizierung</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="en">Document classification</IEC:langString>
+              <IEC:langString lang="de">Dokumentenklassifizierung</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType>STRING</IEC:dataType>
+            <IEC:definition>
+              <IEC:langString lang="en">Set of information for describing the classification of the Document according to ClassificationSystems</IEC:langString>
+              <IEC:langString lang="de">Satz von Informationen zur Beschreibung der Klassifizierung des Dokuments gemäß Klassifizierungssystemen	</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+      <aas:isCaseOf>
+        <aas:keys>
+          <aas:key type="ConceptDescription" local="true" idType="IRDI">0173-1#02-ABI502#001/0173-1#01-AHF581#001*01</aas:key>
+        </aas:keys>
+      </aas:isCaseOf>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>DocumentVersion</aas:idShort>
+      <aas:category>PARAMETER</aas:category>
+      <aas:identification idType="IRDI">0173-1#02-ABI503#001/0173-1#01-AHF582#001*01</aas:identification>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">Document version</IEC:langString>
+              <IEC:langString lang="de">Dokumentenversion</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="en">Document version</IEC:langString>
+              <IEC:langString lang="de">Dokumentenversion</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType>STRING</IEC:dataType>
+            <IEC:definition>
+              <IEC:langString lang="en">Information elements of individual Document Version entities</IEC:langString>
+              <IEC:langString lang="de">Informationselemente einzelner VDI 2770 DocumentVersion Entitäten	</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+      <aas:isCaseOf>
+        <aas:keys>
+          <aas:key type="ConceptDescription" local="true" idType="IRDI">0173-1#02-ABI503#001/0173-1#01-AHF582#001*01</aas:key>
+        </aas:keys>
+      </aas:isCaseOf>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>DigitalFile</aas:idShort>
+      <aas:category>PARAMETER</aas:category>
+      <aas:identification idType="IRDI">0173-1#02-ABI504#001/0173-1#01-AHF583#001</aas:identification>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">Digital file</IEC:langString>
+              <IEC:langString lang="de">Digitale Datei</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="en">Digital file</IEC:langString>
+              <IEC:langString lang="de">Digitale Datei</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType>STRING</IEC:dataType>
+            <IEC:definition>
+              <IEC:langString lang="en">MIME-Type, file name and file contents given by the file SubmodelElement</IEC:langString>
+              <IEC:langString lang="de">MIME-Typ, Dateiname und Dateiinhalt, die von der Datei SubmodelElement vorgegeben werden	</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+      <aas:isCaseOf>
+        <aas:keys>
+          <aas:key type="ConceptDescription" local="true" idType="IRDI">0173-1#02-ABI504#001/0173-1#01-AHF583#001</aas:key>
+        </aas:keys>
+      </aas:isCaseOf>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>PreviewFile</aas:idShort>
+      <aas:category>PARAMETER</aas:category>
+      <aas:identification idType="IRDI">0173-1#02-ABI505#001 /0173-1#01-AHF584#001</aas:identification>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">Preview file</IEC:langString>
+              <IEC:langString lang="de">Vorschaudatei</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="en">Preview file</IEC:langString>
+              <IEC:langString lang="de">Vorschaudatei</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType>STRING</IEC:dataType>
+            <IEC:definition>
+              <IEC:langString lang="en">Provides a preview image of the Document Version, e.g. first page, in a commonly used image format and low resolution</IEC:langString>
+              <IEC:langString lang="de">Liefert ein Vorschaubild der DocumentVersion, z.B. erste Seite, in einem gängigen Bildformat und niedriger Auflösung.	</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+      <aas:isCaseOf>
+        <aas:keys>
+          <aas:key type="ConceptDescription" local="true" idType="IRDI">0173-1#02-ABI505#001 /0173-1#01-AHF584#001</aas:key>
+        </aas:keys>
+      </aas:isCaseOf>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>numberOfDocuments</aas:idShort>
+      <aas:category>PARAMETER</aas:category>
+      <aas:description>
+        <aas:langString lang="en">Number of Documents</aas:langString>
+        <aas:langString lang="de">Anzahl der Dokumente</aas:langString>
+      </aas:description>
+      <aas:identification idType="IRDI">0173-1#02-ABH990#001</aas:identification>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">Number of documents (handover documentation)</IEC:langString>
+              <IEC:langString lang="de"> Anzahl der Dokumente (Übergabedokumentation)</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="en">Number of documents (handover documentation)</IEC:langString>
+              <IEC:langString lang="de"> Anzahl der Dokumente (Übergabedokumentation)</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType>INTEGER_COUNT</IEC:dataType>
+            <IEC:definition>
+              <IEC:langString lang="en">Number of documents (handover documentation)</IEC:langString>
+              <IEC:langString lang="de"> Anzahl der Dokumente (Übergabedokumentation)</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+      <aas:isCaseOf>
+        <aas:keys>
+          <aas:key type="ConceptDescription" local="true" idType="IRDI">0173-1#02-ABH990#001</aas:key>
+        </aas:keys>
+      </aas:isCaseOf>
+    </aas:conceptDescription>
+  </aas:conceptDescriptions>
+</aas:aasenv>

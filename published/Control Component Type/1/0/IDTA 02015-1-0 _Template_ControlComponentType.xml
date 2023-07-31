@@ -1,0 +1,1197 @@
+<?xml version="1.0"?>
+<aas:aasenv xmlns:IEC="http://www.admin-shell.io/IEC61360/2/0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:abac="http://www.admin-shell.io/aas/abac/2/0" xsi:schemaLocation="http://www.admin-shell.io/aas/2/0 AAS.xsd http://www.admin-shell.io/IEC61360/2/0 IEC61360.xsd" xmlns:aas="http://www.admin-shell.io/aas/2/0">
+  <aas:assetAdministrationShells>
+    <aas:assetAdministrationShell>
+      <aas:idShort>ControlComponentTemplateShell</aas:idShort>
+      <aas:category />
+      <aas:identification idType="Custom">AssetAdministrationShell---258DF22A</aas:identification>
+      <aas:assetRef>
+        <aas:keys>
+          <aas:key type="Asset" local="true" idType="Custom">Asset---39969D2A</aas:key>
+        </aas:keys>
+      </aas:assetRef>
+      <aas:submodelRefs>
+        <aas:submodelRef>
+          <aas:keys>
+            <aas:key type="Submodel" local="true" idType="IRI">https://example.com/ids/sm/5213_1120_8022_9305</aas:key>
+          </aas:keys>
+        </aas:submodelRef>
+      </aas:submodelRefs>
+      <aas:conceptDictionaries />
+    </aas:assetAdministrationShell>
+  </aas:assetAdministrationShells>
+  <aas:assets>
+    <aas:asset>
+      <aas:idShort>ControlComponentTemplateAsset</aas:idShort>
+      <aas:identification idType="Custom">Asset---39969D2A</aas:identification>
+      <aas:kind>Instance</aas:kind>
+    </aas:asset>
+  </aas:assets>
+  <aas:submodels>
+    <aas:submodel>
+      <aas:idShort>ControlComponentType</aas:idShort>
+      <aas:identification idType="IRI">https://example.com/ids/sm/5213_1120_8022_9305</aas:identification>
+      <aas:kind>Template</aas:kind>
+      <aas:semanticId>
+        <aas:keys>
+          <aas:key type="" local="false" idType="IRI">https://admin-shell.io/idta/ControlComponent/Type/1/0</aas:key>
+        </aas:keys>
+      </aas:semanticId>
+      <aas:qualifier />
+      <aas:submodelElements>
+        <aas:submodelElement>
+          <aas:submodelElementCollection>
+            <aas:idShort>Interfaces</aas:idShort>
+            <aas:description>
+              <aas:langString lang="en">Collection of references to control interfaces supported by the component type, e.g. to elements of the Interface Metadata SMC of the Asset Interface Description submodel, the MTP submodel or OPC UA Server Datasheet submodel.</aas:langString>
+            </aas:description>
+            <aas:kind>Template</aas:kind>
+            <aas:semanticId>
+              <aas:keys>
+                <aas:key type="ConceptDescription" local="true" idType="IRI">https://admin-shell.io/idta/ControlComponent/Type/Interfaces/1/0</aas:key>
+              </aas:keys>
+            </aas:semanticId>
+            <aas:qualifier>
+              <aas:qualifier>
+                <aas:type>Multiplicity</aas:type>
+                <aas:valueType />
+                <aas:value>One</aas:value>
+              </aas:qualifier>
+            </aas:qualifier>
+            <aas:value>
+              <aas:submodelElement>
+                <aas:referenceElement>
+                  <aas:idShort>Interface</aas:idShort>
+                  <aas:description>
+                    <aas:langString lang="en">Reference to a single control interface. </aas:langString>
+                  </aas:description>
+                  <aas:kind>Template</aas:kind>
+                  <aas:semanticId>
+                    <aas:keys>
+                      <aas:key type="ConceptDescription" local="true" idType="IRI">https://admin-shell.io/idta/ControlComponent/Type/Interface/1/0</aas:key>
+                    </aas:keys>
+                  </aas:semanticId>
+                  <aas:qualifier>
+                    <aas:qualifier>
+                      <aas:type>Multiplicity</aas:type>
+                      <aas:valueType />
+                      <aas:value>ZeroToMany</aas:value>
+                    </aas:qualifier>
+                    <aas:qualifier>
+                      <aas:type>PresetIdShort</aas:type>
+                      <aas:valueType />
+                      <aas:value>To be filled; normally same as idShort, might be with {00}</aas:value>
+                    </aas:qualifier>
+                  </aas:qualifier>
+                  <aas:value>
+                    <aas:keys />
+                  </aas:value>
+                </aas:referenceElement>
+              </aas:submodelElement>
+            </aas:value>
+            <aas:ordered>false</aas:ordered>
+            <aas:allowDuplicates>false</aas:allowDuplicates>
+          </aas:submodelElementCollection>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:submodelElementCollection>
+            <aas:idShort>Skills</aas:idShort>
+            <aas:description>
+              <aas:langString lang="en">Collection of skills offered by the component type</aas:langString>
+            </aas:description>
+            <aas:kind>Template</aas:kind>
+            <aas:semanticId>
+              <aas:keys>
+                <aas:key type="ConceptDescription" local="true" idType="IRI">https://admin-shell.io/idta/ControlComponent/Skills/1/0</aas:key>
+              </aas:keys>
+            </aas:semanticId>
+            <aas:qualifier>
+              <aas:qualifier>
+                <aas:type>Multiplicity</aas:type>
+                <aas:valueType />
+                <aas:value>One</aas:value>
+              </aas:qualifier>
+            </aas:qualifier>
+            <aas:value>
+              <aas:submodelElement>
+                <aas:submodelElementCollection>
+                  <aas:idShort>Skill</aas:idShort>
+                  <aas:description>
+                    <aas:langString lang="en">Contains the basic information to call (request the execution of) a skill, e.g. its signature</aas:langString>
+                  </aas:description>
+                  <aas:kind>Template</aas:kind>
+                  <aas:semanticId>
+                    <aas:keys>
+                      <aas:key type="ConceptDescription" local="true" idType="IRI">https://admin-shell.io/idta/ControlComponent/Skill/1/0</aas:key>
+                    </aas:keys>
+                  </aas:semanticId>
+                  <aas:qualifier>
+                    <aas:qualifier>
+                      <aas:type>PresetIdShort</aas:type>
+                      <aas:valueType />
+                      <aas:value>To be filled; normally same as idShort, might be with {00}</aas:value>
+                    </aas:qualifier>
+                  </aas:qualifier>
+                  <aas:value>
+                    <aas:submodelElement>
+                      <aas:property>
+                        <aas:idShort>Name</aas:idShort>
+                        <aas:description>
+                          <aas:langString lang="en">Name used to select the skill via its interface.</aas:langString>
+                        </aas:description>
+                        <aas:kind>Template</aas:kind>
+                        <aas:semanticId>
+                          <aas:keys>
+                            <aas:key type="ConceptDescription" local="true" idType="IRI">https://admin-shell.io/idta/ControlComponent/Skill/Name/1/0</aas:key>
+                          </aas:keys>
+                        </aas:semanticId>
+                        <aas:qualifier>
+                          <aas:qualifier>
+                            <aas:type>Multiplicity</aas:type>
+                            <aas:valueType />
+                            <aas:value>One</aas:value>
+                          </aas:qualifier>
+                        </aas:qualifier>
+                        <aas:valueType>string</aas:valueType>
+                        <aas:value />
+                      </aas:property>
+                    </aas:submodelElement>
+                    <aas:submodelElement>
+                      <aas:multiLanguageProperty>
+                        <aas:idShort>DisplayName</aas:idShort>
+                        <aas:description>
+                          <aas:langString lang="en">Name to display the skill, e.g. in an HMI or GUI.</aas:langString>
+                        </aas:description>
+                        <aas:kind>Template</aas:kind>
+                        <aas:semanticId>
+                          <aas:keys>
+                            <aas:key type="ConceptDescription" local="true" idType="IRI">https://admin-shell.io/idta/ControlComponent/Skill/DisplayName/1/0</aas:key>
+                          </aas:keys>
+                        </aas:semanticId>
+                        <aas:qualifier>
+                          <aas:qualifier>
+                            <aas:type>Multiplicity</aas:type>
+                            <aas:valueType />
+                            <aas:value>ZeroToOne</aas:value>
+                          </aas:qualifier>
+                        </aas:qualifier>
+                        <aas:value />
+                      </aas:multiLanguageProperty>
+                    </aas:submodelElement>
+                    <aas:submodelElement>
+                      <aas:property>
+                        <aas:idShort>Disabled</aas:idShort>
+                        <aas:description>
+                          <aas:langString lang="en">Boolean property that defines if the skill is (currently) disabled, e.g. not licensed, tested, suitable.</aas:langString>
+                        </aas:description>
+                        <aas:kind>Template</aas:kind>
+                        <aas:semanticId>
+                          <aas:keys>
+                            <aas:key type="ConceptDescription" local="true" idType="IRI">https://admin-shell.io/idta/ControlComponent/Skill/Disabled/1/0</aas:key>
+                          </aas:keys>
+                        </aas:semanticId>
+                        <aas:qualifier>
+                          <aas:qualifier>
+                            <aas:type>Multiplicity</aas:type>
+                            <aas:valueType />
+                            <aas:value>One</aas:value>
+                          </aas:qualifier>
+                        </aas:qualifier>
+                        <aas:valueType>boolean</aas:valueType>
+                        <aas:value />
+                      </aas:property>
+                    </aas:submodelElement>
+                    <aas:submodelElement>
+                      <aas:submodelElementCollection>
+                        <aas:idShort>Modes</aas:idShort>
+                        <aas:description>
+                          <aas:langString lang="en">Collection of operation, operating, operational or execution modes (depending on the standard), in which the skill is available/allowed to execute.</aas:langString>
+                        </aas:description>
+                        <aas:kind>Template</aas:kind>
+                        <aas:semanticId>
+                          <aas:keys>
+                            <aas:key type="ConceptDescription" local="true" idType="IRI">https://admin-shell.io/idta/ControlComponent/Skill/Modes/1/0</aas:key>
+                          </aas:keys>
+                        </aas:semanticId>
+                        <aas:qualifier>
+                          <aas:qualifier>
+                            <aas:type>Multiplicity</aas:type>
+                            <aas:valueType />
+                            <aas:value>One</aas:value>
+                          </aas:qualifier>
+                        </aas:qualifier>
+                        <aas:value>
+                          <aas:submodelElement>
+                            <aas:property>
+                              <aas:idShort>Mode</aas:idShort>
+                              <aas:description>
+                                <aas:langString lang="en">Name of the operation, operating, operational or execution modes (depending on the standard), in which the skill is available/allowed to execute.</aas:langString>
+                              </aas:description>
+                              <aas:kind>Template</aas:kind>
+                              <aas:semanticId>
+                                <aas:keys>
+                                  <aas:key type="ConceptDescription" local="true" idType="IRI">https://admin-shell.io/idta/ControlComponent/Skill/Mode/1/0</aas:key>
+                                </aas:keys>
+                              </aas:semanticId>
+                              <aas:qualifier>
+                                <aas:qualifier>
+                                  <aas:type>Multiplicity</aas:type>
+                                  <aas:valueType />
+                                  <aas:value>OneToMany</aas:value>
+                                </aas:qualifier>
+                                <aas:qualifier>
+                                  <aas:type>PresetIdShort</aas:type>
+                                  <aas:valueType />
+                                  <aas:value>To be filled; normally same as idShort, might be with {00}</aas:value>
+                                </aas:qualifier>
+                              </aas:qualifier>
+                              <aas:valueType>string</aas:valueType>
+                              <aas:value />
+                            </aas:property>
+                          </aas:submodelElement>
+                        </aas:value>
+                        <aas:ordered>false</aas:ordered>
+                        <aas:allowDuplicates>false</aas:allowDuplicates>
+                      </aas:submodelElementCollection>
+                    </aas:submodelElement>
+                    <aas:submodelElement>
+                      <aas:submodelElementCollection>
+                        <aas:idShort>Parameters</aas:idShort>
+                        <aas:description>
+                          <aas:langString lang="en">Collection of parameters used for the configuration of the skill.</aas:langString>
+                        </aas:description>
+                        <aas:kind>Template</aas:kind>
+                        <aas:semanticId>
+                          <aas:keys>
+                            <aas:key type="ConceptDescription" local="true" idType="IRI">https://admin-shell.io/idta/ControlComponent/Skill/Parameters/1/0</aas:key>
+                          </aas:keys>
+                        </aas:semanticId>
+                        <aas:qualifier>
+                          <aas:qualifier>
+                            <aas:type>Multiplicity</aas:type>
+                            <aas:valueType />
+                            <aas:value>One</aas:value>
+                          </aas:qualifier>
+                        </aas:qualifier>
+                        <aas:value>
+                          <aas:submodelElement>
+                            <aas:submodelElementCollection>
+                              <aas:idShort>Parameter</aas:idShort>
+                              <aas:description>
+                                <aas:langString lang="en">Parameter used for the configuration of the skill.</aas:langString>
+                              </aas:description>
+                              <aas:kind>Template</aas:kind>
+                              <aas:semanticId>
+                                <aas:keys>
+                                  <aas:key type="ConceptDescription" local="true" idType="IRI">https://admin-shell.io/idta/ControlComponent/Skill/Parameter/1/0</aas:key>
+                                </aas:keys>
+                              </aas:semanticId>
+                              <aas:qualifier>
+                                <aas:qualifier>
+                                  <aas:type>Multiplicity</aas:type>
+                                  <aas:valueType />
+                                  <aas:value>ZeroToMany</aas:value>
+                                </aas:qualifier>
+                                <aas:qualifier>
+                                  <aas:type>PresetIdShort</aas:type>
+                                  <aas:valueType />
+                                  <aas:value>To be filled; normally same as idShort, might be with {00}</aas:value>
+                                </aas:qualifier>
+                              </aas:qualifier>
+                              <aas:value>
+                                <aas:submodelElement>
+                                  <aas:property>
+                                    <aas:idShort>Name</aas:idShort>
+                                    <aas:description>
+                                      <aas:langString lang="en">Name of the parameter.</aas:langString>
+                                    </aas:description>
+                                    <aas:kind>Template</aas:kind>
+                                    <aas:semanticId>
+                                      <aas:keys>
+                                        <aas:key type="ConceptDescription" local="true" idType="IRI">https://admin-shell.io/idta/ControlComponent/Skill/Parameter/Name/1/0</aas:key>
+                                      </aas:keys>
+                                    </aas:semanticId>
+                                    <aas:qualifier>
+                                      <aas:qualifier>
+                                        <aas:type>Multiplicity</aas:type>
+                                        <aas:valueType />
+                                        <aas:value>One</aas:value>
+                                      </aas:qualifier>
+                                    </aas:qualifier>
+                                    <aas:valueType>string</aas:valueType>
+                                    <aas:value />
+                                  </aas:property>
+                                </aas:submodelElement>
+                                <aas:submodelElement>
+                                  <aas:property>
+                                    <aas:idShort>Direction</aas:idShort>
+                                    <aas:description>
+                                      <aas:langString lang="en">Indicates whether the parameter is an input (In) or an output (Out) of the skill. An InOut parameter can be set from outside and can also be changed from skill itself. </aas:langString>
+                                    </aas:description>
+                                    <aas:kind>Template</aas:kind>
+                                    <aas:semanticId>
+                                      <aas:keys>
+                                        <aas:key type="ConceptDescription" local="true" idType="IRI">https://admin-shell.io/idta/ControlComponent/Skill/Parameter/Direction/1/0</aas:key>
+                                      </aas:keys>
+                                    </aas:semanticId>
+                                    <aas:qualifier>
+                                      <aas:qualifier>
+                                        <aas:type>Multiplicity</aas:type>
+                                        <aas:valueType />
+                                        <aas:value>One</aas:value>
+                                      </aas:qualifier>
+                                    </aas:qualifier>
+                                    <aas:valueType>string</aas:valueType>
+                                    <aas:value />
+                                  </aas:property>
+                                </aas:submodelElement>
+                                <aas:submodelElement>
+                                  <aas:property>
+                                    <aas:idShort>Type</aas:idShort>
+                                    <aas:description>
+                                      <aas:langString lang="en">Data type as string used to interpret the parameter. </aas:langString>
+                                    </aas:description>
+                                    <aas:kind>Template</aas:kind>
+                                    <aas:semanticId>
+                                      <aas:keys>
+                                        <aas:key type="ConceptDescription" local="true" idType="IRI">https://admin-shell.io/idta/ControlComponent/Skill/Parameter/Type/1/0</aas:key>
+                                      </aas:keys>
+                                    </aas:semanticId>
+                                    <aas:qualifier>
+                                      <aas:qualifier>
+                                        <aas:type>Multiplicity</aas:type>
+                                        <aas:valueType />
+                                        <aas:value>One</aas:value>
+                                      </aas:qualifier>
+                                    </aas:qualifier>
+                                    <aas:valueType>string</aas:valueType>
+                                    <aas:value />
+                                  </aas:property>
+                                </aas:submodelElement>
+                                <aas:submodelElement>
+                                  <aas:submodelElementCollection>
+                                    <aas:idShort>Values</aas:idShort>
+                                    <aas:description>
+                                      <aas:langString lang="en">Collection of properties of the accepted values that the parameter may take.</aas:langString>
+                                    </aas:description>
+                                    <aas:kind>Template</aas:kind>
+                                    <aas:semanticId>
+                                      <aas:keys>
+                                        <aas:key type="ConceptDescription" local="true" idType="IRI">https://admin-shell.io/idta/ControlComponent/Skill/Parameter/Values/1/0</aas:key>
+                                      </aas:keys>
+                                    </aas:semanticId>
+                                    <aas:qualifier>
+                                      <aas:qualifier>
+                                        <aas:type>Multiplicity</aas:type>
+                                        <aas:valueType />
+                                        <aas:value>One</aas:value>
+                                      </aas:qualifier>
+                                    </aas:qualifier>
+                                    <aas:value />
+                                    <aas:ordered>false</aas:ordered>
+                                    <aas:allowDuplicates>false</aas:allowDuplicates>
+                                  </aas:submodelElementCollection>
+                                </aas:submodelElement>
+                              </aas:value>
+                              <aas:ordered>false</aas:ordered>
+                              <aas:allowDuplicates>false</aas:allowDuplicates>
+                            </aas:submodelElementCollection>
+                          </aas:submodelElement>
+                        </aas:value>
+                        <aas:ordered>false</aas:ordered>
+                        <aas:allowDuplicates>false</aas:allowDuplicates>
+                      </aas:submodelElementCollection>
+                    </aas:submodelElement>
+                    <aas:submodelElement>
+                      <aas:submodelElementCollection>
+                        <aas:idShort>Errors</aas:idShort>
+                        <aas:description>
+                          <aas:langString lang="en">Collection of references to the error codes of the component that may be triggered by this skill.</aas:langString>
+                        </aas:description>
+                        <aas:kind>Template</aas:kind>
+                        <aas:semanticId>
+                          <aas:keys>
+                            <aas:key type="ConceptDescription" local="true" idType="IRI">https://admin-shell.io/idta/ControlComponent/Skill/Errors/1/0</aas:key>
+                          </aas:keys>
+                        </aas:semanticId>
+                        <aas:qualifier>
+                          <aas:qualifier>
+                            <aas:type>Multiplicity</aas:type>
+                            <aas:valueType />
+                            <aas:value>One</aas:value>
+                          </aas:qualifier>
+                        </aas:qualifier>
+                        <aas:value />
+                        <aas:ordered>false</aas:ordered>
+                        <aas:allowDuplicates>false</aas:allowDuplicates>
+                      </aas:submodelElementCollection>
+                    </aas:submodelElement>
+                    <aas:submodelElement>
+                      <aas:submodelElementCollection>
+                        <aas:idShort>Uses</aas:idShort>
+                        <aas:description>
+                          <aas:langString lang="en">Collection of references to other skills, that this skill uses.</aas:langString>
+                        </aas:description>
+                        <aas:kind>Template</aas:kind>
+                        <aas:semanticId>
+                          <aas:keys>
+                            <aas:key type="ConceptDescription" local="true" idType="IRI">https://admin-shell.io/idta/ControlComponent/Skill/Uses/1/0</aas:key>
+                          </aas:keys>
+                        </aas:semanticId>
+                        <aas:qualifier>
+                          <aas:qualifier>
+                            <aas:type>Multiplicity</aas:type>
+                            <aas:valueType />
+                            <aas:value>One</aas:value>
+                          </aas:qualifier>
+                        </aas:qualifier>
+                        <aas:value />
+                        <aas:ordered>false</aas:ordered>
+                        <aas:allowDuplicates>false</aas:allowDuplicates>
+                      </aas:submodelElementCollection>
+                    </aas:submodelElement>
+                  </aas:value>
+                  <aas:ordered>false</aas:ordered>
+                  <aas:allowDuplicates>false</aas:allowDuplicates>
+                </aas:submodelElementCollection>
+              </aas:submodelElement>
+            </aas:value>
+            <aas:ordered>false</aas:ordered>
+            <aas:allowDuplicates>false</aas:allowDuplicates>
+          </aas:submodelElementCollection>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:submodelElementCollection>
+            <aas:idShort>Errors</aas:idShort>
+            <aas:description>
+              <aas:langString lang="en">Collection of all possible error codes that may appear in components of this type.</aas:langString>
+            </aas:description>
+            <aas:kind>Template</aas:kind>
+            <aas:semanticId>
+              <aas:keys>
+                <aas:key type="ConceptDescription" local="true" idType="IRI">https://admin-shell.io/idta/ControlComponent/Type/Errors/1/0</aas:key>
+              </aas:keys>
+            </aas:semanticId>
+            <aas:qualifier>
+              <aas:qualifier>
+                <aas:type>Multiplicity</aas:type>
+                <aas:valueType />
+                <aas:value>One</aas:value>
+              </aas:qualifier>
+            </aas:qualifier>
+            <aas:value>
+              <aas:submodelElement>
+                <aas:multiLanguageProperty>
+                  <aas:idShort>ErrorCode</aas:idShort>
+                  <aas:description>
+                    <aas:langString lang="en">Semantic description of the error code in multiple languages</aas:langString>
+                  </aas:description>
+                  <aas:kind>Template</aas:kind>
+                  <aas:semanticId>
+                    <aas:keys>
+                      <aas:key type="ConceptDescription" local="true" idType="IRI">https://admin-shell.io/idta/ControlComponent/Type/ErrorCode/1/0</aas:key>
+                    </aas:keys>
+                  </aas:semanticId>
+                  <aas:qualifier>
+                    <aas:qualifier>
+                      <aas:type>Multiplicity</aas:type>
+                      <aas:valueType />
+                      <aas:value>ZeroToMany</aas:value>
+                    </aas:qualifier>
+                    <aas:qualifier>
+                      <aas:type>PresetIdShort</aas:type>
+                      <aas:valueType />
+                      <aas:value>To be filled; normally same as idShort, might be with {00}</aas:value>
+                    </aas:qualifier>
+                  </aas:qualifier>
+                  <aas:value>
+                    <aas:langString lang="en">Pressure Loss</aas:langString>
+                  </aas:value>
+                  <aas:valueId>
+                    <aas:keys />
+                  </aas:valueId>
+                </aas:multiLanguageProperty>
+              </aas:submodelElement>
+            </aas:value>
+            <aas:ordered>false</aas:ordered>
+            <aas:allowDuplicates>false</aas:allowDuplicates>
+          </aas:submodelElementCollection>
+        </aas:submodelElement>
+      </aas:submodelElements>
+    </aas:submodel>
+  </aas:submodels>
+  <aas:conceptDescriptions>
+    <aas:conceptDescription>
+      <aas:idShort>Skills</aas:idShort>
+      <aas:identification idType="IRI">https://admin-shell.io/idta/ControlComponent/Skills/1/0</aas:identification>
+      <aas:administration>
+        <aas:version>1</aas:version>
+        <aas:revision>0</aas:revision>
+      </aas:administration>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">Skills</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="en">Skills</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType />
+            <IEC:definition />
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>Skill</aas:idShort>
+      <aas:identification idType="IRI">https://admin-shell.io/idta/ControlComponent/Skill/1/0</aas:identification>
+      <aas:administration>
+        <aas:version>1</aas:version>
+        <aas:revision>0</aas:revision>
+      </aas:administration>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">Skill</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="en">Skill</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType />
+            <IEC:definition />
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>Name</aas:idShort>
+      <aas:identification idType="IRI">https://admin-shell.io/idta/ControlComponent/Skill/Name/1/0</aas:identification>
+      <aas:administration>
+        <aas:version>1</aas:version>
+        <aas:revision>0</aas:revision>
+      </aas:administration>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">Skill Name</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="en">Name</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType />
+            <IEC:definition />
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>DisplayName</aas:idShort>
+      <aas:identification idType="IRI">https://admin-shell.io/idta/ControlComponent/Skill/DisplayName/1/0</aas:identification>
+      <aas:administration>
+        <aas:version>1</aas:version>
+        <aas:revision>0</aas:revision>
+      </aas:administration>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">DisplayName</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="en">DisplayName</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType />
+            <IEC:definition />
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>Disabled</aas:idShort>
+      <aas:identification idType="IRI">https://admin-shell.io/idta/ControlComponent/Skill/Disabled/1/0</aas:identification>
+      <aas:administration>
+        <aas:version>1</aas:version>
+        <aas:revision>0</aas:revision>
+      </aas:administration>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">Disabled</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="en">Disabled</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType />
+            <IEC:definition />
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>Modes</aas:idShort>
+      <aas:identification idType="IRI">https://admin-shell.io/idta/ControlComponent/Skill/Modes/1/0</aas:identification>
+      <aas:administration>
+        <aas:version>1</aas:version>
+        <aas:revision>0</aas:revision>
+      </aas:administration>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">Modes</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="en">Modes</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType />
+            <IEC:definition />
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>Mode</aas:idShort>
+      <aas:identification idType="IRI">https://admin-shell.io/idta/ControlComponent/Skill/Mode/1/0</aas:identification>
+      <aas:administration>
+        <aas:version>1</aas:version>
+        <aas:revision>0</aas:revision>
+      </aas:administration>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">Mode</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="en">Mode</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType />
+            <IEC:definition />
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>Parameters</aas:idShort>
+      <aas:identification idType="IRI">https://admin-shell.io/idta/ControlComponent/Skill/Parameters/1/0</aas:identification>
+      <aas:administration>
+        <aas:version>1</aas:version>
+        <aas:revision>0</aas:revision>
+      </aas:administration>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">Parameters</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="en">Parameters</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType />
+            <IEC:definition />
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>Parameter</aas:idShort>
+      <aas:identification idType="IRI">https://admin-shell.io/idta/ControlComponent/Skill/Parameter/1/0</aas:identification>
+      <aas:administration>
+        <aas:version>1</aas:version>
+        <aas:revision>0</aas:revision>
+      </aas:administration>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">Parameter</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="en">Parameter</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType />
+            <IEC:definition />
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>Name</aas:idShort>
+      <aas:identification idType="IRI">https://admin-shell.io/idta/ControlComponent/Skill/Parameter/Name/1/0</aas:identification>
+      <aas:administration>
+        <aas:version>1</aas:version>
+        <aas:revision>0</aas:revision>
+      </aas:administration>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">Parameter Name</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="en">Name</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType />
+            <IEC:definition />
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>Direction</aas:idShort>
+      <aas:identification idType="IRI">https://admin-shell.io/idta/ControlComponent/Skill/Parameter/Direction/1/0</aas:identification>
+      <aas:administration>
+        <aas:version>1</aas:version>
+        <aas:revision>0</aas:revision>
+      </aas:administration>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">Parameter Direction</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="en">Direction</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType />
+            <IEC:definition />
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>Type</aas:idShort>
+      <aas:identification idType="IRI">https://admin-shell.io/idta/ControlComponent/Skill/Parameter/Type/1/0</aas:identification>
+      <aas:administration>
+        <aas:version>1</aas:version>
+        <aas:revision>0</aas:revision>
+      </aas:administration>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">Parameter Type</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="en">Type</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType />
+            <IEC:definition />
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>Values</aas:idShort>
+      <aas:identification idType="IRI">https://admin-shell.io/idta/ControlComponent/Skill/Parameter/Values/1/0</aas:identification>
+      <aas:administration>
+        <aas:version>1</aas:version>
+        <aas:revision>0</aas:revision>
+      </aas:administration>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">Values</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="en">Values</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType />
+            <IEC:definition />
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>Errors</aas:idShort>
+      <aas:identification idType="IRI">https://admin-shell.io/idta/ControlComponent/Skill/Errors/1/0</aas:identification>
+      <aas:administration>
+        <aas:version>1</aas:version>
+        <aas:revision>0</aas:revision>
+      </aas:administration>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">Errors</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="en">Errors</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType />
+            <IEC:definition />
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>Uses</aas:idShort>
+      <aas:identification idType="IRI">https://admin-shell.io/idta/ControlComponent/Skill/Uses/1/0</aas:identification>
+      <aas:administration>
+        <aas:version>1</aas:version>
+        <aas:revision>0</aas:revision>
+      </aas:administration>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">Uses</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="en">Uses</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType />
+            <IEC:definition />
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>Type</aas:idShort>
+      <aas:identification idType="IRI">https://admin-shell.io/idta/ControlComponent/Type/1/0</aas:identification>
+      <aas:administration>
+        <aas:version>1</aas:version>
+        <aas:revision>0</aas:revision>
+      </aas:administration>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">Control Componen Type</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="en">Type</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType />
+            <IEC:definition />
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>Interfaces</aas:idShort>
+      <aas:identification idType="IRI">https://admin-shell.io/idta/ControlComponent/Type/Interfaces/1/0</aas:identification>
+      <aas:administration>
+        <aas:version>1</aas:version>
+        <aas:revision>0</aas:revision>
+      </aas:administration>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">Interfaces</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="en">Interfaces</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType />
+            <IEC:definition />
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>Interface</aas:idShort>
+      <aas:identification idType="IRI">https://admin-shell.io/idta/ControlComponent/Type/Interface/1/0</aas:identification>
+      <aas:administration>
+        <aas:version>1</aas:version>
+        <aas:revision>0</aas:revision>
+      </aas:administration>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">Interface</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="en">Interface</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType />
+            <IEC:definition />
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>Errors</aas:idShort>
+      <aas:identification idType="IRI">https://admin-shell.io/idta/ControlComponent/Type/Errors/1/0</aas:identification>
+      <aas:administration>
+        <aas:version>1</aas:version>
+        <aas:revision>0</aas:revision>
+      </aas:administration>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">Errors</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="en">Errors</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType />
+            <IEC:definition />
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>ErrorCode</aas:idShort>
+      <aas:identification idType="IRI">https://admin-shell.io/idta/ControlComponent/Type/ErrorCode/1/0</aas:identification>
+      <aas:administration>
+        <aas:version>1</aas:version>
+        <aas:revision>0</aas:revision>
+      </aas:administration>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">ErrorCode</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="en">ErrorCode</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType />
+            <IEC:definition />
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>Instance</aas:idShort>
+      <aas:identification idType="IRI">https://admin-shell.io/idta/ControlComponent/Instance/1/0</aas:identification>
+      <aas:administration>
+        <aas:version>1</aas:version>
+        <aas:revision>0</aas:revision>
+      </aas:administration>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">Control Component Instance</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="en">Instance</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType />
+            <IEC:definition />
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>Endpoints</aas:idShort>
+      <aas:identification idType="IRI">https://admin-shell.io/idta/ControlComponent/Instance/Endpoints/1/0</aas:identification>
+      <aas:administration>
+        <aas:version>1</aas:version>
+        <aas:revision>0</aas:revision>
+      </aas:administration>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">Instance Endpoints</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="en">Endpoints</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType />
+            <IEC:definition />
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>Endpoint</aas:idShort>
+      <aas:identification idType="IRI">https://admin-shell.io/idta/ControlComponent/Instance/Endpoint/1/0</aas:identification>
+      <aas:administration>
+        <aas:version>1</aas:version>
+        <aas:revision>0</aas:revision>
+      </aas:administration>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">Instance Endpoint</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="en">Endpoint</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType />
+            <IEC:definition />
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>Type</aas:idShort>
+      <aas:identification idType="IRI">https://admin-shell.io/idta/ControlComponent/Instance/Type/1/0</aas:identification>
+      <aas:administration>
+        <aas:version>1</aas:version>
+        <aas:revision>0</aas:revision>
+      </aas:administration>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">Instance Type</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="en">Type</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType />
+            <IEC:definition />
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+    </aas:conceptDescription>
+  </aas:conceptDescriptions>
+</aas:aasenv>

@@ -1,0 +1,826 @@
+<?xml version="1.0"?>
+<aas:aasenv xmlns:IEC="http://www.admin-shell.io/IEC61360/2/0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:abac="http://www.admin-shell.io/aas/abac/2/0" xsi:schemaLocation="http://www.admin-shell.io/aas/2/0 AAS.xsd http://www.admin-shell.io/IEC61360/2/0 IEC61360.xsd" xmlns:aas="http://www.admin-shell.io/aas/2/0">
+  <aas:assetAdministrationShells>
+    <aas:assetAdministrationShell>
+      <aas:idShort>SubmodelTemplate</aas:idShort>
+      <aas:identification idType="IRI">https://mnestix.com/aas/F11BF9F696A3454EBA0AA4503783F141</aas:identification>
+      <aas:derivedFrom>
+        <aas:keys>
+          <aas:key type="AssetAdministrationShell" local="false" idType="IRI">https://mnestix.com/aas/MnestixDefaultSubmodelTemplate</aas:key>
+        </aas:keys>
+      </aas:derivedFrom>
+      <aas:assetRef>
+        <aas:keys />
+      </aas:assetRef>
+      <aas:submodelRefs>
+        <aas:submodelRef>
+          <aas:keys>
+            <aas:key type="Submodel" local="true" idType="IRI">https://admin-shell.io/ZVEI/TechnicalData/Submodel/1/2</aas:key>
+          </aas:keys>
+        </aas:submodelRef>
+      </aas:submodelRefs>
+      <aas:conceptDictionaries />
+    </aas:assetAdministrationShell>
+  </aas:assetAdministrationShells>
+  <aas:assets>
+    <aas:asset>
+      <aas:idShort>E0468D0C97304243B8F0387A1333B4A8</aas:idShort>
+      <aas:identification idType="IRI">https://mnestix.com/E0468D0C97304243B8F0387A1333B4A8</aas:identification>
+      <aas:kind>Instance</aas:kind>
+    </aas:asset>
+  </aas:assets>
+  <aas:submodels>
+    <aas:submodel>
+      <aas:idShort>TechnicalData</aas:idShort>
+      <aas:description>
+        <aas:langString lang="en">Submodel containing techical data of the asset and associated product classificatons.</aas:langString>
+        <aas:langString lang="de">Teilmodell, das die technischen Daten der Anlage und die zugehörigen Produktklassifizierungen enthält.</aas:langString>
+      </aas:description>
+      <aas:identification idType="IRI">https://admin-shell.io/ZVEI/TechnicalData/Submodel/1/2</aas:identification>
+      <aas:administration>
+        <aas:version>1</aas:version>
+        <aas:revision>2</aas:revision>
+      </aas:administration>
+      <aas:kind>Template</aas:kind>
+      <aas:semanticId>
+        <aas:keys>
+          <aas:key type="Submodel" local="false" idType="IRI">https://admin-shell.io/ZVEI/TechnicalData/Submodel/1/2</aas:key>
+        </aas:keys>
+      </aas:semanticId>
+      <aas:qualifier />
+      <aas:submodelElements>
+        <aas:submodelElement>
+          <aas:submodelElementCollection>
+            <aas:idShort>GeneralInformation</aas:idShort>
+            <aas:description>
+              <aas:langString lang="en">General information, for example ordering and manufacturer information.</aas:langString>
+            </aas:description>
+            <aas:kind>Template</aas:kind>
+            <aas:semanticId>
+              <aas:keys>
+                <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/ZVEI/TechnicalData/GeneralInformation/1/1</aas:key>
+              </aas:keys>
+            </aas:semanticId>
+            <aas:qualifier>
+              <aas:qualifier>
+                <aas:semanticId>
+                  <aas:keys>
+                    <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/SubmodelTemplates/Cardinality/1/0</aas:key>
+                  </aas:keys>
+                </aas:semanticId>
+                <aas:type>Cardinality</aas:type>
+                <aas:valueType />
+                <aas:value>One</aas:value>
+              </aas:qualifier>
+            </aas:qualifier>
+            <aas:ordered>false</aas:ordered>
+            <aas:allowDuplicates>false</aas:allowDuplicates>
+            <aas:value>
+              <aas:submodelElement>
+                <aas:property>
+                  <aas:idShort>ManufacturerName</aas:idShort>
+                  <aas:category>PARAMETER</aas:category>
+                  <aas:description>
+                    <aas:langString lang="en">Legally valid designation of the natural or judicial body which is directly responsible for the design, production, packaging and labeling of a product in respect to its being brought into the market.</aas:langString>
+                  </aas:description>
+                  <aas:kind>Template</aas:kind>
+                  <aas:semanticId>
+                    <aas:keys>
+                      <aas:key type="GlobalReference" local="false" idType="IRDI">0173-1#02-AAO677#002</aas:key>
+                    </aas:keys>
+                  </aas:semanticId>
+                  <aas:qualifier>
+                    <aas:qualifier>
+                      <aas:semanticId>
+                        <aas:keys>
+                          <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/SubmodelTemplates/Cardinality/1/0</aas:key>
+                        </aas:keys>
+                      </aas:semanticId>
+                      <aas:type>Cardinality</aas:type>
+                      <aas:valueType />
+                      <aas:value>One</aas:value>
+                    </aas:qualifier>
+                    <aas:qualifier>
+                      <aas:semanticId>
+                        <aas:keys>
+                          <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/SubmodelTemplates/ExampleValue/1/0</aas:key>
+                        </aas:keys>
+                      </aas:semanticId>
+                      <aas:type>ExampleValue</aas:type>
+                      <aas:valueType />
+                      <aas:value>Example Company</aas:value>
+                    </aas:qualifier>
+                  </aas:qualifier>
+                  <aas:valueType>string</aas:valueType>
+                  <aas:value />
+                </aas:property>
+              </aas:submodelElement>
+              <aas:submodelElement>
+                <aas:file>
+                  <aas:idShort>ManufacturerLogo</aas:idShort>
+                  <aas:description>
+                    <aas:langString lang="en">Imagefile for logo of manufacturer provided in common format (.png, .jpg).</aas:langString>
+                  </aas:description>
+                  <aas:kind>Template</aas:kind>
+                  <aas:semanticId>
+                    <aas:keys>
+                      <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/ZVEI/TechnicalData/ManufacturerLogo/1/1</aas:key>
+                    </aas:keys>
+                  </aas:semanticId>
+                  <aas:qualifier>
+                    <aas:qualifier>
+                      <aas:semanticId>
+                        <aas:keys>
+                          <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/SubmodelTemplates/Cardinality/1/0</aas:key>
+                        </aas:keys>
+                      </aas:semanticId>
+                      <aas:type>Cardinality</aas:type>
+                      <aas:valueType />
+                      <aas:value>ZeroToOne</aas:value>
+                    </aas:qualifier>
+                  </aas:qualifier>
+                  <aas:mimeType>image/png</aas:mimeType>
+                  <aas:value />
+                </aas:file>
+              </aas:submodelElement>
+              <aas:submodelElement>
+                <aas:multiLanguageProperty>
+                  <aas:idShort>ManufacturerProductDesignation</aas:idShort>
+                  <aas:category>PARAMETER</aas:category>
+                  <aas:description>
+                    <aas:langString lang="en">Product designation as given by the mnaufacturer. Short description of the product, product group or function (short text) in common language.</aas:langString>
+                  </aas:description>
+                  <aas:kind>Template</aas:kind>
+                  <aas:semanticId>
+                    <aas:keys>
+                      <aas:key type="GlobalReference" local="false" idType="IRDI">0173-1#02-AAW338#001 </aas:key>
+                    </aas:keys>
+                  </aas:semanticId>
+                  <aas:qualifier>
+                    <aas:qualifier>
+                      <aas:semanticId>
+                        <aas:keys>
+                          <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/SubmodelTemplates/Cardinality/1/0</aas:key>
+                        </aas:keys>
+                      </aas:semanticId>
+                      <aas:type>Cardinality</aas:type>
+                      <aas:valueType />
+                      <aas:value>One</aas:value>
+                    </aas:qualifier>
+                    <aas:qualifier>
+                      <aas:semanticId>
+                        <aas:keys>
+                          <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/SubmodelTemplates/ExampleValue/1/0</aas:key>
+                        </aas:keys>
+                      </aas:semanticId>
+                      <aas:type>ExampleValue</aas:type>
+                      <aas:valueType />
+                      <aas:value>Electrical energy accelerator@en</aas:value>
+                    </aas:qualifier>
+                  </aas:qualifier>
+                  <aas:value />
+                </aas:multiLanguageProperty>
+              </aas:submodelElement>
+              <aas:submodelElement>
+                <aas:property>
+                  <aas:idShort>ManufacturerArticleNumber</aas:idShort>
+                  <aas:category>PARAMETER</aas:category>
+                  <aas:description>
+                    <aas:langString lang="en">unique product identifier of the manufacturer </aas:langString>
+                  </aas:description>
+                  <aas:kind>Template</aas:kind>
+                  <aas:semanticId>
+                    <aas:keys>
+                      <aas:key type="GlobalReference" local="false" idType="IRDI">0173-1#02-AAO676#003</aas:key>
+                    </aas:keys>
+                  </aas:semanticId>
+                  <aas:qualifier>
+                    <aas:qualifier>
+                      <aas:semanticId>
+                        <aas:keys>
+                          <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/SubmodelTemplates/Cardinality/1/0</aas:key>
+                        </aas:keys>
+                      </aas:semanticId>
+                      <aas:type>Cardinality</aas:type>
+                      <aas:valueType />
+                      <aas:value>One</aas:value>
+                    </aas:qualifier>
+                    <aas:qualifier>
+                      <aas:semanticId>
+                        <aas:keys>
+                          <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/SubmodelTemplates/ExampleValue/1/0</aas:key>
+                        </aas:keys>
+                      </aas:semanticId>
+                      <aas:type>ExampleValue</aas:type>
+                      <aas:valueType />
+                      <aas:value>A123-456</aas:value>
+                    </aas:qualifier>
+                  </aas:qualifier>
+                  <aas:valueType>string</aas:valueType>
+                  <aas:value />
+                </aas:property>
+              </aas:submodelElement>
+              <aas:submodelElement>
+                <aas:property>
+                  <aas:idShort>ManufacturerOrderCode</aas:idShort>
+                  <aas:category>PARAMETER</aas:category>
+                  <aas:description>
+                    <aas:langString lang="en">By manufactures issued unique combination of numbers and letters used to identify the device for ordering</aas:langString>
+                  </aas:description>
+                  <aas:kind>Template</aas:kind>
+                  <aas:semanticId>
+                    <aas:keys>
+                      <aas:key type="GlobalReference" local="false" idType="IRI">0173-1#02-AAO227#002</aas:key>
+                    </aas:keys>
+                  </aas:semanticId>
+                  <aas:qualifier>
+                    <aas:qualifier>
+                      <aas:semanticId>
+                        <aas:keys>
+                          <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/SubmodelTemplates/Cardinality/1/0</aas:key>
+                        </aas:keys>
+                      </aas:semanticId>
+                      <aas:type>Cardinality</aas:type>
+                      <aas:valueType />
+                      <aas:value>One</aas:value>
+                    </aas:qualifier>
+                    <aas:qualifier>
+                      <aas:semanticId>
+                        <aas:keys>
+                          <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/SubmodelTemplates/ExampleValue/1/0</aas:key>
+                        </aas:keys>
+                      </aas:semanticId>
+                      <aas:type>ExampleValue</aas:type>
+                      <aas:valueType />
+                      <aas:value>EEA-EX-200-S/47-Q3</aas:value>
+                    </aas:qualifier>
+                  </aas:qualifier>
+                  <aas:valueType>string</aas:valueType>
+                  <aas:value />
+                </aas:property>
+              </aas:submodelElement>
+              <aas:submodelElement>
+                <aas:file>
+                  <aas:idShort>ProductImage</aas:idShort>
+                  <aas:description>
+                    <aas:langString lang="en">Image file for associated product provided in common format (.png, .jpg).</aas:langString>
+                  </aas:description>
+                  <aas:kind>Template</aas:kind>
+                  <aas:semanticId>
+                    <aas:keys>
+                      <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/ZVEI/TechnicalData/ProductImage/1/1</aas:key>
+                    </aas:keys>
+                  </aas:semanticId>
+                  <aas:qualifier>
+                    <aas:qualifier>
+                      <aas:semanticId>
+                        <aas:keys>
+                          <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/SubmodelTemplates/Cardinality/1/0</aas:key>
+                        </aas:keys>
+                      </aas:semanticId>
+                      <aas:type>Cardinality</aas:type>
+                      <aas:valueType />
+                      <aas:value>ZeroToMany</aas:value>
+                    </aas:qualifier>
+                  </aas:qualifier>
+                  <aas:mimeType>image/png</aas:mimeType>
+                  <aas:value />
+                </aas:file>
+              </aas:submodelElement>
+            </aas:value>
+          </aas:submodelElementCollection>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:submodelElementCollection>
+            <aas:idShort>ProductClassifications</aas:idShort>
+            <aas:description>
+              <aas:langString lang="en">Product classifications by association of product classes with common classification systems.</aas:langString>
+            </aas:description>
+            <aas:kind>Template</aas:kind>
+            <aas:semanticId>
+              <aas:keys>
+                <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/ZVEI/TechnicalData/ProductClassifications/1/1</aas:key>
+              </aas:keys>
+            </aas:semanticId>
+            <aas:qualifier>
+              <aas:qualifier>
+                <aas:semanticId>
+                  <aas:keys>
+                    <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/SubmodelTemplates/Cardinality/1/0</aas:key>
+                  </aas:keys>
+                </aas:semanticId>
+                <aas:type>Cardinality</aas:type>
+                <aas:valueType />
+                <aas:value>ZeroToOne</aas:value>
+              </aas:qualifier>
+            </aas:qualifier>
+            <aas:ordered>false</aas:ordered>
+            <aas:allowDuplicates>false</aas:allowDuplicates>
+            <aas:value>
+              <aas:submodelElement>
+                <aas:submodelElementCollection>
+                  <aas:idShort>ProductClassificationItem</aas:idShort>
+                  <aas:description>
+                    <aas:langString lang="en">Single product classification item by association with product class in a particular classification system or property dictionary.</aas:langString>
+                  </aas:description>
+                  <aas:kind>Template</aas:kind>
+                  <aas:semanticId>
+                    <aas:keys>
+                      <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/ZVEI/TechnicalData/ProductClassificationItem/1/1</aas:key>
+                    </aas:keys>
+                  </aas:semanticId>
+                  <aas:qualifier>
+                    <aas:qualifier>
+                      <aas:semanticId>
+                        <aas:keys>
+                          <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/SubmodelTemplates/Cardinality/1/0</aas:key>
+                        </aas:keys>
+                      </aas:semanticId>
+                      <aas:type>Cardinality</aas:type>
+                      <aas:valueType />
+                      <aas:value>ZeroToMany</aas:value>
+                    </aas:qualifier>
+                    <aas:qualifier>
+                      <aas:semanticId>
+                        <aas:keys>
+                          <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/SubmodelTemplates/AllowedIdShort/1/0</aas:key>
+                        </aas:keys>
+                      </aas:semanticId>
+                      <aas:type>AllowedIdShort</aas:type>
+                      <aas:valueType />
+                      <aas:value>ProductClassificationItem[\d{2,3}]</aas:value>
+                    </aas:qualifier>
+                  </aas:qualifier>
+                  <aas:ordered>false</aas:ordered>
+                  <aas:allowDuplicates>false</aas:allowDuplicates>
+                  <aas:value>
+                    <aas:submodelElement>
+                      <aas:property>
+                        <aas:idShort>ProductClassificationSystem</aas:idShort>
+                        <aas:category>PARAMETER</aas:category>
+                        <aas:description>
+                          <aas:langString lang="en">Common name of the classification system.</aas:langString>
+                        </aas:description>
+                        <aas:kind>Template</aas:kind>
+                        <aas:semanticId>
+                          <aas:keys>
+                            <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/ZVEI/TechnicalData/ProductClassificationSystem/1/1</aas:key>
+                          </aas:keys>
+                        </aas:semanticId>
+                        <aas:qualifier>
+                          <aas:qualifier>
+                            <aas:semanticId>
+                              <aas:keys>
+                                <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/SubmodelTemplates/Cardinality/1/0</aas:key>
+                              </aas:keys>
+                            </aas:semanticId>
+                            <aas:type>Cardinality</aas:type>
+                            <aas:valueType />
+                            <aas:value>One</aas:value>
+                          </aas:qualifier>
+                          <aas:qualifier>
+                            <aas:semanticId>
+                              <aas:keys>
+                                <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/SubmodelTemplates/ExampleValue/1/0</aas:key>
+                              </aas:keys>
+                            </aas:semanticId>
+                            <aas:type>ExampleValue</aas:type>
+                            <aas:valueType />
+                            <aas:value>ECLASS</aas:value>
+                          </aas:qualifier>
+                        </aas:qualifier>
+                        <aas:valueType>string</aas:valueType>
+                        <aas:value />
+                      </aas:property>
+                    </aas:submodelElement>
+                    <aas:submodelElement>
+                      <aas:property>
+                        <aas:idShort>ClassificationSystemVersion</aas:idShort>
+                        <aas:category>PARAMETER</aas:category>
+                        <aas:description>
+                          <aas:langString lang="en">Common version identifier of the used classification system, in order to distinguish different version of the property dictionary.</aas:langString>
+                        </aas:description>
+                        <aas:kind>Template</aas:kind>
+                        <aas:semanticId>
+                          <aas:keys>
+                            <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/ZVEI/TechnicalData/ClassificationSystemVersion/1/1</aas:key>
+                          </aas:keys>
+                        </aas:semanticId>
+                        <aas:qualifier>
+                          <aas:qualifier>
+                            <aas:semanticId>
+                              <aas:keys>
+                                <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/SubmodelTemplates/Cardinality/1/0</aas:key>
+                              </aas:keys>
+                            </aas:semanticId>
+                            <aas:type>Cardinality</aas:type>
+                            <aas:valueType />
+                            <aas:value>ZeroToOne</aas:value>
+                          </aas:qualifier>
+                          <aas:qualifier>
+                            <aas:semanticId>
+                              <aas:keys>
+                                <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/SubmodelTemplates/ExampleValue/1/0</aas:key>
+                              </aas:keys>
+                            </aas:semanticId>
+                            <aas:type>ExampleValue</aas:type>
+                            <aas:valueType />
+                            <aas:value>9.0 (BASIC)</aas:value>
+                          </aas:qualifier>
+                        </aas:qualifier>
+                        <aas:valueType>string</aas:valueType>
+                        <aas:value />
+                      </aas:property>
+                    </aas:submodelElement>
+                    <aas:submodelElement>
+                      <aas:property>
+                        <aas:idShort>ProductClassId</aas:idShort>
+                        <aas:category>PARAMETER</aas:category>
+                        <aas:description>
+                          <aas:langString lang="en">Class of the associated product or industrial equipment in the classification system. According to the notation of the system.</aas:langString>
+                        </aas:description>
+                        <aas:kind>Template</aas:kind>
+                        <aas:semanticId>
+                          <aas:keys>
+                            <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/ZVEI/TechnicalData/ProductClassId/1/1</aas:key>
+                          </aas:keys>
+                        </aas:semanticId>
+                        <aas:qualifier>
+                          <aas:qualifier>
+                            <aas:semanticId>
+                              <aas:keys>
+                                <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/SubmodelTemplates/Cardinality/1/0</aas:key>
+                              </aas:keys>
+                            </aas:semanticId>
+                            <aas:type>Cardinality</aas:type>
+                            <aas:valueType />
+                            <aas:value>One</aas:value>
+                          </aas:qualifier>
+                          <aas:qualifier>
+                            <aas:semanticId>
+                              <aas:keys>
+                                <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/SubmodelTemplates/ExampleValue/1/0</aas:key>
+                              </aas:keys>
+                            </aas:semanticId>
+                            <aas:type>ExampleValue</aas:type>
+                            <aas:valueType />
+                            <aas:value>27-01-88-77 | 0112/2///61987#ABA827#003</aas:value>
+                          </aas:qualifier>
+                        </aas:qualifier>
+                        <aas:valueType>string</aas:valueType>
+                        <aas:value />
+                      </aas:property>
+                    </aas:submodelElement>
+                  </aas:value>
+                </aas:submodelElementCollection>
+              </aas:submodelElement>
+            </aas:value>
+          </aas:submodelElementCollection>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:submodelElementCollection>
+            <aas:idShort>TechnicalProperties</aas:idShort>
+            <aas:description>
+              <aas:langString lang="en">Individual characteristics that describe the product and its technical properties.</aas:langString>
+            </aas:description>
+            <aas:kind>Template</aas:kind>
+            <aas:semanticId>
+              <aas:keys>
+                <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/ZVEI/TechnicalData/TechnicalProperties/1/1</aas:key>
+              </aas:keys>
+            </aas:semanticId>
+            <aas:qualifier>
+              <aas:qualifier>
+                <aas:semanticId>
+                  <aas:keys>
+                    <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/SubmodelTemplates/Cardinality/1/0</aas:key>
+                  </aas:keys>
+                </aas:semanticId>
+                <aas:type>Cardinality</aas:type>
+                <aas:valueType />
+                <aas:value>One</aas:value>
+              </aas:qualifier>
+            </aas:qualifier>
+            <aas:ordered>false</aas:ordered>
+            <aas:allowDuplicates>false</aas:allowDuplicates>
+            <aas:value>
+              <aas:submodelElement>
+                <aas:multiLanguageProperty>
+                  <aas:idShort>{arbitrary}</aas:idShort>
+                  <aas:category>PARAMETER</aas:category>
+                  <aas:description>
+                    <aas:langString lang="en">Arbitrary SubmodelElement with semanticId possibly referring to a ConceptDescription can be used within the Technical Properties.</aas:langString>
+                  </aas:description>
+                  <aas:kind>Template</aas:kind>
+                  <aas:semanticId>
+                    <aas:keys>
+                      <aas:key type="GlobalReference" local="false" idType="IRI" />
+                    </aas:keys>
+                  </aas:semanticId>
+                  <aas:qualifier>
+                    <aas:qualifier>
+                      <aas:semanticId>
+                        <aas:keys>
+                          <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/SubmodelTemplates/Cardinality/1/0</aas:key>
+                        </aas:keys>
+                      </aas:semanticId>
+                      <aas:type>Cardinality</aas:type>
+                      <aas:valueType />
+                      <aas:value>ZeroToMany</aas:value>
+                    </aas:qualifier>
+                    <aas:qualifier>
+                      <aas:semanticId>
+                        <aas:keys>
+                          <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/SubmodelTemplates/ExampleValue/1/0</aas:key>
+                        </aas:keys>
+                      </aas:semanticId>
+                      <aas:type>ExampleValue</aas:type>
+                      <aas:valueType />
+                      <aas:value>Width@en= 32 [mm]</aas:value>
+                    </aas:qualifier>
+                  </aas:qualifier>
+                  <aas:value />
+                </aas:multiLanguageProperty>
+              </aas:submodelElement>
+              <aas:submodelElement>
+                <aas:property>
+                  <aas:idShort>{arbitrary}</aas:idShort>
+                  <aas:category>PARAMETER</aas:category>
+                  <aas:description>
+                    <aas:langString lang="en">Represents a SubmodelElement that is not described using a common classification system, a consortium specification, an open community standard, a published manufacturer specification or such.</aas:langString>
+                  </aas:description>
+                  <aas:kind>Template</aas:kind>
+                  <aas:semanticId>
+                    <aas:keys>
+                      <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/SemanticIdNotAvailable/1/1</aas:key>
+                    </aas:keys>
+                  </aas:semanticId>
+                  <aas:qualifier>
+                    <aas:qualifier>
+                      <aas:semanticId>
+                        <aas:keys>
+                          <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/SubmodelTemplates/Cardinality/1/0</aas:key>
+                        </aas:keys>
+                      </aas:semanticId>
+                      <aas:type>Cardinality</aas:type>
+                      <aas:valueType />
+                      <aas:value>ZeroToMany</aas:value>
+                    </aas:qualifier>
+                    <aas:qualifier>
+                      <aas:semanticId>
+                        <aas:keys>
+                          <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/SubmodelTemplates/ExampleValue/1/0</aas:key>
+                        </aas:keys>
+                      </aas:semanticId>
+                      <aas:type>ExampleValue</aas:type>
+                      <aas:valueType />
+                      <aas:value>Length</aas:value>
+                    </aas:qualifier>
+                  </aas:qualifier>
+                  <aas:valueType>string</aas:valueType>
+                  <aas:value />
+                </aas:property>
+              </aas:submodelElement>
+              <aas:submodelElement>
+                <aas:submodelElementCollection>
+                  <aas:idShort>MainSection</aas:idShort>
+                  <aas:description>
+                    <aas:langString lang="en">Main subdivision possibility for properties.</aas:langString>
+                  </aas:description>
+                  <aas:kind>Template</aas:kind>
+                  <aas:semanticId>
+                    <aas:keys>
+                      <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/ZVEI/TechnicalData/MainSection/1/1</aas:key>
+                    </aas:keys>
+                  </aas:semanticId>
+                  <aas:qualifier>
+                    <aas:qualifier>
+                      <aas:semanticId>
+                        <aas:keys>
+                          <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/SubmodelTemplates/Cardinality/1/0</aas:key>
+                        </aas:keys>
+                      </aas:semanticId>
+                      <aas:type>Cardinality</aas:type>
+                      <aas:valueType />
+                      <aas:value>ZeroToMany</aas:value>
+                    </aas:qualifier>
+                    <aas:qualifier>
+                      <aas:semanticId>
+                        <aas:keys>
+                          <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/SubmodelTemplates/AllowedIdShort/1/0</aas:key>
+                        </aas:keys>
+                      </aas:semanticId>
+                      <aas:type>AllowedIdShort</aas:type>
+                      <aas:valueType />
+                      <aas:value>MainSection[\d{2,3}]</aas:value>
+                    </aas:qualifier>
+                  </aas:qualifier>
+                  <aas:ordered>false</aas:ordered>
+                  <aas:allowDuplicates>false</aas:allowDuplicates>
+                  <aas:value>
+                    <aas:submodelElement>
+                      <aas:submodelElementCollection>
+                        <aas:idShort>SubSection</aas:idShort>
+                        <aas:description>
+                          <aas:langString lang="en">Subordinate subdivision possibility for properties.</aas:langString>
+                        </aas:description>
+                        <aas:kind>Template</aas:kind>
+                        <aas:semanticId>
+                          <aas:keys>
+                            <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/ZVEI/TechnicalData/SubSection/1/1</aas:key>
+                          </aas:keys>
+                        </aas:semanticId>
+                        <aas:qualifier>
+                          <aas:qualifier>
+                            <aas:semanticId>
+                              <aas:keys>
+                                <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/SubmodelTemplates/Cardinality/1/0</aas:key>
+                              </aas:keys>
+                            </aas:semanticId>
+                            <aas:type>Cardinality</aas:type>
+                            <aas:valueType />
+                            <aas:value>ZeroToMany</aas:value>
+                          </aas:qualifier>
+                          <aas:qualifier>
+                            <aas:semanticId>
+                              <aas:keys>
+                                <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/SubmodelTemplates/AllowedIdShort/1/0</aas:key>
+                              </aas:keys>
+                            </aas:semanticId>
+                            <aas:type>AllowedIdShort</aas:type>
+                            <aas:valueType />
+                            <aas:value>SubSection[\d{2,3}]</aas:value>
+                          </aas:qualifier>
+                        </aas:qualifier>
+                        <aas:ordered>false</aas:ordered>
+                        <aas:allowDuplicates>false</aas:allowDuplicates>
+                        <aas:value />
+                      </aas:submodelElementCollection>
+                    </aas:submodelElement>
+                  </aas:value>
+                </aas:submodelElementCollection>
+              </aas:submodelElement>
+              <aas:submodelElement>
+                <aas:submodelElementCollection>
+                  <aas:idShort>SubSection</aas:idShort>
+                  <aas:description>
+                    <aas:langString lang="en">Subordinate subdivision possibility for properties.</aas:langString>
+                  </aas:description>
+                  <aas:kind>Template</aas:kind>
+                  <aas:semanticId>
+                    <aas:keys>
+                      <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/ZVEI/TechnicalData/SubSection/1/1</aas:key>
+                    </aas:keys>
+                  </aas:semanticId>
+                  <aas:qualifier>
+                    <aas:qualifier>
+                      <aas:semanticId>
+                        <aas:keys>
+                          <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/SubmodelTemplates/Cardinality/1/0</aas:key>
+                        </aas:keys>
+                      </aas:semanticId>
+                      <aas:type>Cardinality</aas:type>
+                      <aas:valueType />
+                      <aas:value>ZeroToMany</aas:value>
+                    </aas:qualifier>
+                    <aas:qualifier>
+                      <aas:semanticId>
+                        <aas:keys>
+                          <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/SubmodelTemplates/AllowedIdShort/1/0</aas:key>
+                        </aas:keys>
+                      </aas:semanticId>
+                      <aas:type>AllowedIdShort</aas:type>
+                      <aas:valueType />
+                      <aas:value>SubSection[\d{2,3}]</aas:value>
+                    </aas:qualifier>
+                  </aas:qualifier>
+                  <aas:ordered>false</aas:ordered>
+                  <aas:allowDuplicates>false</aas:allowDuplicates>
+                  <aas:value />
+                </aas:submodelElementCollection>
+              </aas:submodelElement>
+            </aas:value>
+          </aas:submodelElementCollection>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:submodelElementCollection>
+            <aas:idShort>FurtherInformation</aas:idShort>
+            <aas:description>
+              <aas:langString lang="en">Further information on the product, the validity of the information provided and this data record.</aas:langString>
+            </aas:description>
+            <aas:kind>Template</aas:kind>
+            <aas:semanticId>
+              <aas:keys>
+                <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/ZVEI/TechnicalData/FurtherInformation/1/1</aas:key>
+              </aas:keys>
+            </aas:semanticId>
+            <aas:qualifier>
+              <aas:qualifier>
+                <aas:semanticId>
+                  <aas:keys>
+                    <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/SubmodelTemplates/Cardinality/1/0</aas:key>
+                  </aas:keys>
+                </aas:semanticId>
+                <aas:type>Cardinality</aas:type>
+                <aas:valueType />
+                <aas:value>ZeroToOne</aas:value>
+              </aas:qualifier>
+            </aas:qualifier>
+            <aas:ordered>false</aas:ordered>
+            <aas:allowDuplicates>false</aas:allowDuplicates>
+            <aas:value>
+              <aas:submodelElement>
+                <aas:multiLanguageProperty>
+                  <aas:idShort>TextStatement</aas:idShort>
+                  <aas:category>PARAMETER</aas:category>
+                  <aas:description>
+                    <aas:langString lang="en">Statement by the manufacturer in text form, e.g. scope of validity of the statements, scopes of application, conditions of operation.</aas:langString>
+                  </aas:description>
+                  <aas:kind>Template</aas:kind>
+                  <aas:semanticId>
+                    <aas:keys>
+                      <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/ZVEI/TechnicalData/TextStatement/1/1</aas:key>
+                    </aas:keys>
+                  </aas:semanticId>
+                  <aas:qualifier>
+                    <aas:qualifier>
+                      <aas:semanticId>
+                        <aas:keys>
+                          <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/SubmodelTemplates/Cardinality/1/0</aas:key>
+                        </aas:keys>
+                      </aas:semanticId>
+                      <aas:type>Cardinality</aas:type>
+                      <aas:valueType />
+                      <aas:value>ZeroToMany</aas:value>
+                    </aas:qualifier>
+                    <aas:qualifier>
+                      <aas:semanticId>
+                        <aas:keys>
+                          <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/SubmodelTemplates/ExampleValue/1/0</aas:key>
+                        </aas:keys>
+                      </aas:semanticId>
+                      <aas:type>ExampleValue</aas:type>
+                      <aas:valueType />
+                      <aas:value>Restricted use@en</aas:value>
+                    </aas:qualifier>
+                    <aas:qualifier>
+                      <aas:semanticId>
+                        <aas:keys>
+                          <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/SubmodelTemplates/AllowedIdShort/1/0</aas:key>
+                        </aas:keys>
+                      </aas:semanticId>
+                      <aas:type>AllowedIdShort</aas:type>
+                      <aas:valueType />
+                      <aas:value>TextStatement[\d{2,3}]</aas:value>
+                    </aas:qualifier>
+                  </aas:qualifier>
+                  <aas:value />
+                </aas:multiLanguageProperty>
+              </aas:submodelElement>
+              <aas:submodelElement>
+                <aas:property>
+                  <aas:idShort>ValidDate</aas:idShort>
+                  <aas:category>PARAMETER</aas:category>
+                  <aas:description>
+                    <aas:langString lang="en">Denotes a date on which the data specified in the Submodel was valid from for the associated asset.</aas:langString>
+                  </aas:description>
+                  <aas:kind>Template</aas:kind>
+                  <aas:semanticId>
+                    <aas:keys>
+                      <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/ZVEI/TechnicalData/ManufacturerOrderCode/1/1</aas:key>
+                    </aas:keys>
+                  </aas:semanticId>
+                  <aas:qualifier>
+                    <aas:qualifier>
+                      <aas:semanticId>
+                        <aas:keys>
+                          <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/SubmodelTemplates/Cardinality/1/0</aas:key>
+                        </aas:keys>
+                      </aas:semanticId>
+                      <aas:type>Cardinality</aas:type>
+                      <aas:valueType />
+                      <aas:value>One</aas:value>
+                    </aas:qualifier>
+                    <aas:qualifier>
+                      <aas:semanticId>
+                        <aas:keys>
+                          <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/SubmodelTemplates/ExampleValue/1/0</aas:key>
+                        </aas:keys>
+                      </aas:semanticId>
+                      <aas:type>ExampleValue</aas:type>
+                      <aas:valueType />
+                      <aas:value>5/28/2021</aas:value>
+                    </aas:qualifier>
+                  </aas:qualifier>
+                  <aas:valueType>date</aas:valueType>
+                  <aas:value />
+                </aas:property>
+              </aas:submodelElement>
+            </aas:value>
+          </aas:submodelElementCollection>
+        </aas:submodelElement>
+      </aas:submodelElements>
+    </aas:submodel>
+  </aas:submodels>
+  <aas:conceptDescriptions />
+</aas:aasenv>

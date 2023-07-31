@@ -1,0 +1,1777 @@
+<?xml version="1.0"?>
+<aas:aasenv xmlns:IEC="http://www.admin-shell.io/IEC61360/2/0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:abac="http://www.admin-shell.io/aas/abac/2/0" xsi:schemaLocation="http://www.admin-shell.io/aas/2/0 AAS.xsd http://www.admin-shell.io/IEC61360/2/0 IEC61360.xsd" xmlns:aas="http://www.admin-shell.io/aas/2/0">
+  <aas:assetAdministrationShells>
+    <aas:assetAdministrationShell>
+      <aas:idShort>FunctionalSafetyAAS</aas:idShort>
+      <aas:identification idType="IRI">https://demo.com/FunctionalSafetyAAS</aas:identification>
+      <aas:assetRef>
+        <aas:keys />
+      </aas:assetRef>
+      <aas:submodelRefs>
+        <aas:submodelRef>
+          <aas:keys>
+            <aas:key type="Submodel" local="true" idType="IRI">https://admin-shell.io/idta/iec62683/1/0/FunctionalSafety</aas:key>
+          </aas:keys>
+        </aas:submodelRef>
+      </aas:submodelRefs>
+      <aas:conceptDictionaries />
+    </aas:assetAdministrationShell>
+  </aas:assetAdministrationShells>
+  <aas:assets />
+  <aas:submodels>
+    <aas:submodel>
+      <aas:idShort>FunctionalSafety</aas:idShort>
+      <aas:identification idType="IRI">https://admin-shell.io/idta/iec62683/1/0/FunctionalSafety</aas:identification>
+      <aas:administration>
+        <aas:version>1</aas:version>
+        <aas:revision>0</aas:revision>
+      </aas:administration>
+      <aas:kind>Template</aas:kind>
+      <aas:semanticId>
+        <aas:keys>
+          <aas:key type="Submodel" local="true" idType="IRI">https://admin-shell.io/idta/iec62683/1/0/FunctionalSafety</aas:key>
+        </aas:keys>
+      </aas:semanticId>
+      <aas:qualifier />
+      <aas:submodelElements>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>NumberOfFunctionalSafetySetsOfCharacteristics</aas:idShort>
+            <aas:description>
+              <aas:langString lang="en">number of functional safety sets of characteristics</aas:langString>
+              <aas:langString lang="fr">nombre d'ensembles de caractéristiques de sécurité fonctionnelle</aas:langString>
+            </aas:description>
+            <aas:kind>Template</aas:kind>
+            <aas:semanticId>
+              <aas:keys>
+                <aas:key type="ConceptDescription" local="true" idType="IRDI">0112/2///62683#ACE005#001</aas:key>
+              </aas:keys>
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>int</aas:valueType>
+            <aas:value />
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:submodelElementCollection>
+            <aas:idShort>OperatingConditionsOfFunctionalSafetyCharacteristics</aas:idShort>
+            <aas:description>
+              <aas:langString lang="en">operating conditions of functional safety characteristics</aas:langString>
+              <aas:langString lang="fr">conditions de fonctionnement des caractéristiques de sécurité fonctionnelle</aas:langString>
+            </aas:description>
+            <aas:kind>Template</aas:kind>
+            <aas:semanticId>
+              <aas:keys>
+                <aas:key type="ConceptDescription" local="true" idType="IRDI">0112/2///62683#ACG057#001</aas:key>
+              </aas:keys>
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:ordered>false</aas:ordered>
+            <aas:allowDuplicates>false</aas:allowDuplicates>
+            <aas:value>
+              <aas:submodelElement>
+                <aas:property>
+                  <aas:idShort>TypeOfVoltage</aas:idShort>
+                  <aas:description>
+                    <aas:langString lang="en">type of voltage</aas:langString>
+                    <aas:langString lang="fr">type de tension</aas:langString>
+                    <aas:langString lang="de">Spannungsart</aas:langString>
+                  </aas:description>
+                  <aas:kind>Template</aas:kind>
+                  <aas:semanticId>
+                    <aas:keys>
+                      <aas:key type="ConceptDescription" local="true" idType="IRDI">0112/2///61987#ABA969#007</aas:key>
+                    </aas:keys>
+                  </aas:semanticId>
+                  <aas:qualifier />
+                  <aas:valueType>string</aas:valueType>
+                  <aas:value />
+                  <aas:valueId>
+                    <aas:keys>
+                      <aas:key type="GlobalReference" local="false" idType="IRDI">0112/2///61987#ABL837#001</aas:key>
+                      <aas:key type="GlobalReference" local="false" idType="IRDI">0112/2///61987#ABL838#001</aas:key>
+                      <aas:key type="GlobalReference" local="false" idType="IRDI">0112/2///61987#ABI407#004</aas:key>
+                    </aas:keys>
+                  </aas:valueId>
+                </aas:property>
+              </aas:submodelElement>
+              <aas:submodelElement>
+                <aas:property>
+                  <aas:idShort>RatedVoltage</aas:idShort>
+                  <aas:description>
+                    <aas:langString lang="en">rated voltage</aas:langString>
+                    <aas:langString lang="fr">tension assignée</aas:langString>
+                    <aas:langString lang="de">Bemessungsspannung</aas:langString>
+                  </aas:description>
+                  <aas:kind>Template</aas:kind>
+                  <aas:semanticId>
+                    <aas:keys>
+                      <aas:key type="ConceptDescription" local="true" idType="IRDI">0112/2///61987#ABA588#004</aas:key>
+                    </aas:keys>
+                  </aas:semanticId>
+                  <aas:qualifier />
+                  <aas:valueType>double</aas:valueType>
+                  <aas:value />
+                </aas:property>
+              </aas:submodelElement>
+              <aas:submodelElement>
+                <aas:property>
+                  <aas:idShort>MinimumRatedVoltage</aas:idShort>
+                  <aas:description>
+                    <aas:langString lang="en">minimum rated voltage</aas:langString>
+                    <aas:langString lang="fr">tension assignée minimale</aas:langString>
+                    <aas:langString lang="de">minimale Bemessungsspannung</aas:langString>
+                  </aas:description>
+                  <aas:kind>Template</aas:kind>
+                  <aas:semanticId>
+                    <aas:keys>
+                      <aas:key type="ConceptDescription" local="true" idType="IRDI">0112/2///61987#ABD461#004</aas:key>
+                    </aas:keys>
+                  </aas:semanticId>
+                  <aas:qualifier />
+                  <aas:valueType>double</aas:valueType>
+                  <aas:value />
+                </aas:property>
+              </aas:submodelElement>
+              <aas:submodelElement>
+                <aas:property>
+                  <aas:idShort>MaximumRatedVoltage</aas:idShort>
+                  <aas:description>
+                    <aas:langString lang="en">maximum rated voltage</aas:langString>
+                    <aas:langString lang="fr">tension assignée maximale</aas:langString>
+                    <aas:langString lang="de">maximale Bemessungsspannung</aas:langString>
+                  </aas:description>
+                  <aas:kind>Template</aas:kind>
+                  <aas:semanticId>
+                    <aas:keys>
+                      <aas:key type="ConceptDescription" local="true" idType="IRDI">0112/2///61987#ABD462#004</aas:key>
+                    </aas:keys>
+                  </aas:semanticId>
+                  <aas:qualifier />
+                  <aas:valueType>double</aas:valueType>
+                  <aas:value />
+                </aas:property>
+              </aas:submodelElement>
+              <aas:submodelElement>
+                <aas:property>
+                  <aas:idShort>RatedOperationalCurrent</aas:idShort>
+                  <aas:description>
+                    <aas:langString lang="en">rated operational current</aas:langString>
+                  </aas:description>
+                  <aas:kind>Template</aas:kind>
+                  <aas:semanticId>
+                    <aas:keys>
+                      <aas:key type="ConceptDescription" local="true" idType="IRI">https://admin-shell.io/idta/FunctionalSafety/RatedOperationalCurrent/1/0</aas:key>
+                    </aas:keys>
+                  </aas:semanticId>
+                  <aas:qualifier />
+                  <aas:valueType>double</aas:valueType>
+                  <aas:value />
+                </aas:property>
+              </aas:submodelElement>
+              <aas:submodelElement>
+                <aas:property>
+                  <aas:idShort>TypeOfInterlockingDevice</aas:idShort>
+                  <aas:description>
+                    <aas:langString lang="en">type of interlocking device</aas:langString>
+                    <aas:langString lang="fr">type de dispositif de verrouillage</aas:langString>
+                  </aas:description>
+                  <aas:kind>Template</aas:kind>
+                  <aas:semanticId>
+                    <aas:keys>
+                      <aas:key type="ConceptDescription" local="true" idType="IRDI">0112/2///62683#ACE053#001</aas:key>
+                    </aas:keys>
+                  </aas:semanticId>
+                  <aas:qualifier />
+                  <aas:valueType>string</aas:valueType>
+                  <aas:value />
+                  <aas:valueId>
+                    <aas:keys>
+                      <aas:key type="GlobalReference" local="false" idType="IRDI">0112/2///62683#ACH673#001</aas:key>
+                      <aas:key type="GlobalReference" local="false" idType="IRDI">0112/2///62683#ACH674#001</aas:key>
+                      <aas:key type="GlobalReference" local="false" idType="IRDI">0112/2///62683#ACH675#001</aas:key>
+                      <aas:key type="GlobalReference" local="false" idType="IRDI">0112/2///62683#ACH676#001</aas:key>
+                    </aas:keys>
+                  </aas:valueId>
+                </aas:property>
+              </aas:submodelElement>
+              <aas:submodelElement>
+                <aas:property>
+                  <aas:idShort>OtherOperatingConditions</aas:idShort>
+                  <aas:description>
+                    <aas:langString lang="en">other operating conditions</aas:langString>
+                    <aas:langString lang="fr">autres conditions de fonctionnement</aas:langString>
+                  </aas:description>
+                  <aas:kind>Template</aas:kind>
+                  <aas:semanticId>
+                    <aas:keys>
+                      <aas:key type="ConceptDescription" local="true" idType="IRDI">0112/2///62683#ACE070#001</aas:key>
+                    </aas:keys>
+                  </aas:semanticId>
+                  <aas:qualifier />
+                  <aas:valueType>string</aas:valueType>
+                  <aas:value />
+                </aas:property>
+              </aas:submodelElement>
+              <aas:submodelElement>
+                <aas:property>
+                  <aas:idShort>UsefulLifeInNumberOfOperations</aas:idShort>
+                  <aas:description>
+                    <aas:langString lang="en">useful life in number of operations</aas:langString>
+                    <aas:langString lang="fr">durée de vie utile en cycle de fonctionnement</aas:langString>
+                  </aas:description>
+                  <aas:kind>Template</aas:kind>
+                  <aas:semanticId>
+                    <aas:keys>
+                      <aas:key type="ConceptDescription" local="true" idType="IRDI">0112/2///62683#ACE055#001</aas:key>
+                    </aas:keys>
+                  </aas:semanticId>
+                  <aas:qualifier />
+                  <aas:valueType>double</aas:valueType>
+                  <aas:value />
+                </aas:property>
+              </aas:submodelElement>
+              <aas:submodelElement>
+                <aas:property>
+                  <aas:idShort>UsefulLifeInTimeInterval</aas:idShort>
+                  <aas:description>
+                    <aas:langString lang="en">useful life in time interval</aas:langString>
+                    <aas:langString lang="fr">durée de vie utile en intervalle de temps</aas:langString>
+                  </aas:description>
+                  <aas:kind>Template</aas:kind>
+                  <aas:semanticId>
+                    <aas:keys>
+                      <aas:key type="ConceptDescription" local="true" idType="IRDI">0112/2///62683#ACE054#001</aas:key>
+                    </aas:keys>
+                  </aas:semanticId>
+                  <aas:qualifier />
+                  <aas:valueType>double</aas:valueType>
+                  <aas:value />
+                </aas:property>
+              </aas:submodelElement>
+            </aas:value>
+          </aas:submodelElementCollection>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:submodelElementCollection>
+            <aas:idShort>SafetyDeviceTypes</aas:idShort>
+            <aas:description>
+              <aas:langString lang="en">safety device</aas:langString>
+              <aas:langString lang="fr">dispositif de sécurité</aas:langString>
+            </aas:description>
+            <aas:kind>Template</aas:kind>
+            <aas:semanticId>
+              <aas:keys>
+                <aas:key type="ConceptDescription" local="true" idType="IRDI">0112/2///62683#ACG070#001</aas:key>
+              </aas:keys>
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:ordered>false</aas:ordered>
+            <aas:allowDuplicates>false</aas:allowDuplicates>
+            <aas:value>
+              <aas:submodelElement>
+                <aas:property>
+                  <aas:idShort>FunctionalSafetyDeviceType</aas:idShort>
+                  <aas:description>
+                    <aas:langString lang="en">functional safety device type</aas:langString>
+                    <aas:langString lang="fr">type de dispositif de sécurité fonctionnelle</aas:langString>
+                  </aas:description>
+                  <aas:kind>Template</aas:kind>
+                  <aas:semanticId>
+                    <aas:keys>
+                      <aas:key type="ConceptDescription" local="true" idType="IRDI">0112/2///62683#ACE071#001</aas:key>
+                    </aas:keys>
+                  </aas:semanticId>
+                  <aas:qualifier />
+                  <aas:valueType>string</aas:valueType>
+                  <aas:value />
+                  <aas:valueId>
+                    <aas:keys>
+                      <aas:key type="GlobalReference" local="false" idType="IRDI">0112/2///62683#ACH687</aas:key>
+                      <aas:key type="GlobalReference" local="false" idType="IRDI">0112/2///62683#ACH688</aas:key>
+                      <aas:key type="GlobalReference" local="false" idType="IRDI">0112/2///62683#ACH689</aas:key>
+                      <aas:key type="GlobalReference" local="false" idType="IRDI">0112/2///62683#ACH690</aas:key>
+                    </aas:keys>
+                  </aas:valueId>
+                </aas:property>
+              </aas:submodelElement>
+              <aas:submodelElement>
+                <aas:submodelElementCollection>
+                  <aas:idShort>SafetySubsystem</aas:idShort>
+                  <aas:description>
+                    <aas:langString lang="en">Safety subsystem</aas:langString>
+                    <aas:langString lang="fr">Sous-système de sécurité</aas:langString>
+                  </aas:description>
+                  <aas:kind>Template</aas:kind>
+                  <aas:semanticId>
+                    <aas:keys>
+                      <aas:key type="ConceptDescription" local="true" idType="IRDI">0112/2///62683#ACG065#001</aas:key>
+                    </aas:keys>
+                  </aas:semanticId>
+                  <aas:qualifier />
+                  <aas:ordered>false</aas:ordered>
+                  <aas:allowDuplicates>false</aas:allowDuplicates>
+                  <aas:value>
+                    <aas:submodelElement>
+                      <aas:property>
+                        <aas:idShort>SIL</aas:idShort>
+                        <aas:description>
+                          <aas:langString lang="en">safety integrity level</aas:langString>
+                          <aas:langString lang="fr">niveau d'intégrité de sécurité</aas:langString>
+                        </aas:description>
+                        <aas:kind>Template</aas:kind>
+                        <aas:semanticId>
+                          <aas:keys>
+                            <aas:key type="ConceptDescription" local="true" idType="IRDI">0112/2///62683#ACE051#001</aas:key>
+                          </aas:keys>
+                        </aas:semanticId>
+                        <aas:qualifier />
+                        <aas:valueType>string</aas:valueType>
+                        <aas:value />
+                        <aas:valueId>
+                          <aas:keys>
+                            <aas:key type="GlobalReference" local="false" idType="IRDI">0112/2///62683#ACH670#001</aas:key>
+                            <aas:key type="GlobalReference" local="false" idType="IRDI">0112/2///62683#ACH671#001</aas:key>
+                            <aas:key type="GlobalReference" local="false" idType="IRDI">0112/2///62683#ACH672#001</aas:key>
+                          </aas:keys>
+                        </aas:valueId>
+                      </aas:property>
+                    </aas:submodelElement>
+                    <aas:submodelElement>
+                      <aas:property>
+                        <aas:idShort>PFH</aas:idShort>
+                        <aas:description>
+                          <aas:langString lang="en">probability of dangerous failure within one hour</aas:langString>
+                          <aas:langString lang="fr">fréquence de défaillance dangereuse par heure</aas:langString>
+                        </aas:description>
+                        <aas:kind>Template</aas:kind>
+                        <aas:semanticId>
+                          <aas:keys>
+                            <aas:key type="ConceptDescription" local="true" idType="IRDI">0112/2///62683#ACE052#001</aas:key>
+                          </aas:keys>
+                        </aas:semanticId>
+                        <aas:qualifier />
+                        <aas:valueType>double</aas:valueType>
+                        <aas:value />
+                      </aas:property>
+                    </aas:submodelElement>
+                    <aas:submodelElement>
+                      <aas:property>
+                        <aas:idShort>ProofTestInterval</aas:idShort>
+                        <aas:description>
+                          <aas:langString lang="en">proof test interval</aas:langString>
+                          <aas:langString lang="fr">intervalle entre essai périodique</aas:langString>
+                        </aas:description>
+                        <aas:kind>Template</aas:kind>
+                        <aas:semanticId>
+                          <aas:keys>
+                            <aas:key type="ConceptDescription" local="true" idType="IRDI">0112/2///62683#ACE058#001</aas:key>
+                          </aas:keys>
+                        </aas:semanticId>
+                        <aas:qualifier />
+                        <aas:valueType>double</aas:valueType>
+                        <aas:value />
+                      </aas:property>
+                    </aas:submodelElement>
+                    <aas:submodelElement>
+                      <aas:property>
+                        <aas:idShort>PL</aas:idShort>
+                        <aas:description>
+                          <aas:langString lang="en">performance level</aas:langString>
+                          <aas:langString lang="fr">niveau de performance</aas:langString>
+                        </aas:description>
+                        <aas:kind>Template</aas:kind>
+                        <aas:semanticId>
+                          <aas:keys>
+                            <aas:key type="ConceptDescription" local="true" idType="IRDI">0112/2///62683#ACE060#001</aas:key>
+                          </aas:keys>
+                        </aas:semanticId>
+                        <aas:qualifier />
+                        <aas:embeddedDataSpecification>
+                          <aas:dataSpecification>
+                            <aas:keys />
+                          </aas:dataSpecification>
+                        </aas:embeddedDataSpecification>
+                        <aas:valueType>string</aas:valueType>
+                        <aas:value />
+                        <aas:valueId>
+                          <aas:keys>
+                            <aas:key type="GlobalReference" local="false" idType="IRDI">0112/2///62683#ACH677#001</aas:key>
+                            <aas:key type="GlobalReference" local="false" idType="IRDI">0112/2///62683#ACH678#001</aas:key>
+                            <aas:key type="GlobalReference" local="false" idType="IRDI">0112/2///62683#ACH679#001</aas:key>
+                            <aas:key type="GlobalReference" local="false" idType="IRDI">0112/2///62683#ACH680#001</aas:key>
+                            <aas:key type="GlobalReference" local="false" idType="IRDI">0112/2///62683#ACH681#001</aas:key>
+                          </aas:keys>
+                        </aas:valueId>
+                      </aas:property>
+                    </aas:submodelElement>
+                    <aas:submodelElement>
+                      <aas:property>
+                        <aas:idShort>Category</aas:idShort>
+                        <aas:description>
+                          <aas:langString lang="en">category</aas:langString>
+                          <aas:langString lang="fr">catégory</aas:langString>
+                        </aas:description>
+                        <aas:kind>Template</aas:kind>
+                        <aas:semanticId>
+                          <aas:keys>
+                            <aas:key type="ConceptDescription" local="true" idType="IRDI">0112/2///62683#ACE063#001</aas:key>
+                          </aas:keys>
+                        </aas:semanticId>
+                        <aas:qualifier />
+                        <aas:valueType>string</aas:valueType>
+                        <aas:value />
+                        <aas:valueId>
+                          <aas:keys>
+                            <aas:key type="GlobalReference" local="false" idType="IRDI">0112/2///62683#ACH682#001</aas:key>
+                            <aas:key type="GlobalReference" local="false" idType="IRDI">0112/2///62683#ACH683#001</aas:key>
+                            <aas:key type="GlobalReference" local="false" idType="IRDI">0112/2///62683#ACH684#001</aas:key>
+                            <aas:key type="GlobalReference" local="false" idType="IRDI">0112/2///62683#ACH685#001</aas:key>
+                            <aas:key type="GlobalReference" local="false" idType="IRDI">0112/2///62683#ACH686#001</aas:key>
+                          </aas:keys>
+                        </aas:valueId>
+                      </aas:property>
+                    </aas:submodelElement>
+                  </aas:value>
+                </aas:submodelElementCollection>
+              </aas:submodelElement>
+              <aas:submodelElement>
+                <aas:submodelElementCollection>
+                  <aas:idShort>ElectronicElement</aas:idShort>
+                  <aas:description>
+                    <aas:langString lang="en">Electronic element</aas:langString>
+                    <aas:langString lang="fr">Elément électronique</aas:langString>
+                  </aas:description>
+                  <aas:kind>Template</aas:kind>
+                  <aas:semanticId>
+                    <aas:keys>
+                      <aas:key type="ConceptDescription" local="true" idType="IRDI">0112/2///62683#ACG066#001</aas:key>
+                    </aas:keys>
+                  </aas:semanticId>
+                  <aas:qualifier />
+                  <aas:ordered>false</aas:ordered>
+                  <aas:allowDuplicates>false</aas:allowDuplicates>
+                  <aas:value>
+                    <aas:submodelElement>
+                      <aas:property>
+                        <aas:idShort>MTTFD</aas:idShort>
+                        <aas:description>
+                          <aas:langString lang="en">mean time to dangerous failure</aas:langString>
+                          <aas:langString lang="fr">durée moyenne de fonctionnement avant défaillance dangereuse</aas:langString>
+                        </aas:description>
+                        <aas:kind>Template</aas:kind>
+                        <aas:semanticId>
+                          <aas:keys>
+                            <aas:key type="ConceptDescription" local="true" idType="IRDI">0112/2///62683#ACE057#001</aas:key>
+                          </aas:keys>
+                        </aas:semanticId>
+                        <aas:qualifier />
+                        <aas:valueType>int</aas:valueType>
+                        <aas:value />
+                      </aas:property>
+                    </aas:submodelElement>
+                    <aas:submodelElement>
+                      <aas:property>
+                        <aas:idShort>RDF</aas:idShort>
+                        <aas:description>
+                          <aas:langString lang="en">ratio of dangerous failure</aas:langString>
+                        </aas:description>
+                        <aas:kind>Template</aas:kind>
+                        <aas:semanticId>
+                          <aas:keys>
+                            <aas:key type="ConceptDescription" local="true" idType="IRI">https://admin-shell.io/idta/FunctionalSafety/RDF/1/0</aas:key>
+                          </aas:keys>
+                        </aas:semanticId>
+                        <aas:qualifier />
+                        <aas:valueType>int</aas:valueType>
+                        <aas:value />
+                      </aas:property>
+                    </aas:submodelElement>
+                    <aas:submodelElement>
+                      <aas:property>
+                        <aas:idShort>ProofTestInterval</aas:idShort>
+                        <aas:description>
+                          <aas:langString lang="en">proof test interval</aas:langString>
+                          <aas:langString lang="fr">intervalle entre essai périodique</aas:langString>
+                        </aas:description>
+                        <aas:kind>Template</aas:kind>
+                        <aas:semanticId>
+                          <aas:keys>
+                            <aas:key type="ConceptDescription" local="true" idType="IRDI">0112/2///62683#ACE058#001</aas:key>
+                          </aas:keys>
+                        </aas:semanticId>
+                        <aas:qualifier />
+                        <aas:valueType>double</aas:valueType>
+                        <aas:value />
+                      </aas:property>
+                    </aas:submodelElement>
+                  </aas:value>
+                </aas:submodelElementCollection>
+              </aas:submodelElement>
+              <aas:submodelElement>
+                <aas:submodelElementCollection>
+                  <aas:idShort>ElectromechanicalElement</aas:idShort>
+                  <aas:description>
+                    <aas:langString lang="en">Electromechanical element</aas:langString>
+                    <aas:langString lang="fr">Elément électromécanique de sous-système</aas:langString>
+                  </aas:description>
+                  <aas:kind>Template</aas:kind>
+                  <aas:semanticId>
+                    <aas:keys>
+                      <aas:key type="ConceptDescription" local="true" idType="IRDI">0112/2///62683#ACG067#001</aas:key>
+                    </aas:keys>
+                  </aas:semanticId>
+                  <aas:qualifier />
+                  <aas:ordered>false</aas:ordered>
+                  <aas:allowDuplicates>false</aas:allowDuplicates>
+                  <aas:value>
+                    <aas:submodelElement>
+                      <aas:property>
+                        <aas:idShort>B10D</aas:idShort>
+                        <aas:description>
+                          <aas:langString lang="en">number of operations until ten percent dangerous failure</aas:langString>
+                          <aas:langString lang="fr">nombre de cycles jusqu'à dix pour cent de défaillances dangereuses</aas:langString>
+                        </aas:description>
+                        <aas:kind>Template</aas:kind>
+                        <aas:semanticId>
+                          <aas:keys>
+                            <aas:key type="ConceptDescription" local="true" idType="IRDI">0112/2///62683#ACE056#001</aas:key>
+                          </aas:keys>
+                        </aas:semanticId>
+                        <aas:qualifier />
+                        <aas:valueType>double</aas:valueType>
+                        <aas:value />
+                      </aas:property>
+                    </aas:submodelElement>
+                    <aas:submodelElement>
+                      <aas:property>
+                        <aas:idShort>ProofTestInterval</aas:idShort>
+                        <aas:description>
+                          <aas:langString lang="en">proof test interval</aas:langString>
+                          <aas:langString lang="fr">intervalle entre essai périodique</aas:langString>
+                        </aas:description>
+                        <aas:kind>Template</aas:kind>
+                        <aas:semanticId>
+                          <aas:keys>
+                            <aas:key type="ConceptDescription" local="true" idType="IRDI">0112/2///62683#ACE058#001</aas:key>
+                          </aas:keys>
+                        </aas:semanticId>
+                        <aas:qualifier />
+                        <aas:valueType>double</aas:valueType>
+                        <aas:value />
+                      </aas:property>
+                    </aas:submodelElement>
+                  </aas:value>
+                </aas:submodelElementCollection>
+              </aas:submodelElement>
+              <aas:submodelElement>
+                <aas:submodelElementCollection>
+                  <aas:idShort>InherentlySafeSubsystem</aas:idShort>
+                  <aas:description>
+                    <aas:langString lang="en">Inherently safe subsystem</aas:langString>
+                    <aas:langString lang="fr">Sous-système intrinsèquement sûr</aas:langString>
+                  </aas:description>
+                  <aas:kind>Template</aas:kind>
+                  <aas:semanticId>
+                    <aas:keys>
+                      <aas:key type="ConceptDescription" local="true" idType="IRDI">0112/2///62683#ACG069#001</aas:key>
+                    </aas:keys>
+                  </aas:semanticId>
+                  <aas:qualifier />
+                  <aas:ordered>false</aas:ordered>
+                  <aas:allowDuplicates>false</aas:allowDuplicates>
+                  <aas:value>
+                    <aas:submodelElement>
+                      <aas:property>
+                        <aas:idShort>SIL</aas:idShort>
+                        <aas:description>
+                          <aas:langString lang="en">safety integrity level</aas:langString>
+                          <aas:langString lang="fr">niveau d'intégrité de sécurité</aas:langString>
+                        </aas:description>
+                        <aas:kind>Template</aas:kind>
+                        <aas:semanticId>
+                          <aas:keys>
+                            <aas:key type="ConceptDescription" local="true" idType="IRDI">0112/2///62683#ACE051#001</aas:key>
+                          </aas:keys>
+                        </aas:semanticId>
+                        <aas:qualifier />
+                        <aas:valueType>string</aas:valueType>
+                        <aas:value />
+                        <aas:valueId>
+                          <aas:keys>
+                            <aas:key type="GlobalReference" local="false" idType="IRDI">0112/2///62683#ACH670#001</aas:key>
+                            <aas:key type="GlobalReference" local="false" idType="IRDI">0112/2///62683#ACH671#001</aas:key>
+                            <aas:key type="GlobalReference" local="false" idType="IRDI">0112/2///62683#ACH672#001</aas:key>
+                          </aas:keys>
+                        </aas:valueId>
+                      </aas:property>
+                    </aas:submodelElement>
+                    <aas:submodelElement>
+                      <aas:property>
+                        <aas:idShort>ProofTestInterval</aas:idShort>
+                        <aas:description>
+                          <aas:langString lang="en">proof test interval</aas:langString>
+                          <aas:langString lang="fr">intervalle entre essai périodique</aas:langString>
+                        </aas:description>
+                        <aas:kind>Template</aas:kind>
+                        <aas:semanticId>
+                          <aas:keys>
+                            <aas:key type="ConceptDescription" local="true" idType="IRDI">0112/2///62683#ACE058#001</aas:key>
+                          </aas:keys>
+                        </aas:semanticId>
+                        <aas:qualifier />
+                        <aas:valueType>double</aas:valueType>
+                        <aas:value />
+                      </aas:property>
+                    </aas:submodelElement>
+                    <aas:submodelElement>
+                      <aas:property>
+                        <aas:idShort>PL</aas:idShort>
+                        <aas:description>
+                          <aas:langString lang="en">performance level</aas:langString>
+                          <aas:langString lang="fr">niveau de performance</aas:langString>
+                        </aas:description>
+                        <aas:kind>Template</aas:kind>
+                        <aas:semanticId>
+                          <aas:keys>
+                            <aas:key type="ConceptDescription" local="true" idType="IRDI">0112/2///62683#ACE060#001</aas:key>
+                          </aas:keys>
+                        </aas:semanticId>
+                        <aas:qualifier />
+                        <aas:valueType>string</aas:valueType>
+                        <aas:value />
+                        <aas:valueId>
+                          <aas:keys>
+                            <aas:key type="GlobalReference" local="false" idType="IRDI">0112/2///62683#ACH677#001</aas:key>
+                            <aas:key type="GlobalReference" local="false" idType="IRDI">0112/2///62683#ACH678#001</aas:key>
+                            <aas:key type="GlobalReference" local="false" idType="IRDI">0112/2///62683#ACH679#001</aas:key>
+                            <aas:key type="GlobalReference" local="false" idType="IRDI">0112/2///62683#ACH680#001</aas:key>
+                            <aas:key type="GlobalReference" local="false" idType="IRDI">0112/2///62683#ACH681#001</aas:key>
+                          </aas:keys>
+                        </aas:valueId>
+                      </aas:property>
+                    </aas:submodelElement>
+                    <aas:submodelElement>
+                      <aas:property>
+                        <aas:idShort>Category</aas:idShort>
+                        <aas:description>
+                          <aas:langString lang="en">category</aas:langString>
+                          <aas:langString lang="fr">catégory</aas:langString>
+                        </aas:description>
+                        <aas:kind>Template</aas:kind>
+                        <aas:semanticId>
+                          <aas:keys>
+                            <aas:key type="ConceptDescription" local="true" idType="IRDI">0112/2///62683#ACE063#001</aas:key>
+                          </aas:keys>
+                        </aas:semanticId>
+                        <aas:qualifier />
+                        <aas:valueType>string</aas:valueType>
+                        <aas:value />
+                        <aas:valueId>
+                          <aas:keys>
+                            <aas:key type="GlobalReference" local="false" idType="IRDI">0112/2///62683#ACH682#001</aas:key>
+                            <aas:key type="GlobalReference" local="false" idType="IRDI">0112/2///62683#ACH683#001</aas:key>
+                            <aas:key type="GlobalReference" local="false" idType="IRDI">0112/2///62683#ACH684#001</aas:key>
+                            <aas:key type="GlobalReference" local="false" idType="IRDI">0112/2///62683#ACH685#001</aas:key>
+                            <aas:key type="GlobalReference" local="false" idType="IRDI">0112/2///62683#ACH686#001</aas:key>
+                          </aas:keys>
+                        </aas:valueId>
+                      </aas:property>
+                    </aas:submodelElement>
+                  </aas:value>
+                </aas:submodelElementCollection>
+              </aas:submodelElement>
+            </aas:value>
+          </aas:submodelElementCollection>
+        </aas:submodelElement>
+      </aas:submodelElements>
+    </aas:submodel>
+  </aas:submodels>
+  <aas:conceptDescriptions>
+    <aas:conceptDescription>
+      <aas:idShort>NumberOfFunctionalSafetySetsOfCharacteristics</aas:idShort>
+      <aas:identification idType="IRDI">0112/2///62683#ACE005#001</aas:identification>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">number of functional safety sets of characteristics</IEC:langString>
+              <IEC:langString lang="fr">nombre d'ensembles de caractéristiques de sécurité fonctionnelle</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName />
+            <IEC:unit />
+            <IEC:valueFormat>NR1..2</IEC:valueFormat>
+            <IEC:dataType>INTEGER_COUNT</IEC:dataType>
+            <IEC:definition>
+              <IEC:langString lang="en">cardinality property for the number of sets of characteristics of a product for use in functional safety assessment</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="ConceptDescription" local="true" idType="IRDI">0112/2///62683#ACE005#001</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+      <aas:isCaseOf>
+        <aas:keys>
+          <aas:key type="GlobalReference" local="false" idType="IRDI">0112/2///62683#ACE005#001</aas:key>
+        </aas:keys>
+      </aas:isCaseOf>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>OperatingConditionsOfFunctionalSafetyCharacteristics</aas:idShort>
+      <aas:identification idType="IRDI">0112/2///62683#ACF057#001</aas:identification>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">Operating conditions of functional safety characteristics</IEC:langString>
+              <IEC:langString lang="fr">Conditions de fonctionnement des caractéristiques de sécurité fonctionnelle</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName />
+            <IEC:unit />
+            <IEC:dataType />
+            <IEC:definition>
+              <IEC:langString lang="en">operating condition limits for which the functional safety characteristics are valid</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="ConceptDescription" local="true" idType="IRDI">0112/2///62683#ACG057#001</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+      <aas:isCaseOf>
+        <aas:keys>
+          <aas:key type="GlobalReference" local="false" idType="IRDI">0112/2///62683#ACG057#001</aas:key>
+        </aas:keys>
+      </aas:isCaseOf>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>OperatingConditionsOfFunctionalSafetyCharacteristics</aas:idShort>
+      <aas:identification idType="IRDI">0112/2///62683#ACG057#001</aas:identification>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">Operating conditions of functional safety characteristics</IEC:langString>
+              <IEC:langString lang="fr">Conditions de fonctionnement des caractéristiques de sécurité fonctionnelle</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName />
+            <IEC:unit />
+            <IEC:dataType />
+            <IEC:definition />
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="ConceptDescription" local="true" idType="IRDI">0112/2///62683#ACG057#001</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+      <aas:isCaseOf>
+        <aas:keys>
+          <aas:key type="GlobalReference" local="false" idType="IRDI">0112/2///62683#ACG057#001</aas:key>
+        </aas:keys>
+      </aas:isCaseOf>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>RatedOperationalVoltage</aas:idShort>
+      <aas:identification idType="IRDI">0112/2///62683#ACE455#002</aas:identification>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">rated operational voltage</IEC:langString>
+              <IEC:langString lang="fr">tension assignée d'emploi</IEC:langString>
+              <IEC:langString lang="de">Bemessungsbetriebs-spannung</IEC:langString>
+              <IEC:langString lang="cn">额定工作电压</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="EN?">RatedOperationalCurrent</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:unitId>
+              <IEC:keys>
+                <IEC:key type="GlobalReference" local="false" idType="IRDI">0112/2///62720#UAA296</IEC:key>
+              </IEC:keys>
+            </IEC:unitId>
+            <IEC:valueFormat>NR2..4.2</IEC:valueFormat>
+            <IEC:symbol>Ue</IEC:symbol>
+            <IEC:dataType />
+            <IEC:definition />
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="ConceptDescription" local="true" idType="IRDI">0112/2///62683#ACE455#002</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+      <aas:isCaseOf>
+        <aas:keys>
+          <aas:key type="GlobalReference" local="false" idType="IRDI">0112/2///62683#ACE455#002</aas:key>
+        </aas:keys>
+      </aas:isCaseOf>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>RatedOperationalCurrentDc</aas:idShort>
+      <aas:identification idType="IRDI">0112/2///62683#ACE534#001</aas:identification>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">rated operational current, d.c.</IEC:langString>
+              <IEC:langString lang="fr">courant assigné d'emploi, courant continu</IEC:langString>
+              <IEC:langString lang="de">Bemessungsbetriebsstrom, DC</IEC:langString>
+              <IEC:langString lang="cn">额定工作电流，d.c.</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName />
+            <IEC:unit />
+            <IEC:unitId>
+              <IEC:keys>
+                <IEC:key type="GlobalReference" local="false" idType="IRDI">0112/2///62720#UAA775</IEC:key>
+              </IEC:keys>
+            </IEC:unitId>
+            <IEC:valueFormat>NR1..5</IEC:valueFormat>
+            <IEC:symbol>Ie</IEC:symbol>
+            <IEC:dataType />
+            <IEC:definition />
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="ConceptDescription" local="true" idType="IRDI">0112/2///62683#ACE534#001</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+      <aas:isCaseOf>
+        <aas:keys>
+          <aas:key type="GlobalReference" local="false" idType="IRDI">0112/2///62683#ACE534#001</aas:key>
+        </aas:keys>
+      </aas:isCaseOf>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>TypeOfInterlockingDevice</aas:idShort>
+      <aas:identification idType="IRDI">0112/2///62683#ACE053#001</aas:identification>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">type of interlocking device</IEC:langString>
+              <IEC:langString lang="fr">type de dispositif de verrouillage</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName />
+            <IEC:unit />
+            <IEC:valueFormat>X.6</IEC:valueFormat>
+            <IEC:dataType />
+            <IEC:definition>
+              <IEC:langString lang="en">classification of device which prevent the hazardous operation of machine, depending on the technology of their actuating means and their output system</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="ConceptDescription" local="true" idType="IRDI">0112/2///62683#ACE053#001</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+      <aas:isCaseOf>
+        <aas:keys>
+          <aas:key type="GlobalReference" local="false" idType="IRDI">0112/2///62683#ACE053#001</aas:key>
+        </aas:keys>
+      </aas:isCaseOf>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>OtherOperatingConditions</aas:idShort>
+      <aas:identification idType="IRDI">0112/2///62683#ACE070#001</aas:identification>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">other operating conditions</IEC:langString>
+              <IEC:langString lang="fr">autres conditions de fonctionnement</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName />
+            <IEC:unit />
+            <IEC:valueFormat>X..256</IEC:valueFormat>
+            <IEC:dataType />
+            <IEC:definition>
+              <IEC:langString lang="en">other limits of operation related to functional safety characteristics</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="ConceptDescription" local="true" idType="IRDI">0112/2///62683#ACE070#001</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+      <aas:isCaseOf>
+        <aas:keys>
+          <aas:key type="GlobalReference" local="false" idType="IRDI">0112/2///62683#ACE070#001</aas:key>
+        </aas:keys>
+      </aas:isCaseOf>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>UsefulLifeInNumberOfOperations</aas:idShort>
+      <aas:identification idType="IRDI">0112/2///62683#ACE055#001</aas:identification>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">useful life in number of operations</IEC:langString>
+              <IEC:langString lang="fr">durée de vie utile en cycle de fonctionnement</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName />
+            <IEC:unit />
+            <IEC:valueFormat>NR3..1.2E1</IEC:valueFormat>
+            <IEC:dataType />
+            <IEC:definition>
+              <IEC:langString lang="en">under given conditions, the number of operations for which the failure rate becomes unacceptable</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="ConceptDescription" local="true" idType="IRDI">0112/2///62683#ACE055#001</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+      <aas:isCaseOf>
+        <aas:keys>
+          <aas:key type="GlobalReference" local="false" idType="IRDI">0112/2///62683#ACE055#001</aas:key>
+        </aas:keys>
+      </aas:isCaseOf>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>UsefulLifeInTimeInterval</aas:idShort>
+      <aas:identification idType="IRDI">0112/2///62683#ACE054#001</aas:identification>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">useful life in time interval</IEC:langString>
+              <IEC:langString lang="fr">durée de vie utile en intervalle de temps</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName />
+            <IEC:unit>y</IEC:unit>
+            <IEC:unitId>
+              <IEC:keys>
+                <IEC:key type="GlobalReference" local="false" idType="IRDI">0112/2///62720#UAB026</IEC:key>
+              </IEC:keys>
+            </IEC:unitId>
+            <IEC:valueFormat>NR2..2.1</IEC:valueFormat>
+            <IEC:dataType />
+            <IEC:definition>
+              <IEC:langString lang="en">under given conditions, the time interval beginning at a given instant of time, and ending when the failure rate becomes unacceptable</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="ConceptDescription" local="true" idType="IRDI">0112/2///62683#ACE054#001</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+      <aas:isCaseOf>
+        <aas:keys>
+          <aas:key type="GlobalReference" local="false" idType="IRDI">0112/2///62683#ACE054#001</aas:key>
+        </aas:keys>
+      </aas:isCaseOf>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>SafetyDevice</aas:idShort>
+      <aas:identification idType="IRDI">0112/2///62683#ACG070#001</aas:identification>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">Safety device types</IEC:langString>
+              <IEC:langString lang="fr">Types de dispositif de sécurité</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName />
+            <IEC:unit />
+            <IEC:dataType />
+            <IEC:definition>
+              <IEC:langString lang="en">selected device type depending on its safety related characteristics and its capability as subsystem or subsystem element</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="ConceptDescription" local="true" idType="IRDI">0112/2///62683#ACG070#001</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+      <aas:isCaseOf>
+        <aas:keys>
+          <aas:key type="GlobalReference" local="false" idType="IRDI">0112/2///62683#ACG070#001</aas:key>
+        </aas:keys>
+      </aas:isCaseOf>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>SafetyDeviceTypes</aas:idShort>
+      <aas:identification idType="IRDI">0112/2///62683#ACG070#001</aas:identification>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">Safety device types</IEC:langString>
+              <IEC:langString lang="fr">Types de dispositif de sécurité</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName />
+            <IEC:unit />
+            <IEC:dataType />
+            <IEC:definition />
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="ConceptDescription" local="true" idType="IRDI">0112/2///62683#ACG070#001</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+      <aas:isCaseOf>
+        <aas:keys>
+          <aas:key type="GlobalReference" local="false" idType="IRDI">0112/2///62683#ACG070#001</aas:key>
+        </aas:keys>
+      </aas:isCaseOf>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>FunctionalSafetyDeviceType</aas:idShort>
+      <aas:identification idType="IRDI">0112/2///62683#ACE071#001</aas:identification>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">functional safety device type</IEC:langString>
+              <IEC:langString lang="fr">type de dispositif de sécurité fonctionnelle</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName />
+            <IEC:unit />
+            <IEC:valueFormat>X..35</IEC:valueFormat>
+            <IEC:dataType />
+            <IEC:definition>
+              <IEC:langString lang="en">classification of device depending on their safety related characteristics and their capability as subsystem or subsystem element</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="ConceptDescription" local="true" idType="IRDI">0112/2///62683#ACE071#001</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+      <aas:isCaseOf>
+        <aas:keys>
+          <aas:key type="GlobalReference" local="false" idType="IRDI">0112/2///62683#ACE071#001</aas:key>
+        </aas:keys>
+      </aas:isCaseOf>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>SafetySubsystem</aas:idShort>
+      <aas:identification idType="IRDI">0112/2///62683#ACG065#001</aas:identification>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">Safety subsystem</IEC:langString>
+              <IEC:langString lang="fr">Sous-système de sécurité</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName />
+            <IEC:unit />
+            <IEC:dataType />
+            <IEC:definition>
+              <IEC:langString lang="en">entity of the top-level architectural design of a safety-related system where a dangerous failure of the subsystem results in dangerous failure of a safety function</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="ConceptDescription" local="true" idType="IRDI">0112/2///62683#ACG065#001</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+      <aas:isCaseOf>
+        <aas:keys>
+          <aas:key type="GlobalReference" local="false" idType="IRDI">0112/2///62683#ACG065#001</aas:key>
+        </aas:keys>
+      </aas:isCaseOf>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>SafetyIntegrityLevel</aas:idShort>
+      <aas:identification idType="IRDI">0112/2///62683#ACE051#001</aas:identification>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">safety integrity level</IEC:langString>
+              <IEC:langString lang="fr">niveau d'intégrité de sécurité</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="EN?">SIL</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:valueFormat>X..5</IEC:valueFormat>
+            <IEC:dataType />
+            <IEC:definition>
+              <IEC:langString lang="en">discrete level (one out of a possible three) for describing the capability to perform a safety function where safety integrity level three has the highest level of safety integrity and safety integrity level one has the lowest</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="ConceptDescription" local="true" idType="IRDI">0112/2///62683#ACE051#001</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+      <aas:isCaseOf>
+        <aas:keys>
+          <aas:key type="GlobalReference" local="false" idType="IRDI">0112/2///62683#ACE051#001</aas:key>
+        </aas:keys>
+      </aas:isCaseOf>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>ProbabilityOfDangerousFailureWithinOneHour</aas:idShort>
+      <aas:identification idType="IRDI">0112/2///62683#ACE052#001</aas:identification>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">probability of dangerous failure within one hour</IEC:langString>
+              <IEC:langString lang="fr">fréquence de défaillance dangereuse par heure</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="EN?">PFH</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit>1/h</IEC:unit>
+            <IEC:unitId>
+              <IEC:keys>
+                <IEC:key type="GlobalReference" local="false" idType="IRDI">0112/2///62720#UAA526</IEC:key>
+              </IEC:keys>
+            </IEC:unitId>
+            <IEC:valueFormat>NR3..2.2ES2</IEC:valueFormat>
+            <IEC:symbol>PFH</IEC:symbol>
+            <IEC:dataType />
+            <IEC:definition>
+              <IEC:langString lang="en">average frequency of dangerous failure of an SCS to perform a specified safety function over a given period of time</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="ConceptDescription" local="true" idType="IRDI">0112/2///62683#ACE052#001</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+      <aas:isCaseOf>
+        <aas:keys>
+          <aas:key type="GlobalReference" local="false" idType="IRDI">0112/2///62683#ACE052#001</aas:key>
+        </aas:keys>
+      </aas:isCaseOf>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>ProofTestInterval</aas:idShort>
+      <aas:identification idType="IRDI">0112/2///62683#ACE058#001</aas:identification>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">proof test interval</IEC:langString>
+              <IEC:langString lang="fr">intervalle entre essai périodique</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName />
+            <IEC:unit>y</IEC:unit>
+            <IEC:valueFormat>NR2..2.1</IEC:valueFormat>
+            <IEC:dataType />
+            <IEC:definition>
+              <IEC:langString lang="en">time interval between test performed to detect dangerous hidden failures in a safety-related system</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="ConceptDescription" local="true" idType="IRDI">0112/2///62683#ACE058#001</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+      <aas:isCaseOf>
+        <aas:keys>
+          <aas:key type="GlobalReference" local="false" idType="IRDI">0112/2///62683#ACE058#001</aas:key>
+        </aas:keys>
+      </aas:isCaseOf>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>Category</aas:idShort>
+      <aas:identification idType="IRDI">0112/2///62683#ACE063#001</aas:identification>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">category</IEC:langString>
+              <IEC:langString lang="fr">catégory</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName />
+            <IEC:unit />
+            <IEC:valueFormat>X10</IEC:valueFormat>
+            <IEC:dataType />
+            <IEC:definition>
+              <IEC:langString lang="en">classification of the safety-related parts of a control system in respect of their resistance to faults and their subsequent behaviour in the fault condition, and which is achieved by the structural arrangement of the parts, fault detection and/or by their reliability</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="ConceptDescription" local="true" idType="IRDI">0112/2///62683#ACE063#001</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+      <aas:isCaseOf>
+        <aas:keys>
+          <aas:key type="GlobalReference" local="false" idType="IRDI">0112/2///62683#ACE063#001</aas:key>
+        </aas:keys>
+      </aas:isCaseOf>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>ElectronicElement</aas:idShort>
+      <aas:identification idType="IRDI">0112/2///62683#ACG066#001</aas:identification>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">Electronic element</IEC:langString>
+              <IEC:langString lang="fr">Elément électronique</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName />
+            <IEC:unit />
+            <IEC:dataType />
+            <IEC:definition>
+              <IEC:langString lang="en">selected device type depending on its safety related characteristics and its capability as subsystem or subsystem element</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="ConceptDescription" local="true" idType="IRDI">0112/2///62683#ACG066#001</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+      <aas:isCaseOf>
+        <aas:keys>
+          <aas:key type="GlobalReference" local="false" idType="IRDI">0112/2///62683#ACG066#001</aas:key>
+        </aas:keys>
+      </aas:isCaseOf>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>MeanTimeToDangerousFailure</aas:idShort>
+      <aas:identification idType="IRDI">0112/2///62683#ACE057#001</aas:identification>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">mean time to dangerous failure</IEC:langString>
+              <IEC:langString lang="fr">durée moyenne de fonctionnement avant défaillance dangereuse</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="EN?">MTTFD</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit>y</IEC:unit>
+            <IEC:unitId>
+              <IEC:keys>
+                <IEC:key type="GlobalReference" local="false" idType="IRDI">0112/2///62720#UAB026</IEC:key>
+              </IEC:keys>
+            </IEC:unitId>
+            <IEC:valueFormat>NR1..7</IEC:valueFormat>
+            <IEC:symbol>MTTFD</IEC:symbol>
+            <IEC:dataType />
+            <IEC:definition>
+              <IEC:langString lang="en">mean time to dangerous failure: expectation of the mean time to dangerous failure</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="ConceptDescription" local="true" idType="IRDI">0112/2///62683#ACE057#001</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+      <aas:isCaseOf>
+        <aas:keys>
+          <aas:key type="GlobalReference" local="false" idType="IRDI">0112/2///62683#ACE057#001</aas:key>
+        </aas:keys>
+      </aas:isCaseOf>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>ProofTestInterval</aas:idShort>
+      <aas:identification idType="IRDI">0112/2///62683#ACE058#001</aas:identification>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">proof test interval</IEC:langString>
+              <IEC:langString lang="fr">intervalle entre essai périodique</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName />
+            <IEC:unit>y</IEC:unit>
+            <IEC:valueFormat>NR2..2.1</IEC:valueFormat>
+            <IEC:dataType />
+            <IEC:definition />
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="ConceptDescription" local="true" idType="IRDI">0112/2///62683#ACE058#001</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+      <aas:isCaseOf>
+        <aas:keys>
+          <aas:key type="GlobalReference" local="false" idType="IRDI">0112/2///62683#ACE058#001</aas:key>
+        </aas:keys>
+      </aas:isCaseOf>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>ElectromechanicalElement</aas:idShort>
+      <aas:identification idType="IRDI">0112/2///62683#ACG067#001</aas:identification>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">Electromechanical element</IEC:langString>
+              <IEC:langString lang="fr">Elément électromécanique de sous-système</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName />
+            <IEC:unit />
+            <IEC:dataType />
+            <IEC:definition>
+              <IEC:langString lang="en">electromechanical element subject to wearing provided with functional safety characteristics</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="ConceptDescription" local="true" idType="IRDI">0112/2///62683#ACG067#001</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+      <aas:isCaseOf>
+        <aas:keys>
+          <aas:key type="GlobalReference" local="false" idType="IRDI">0112/2///62683#ACG067#001</aas:key>
+        </aas:keys>
+      </aas:isCaseOf>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>NumberOfOperationsUntilTenPercentDangerousFailure</aas:idShort>
+      <aas:identification idType="IRDI">0112/2///62683#ACE056#001</aas:identification>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">number of operations until ten percent dangerous failure</IEC:langString>
+              <IEC:langString lang="fr">nombre de cycles jusqu'à dix pour cent de défaillances dangereuses</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="EN?">B10D</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:valueFormat>NR3..1.2E1</IEC:valueFormat>
+            <IEC:symbol>b10d</IEC:symbol>
+            <IEC:dataType />
+            <IEC:definition>
+              <IEC:langString lang="en">mean number of operating cycles at which ten percent of the components fail dangerously</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="ConceptDescription" local="true" idType="IRDI">0112/2///62683#ACE056#001</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+      <aas:isCaseOf>
+        <aas:keys>
+          <aas:key type="GlobalReference" local="false" idType="IRDI">0112/2///62683#ACE056#001</aas:key>
+        </aas:keys>
+      </aas:isCaseOf>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>ProofTestInterval</aas:idShort>
+      <aas:identification idType="IRDI">0112/2///62683#ACE058#001</aas:identification>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">proof test interval</IEC:langString>
+              <IEC:langString lang="fr">intervalle entre essai périodique</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName />
+            <IEC:unit>y</IEC:unit>
+            <IEC:valueFormat>NR2..2.1</IEC:valueFormat>
+            <IEC:dataType />
+            <IEC:definition />
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="ConceptDescription" local="true" idType="IRDI">0112/2///62683#ACE058#001</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+      <aas:isCaseOf>
+        <aas:keys>
+          <aas:key type="GlobalReference" local="false" idType="IRDI">0112/2///62683#ACE058#001</aas:key>
+        </aas:keys>
+      </aas:isCaseOf>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>InherentlySafeSubsystem</aas:idShort>
+      <aas:identification idType="IRDI">0112/2///62683#ACG069#001</aas:identification>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">Inherently safe subsystem</IEC:langString>
+              <IEC:langString lang="fr">Sous-système intrinsèquement sûr</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName />
+            <IEC:unit />
+            <IEC:dataType />
+            <IEC:definition>
+              <IEC:langString lang="en">subsystem without dangerous failure mode</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="ConceptDescription" local="true" idType="IRDI">0112/2///62683#ACG069#001</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+      <aas:isCaseOf>
+        <aas:keys>
+          <aas:key type="GlobalReference" local="false" idType="IRDI">0112/2///62683#ACG069#001</aas:key>
+        </aas:keys>
+      </aas:isCaseOf>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>SafetyIntegrityLevel</aas:idShort>
+      <aas:identification idType="IRDI">0112/2///62683#ACE051#001</aas:identification>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">safety integrity level</IEC:langString>
+              <IEC:langString lang="fr">niveau d'intégrité de sécurité</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName />
+            <IEC:unit />
+            <IEC:valueFormat>X..5</IEC:valueFormat>
+            <IEC:dataType />
+            <IEC:definition />
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="ConceptDescription" local="true" idType="IRDI">0112/2///62683#ACE051#001</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+      <aas:isCaseOf>
+        <aas:keys>
+          <aas:key type="GlobalReference" local="false" idType="IRDI">0112/2///62683#ACE051#001</aas:key>
+        </aas:keys>
+      </aas:isCaseOf>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>ProofTestInterval</aas:idShort>
+      <aas:identification idType="IRDI">0112/2///62683#ACE058#001</aas:identification>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">proof test interval</IEC:langString>
+              <IEC:langString lang="fr">intervalle entre essai périodique</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName />
+            <IEC:unit>y</IEC:unit>
+            <IEC:valueFormat>NR2..2.1</IEC:valueFormat>
+            <IEC:dataType />
+            <IEC:definition />
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="ConceptDescription" local="true" idType="IRDI">0112/2///62683#ACE058#001</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+      <aas:isCaseOf>
+        <aas:keys>
+          <aas:key type="GlobalReference" local="false" idType="IRDI">0112/2///62683#ACE058#001</aas:key>
+        </aas:keys>
+      </aas:isCaseOf>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>PerformanceLevel</aas:idShort>
+      <aas:identification idType="IRDI">0112/2///62683#ACE060#001</aas:identification>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">performance level</IEC:langString>
+              <IEC:langString lang="fr">niveau de performance</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="EN?">PL</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:valueFormat>X.4</IEC:valueFormat>
+            <IEC:dataType />
+            <IEC:definition>
+              <IEC:langString lang="en">discrete level used to specify the ability of safety-related parts of control systems to perform a safety function under foreseeable conditions</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="ConceptDescription" local="true" idType="IRDI">0112/2///62683#ACE060#001</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+      <aas:isCaseOf>
+        <aas:keys>
+          <aas:key type="GlobalReference" local="false" idType="IRDI">0112/2///62683#ACE060#001</aas:key>
+        </aas:keys>
+      </aas:isCaseOf>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>Category</aas:idShort>
+      <aas:identification idType="IRDI">0112/2///62683#ACE063#001</aas:identification>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">category</IEC:langString>
+              <IEC:langString lang="fr">catégory</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName />
+            <IEC:unit />
+            <IEC:valueFormat>X10</IEC:valueFormat>
+            <IEC:dataType />
+            <IEC:definition />
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="ConceptDescription" local="true" idType="IRDI">0112/2///62683#ACE063#001</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+      <aas:isCaseOf>
+        <aas:keys>
+          <aas:key type="GlobalReference" local="false" idType="IRDI">0112/2///62683#ACE063#001</aas:key>
+        </aas:keys>
+      </aas:isCaseOf>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>RDF</aas:idShort>
+      <aas:identification idType="IRI">https://admin-shell.io/idta/FunctionalSafety/RDF/1/0</aas:identification>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">ratio of dangerous failure</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName />
+            <IEC:unit>%</IEC:unit>
+            <IEC:dataType />
+            <IEC:definition>
+              <IEC:langString lang="en">ratio of the overall failure rate of a device that can lead to a dangerous failure of the safety function</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+      <aas:isCaseOf>
+        <aas:keys>
+          <aas:key type="GlobalReference" local="false" idType="IRDI">0112/2///62683#ACE057#001</aas:key>
+        </aas:keys>
+      </aas:isCaseOf>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>TypeOfVoltage</aas:idShort>
+      <aas:identification idType="IRDI">0112/2///61987#ABA969#007</aas:identification>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">type of voltage</IEC:langString>
+              <IEC:langString lang="fr">type de tension</IEC:langString>
+              <IEC:langString lang="de">Spannungsart</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName />
+            <IEC:unit />
+            <IEC:dataType />
+            <IEC:definition>
+              <IEC:langString lang="en">classification of a power supply according to the time behaviour of the voltage</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="ConceptDescription" local="true" idType="IRDI">0112/2///61987#ABA969#007</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+      <aas:isCaseOf>
+        <aas:keys>
+          <aas:key type="GlobalReference" local="false" idType="IRDI">0112/2///61987#ABA969#007</aas:key>
+        </aas:keys>
+      </aas:isCaseOf>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>RatedVoltage</aas:idShort>
+      <aas:identification idType="IRDI">0112/2///61987#ABA588#004</aas:identification>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">rated voltage</IEC:langString>
+              <IEC:langString lang="fr">tension assignée</IEC:langString>
+              <IEC:langString lang="de">Bemessungsspannung</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName />
+            <IEC:unit>V</IEC:unit>
+            <IEC:unitId>
+              <IEC:keys>
+                <IEC:key type="GlobalReference" local="false" idType="IRDI">0112/2///62720#UAA296</IEC:key>
+              </IEC:keys>
+            </IEC:unitId>
+            <IEC:dataType />
+            <IEC:definition>
+              <IEC:langString lang="en">operating voltage of the device as defined by the manufacturer and to which certain device properties are referenced</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="ConceptDescription" local="true" idType="IRDI">0112/2///61987#ABA588#004</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+      <aas:isCaseOf>
+        <aas:keys>
+          <aas:key type="GlobalReference" local="false" idType="IRDI">0112/2///61987#ABA588#004</aas:key>
+        </aas:keys>
+      </aas:isCaseOf>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>MinimumRatedVoltage</aas:idShort>
+      <aas:identification idType="IRDI">0112/2///61987#ABD461#004</aas:identification>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">minimum rated voltage</IEC:langString>
+              <IEC:langString lang="fr">tension assignée minimale</IEC:langString>
+              <IEC:langString lang="de">minimale Bemessungsspannung</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName />
+            <IEC:unit>V</IEC:unit>
+            <IEC:unitId>
+              <IEC:keys>
+                <IEC:key type="GlobalReference" local="false" idType="IRDI">0112/2///62720#UAA296</IEC:key>
+              </IEC:keys>
+            </IEC:unitId>
+            <IEC:dataType />
+            <IEC:definition>
+              <IEC:langString lang="en">lowest operating voltage of the device as defined by the manufacturer</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="ConceptDescription" local="true" idType="IRDI">0112/2///61987#ABD461#004</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+      <aas:isCaseOf>
+        <aas:keys>
+          <aas:key type="GlobalReference" local="false" idType="IRDI">0112/2///61987#ABD461#004</aas:key>
+        </aas:keys>
+      </aas:isCaseOf>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>MaximumRatedVoltage</aas:idShort>
+      <aas:identification idType="IRDI">0112/2///61987#ABD462#004</aas:identification>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">maximum rated voltage</IEC:langString>
+              <IEC:langString lang="fr">tension assignée maximale</IEC:langString>
+              <IEC:langString lang="de">maximale Bemessungsspannung</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName />
+            <IEC:unit>V</IEC:unit>
+            <IEC:unitId>
+              <IEC:keys>
+                <IEC:key type="GlobalReference" local="false" idType="IRDI">0112/2///62720#UAA296</IEC:key>
+              </IEC:keys>
+            </IEC:unitId>
+            <IEC:dataType />
+            <IEC:definition>
+              <IEC:langString lang="en">highest operating voltage of the device as defined by the manufacturer</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="ConceptDescription" local="true" idType="IRDI">0112/2///61987#ABD462#004</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+      <aas:isCaseOf>
+        <aas:keys>
+          <aas:key type="GlobalReference" local="false" idType="IRDI">0112/2///61987#ABD462#004</aas:key>
+        </aas:keys>
+      </aas:isCaseOf>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort>RatedOperationalCurrent</aas:idShort>
+      <aas:identification idType="IRI">https://admin-shell.io/idta/FunctionalSafety/RatedOperationalCurrent/1/0</aas:identification>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">rated operational current</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName />
+            <IEC:unit>mA</IEC:unit>
+            <IEC:unitId>
+              <IEC:keys>
+                <IEC:key type="GlobalReference" local="false" idType="IRDI">0112/2///62720#UAA775</IEC:key>
+              </IEC:keys>
+            </IEC:unitId>
+            <IEC:dataType />
+            <IEC:definition>
+              <IEC:langString lang="en">current combined with a rated operational voltage intended to be switched by the device under specified conditions</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+    </aas:conceptDescription>
+  </aas:conceptDescriptions>
+</aas:aasenv>

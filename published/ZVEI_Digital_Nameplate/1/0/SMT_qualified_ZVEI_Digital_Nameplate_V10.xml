@@ -1,0 +1,2324 @@
+<?xml version="1.0"?>
+<aas:aasenv xmlns:IEC="http://www.admin-shell.io/IEC61360/2/0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:abac="http://www.admin-shell.io/aas/abac/2/0" xsi:schemaLocation="http://www.admin-shell.io/aas/2/0 AAS.xsd http://www.admin-shell.io/IEC61360/2/0 IEC61360.xsd" xmlns:aas="http://www.admin-shell.io/aas/2/0">
+  <aas:assetAdministrationShells>
+    <aas:assetAdministrationShell>
+      <aas:idShort>sampleAAS</aas:idShort>
+      <aas:category>VARIABLE</aas:category>
+      <aas:identification idType="IRI">www.company.com/ids/aas/8003_4110_1102_9521</aas:identification>
+      <aas:assetRef>
+        <aas:keys>
+          <aas:key type="Asset" local="true" idType="IRI">www.company.com/ids/asset/5203_4110_1102_6796</aas:key>
+        </aas:keys>
+      </aas:assetRef>
+      <aas:submodelRefs>
+        <aas:submodelRef>
+          <aas:keys>
+            <aas:key type="Submodel" local="true" idType="IRI">https://admin-shell.io/zvei/nameplate/1/0/Nameplate</aas:key>
+          </aas:keys>
+        </aas:submodelRef>
+      </aas:submodelRefs>
+      <aas:conceptDictionaries />
+    </aas:assetAdministrationShell>
+  </aas:assetAdministrationShells>
+  <aas:assets>
+    <aas:asset>
+      <aas:idShort>sampleAsset</aas:idShort>
+      <aas:category>VARIABLE</aas:category>
+      <aas:identification idType="IRI">www.company.com/ids/asset/5203_4110_1102_6796</aas:identification>
+      <aas:kind>Instance</aas:kind>
+    </aas:asset>
+  </aas:assets>
+  <aas:submodels>
+    <aas:submodel>
+      <aas:idShort>Nameplate</aas:idShort>
+      <aas:category>VARIABLE</aas:category>
+      <aas:identification idType="IRI">https://admin-shell.io/zvei/nameplate/1/0/Nameplate</aas:identification>
+      <aas:kind>Template</aas:kind>
+      <aas:semanticId>
+        <aas:keys>
+          <aas:key type="Submodel" local="true" idType="IRI">https://admin-shell.io/zvei/nameplate/1/0/Nameplate</aas:key>
+        </aas:keys>
+      </aas:semanticId>
+      <aas:qualifier />
+      <aas:submodelElements>
+        <aas:submodelElement>
+          <aas:multiLanguageProperty>
+            <aas:idShort>ManufacturerName</aas:idShort>
+            <aas:category>PARAMETER</aas:category>
+            <aas:kind>Template</aas:kind>
+            <aas:semanticId>
+              <aas:keys>
+                <aas:key type="ConceptDescription" local="true" idType="IRDI">0173-1#02-AAO677#002</aas:key>
+              </aas:keys>
+            </aas:semanticId>
+            <aas:qualifier>
+              <aas:qualifier>
+                <aas:type>Multiplicity</aas:type>
+                <aas:valueType />
+                <aas:value>One</aas:value>
+              </aas:qualifier>
+              <aas:qualifier>
+                <aas:type>FormInfo</aas:type>
+                <aas:valueType />
+                <aas:value>Legally valid designation of the natural or judicial person which is directly responsible for the design, production, packaging and labeling of a product in respect to its being brought into circulation.</aas:value>
+              </aas:qualifier>
+            </aas:qualifier>
+            <aas:value />
+          </aas:multiLanguageProperty>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:multiLanguageProperty>
+            <aas:idShort>ManufacturerProductDesignation</aas:idShort>
+            <aas:category>PARAMETER</aas:category>
+            <aas:kind>Template</aas:kind>
+            <aas:semanticId>
+              <aas:keys>
+                <aas:key type="ConceptDescription" local="true" idType="IRDI">0173-1#02-AAW338#001</aas:key>
+              </aas:keys>
+            </aas:semanticId>
+            <aas:qualifier>
+              <aas:qualifier>
+                <aas:type>Multiplicity</aas:type>
+                <aas:valueType />
+                <aas:value>One</aas:value>
+              </aas:qualifier>
+              <aas:qualifier>
+                <aas:type>FormInfo</aas:type>
+                <aas:valueType />
+                <aas:value>Short description of the product (short text).</aas:value>
+              </aas:qualifier>
+            </aas:qualifier>
+            <aas:value />
+          </aas:multiLanguageProperty>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:submodelElementCollection>
+            <aas:idShort>Address</aas:idShort>
+            <aas:category>VARIABLE</aas:category>
+            <aas:kind>Template</aas:kind>
+            <aas:semanticId>
+              <aas:keys>
+                <aas:key type="ConceptDescription" local="true" idType="IRDI">0173-1#02-AAQ832#005</aas:key>
+              </aas:keys>
+            </aas:semanticId>
+            <aas:qualifier>
+              <aas:qualifier>
+                <aas:type>Multiplicity</aas:type>
+                <aas:valueType />
+                <aas:value>One</aas:value>
+              </aas:qualifier>
+              <aas:qualifier>
+                <aas:type>FormInfo</aas:type>
+                <aas:valueType />
+                <aas:value>Address information of a business partner.</aas:value>
+              </aas:qualifier>
+            </aas:qualifier>
+            <aas:value>
+              <aas:submodelElement>
+                <aas:multiLanguageProperty>
+                  <aas:idShort>Department</aas:idShort>
+                  <aas:category>VARIABLE</aas:category>
+                  <aas:kind>Template</aas:kind>
+                  <aas:semanticId>
+                    <aas:keys>
+                      <aas:key type="ConceptDescription" local="true" idType="IRDI">0173-1#02-AAO127#003</aas:key>
+                    </aas:keys>
+                  </aas:semanticId>
+                  <aas:qualifier>
+                    <aas:qualifier>
+                      <aas:type>Multiplicity</aas:type>
+                      <aas:valueType />
+                      <aas:value>ZeroToOne</aas:value>
+                    </aas:qualifier>
+                    <aas:qualifier>
+                      <aas:type>FormInfo</aas:type>
+                      <aas:valueType />
+                      <aas:value>Administrative section within an organisation where a business partner is located.</aas:value>
+                    </aas:qualifier>
+                  </aas:qualifier>
+                  <aas:value />
+                </aas:multiLanguageProperty>
+              </aas:submodelElement>
+              <aas:submodelElement>
+                <aas:multiLanguageProperty>
+                  <aas:idShort>Street</aas:idShort>
+                  <aas:category>PARAMETER</aas:category>
+                  <aas:kind>Template</aas:kind>
+                  <aas:semanticId>
+                    <aas:keys>
+                      <aas:key type="ConceptDescription" local="true" idType="IRDI">0173-1#02-AAO128#002</aas:key>
+                    </aas:keys>
+                  </aas:semanticId>
+                  <aas:qualifier>
+                    <aas:qualifier>
+                      <aas:type>Multiplicity</aas:type>
+                      <aas:valueType />
+                      <aas:value>One</aas:value>
+                    </aas:qualifier>
+                    <aas:qualifier>
+                      <aas:type>FormInfo</aas:type>
+                      <aas:valueType />
+                      <aas:value>Street name and house number.</aas:value>
+                    </aas:qualifier>
+                  </aas:qualifier>
+                  <aas:value />
+                </aas:multiLanguageProperty>
+              </aas:submodelElement>
+              <aas:submodelElement>
+                <aas:multiLanguageProperty>
+                  <aas:idShort>Zipcode</aas:idShort>
+                  <aas:category>VARIABLE</aas:category>
+                  <aas:kind>Template</aas:kind>
+                  <aas:semanticId>
+                    <aas:keys>
+                      <aas:key type="ConceptDescription" local="true" idType="IRDI">0173-1#02-AAO129#002</aas:key>
+                    </aas:keys>
+                  </aas:semanticId>
+                  <aas:qualifier>
+                    <aas:qualifier>
+                      <aas:type>Multiplicity</aas:type>
+                      <aas:valueType />
+                      <aas:value>One</aas:value>
+                    </aas:qualifier>
+                    <aas:qualifier>
+                      <aas:type>FormInfo</aas:type>
+                      <aas:valueType />
+                      <aas:value>ZIP code of address.</aas:value>
+                    </aas:qualifier>
+                  </aas:qualifier>
+                  <aas:value />
+                </aas:multiLanguageProperty>
+              </aas:submodelElement>
+              <aas:submodelElement>
+                <aas:multiLanguageProperty>
+                  <aas:idShort>POBox</aas:idShort>
+                  <aas:category>VARIABLE</aas:category>
+                  <aas:kind>Template</aas:kind>
+                  <aas:semanticId>
+                    <aas:keys>
+                      <aas:key type="ConceptDescription" local="true" idType="IRDI">0173-1#02-AAO130#002</aas:key>
+                    </aas:keys>
+                  </aas:semanticId>
+                  <aas:qualifier>
+                    <aas:qualifier>
+                      <aas:type>Multiplicity</aas:type>
+                      <aas:valueType />
+                      <aas:value>ZeroToOne</aas:value>
+                    </aas:qualifier>
+                    <aas:qualifier>
+                      <aas:type>FormInfo</aas:type>
+                      <aas:valueType />
+                      <aas:value>P.O. box number.</aas:value>
+                    </aas:qualifier>
+                  </aas:qualifier>
+                  <aas:value />
+                </aas:multiLanguageProperty>
+              </aas:submodelElement>
+              <aas:submodelElement>
+                <aas:multiLanguageProperty>
+                  <aas:idShort>ZipCodeOfPOBox</aas:idShort>
+                  <aas:category>VARIABLE</aas:category>
+                  <aas:kind>Template</aas:kind>
+                  <aas:semanticId>
+                    <aas:keys>
+                      <aas:key type="ConceptDescription" local="true" idType="IRDI">0173-1#02-AAO131#002</aas:key>
+                    </aas:keys>
+                  </aas:semanticId>
+                  <aas:qualifier>
+                    <aas:qualifier>
+                      <aas:type>Multiplicity</aas:type>
+                      <aas:valueType />
+                      <aas:value>ZeroToOne</aas:value>
+                    </aas:qualifier>
+                    <aas:qualifier>
+                      <aas:type>FormInfo</aas:type>
+                      <aas:valueType />
+                      <aas:value>ZIP code of P.O. box address.</aas:value>
+                    </aas:qualifier>
+                  </aas:qualifier>
+                  <aas:value />
+                </aas:multiLanguageProperty>
+              </aas:submodelElement>
+              <aas:submodelElement>
+                <aas:multiLanguageProperty>
+                  <aas:idShort>CityTown</aas:idShort>
+                  <aas:category>VARIABLE</aas:category>
+                  <aas:kind>Template</aas:kind>
+                  <aas:semanticId>
+                    <aas:keys>
+                      <aas:key type="ConceptDescription" local="true" idType="IRDI">0173-1#02-AAO132#002</aas:key>
+                    </aas:keys>
+                  </aas:semanticId>
+                  <aas:qualifier>
+                    <aas:qualifier>
+                      <aas:type>Multiplicity</aas:type>
+                      <aas:valueType />
+                      <aas:value>One</aas:value>
+                    </aas:qualifier>
+                    <aas:qualifier>
+                      <aas:type>FormInfo</aas:type>
+                      <aas:valueType />
+                      <aas:value>Town or city name.</aas:value>
+                    </aas:qualifier>
+                  </aas:qualifier>
+                  <aas:value />
+                </aas:multiLanguageProperty>
+              </aas:submodelElement>
+              <aas:submodelElement>
+                <aas:multiLanguageProperty>
+                  <aas:idShort>StateCounty</aas:idShort>
+                  <aas:category>VARIABLE</aas:category>
+                  <aas:kind>Template</aas:kind>
+                  <aas:semanticId>
+                    <aas:keys>
+                      <aas:key type="ConceptDescription" local="true" idType="IRDI">0173-1#02-AAO133#002</aas:key>
+                    </aas:keys>
+                  </aas:semanticId>
+                  <aas:qualifier>
+                    <aas:qualifier>
+                      <aas:type>Multiplicity</aas:type>
+                      <aas:valueType />
+                      <aas:value>ZeroToOne</aas:value>
+                    </aas:qualifier>
+                    <aas:qualifier>
+                      <aas:type>FormInfo</aas:type>
+                      <aas:valueType />
+                      <aas:value>Federal state; a part of a state.</aas:value>
+                    </aas:qualifier>
+                  </aas:qualifier>
+                  <aas:value />
+                </aas:multiLanguageProperty>
+              </aas:submodelElement>
+              <aas:submodelElement>
+                <aas:multiLanguageProperty>
+                  <aas:idShort>NationalCode</aas:idShort>
+                  <aas:category>VARIABLE</aas:category>
+                  <aas:kind>Template</aas:kind>
+                  <aas:semanticId>
+                    <aas:keys>
+                      <aas:key type="ConceptDescription" local="true" idType="IRDI">0173-1#02-AAO134#002</aas:key>
+                    </aas:keys>
+                  </aas:semanticId>
+                  <aas:qualifier>
+                    <aas:qualifier>
+                      <aas:type>Multiplicity</aas:type>
+                      <aas:valueType />
+                      <aas:value>One</aas:value>
+                    </aas:qualifier>
+                    <aas:qualifier>
+                      <aas:type>FormInfo</aas:type>
+                      <aas:valueType />
+                      <aas:value>Country code defined according to DIN EN ISO 3166-1.</aas:value>
+                    </aas:qualifier>
+                  </aas:qualifier>
+                  <aas:value />
+                </aas:multiLanguageProperty>
+              </aas:submodelElement>
+              <aas:submodelElement>
+                <aas:multiLanguageProperty>
+                  <aas:idShort>VATNumber</aas:idShort>
+                  <aas:category>VARIABLE</aas:category>
+                  <aas:kind>Template</aas:kind>
+                  <aas:semanticId>
+                    <aas:keys>
+                      <aas:key type="ConceptDescription" local="true" idType="IRDI">0173-1#02-AAO135#002</aas:key>
+                    </aas:keys>
+                  </aas:semanticId>
+                  <aas:qualifier>
+                    <aas:qualifier>
+                      <aas:type>Multiplicity</aas:type>
+                      <aas:valueType />
+                      <aas:value>ZeroToOne</aas:value>
+                    </aas:qualifier>
+                    <aas:qualifier>
+                      <aas:type>FormInfo</aas:type>
+                      <aas:valueType />
+                      <aas:value>VAT (value added tax) identification number of the business partner.</aas:value>
+                    </aas:qualifier>
+                  </aas:qualifier>
+                  <aas:value />
+                </aas:multiLanguageProperty>
+              </aas:submodelElement>
+              <aas:submodelElement>
+                <aas:multiLanguageProperty>
+                  <aas:idShort>AddressRemarks</aas:idShort>
+                  <aas:category>VARIABLE</aas:category>
+                  <aas:kind>Template</aas:kind>
+                  <aas:semanticId>
+                    <aas:keys>
+                      <aas:key type="ConceptDescription" local="true" idType="IRDI">0173-1#02-AAO202#003</aas:key>
+                    </aas:keys>
+                  </aas:semanticId>
+                  <aas:qualifier>
+                    <aas:qualifier>
+                      <aas:type>Multiplicity</aas:type>
+                      <aas:valueType />
+                      <aas:value>ZeroToOne</aas:value>
+                    </aas:qualifier>
+                    <aas:qualifier>
+                      <aas:type>FormInfo</aas:type>
+                      <aas:valueType />
+                      <aas:value>Plain text characterizing address information for which there is no property.</aas:value>
+                    </aas:qualifier>
+                  </aas:qualifier>
+                  <aas:value />
+                </aas:multiLanguageProperty>
+              </aas:submodelElement>
+              <aas:submodelElement>
+                <aas:property>
+                  <aas:idShort>AddressOfAdditionalLink</aas:idShort>
+                  <aas:category>VARIABLE</aas:category>
+                  <aas:kind>Template</aas:kind>
+                  <aas:semanticId>
+                    <aas:keys>
+                      <aas:key type="ConceptDescription" local="true" idType="IRDI">0173-1#02-AAQ326#002</aas:key>
+                    </aas:keys>
+                  </aas:semanticId>
+                  <aas:qualifier>
+                    <aas:qualifier>
+                      <aas:type>Multiplicity</aas:type>
+                      <aas:valueType />
+                      <aas:value>ZeroToOne</aas:value>
+                    </aas:qualifier>
+                    <aas:qualifier>
+                      <aas:type>FormInfo</aas:type>
+                      <aas:valueType />
+                      <aas:value>Web site address where information about the product or contact is given.</aas:value>
+                    </aas:qualifier>
+                  </aas:qualifier>
+                  <aas:valueType>string</aas:valueType>
+                  <aas:value />
+                </aas:property>
+              </aas:submodelElement>
+              <aas:submodelElement>
+                <aas:submodelElementCollection>
+                  <aas:idShort>Phone</aas:idShort>
+                  <aas:category>VARIABLE</aas:category>
+                  <aas:kind>Template</aas:kind>
+                  <aas:semanticId>
+                    <aas:keys>
+                      <aas:key type="ConceptDescription" local="true" idType="IRDI">0173-1#02-AAQ833#005</aas:key>
+                    </aas:keys>
+                  </aas:semanticId>
+                  <aas:qualifier>
+                    <aas:qualifier>
+                      <aas:type>Multiplicity</aas:type>
+                      <aas:valueType />
+                      <aas:value>ZeroToMany</aas:value>
+                    </aas:qualifier>
+                    <aas:qualifier>
+                      <aas:type>FormInfo</aas:type>
+                      <aas:valueType />
+                      <aas:value>Phone number including type.</aas:value>
+                    </aas:qualifier>
+                  </aas:qualifier>
+                  <aas:value>
+                    <aas:submodelElement>
+                      <aas:multiLanguageProperty>
+                        <aas:idShort>TelephoneNumber</aas:idShort>
+                        <aas:category>VARIABLE</aas:category>
+                        <aas:kind>Template</aas:kind>
+                        <aas:semanticId>
+                          <aas:keys>
+                            <aas:key type="ConceptDescription" local="true" idType="IRDI">0173-1#02-AAO136#002</aas:key>
+                          </aas:keys>
+                        </aas:semanticId>
+                        <aas:qualifier>
+                          <aas:qualifier>
+                            <aas:type>Multiplicity</aas:type>
+                            <aas:valueType />
+                            <aas:value>One</aas:value>
+                          </aas:qualifier>
+                          <aas:qualifier>
+                            <aas:type>FormInfo</aas:type>
+                            <aas:valueType />
+                            <aas:value>Complete telephone number to be called to reach a business partner.</aas:value>
+                          </aas:qualifier>
+                        </aas:qualifier>
+                        <aas:value />
+                      </aas:multiLanguageProperty>
+                    </aas:submodelElement>
+                    <aas:submodelElement>
+                      <aas:property>
+                        <aas:idShort>TypeOfTelephone</aas:idShort>
+                        <aas:category>VARIABLE</aas:category>
+                        <aas:kind>Template</aas:kind>
+                        <aas:semanticId>
+                          <aas:keys>
+                            <aas:key type="ConceptDescription" local="true" idType="IRDI">0173-1#02-AAO137#003</aas:key>
+                          </aas:keys>
+                        </aas:semanticId>
+                        <aas:qualifier>
+                          <aas:qualifier>
+                            <aas:type>Multiplicity</aas:type>
+                            <aas:valueType />
+                            <aas:value>ZeroToOne</aas:value>
+                          </aas:qualifier>
+                          <aas:qualifier>
+                            <aas:type>FormInfo</aas:type>
+                            <aas:valueType />
+                            <aas:value>Characterization of a telephone according to its location or usage.</aas:value>
+                          </aas:qualifier>
+                          <aas:qualifier>
+                            <aas:type>FormChoices</aas:type>
+                            <aas:valueType />
+                            <aas:value>Office;Office mobile;Secretary;Substitute;Home;Private mobile</aas:value>
+                          </aas:qualifier>
+                        </aas:qualifier>
+                        <aas:valueType>string</aas:valueType>
+                        <aas:value />
+                      </aas:property>
+                    </aas:submodelElement>
+                  </aas:value>
+                  <aas:ordered>false</aas:ordered>
+                  <aas:allowDuplicates>false</aas:allowDuplicates>
+                </aas:submodelElementCollection>
+              </aas:submodelElement>
+              <aas:submodelElement>
+                <aas:submodelElementCollection>
+                  <aas:idShort>Fax</aas:idShort>
+                  <aas:category>VARIABLE</aas:category>
+                  <aas:kind>Template</aas:kind>
+                  <aas:semanticId>
+                    <aas:keys>
+                      <aas:key type="ConceptDescription" local="true" idType="IRDI">0173-1#02-AAQ834#005</aas:key>
+                    </aas:keys>
+                  </aas:semanticId>
+                  <aas:qualifier>
+                    <aas:qualifier>
+                      <aas:type>Multiplicity</aas:type>
+                      <aas:valueType />
+                      <aas:value>ZeroToMany</aas:value>
+                    </aas:qualifier>
+                    <aas:qualifier>
+                      <aas:type>FormInfo</aas:type>
+                      <aas:valueType />
+                      <aas:value>Fax number including type.</aas:value>
+                    </aas:qualifier>
+                  </aas:qualifier>
+                  <aas:value>
+                    <aas:submodelElement>
+                      <aas:multiLanguageProperty>
+                        <aas:idShort>FaxNumber</aas:idShort>
+                        <aas:category>VARIABLE</aas:category>
+                        <aas:kind>Template</aas:kind>
+                        <aas:semanticId>
+                          <aas:keys>
+                            <aas:key type="ConceptDescription" local="true" idType="IRDI">0173-1#02-AAO195#002</aas:key>
+                          </aas:keys>
+                        </aas:semanticId>
+                        <aas:qualifier>
+                          <aas:qualifier>
+                            <aas:type>Multiplicity</aas:type>
+                            <aas:valueType />
+                            <aas:value>One</aas:value>
+                          </aas:qualifier>
+                          <aas:qualifier>
+                            <aas:type>FormInfo</aas:type>
+                            <aas:valueType />
+                            <aas:value>Complete telephone number to be called to reach a business partner's fax machine.</aas:value>
+                          </aas:qualifier>
+                        </aas:qualifier>
+                        <aas:value />
+                      </aas:multiLanguageProperty>
+                    </aas:submodelElement>
+                    <aas:submodelElement>
+                      <aas:property>
+                        <aas:idShort>TypeOfFaxNumber</aas:idShort>
+                        <aas:category>VARIABLE</aas:category>
+                        <aas:kind>Template</aas:kind>
+                        <aas:semanticId>
+                          <aas:keys>
+                            <aas:key type="ConceptDescription" local="true" idType="IRDI">0173-1#02-AAO196#003</aas:key>
+                          </aas:keys>
+                        </aas:semanticId>
+                        <aas:qualifier>
+                          <aas:qualifier>
+                            <aas:type>Multiplicity</aas:type>
+                            <aas:valueType />
+                            <aas:value>ZeroToOne</aas:value>
+                          </aas:qualifier>
+                          <aas:qualifier>
+                            <aas:type>FormInfo</aas:type>
+                            <aas:valueType />
+                            <aas:value>Characterization of the fax according its location or usage.</aas:value>
+                          </aas:qualifier>
+                          <aas:qualifier>
+                            <aas:type>FormChoices</aas:type>
+                            <aas:valueType />
+                            <aas:value>Office;Secretary;Home</aas:value>
+                          </aas:qualifier>
+                        </aas:qualifier>
+                        <aas:valueType>string</aas:valueType>
+                        <aas:value />
+                      </aas:property>
+                    </aas:submodelElement>
+                  </aas:value>
+                  <aas:ordered>false</aas:ordered>
+                  <aas:allowDuplicates>false</aas:allowDuplicates>
+                </aas:submodelElementCollection>
+              </aas:submodelElement>
+              <aas:submodelElement>
+                <aas:submodelElementCollection>
+                  <aas:idShort>Email</aas:idShort>
+                  <aas:category>VARIABLE</aas:category>
+                  <aas:kind>Template</aas:kind>
+                  <aas:semanticId>
+                    <aas:keys>
+                      <aas:key type="ConceptDescription" local="true" idType="IRDI">0173-1#02-AAQ836#005</aas:key>
+                    </aas:keys>
+                  </aas:semanticId>
+                  <aas:qualifier>
+                    <aas:qualifier>
+                      <aas:type>Multiplicity</aas:type>
+                      <aas:valueType />
+                      <aas:value>ZeroToMany</aas:value>
+                    </aas:qualifier>
+                    <aas:qualifier>
+                      <aas:type>FormInfo</aas:type>
+                      <aas:valueType />
+                      <aas:value>E-mail address and encryption method.</aas:value>
+                    </aas:qualifier>
+                  </aas:qualifier>
+                  <aas:value>
+                    <aas:submodelElement>
+                      <aas:property>
+                        <aas:idShort>EmailAddress</aas:idShort>
+                        <aas:category>VARIABLE</aas:category>
+                        <aas:kind>Template</aas:kind>
+                        <aas:semanticId>
+                          <aas:keys>
+                            <aas:key type="ConceptDescription" local="true" idType="IRDI">0173-1#02-AAO198#002</aas:key>
+                          </aas:keys>
+                        </aas:semanticId>
+                        <aas:qualifier>
+                          <aas:qualifier>
+                            <aas:type>Multiplicity</aas:type>
+                            <aas:valueType />
+                            <aas:value>One</aas:value>
+                          </aas:qualifier>
+                          <aas:qualifier>
+                            <aas:type>FormInfo</aas:type>
+                            <aas:valueType />
+                            <aas:value>Electronic mail address of a business partner.</aas:value>
+                          </aas:qualifier>
+                        </aas:qualifier>
+                        <aas:valueType>string</aas:valueType>
+                        <aas:value />
+                      </aas:property>
+                    </aas:submodelElement>
+                    <aas:submodelElement>
+                      <aas:multiLanguageProperty>
+                        <aas:idShort>PublicKey</aas:idShort>
+                        <aas:category>VARIABLE</aas:category>
+                        <aas:kind>Template</aas:kind>
+                        <aas:semanticId>
+                          <aas:keys>
+                            <aas:key type="ConceptDescription" local="true" idType="IRDI">0173-1#02-AAO200#002</aas:key>
+                          </aas:keys>
+                        </aas:semanticId>
+                        <aas:qualifier>
+                          <aas:qualifier>
+                            <aas:type>Multiplicity</aas:type>
+                            <aas:valueType />
+                            <aas:value>ZeroToOne</aas:value>
+                          </aas:qualifier>
+                          <aas:qualifier>
+                            <aas:type>FormInfo</aas:type>
+                            <aas:valueType />
+                            <aas:value>Public part of an unsymmetrical key pair to sign or encrypt text or messages.</aas:value>
+                          </aas:qualifier>
+                        </aas:qualifier>
+                        <aas:value />
+                      </aas:multiLanguageProperty>
+                    </aas:submodelElement>
+                    <aas:submodelElement>
+                      <aas:property>
+                        <aas:idShort>TypeOfEmailAddress</aas:idShort>
+                        <aas:category>VARIABLE</aas:category>
+                        <aas:kind>Template</aas:kind>
+                        <aas:semanticId>
+                          <aas:keys>
+                            <aas:key type="ConceptDescription" local="true" idType="IRDI">0173-1#02-AAO199#003</aas:key>
+                          </aas:keys>
+                        </aas:semanticId>
+                        <aas:qualifier>
+                          <aas:qualifier>
+                            <aas:type>Multiplicity</aas:type>
+                            <aas:valueType />
+                            <aas:value>ZeroToOne</aas:value>
+                          </aas:qualifier>
+                          <aas:qualifier>
+                            <aas:type>FormInfo</aas:type>
+                            <aas:valueType />
+                            <aas:value>Characterization of an e-mail address according to its location or usage.</aas:value>
+                          </aas:qualifier>
+                          <aas:qualifier>
+                            <aas:type>FormChoices</aas:type>
+                            <aas:valueType />
+                            <aas:value>Office;Secretary;Substitute;Home</aas:value>
+                          </aas:qualifier>
+                        </aas:qualifier>
+                        <aas:valueType>string</aas:valueType>
+                        <aas:value />
+                      </aas:property>
+                    </aas:submodelElement>
+                    <aas:submodelElement>
+                      <aas:multiLanguageProperty>
+                        <aas:idShort>TypeOfPublickKey</aas:idShort>
+                        <aas:category>VARIABLE</aas:category>
+                        <aas:kind>Template</aas:kind>
+                        <aas:semanticId>
+                          <aas:keys>
+                            <aas:key type="ConceptDescription" local="true" idType="IRDI">0173-1#02-AAO201#002</aas:key>
+                          </aas:keys>
+                        </aas:semanticId>
+                        <aas:qualifier>
+                          <aas:qualifier>
+                            <aas:type>Multiplicity</aas:type>
+                            <aas:valueType />
+                            <aas:value>ZeroToOne</aas:value>
+                          </aas:qualifier>
+                          <aas:qualifier>
+                            <aas:type>FormInfo</aas:type>
+                            <aas:valueType />
+                            <aas:value>Characterization of a public key according to its encryption process.</aas:value>
+                          </aas:qualifier>
+                        </aas:qualifier>
+                        <aas:value />
+                      </aas:multiLanguageProperty>
+                    </aas:submodelElement>
+                  </aas:value>
+                  <aas:ordered>false</aas:ordered>
+                  <aas:allowDuplicates>false</aas:allowDuplicates>
+                </aas:submodelElementCollection>
+              </aas:submodelElement>
+            </aas:value>
+            <aas:ordered>false</aas:ordered>
+            <aas:allowDuplicates>true</aas:allowDuplicates>
+          </aas:submodelElementCollection>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:multiLanguageProperty>
+            <aas:idShort>ManufacturerProductFamily</aas:idShort>
+            <aas:category>PARAMETER</aas:category>
+            <aas:kind>Template</aas:kind>
+            <aas:semanticId>
+              <aas:keys>
+                <aas:key type="ConceptDescription" local="true" idType="IRDI">0173-1#02-AAU731#001</aas:key>
+              </aas:keys>
+            </aas:semanticId>
+            <aas:qualifier>
+              <aas:qualifier>
+                <aas:type>Multiplicity</aas:type>
+                <aas:valueType />
+                <aas:value>One</aas:value>
+              </aas:qualifier>
+              <aas:qualifier>
+                <aas:type>FormInfo</aas:type>
+                <aas:valueType />
+                <aas:value>2nd level of a 3 level manufacturer specific product hierarchy.</aas:value>
+              </aas:qualifier>
+            </aas:qualifier>
+            <aas:value />
+          </aas:multiLanguageProperty>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>SerialNumber</aas:idShort>
+            <aas:category>PARAMETER</aas:category>
+            <aas:kind>Template</aas:kind>
+            <aas:semanticId>
+              <aas:keys>
+                <aas:key type="ConceptDescription" local="true" idType="IRDI">0173-1#02-AAM556#002</aas:key>
+              </aas:keys>
+            </aas:semanticId>
+            <aas:qualifier>
+              <aas:qualifier>
+                <aas:type>Multiplicity</aas:type>
+                <aas:valueType />
+                <aas:value>ZeroToOne</aas:value>
+              </aas:qualifier>
+              <aas:qualifier>
+                <aas:type>FormInfo</aas:type>
+                <aas:valueType />
+                <aas:value>Unique combination of numbers and letters used to identify the device once it has been manufactured.</aas:value>
+              </aas:qualifier>
+            </aas:qualifier>
+            <aas:valueType>string</aas:valueType>
+            <aas:value />
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>YearOfConstruction</aas:idShort>
+            <aas:category>PARAMETER</aas:category>
+            <aas:kind>Template</aas:kind>
+            <aas:semanticId>
+              <aas:keys>
+                <aas:key type="ConceptDescription" local="true" idType="IRDI">0173-1#02-AAP906#001</aas:key>
+              </aas:keys>
+            </aas:semanticId>
+            <aas:qualifier>
+              <aas:qualifier>
+                <aas:type>Multiplicity</aas:type>
+                <aas:valueType />
+                <aas:value>One</aas:value>
+              </aas:qualifier>
+              <aas:qualifier>
+                <aas:type>FormInfo</aas:type>
+                <aas:valueType />
+                <aas:value>Year as completion date of object.</aas:value>
+              </aas:qualifier>
+            </aas:qualifier>
+            <aas:valueType>string</aas:valueType>
+            <aas:value />
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:submodelElementCollection>
+            <aas:idShort>Markings</aas:idShort>
+            <aas:category>VARIABLE</aas:category>
+            <aas:kind>Template</aas:kind>
+            <aas:semanticId>
+              <aas:keys>
+                <aas:key type="ConceptDescription" local="true" idType="IRI">https://admin-shell.io/zvei/nameplate/1/0/Nameplate/Markings</aas:key>
+              </aas:keys>
+            </aas:semanticId>
+            <aas:qualifier>
+              <aas:qualifier>
+                <aas:type>Multiplicity</aas:type>
+                <aas:valueType />
+                <aas:value>ZeroToOne</aas:value>
+              </aas:qualifier>
+              <aas:qualifier>
+                <aas:type>FormInfo</aas:type>
+                <aas:valueType />
+                <aas:value>Collection of product markings.</aas:value>
+              </aas:qualifier>
+            </aas:qualifier>
+            <aas:value>
+              <aas:submodelElement>
+                <aas:submodelElementCollection>
+                  <aas:idShort>Marking</aas:idShort>
+                  <aas:category>VARIABLE</aas:category>
+                  <aas:kind>Template</aas:kind>
+                  <aas:semanticId>
+                    <aas:keys>
+                      <aas:key type="ConceptDescription" local="true" idType="IRI">https://admin-shell.io/zvei/nameplate/1/0/Nameplate/Markings/Marking</aas:key>
+                    </aas:keys>
+                  </aas:semanticId>
+                  <aas:qualifier>
+                    <aas:qualifier>
+                      <aas:type>Multiplicity</aas:type>
+                      <aas:valueType />
+                      <aas:value>OneToMany</aas:value>
+                    </aas:qualifier>
+                    <aas:qualifier>
+                      <aas:type>FormInfo</aas:type>
+                      <aas:valueType />
+                      <aas:value>Individual information about the marking labelled on the device.</aas:value>
+                    </aas:qualifier>
+                  </aas:qualifier>
+                  <aas:value>
+                    <aas:submodelElement>
+                      <aas:property>
+                        <aas:idShort>MarkingName</aas:idShort>
+                        <aas:category>VARIABLE</aas:category>
+                        <aas:kind>Template</aas:kind>
+                        <aas:semanticId>
+                          <aas:keys>
+                            <aas:key type="ConceptDescription" local="true" idType="IRI">https://admin-shell.io/zvei/nameplate/1/0/Nameplate/Markings/Marking/MarkingName</aas:key>
+                          </aas:keys>
+                        </aas:semanticId>
+                        <aas:qualifier>
+                          <aas:qualifier>
+                            <aas:type>Multiplicity</aas:type>
+                            <aas:valueType />
+                            <aas:value>One</aas:value>
+                          </aas:qualifier>
+                          <aas:qualifier>
+                            <aas:type>FormInfo</aas:type>
+                            <aas:valueType />
+                            <aas:value>Common name of the marking.</aas:value>
+                          </aas:qualifier>
+                        </aas:qualifier>
+                        <aas:valueType>string</aas:valueType>
+                        <aas:value />
+                      </aas:property>
+                    </aas:submodelElement>
+                    <aas:submodelElement>
+                      <aas:file>
+                        <aas:idShort>MarkingFile</aas:idShort>
+                        <aas:category>VARIABLE</aas:category>
+                        <aas:kind>Template</aas:kind>
+                        <aas:semanticId>
+                          <aas:keys>
+                            <aas:key type="ConceptDescription" local="true" idType="IRI">https://admin-shell.io/zvei/nameplate/1/0/Nameplate/Markings/Marking/MarkingFile</aas:key>
+                          </aas:keys>
+                        </aas:semanticId>
+                        <aas:qualifier>
+                          <aas:qualifier>
+                            <aas:type>Multiplicity</aas:type>
+                            <aas:valueType />
+                            <aas:value>One</aas:value>
+                          </aas:qualifier>
+                          <aas:qualifier>
+                            <aas:type>FormInfo</aas:type>
+                            <aas:valueType />
+                            <aas:value>Common picture or logo of the marking.</aas:value>
+                          </aas:qualifier>
+                        </aas:qualifier>
+                        <aas:mimeType />
+                        <aas:value />
+                      </aas:file>
+                    </aas:submodelElement>
+                    <aas:submodelElement>
+                      <aas:property>
+                        <aas:idShort>MarkingAdditionalText</aas:idShort>
+                        <aas:category>VARIABLE</aas:category>
+                        <aas:kind>Template</aas:kind>
+                        <aas:semanticId>
+                          <aas:keys>
+                            <aas:key type="ConceptDescription" local="true" idType="IRI">https://admin-shell.io/zvei/nameplate/1/0/Nameplate/Markings/Marking/MarkingAdditionalText</aas:key>
+                          </aas:keys>
+                        </aas:semanticId>
+                        <aas:qualifier>
+                          <aas:qualifier>
+                            <aas:type>Multiplicity</aas:type>
+                            <aas:valueType />
+                            <aas:value>ZeroToMany</aas:value>
+                          </aas:qualifier>
+                          <aas:qualifier>
+                            <aas:type>FormInfo</aas:type>
+                            <aas:valueType />
+                            <aas:value>Where applicable, additional information on the marking in plain text.</aas:value>
+                          </aas:qualifier>
+                        </aas:qualifier>
+                        <aas:valueType>string</aas:valueType>
+                        <aas:value />
+                      </aas:property>
+                    </aas:submodelElement>
+                  </aas:value>
+                  <aas:ordered>false</aas:ordered>
+                  <aas:allowDuplicates>true</aas:allowDuplicates>
+                </aas:submodelElementCollection>
+              </aas:submodelElement>
+            </aas:value>
+            <aas:ordered>false</aas:ordered>
+            <aas:allowDuplicates>true</aas:allowDuplicates>
+          </aas:submodelElementCollection>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:submodelElementCollection>
+            <aas:idShort>AssetSpecificProperties</aas:idShort>
+            <aas:category>VARIABLE</aas:category>
+            <aas:kind>Template</aas:kind>
+            <aas:semanticId>
+              <aas:keys>
+                <aas:key type="ConceptDescription" local="true" idType="IRI">https://admin-shell.io/zvei/nameplate/1/0/Nameplate/AssetSpecificProperties</aas:key>
+              </aas:keys>
+            </aas:semanticId>
+            <aas:qualifier>
+              <aas:qualifier>
+                <aas:type>Multiplicity</aas:type>
+                <aas:valueType />
+                <aas:value>ZeroToOne</aas:value>
+              </aas:qualifier>
+              <aas:qualifier>
+                <aas:type>FormInfo</aas:type>
+                <aas:valueType />
+                <aas:value>Collection of asset or guideline specific properties.</aas:value>
+              </aas:qualifier>
+            </aas:qualifier>
+            <aas:value>
+              <aas:submodelElement>
+                <aas:submodelElementCollection>
+                  <aas:idShort>GuidelineSpecificProperties</aas:idShort>
+                  <aas:category>VARIABLE</aas:category>
+                  <aas:kind>Template</aas:kind>
+                  <aas:semanticId>
+                    <aas:keys>
+                      <aas:key type="ConceptDescription" local="true" idType="IRI">https://admin-shell.io/zvei/nameplate/1/0/Nameplate/AssetSpecificProperties/GuidelineSpecificProperties</aas:key>
+                    </aas:keys>
+                  </aas:semanticId>
+                  <aas:qualifier>
+                    <aas:qualifier>
+                      <aas:type>Multiplicity</aas:type>
+                      <aas:valueType />
+                      <aas:value>OneToMany</aas:value>
+                    </aas:qualifier>
+                    <aas:qualifier>
+                      <aas:type>FormInfo</aas:type>
+                      <aas:valueType />
+                      <aas:value>Asset specific nameplate information required by guideline, stipulation or legislation.</aas:value>
+                    </aas:qualifier>
+                  </aas:qualifier>
+                  <aas:value>
+                    <aas:submodelElement>
+                      <aas:property>
+                        <aas:idShort>GuidelineForConformityDeclaration</aas:idShort>
+                        <aas:category>VARIABLE</aas:category>
+                        <aas:kind>Template</aas:kind>
+                        <aas:semanticId>
+                          <aas:keys>
+                            <aas:key type="ConceptDescription" local="true" idType="IRDI">0173-1#02-AAO856#002</aas:key>
+                          </aas:keys>
+                        </aas:semanticId>
+                        <aas:qualifier>
+                          <aas:qualifier>
+                            <aas:type>Multiplicity</aas:type>
+                            <aas:valueType />
+                            <aas:value>One</aas:value>
+                          </aas:qualifier>
+                        </aas:qualifier>
+                        <aas:valueType>string</aas:valueType>
+                        <aas:value />
+                      </aas:property>
+                    </aas:submodelElement>
+                  </aas:value>
+                  <aas:ordered>false</aas:ordered>
+                  <aas:allowDuplicates>false</aas:allowDuplicates>
+                </aas:submodelElementCollection>
+              </aas:submodelElement>
+            </aas:value>
+            <aas:ordered>false</aas:ordered>
+            <aas:allowDuplicates>true</aas:allowDuplicates>
+          </aas:submodelElementCollection>
+        </aas:submodelElement>
+      </aas:submodelElements>
+    </aas:submodel>
+  </aas:submodels>
+  <aas:conceptDescriptions>
+    <aas:conceptDescription>
+      <aas:idShort />
+      <aas:identification idType="IRDI">0173-1#02-AAO677#002</aas:identification>
+      <aas:administration>
+        <aas:version />
+        <aas:revision>1</aas:revision>
+      </aas:administration>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="de">Herstellername</IEC:langString>
+              <IEC:langString lang="en">Manufacturer name</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="en">ManNam</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType>STRING</IEC:dataType>
+            <IEC:definition>
+              <IEC:langString lang="de">Bezeichnung für eine natürliche oder juristische Person, die für die Auslegung, Herstellung und Verpackung sowie die Etikettierung eines Produkts im Hinblick auf das 'Inverkehrbringen' im eigenen Namen verantwortlich ist</IEC:langString>
+              <IEC:langString lang="en">legally valid designation of the natural or judicial person which is directly responsible for the design, production, packaging and labeling of a product in respect to its being brought into circulation</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+      <aas:isCaseOf>
+        <aas:keys>
+          <aas:key type="GlobalReference" local="false" idType="IRDI">0173-1#02-AAO677#002</aas:key>
+        </aas:keys>
+      </aas:isCaseOf>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort />
+      <aas:identification idType="IRDI">0173-1#02-AAW338#001</aas:identification>
+      <aas:administration>
+        <aas:version />
+        <aas:revision>1</aas:revision>
+      </aas:administration>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="de">Herstellerproduktbezeichnung</IEC:langString>
+              <IEC:langString lang="en">Manufacturer product designation</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="en">ManProDes</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType>STRING_TRANSLATABLE</IEC:dataType>
+            <IEC:definition>
+              <IEC:langString lang="de">Kurze Beschreibung des Produktes (Kurztext)</IEC:langString>
+              <IEC:langString lang="en">Short description of the product (short text)</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+      <aas:isCaseOf>
+        <aas:keys>
+          <aas:key type="GlobalReference" local="false" idType="IRDI">0173-1#02-AAW338#001</aas:key>
+        </aas:keys>
+      </aas:isCaseOf>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort />
+      <aas:identification idType="IRDI">0173-1#02-AAU731#001</aas:identification>
+      <aas:administration>
+        <aas:version />
+        <aas:revision>1</aas:revision>
+      </aas:administration>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="de">Herstellerproduktfamilie</IEC:langString>
+              <IEC:langString lang="en">Manufacturer product family</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="en">ManProFam</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType>STRING</IEC:dataType>
+            <IEC:definition>
+              <IEC:langString lang="de">2. Ebene einer 3 stufigen herstellerspezifischen Produkthierarchie</IEC:langString>
+              <IEC:langString lang="en">2nd level of a 3 level manufacturer specific product hierarchy</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+      <aas:isCaseOf>
+        <aas:keys>
+          <aas:key type="GlobalReference" local="false" idType="IRDI">0173-1#02-AAU731#001</aas:key>
+        </aas:keys>
+      </aas:isCaseOf>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort />
+      <aas:identification idType="IRDI">0173-1#02-AAP906#001</aas:identification>
+      <aas:administration>
+        <aas:version />
+        <aas:revision>1</aas:revision>
+      </aas:administration>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="de">Baujahr</IEC:langString>
+              <IEC:langString lang="en">Year of construction</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="en">YeaOfCon</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType>STRING</IEC:dataType>
+            <IEC:definition>
+              <IEC:langString lang="de">Jahreszahl als Datumsangabe für die Fertigstellung des Objektes</IEC:langString>
+              <IEC:langString lang="en">Year as completion date of object</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+      <aas:isCaseOf>
+        <aas:keys>
+          <aas:key type="GlobalReference" local="false" idType="IRDI">0173-1#02-AAP906#001</aas:key>
+        </aas:keys>
+      </aas:isCaseOf>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort />
+      <aas:identification idType="IRDI">0173-1#02-AAQ832#005</aas:identification>
+      <aas:administration>
+        <aas:version />
+        <aas:revision>1</aas:revision>
+      </aas:administration>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">Address</IEC:langString>
+              <IEC:langString lang="de">Adresse</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="en">Add</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType />
+            <IEC:definition>
+              <IEC:langString lang="en">Address information of a business partner</IEC:langString>
+              <IEC:langString lang="de">Adressinformationen zu einem Geschäftspartner</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+      <aas:isCaseOf>
+        <aas:keys>
+          <aas:key type="GlobalReference" local="false" idType="IRDI">0173-1#02-AAQ832#005</aas:key>
+        </aas:keys>
+      </aas:isCaseOf>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort />
+      <aas:identification idType="IRDI">0173-1#02-AAO127#003</aas:identification>
+      <aas:administration>
+        <aas:version />
+        <aas:revision>1</aas:revision>
+      </aas:administration>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="de">Abteilung</IEC:langString>
+              <IEC:langString lang="en">department</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="en">Dep</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType>STRING_TRANSLATABLE</IEC:dataType>
+            <IEC:definition>
+              <IEC:langString lang="de">administrative Abteilung einer Organisation, in der ein Geschäftspartner vertreten ist</IEC:langString>
+              <IEC:langString lang="en">administrative section within an organization where a business partner is located</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+      <aas:isCaseOf>
+        <aas:keys>
+          <aas:key type="GlobalReference" local="false" idType="IRDI">0173-1#02-AAO127#003</aas:key>
+        </aas:keys>
+      </aas:isCaseOf>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort />
+      <aas:identification idType="IRDI">0173-1#02-AAO128#002</aas:identification>
+      <aas:administration>
+        <aas:version />
+        <aas:revision>1</aas:revision>
+      </aas:administration>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">street</IEC:langString>
+              <IEC:langString lang="de">Straße</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="en">Str</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType>STRING_TRANSLATABLE</IEC:dataType>
+            <IEC:definition>
+              <IEC:langString lang="en">street name and house number</IEC:langString>
+              <IEC:langString lang="de">Straßenname und Hausnummer</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+      <aas:isCaseOf>
+        <aas:keys>
+          <aas:key type="GlobalReference" local="false" idType="IRDI">0173-1#02-AAO128#002</aas:key>
+        </aas:keys>
+      </aas:isCaseOf>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort />
+      <aas:identification idType="IRDI">0173-1#02-AAO129#002</aas:identification>
+      <aas:administration>
+        <aas:version />
+        <aas:revision>1</aas:revision>
+      </aas:administration>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">zip code</IEC:langString>
+              <IEC:langString lang="de">Postleitzahl</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="en">ZipCod</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType>STRING_TRANSLATABLE</IEC:dataType>
+            <IEC:definition>
+              <IEC:langString lang="en">ZIP code of address</IEC:langString>
+              <IEC:langString lang="de">Postleitzahl der Anschrift</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+      <aas:isCaseOf>
+        <aas:keys>
+          <aas:key type="GlobalReference" local="false" idType="IRDI">0173-1#02-AAO129#002</aas:key>
+        </aas:keys>
+      </aas:isCaseOf>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort />
+      <aas:identification idType="IRDI">0173-1#02-AAO130#002</aas:identification>
+      <aas:administration>
+        <aas:version />
+        <aas:revision>1</aas:revision>
+      </aas:administration>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">PO box</IEC:langString>
+              <IEC:langString lang="de">Postfach</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="en">POBox</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType>STRING_TRANSLATABLE</IEC:dataType>
+            <IEC:definition>
+              <IEC:langString lang="en">P.O. box number</IEC:langString>
+              <IEC:langString lang="de">Nummer des Postfachs</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+      <aas:isCaseOf>
+        <aas:keys>
+          <aas:key type="GlobalReference" local="false" idType="IRDI">0173-1#02-AAO130#002</aas:key>
+        </aas:keys>
+      </aas:isCaseOf>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort />
+      <aas:identification idType="IRDI">0173-1#02-AAO131#002</aas:identification>
+      <aas:administration>
+        <aas:version />
+        <aas:revision>1</aas:revision>
+      </aas:administration>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">zip code of PO box</IEC:langString>
+              <IEC:langString lang="de">Postleitzahl des Postfachs</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="en">ZipCodOfPOBox</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType>STRING_TRANSLATABLE</IEC:dataType>
+            <IEC:definition>
+              <IEC:langString lang="en">ZIP code of P.O. box address</IEC:langString>
+              <IEC:langString lang="de">Postleitzahl der Postfachadresse</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+      <aas:isCaseOf>
+        <aas:keys>
+          <aas:key type="GlobalReference" local="false" idType="IRDI">0173-1#02-AAO131#002</aas:key>
+        </aas:keys>
+      </aas:isCaseOf>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort />
+      <aas:identification idType="IRDI">0173-1#02-AAO132#002</aas:identification>
+      <aas:administration>
+        <aas:version />
+        <aas:revision>1</aas:revision>
+      </aas:administration>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">city/town</IEC:langString>
+              <IEC:langString lang="de">Ort</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="en">CitTow</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType>STRING_TRANSLATABLE</IEC:dataType>
+            <IEC:definition>
+              <IEC:langString lang="en">town or city</IEC:langString>
+              <IEC:langString lang="de">Ortsangabe</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+      <aas:isCaseOf>
+        <aas:keys>
+          <aas:key type="GlobalReference" local="false" idType="IRDI">0173-1#02-AAO132#002</aas:key>
+        </aas:keys>
+      </aas:isCaseOf>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort />
+      <aas:identification idType="IRDI">0173-1#02-AAO133#002</aas:identification>
+      <aas:administration>
+        <aas:version />
+        <aas:revision>1</aas:revision>
+      </aas:administration>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">state/county</IEC:langString>
+              <IEC:langString lang="de">Bundesland</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="en">StaCou</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType>STRING_TRANSLATABLE</IEC:dataType>
+            <IEC:definition>
+              <IEC:langString lang="en">federal state a part of a state</IEC:langString>
+              <IEC:langString lang="de">Teil eines Bundesstaats</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+      <aas:isCaseOf>
+        <aas:keys>
+          <aas:key type="GlobalReference" local="false" idType="IRDI">0173-1#02-AAO133#002</aas:key>
+        </aas:keys>
+      </aas:isCaseOf>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort />
+      <aas:identification idType="IRDI">0173-1#02-AAO134#002</aas:identification>
+      <aas:administration>
+        <aas:version />
+        <aas:revision>1</aas:revision>
+      </aas:administration>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">national code</IEC:langString>
+              <IEC:langString lang="de">Ländercode</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="en">NatCod</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType>STRING_TRANSLATABLE</IEC:dataType>
+            <IEC:definition>
+              <IEC:langString lang="en">code of a country</IEC:langString>
+              <IEC:langString lang="de">Code eines Landes</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+      <aas:isCaseOf>
+        <aas:keys>
+          <aas:key type="GlobalReference" local="false" idType="IRDI">0173-1#02-AAO134#002</aas:key>
+        </aas:keys>
+      </aas:isCaseOf>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort />
+      <aas:identification idType="IRDI">0173-1#02-AAO135#002</aas:identification>
+      <aas:administration>
+        <aas:version />
+        <aas:revision>1</aas:revision>
+      </aas:administration>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">VAT number</IEC:langString>
+              <IEC:langString lang="de">Umsatzsteuer-ID</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="en">VATNum</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType>STRING_TRANSLATABLE</IEC:dataType>
+            <IEC:definition>
+              <IEC:langString lang="en">VAT identification number of the business partner</IEC:langString>
+              <IEC:langString lang="de">Umsatzsteuer-ID des Geschäftspartners</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+      <aas:isCaseOf>
+        <aas:keys>
+          <aas:key type="GlobalReference" local="false" idType="IRDI">0173-1#02-AAO135#002</aas:key>
+        </aas:keys>
+      </aas:isCaseOf>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort />
+      <aas:identification idType="IRDI">0173-1#02-AAO202#003</aas:identification>
+      <aas:administration>
+        <aas:version />
+        <aas:revision>1</aas:revision>
+      </aas:administration>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">address remarks</IEC:langString>
+              <IEC:langString lang="de">Anmerkungen zu Adresse</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="en">AddRem</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType>STRING_TRANSLATABLE</IEC:dataType>
+            <IEC:definition>
+              <IEC:langString lang="en">plain text characterizing address information for which there is no property</IEC:langString>
+              <IEC:langString lang="de">einfacher Text, der Adressinformationen kennzeichnet, bei denen kein Merkmal zur Verfügung steht</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+      <aas:isCaseOf>
+        <aas:keys>
+          <aas:key type="GlobalReference" local="false" idType="IRDI">0173-1#02-AAO202#003</aas:key>
+        </aas:keys>
+      </aas:isCaseOf>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort />
+      <aas:identification idType="IRDI">0173-1#02-AAQ326#002</aas:identification>
+      <aas:administration>
+        <aas:version />
+        <aas:revision>1</aas:revision>
+      </aas:administration>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">address of additional link</IEC:langString>
+              <IEC:langString lang="de">zusätzlicher Online-Verweis</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="en">AddOfAddLin</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType>STRING</IEC:dataType>
+            <IEC:definition>
+              <IEC:langString lang="en">web site address where information about the product or contact is given</IEC:langString>
+              <IEC:langString lang="de">Angabe einer Web-Adresse, die zusätzliche Informationen zum Produkt oder Kontaktdaten enthält</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+      <aas:isCaseOf>
+        <aas:keys>
+          <aas:key type="GlobalReference" local="false" idType="IRDI">0173-1#02-AAQ326#002</aas:key>
+        </aas:keys>
+      </aas:isCaseOf>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort />
+      <aas:identification idType="IRDI">0173-1#02-AAQ833#005</aas:identification>
+      <aas:administration>
+        <aas:version />
+        <aas:revision>1</aas:revision>
+      </aas:administration>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">Phone</IEC:langString>
+              <IEC:langString lang="de">Telefon</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="en">Pho</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType />
+            <IEC:definition>
+              <IEC:langString lang="en">Phone number including type</IEC:langString>
+              <IEC:langString lang="de">Telefonnummer mit Angabe der Art des Anschlusses</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+      <aas:isCaseOf>
+        <aas:keys>
+          <aas:key type="GlobalReference" local="false" idType="IRDI">0173-1#02-AAQ833#005</aas:key>
+        </aas:keys>
+      </aas:isCaseOf>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort />
+      <aas:identification idType="IRDI">0173-1#02-AAO136#002</aas:identification>
+      <aas:administration>
+        <aas:version />
+        <aas:revision>1</aas:revision>
+      </aas:administration>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">telephone number</IEC:langString>
+              <IEC:langString lang="de">Telefonnummer</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="en">TelNum</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType>STRING_TRANSLATABLE</IEC:dataType>
+            <IEC:definition>
+              <IEC:langString lang="en">complete telephone number to be called to reach a business partner</IEC:langString>
+              <IEC:langString lang="de">vollständige Telefonnummer, unter der ein Geschäftspartner erreichbar ist</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+      <aas:isCaseOf>
+        <aas:keys>
+          <aas:key type="GlobalReference" local="false" idType="IRDI">0173-1#02-AAO136#002</aas:key>
+        </aas:keys>
+      </aas:isCaseOf>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort />
+      <aas:identification idType="IRDI">0173-1#02-AAO137#003</aas:identification>
+      <aas:administration>
+        <aas:version />
+        <aas:revision>1</aas:revision>
+      </aas:administration>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">type of telephone</IEC:langString>
+              <IEC:langString lang="de">Art der Telefonnummer</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="en">TypOfTel</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType>STRING</IEC:dataType>
+            <IEC:definition>
+              <IEC:langString lang="en">characterization of a telephone according to its location or usage</IEC:langString>
+              <IEC:langString lang="de">Charakterisierung einer Telefonnummer bezüglich ihres Orts oder ihrer Verwendung</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+      <aas:isCaseOf>
+        <aas:keys>
+          <aas:key type="GlobalReference" local="false" idType="IRDI">0173-1#02-AAO137#003</aas:key>
+        </aas:keys>
+      </aas:isCaseOf>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort />
+      <aas:identification idType="IRDI">0173-1#02-AAQ834#005</aas:identification>
+      <aas:administration>
+        <aas:version />
+        <aas:revision>1</aas:revision>
+      </aas:administration>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">Fax</IEC:langString>
+              <IEC:langString lang="de">Fax</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="en">Fax</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType />
+            <IEC:definition>
+              <IEC:langString lang="en">Fax number including type</IEC:langString>
+              <IEC:langString lang="de">Faxnummer mit Angabe der Art des Anschlusses</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+      <aas:isCaseOf>
+        <aas:keys>
+          <aas:key type="GlobalReference" local="false" idType="IRDI">0173-1#02-AAQ834#005</aas:key>
+        </aas:keys>
+      </aas:isCaseOf>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort />
+      <aas:identification idType="IRDI">0173-1#02-AAO195#002</aas:identification>
+      <aas:administration>
+        <aas:version />
+        <aas:revision>1</aas:revision>
+      </aas:administration>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">fax number</IEC:langString>
+              <IEC:langString lang="de">Faxnummer</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="en">FaxNum</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType>STRING_TRANSLATABLE</IEC:dataType>
+            <IEC:definition>
+              <IEC:langString lang="en">complete telephone number to be called to reach a business partner's fax machine</IEC:langString>
+              <IEC:langString lang="de">vollständige Telefonnummer, unter der das Faxgerät eines Geschäftspartners erreichbar ist</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+      <aas:isCaseOf>
+        <aas:keys>
+          <aas:key type="GlobalReference" local="false" idType="IRDI">0173-1#02-AAO195#002</aas:key>
+        </aas:keys>
+      </aas:isCaseOf>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort />
+      <aas:identification idType="IRDI">0173-1#02-AAO196#003</aas:identification>
+      <aas:administration>
+        <aas:version />
+        <aas:revision>1</aas:revision>
+      </aas:administration>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">type of fax number</IEC:langString>
+              <IEC:langString lang="de">Art der Faxnummer</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="en">TypOfFaxNum</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType>STRING</IEC:dataType>
+            <IEC:definition>
+              <IEC:langString lang="en">characterization of the fax according its location or usage</IEC:langString>
+              <IEC:langString lang="de">Charakterisierung des Fax bezüglich seines Orts oder Gebrauchs</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+      <aas:isCaseOf>
+        <aas:keys>
+          <aas:key type="GlobalReference" local="false" idType="IRDI">0173-1#02-AAO196#003</aas:key>
+        </aas:keys>
+      </aas:isCaseOf>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort />
+      <aas:identification idType="IRDI">0173-1#02-AAQ836#005</aas:identification>
+      <aas:administration>
+        <aas:version />
+        <aas:revision>1</aas:revision>
+      </aas:administration>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">E-mail</IEC:langString>
+              <IEC:langString lang="de">E-Mail</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="en">Ema</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType />
+            <IEC:definition>
+              <IEC:langString lang="en">E-mail address and encryption method</IEC:langString>
+              <IEC:langString lang="de">E-Mail-Adresse und Angaben zur Verschlüsselung</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+      <aas:isCaseOf>
+        <aas:keys>
+          <aas:key type="GlobalReference" local="false" idType="IRDI">0173-1#02-AAQ836#005</aas:key>
+        </aas:keys>
+      </aas:isCaseOf>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort />
+      <aas:identification idType="IRDI">0173-1#02-AAO198#002</aas:identification>
+      <aas:administration>
+        <aas:version />
+        <aas:revision>1</aas:revision>
+      </aas:administration>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">e-mail address</IEC:langString>
+              <IEC:langString lang="de">E-Mailadresse</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="en">EmaAdd</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType>STRING</IEC:dataType>
+            <IEC:definition>
+              <IEC:langString lang="en">electronic mail address of a business partner</IEC:langString>
+              <IEC:langString lang="de">E-Mailadresse eines Geschäftspartners</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+      <aas:isCaseOf>
+        <aas:keys>
+          <aas:key type="GlobalReference" local="false" idType="IRDI">0173-1#02-AAO198#002</aas:key>
+        </aas:keys>
+      </aas:isCaseOf>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort />
+      <aas:identification idType="IRDI">0173-1#02-AAO200#002</aas:identification>
+      <aas:administration>
+        <aas:version />
+        <aas:revision>1</aas:revision>
+      </aas:administration>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">public key</IEC:langString>
+              <IEC:langString lang="de">öffentlicher Schlüssel</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="en">PubKey</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType>STRING_TRANSLATABLE</IEC:dataType>
+            <IEC:definition>
+              <IEC:langString lang="en">public part of an unsymmetrical key pair to sign or encrypt text or messages</IEC:langString>
+              <IEC:langString lang="de">öffentlicher Teil eines unsymmetrischen Schlüsselpaares zur Unterzeichnung oder Verschlüsselung von Text oder Meldungen</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+      <aas:isCaseOf>
+        <aas:keys>
+          <aas:key type="GlobalReference" local="false" idType="IRDI">0173-1#02-AAO200#002</aas:key>
+        </aas:keys>
+      </aas:isCaseOf>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort />
+      <aas:identification idType="IRDI">0173-1#02-AAO199#003</aas:identification>
+      <aas:administration>
+        <aas:version />
+        <aas:revision>1</aas:revision>
+      </aas:administration>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">type of e-mail address</IEC:langString>
+              <IEC:langString lang="de">Art der E-Mailadresse</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="en">TypOfEmaAdd</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType>STRING</IEC:dataType>
+            <IEC:definition>
+              <IEC:langString lang="en">characterization of an e-mail address according its location or usage</IEC:langString>
+              <IEC:langString lang="de">Charakterisierung einer E-Mail-Adresse bezüglich ihres Orts oder Gebrauchs</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+      <aas:isCaseOf>
+        <aas:keys>
+          <aas:key type="GlobalReference" local="false" idType="IRDI">0173-1#02-AAO199#003</aas:key>
+        </aas:keys>
+      </aas:isCaseOf>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort />
+      <aas:identification idType="IRDI">0173-1#02-AAO201#002</aas:identification>
+      <aas:administration>
+        <aas:version />
+        <aas:revision>1</aas:revision>
+      </aas:administration>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">type of public key</IEC:langString>
+              <IEC:langString lang="de">Art des öffentlichen Schlüssels</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="en">TypOfPubKey</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType>STRING_TRANSLATABLE</IEC:dataType>
+            <IEC:definition>
+              <IEC:langString lang="en">characterization of a public key according to its encryption process</IEC:langString>
+              <IEC:langString lang="de">Charakterisierung eines öffentlichen Schlüssels bezüglich seines Verschlüsselungsprozesses</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+      <aas:isCaseOf>
+        <aas:keys>
+          <aas:key type="GlobalReference" local="false" idType="IRDI">0173-1#02-AAO201#002</aas:key>
+        </aas:keys>
+      </aas:isCaseOf>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort />
+      <aas:identification idType="IRDI">0173-1#02-AAM556#002</aas:identification>
+      <aas:administration>
+        <aas:version />
+        <aas:revision>1</aas:revision>
+      </aas:administration>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">serial number</IEC:langString>
+              <IEC:langString lang="de">Seriennummer</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="en">SerNum</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType>STRING_TRANSLATABLE</IEC:dataType>
+            <IEC:definition>
+              <IEC:langString lang="en">unique combination of numbers and letters used to identify the device once it has been manufactured</IEC:langString>
+              <IEC:langString lang="de">eindeutige Zahlen- und Buchstabenkombination, mit der das Gerät nach seiner Herstellung identifiziert ist</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+      <aas:isCaseOf>
+        <aas:keys>
+          <aas:key type="GlobalReference" local="false" idType="IRDI">0173-1#02-AAM556#002</aas:key>
+        </aas:keys>
+      </aas:isCaseOf>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort />
+      <aas:identification idType="IRI">https://admin-shell.io/zvei/nameplate/1/0/Nameplate/Markings</aas:identification>
+      <aas:administration>
+        <aas:version />
+        <aas:revision>1</aas:revision>
+      </aas:administration>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">Markings</IEC:langString>
+              <IEC:langString lang="de">Produktkennzeichnungen</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="en">Markings</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType />
+            <IEC:definition>
+              <IEC:langString lang="en">Collection of product markings</IEC:langString>
+              <IEC:langString lang="de">Sammlung für Produktkennzeichnungen</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort />
+      <aas:description />
+      <aas:identification idType="IRI">https://admin-shell.io/zvei/nameplate/1/0/Nameplate/Markings/Marking</aas:identification>
+      <aas:administration>
+        <aas:version />
+        <aas:revision>1</aas:revision>
+      </aas:administration>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">Marking</IEC:langString>
+              <IEC:langString lang="de">Produktkennzeichnung</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="en">Marking</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType />
+            <IEC:definition>
+              <IEC:langString lang="en">contains information about the marking labelled on the device</IEC:langString>
+              <IEC:langString lang="de">erfasst Information über die Produktkennzeichnung</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort />
+      <aas:identification idType="IRI">https://admin-shell.io/zvei/nameplate/1/0/Nameplate/Markings/Marking/MarkingName</aas:identification>
+      <aas:administration>
+        <aas:version />
+        <aas:revision>1</aas:revision>
+      </aas:administration>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">Marking name</IEC:langString>
+              <IEC:langString lang="de">Name der Produktkennzeichnung</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="en">MarkingName</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType>STRING</IEC:dataType>
+            <IEC:definition>
+              <IEC:langString lang="en">common name of the marking</IEC:langString>
+              <IEC:langString lang="de">Marktüblicher Name der Produktkennzeichnung</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort />
+      <aas:identification idType="IRI">https://admin-shell.io/zvei/nameplate/1/0/Nameplate/Markings/Marking/MarkingFile</aas:identification>
+      <aas:administration>
+        <aas:version />
+        <aas:revision>1</aas:revision>
+      </aas:administration>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">marking file</IEC:langString>
+              <IEC:langString lang="de">Datei der Produktkennzeichnung</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="en">MarkingFile</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType />
+            <IEC:definition>
+              <IEC:langString lang="en">picture of the marking</IEC:langString>
+              <IEC:langString lang="de">Datei der Produktkennzeichnung</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort />
+      <aas:identification idType="IRI">https://admin-shell.io/zvei/nameplate/1/0/Nameplate/Markings/Marking/MarkingAdditionalText</aas:identification>
+      <aas:administration>
+        <aas:version />
+        <aas:revision>1</aas:revision>
+      </aas:administration>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">marking additional text</IEC:langString>
+              <IEC:langString lang="de">Zusatztext der Produktkennzeichnung</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="en">MarkingAdditionalText</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType>STRING</IEC:dataType>
+            <IEC:definition>
+              <IEC:langString lang="en">where applicable, additional information on the marking in plain text</IEC:langString>
+              <IEC:langString lang="de">Zusatztext auf der Produktkennzeichnung als einfacher Text, falls verfügbar</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort />
+      <aas:identification idType="IRI">https://admin-shell.io/zvei/nameplate/1/0/Nameplate/AssetSpecificProperties</aas:identification>
+      <aas:administration>
+        <aas:version />
+        <aas:revision>1</aas:revision>
+      </aas:administration>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">Asset-specific properties</IEC:langString>
+              <IEC:langString lang="de">Asset-spezifische Merkmale</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="en">AssetSpecificProperties</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType />
+            <IEC:definition>
+              <IEC:langString lang="en">Collection of guideline-specific properties</IEC:langString>
+              <IEC:langString lang="de">Sammlung der Richtlinien-spezifischen Merkmale</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort />
+      <aas:identification idType="IRI">https://admin-shell.io/zvei/nameplate/1/0/Nameplate/AssetSpecificProperties/GuidelineSpecificProperties</aas:identification>
+      <aas:administration>
+        <aas:version />
+        <aas:revision>1</aas:revision>
+      </aas:administration>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">Guideline-specific Properties</IEC:langString>
+              <IEC:langString lang="de">Richtlinie-spezifische Merkmale</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="en">GuidelineSpecificProperties</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType />
+            <IEC:definition>
+              <IEC:langString lang="en">Asset specific nameplate information required by guideline, stipulation or legislation</IEC:langString>
+              <IEC:langString lang="de">Asset-spezifische Typenschildinformation, die von weiteren Normen, Standards und Richtlinien gefordert wird</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort />
+      <aas:identification idType="IRDI">0173-1#02-AAO856#002</aas:identification>
+      <aas:administration>
+        <aas:version />
+        <aas:revision>1</aas:revision>
+      </aas:administration>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">guideline for conformity declaration</IEC:langString>
+              <IEC:langString lang="de">Richtlinie der Konformitätserklärung</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="en">GuiForConDec</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType>STRING</IEC:dataType>
+            <IEC:definition>
+              <IEC:langString lang="en">guideline, stipulation or legislation used for determining conformity</IEC:langString>
+              <IEC:langString lang="de">Richtlinie, Vorschrift oder des Gesetzes an Hand der die Konformität ermittelt wurde</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+      <aas:isCaseOf>
+        <aas:keys>
+          <aas:key type="GlobalReference" local="false" idType="IRDI">0173-1#02-AAO856#002</aas:key>
+        </aas:keys>
+      </aas:isCaseOf>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort />
+      <aas:identification idType="IRI">https://admin-shell.io/zvei/nameplate/1/0/Nameplate</aas:identification>
+      <aas:administration>
+        <aas:version />
+        <aas:revision>1</aas:revision>
+      </aas:administration>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecificationContent>
+          <aas:dataSpecificationIEC61360>
+            <IEC:preferredName>
+              <IEC:langString lang="en">Nameplate</IEC:langString>
+              <IEC:langString lang="de">Typenschild</IEC:langString>
+            </IEC:preferredName>
+            <IEC:shortName>
+              <IEC:langString lang="en">Nameplate</IEC:langString>
+            </IEC:shortName>
+            <IEC:unit />
+            <IEC:dataType />
+            <IEC:definition>
+              <IEC:langString lang="en">contains the nameplate information attached to the product</IEC:langString>
+              <IEC:langString lang="de">enthält Typenschildinformation eines Produkts</IEC:langString>
+            </IEC:definition>
+          </aas:dataSpecificationIEC61360>
+        </aas:dataSpecificationContent>
+        <aas:dataSpecification>
+          <aas:keys>
+            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
+          </aas:keys>
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+    </aas:conceptDescription>
+  </aas:conceptDescriptions>
+</aas:aasenv>

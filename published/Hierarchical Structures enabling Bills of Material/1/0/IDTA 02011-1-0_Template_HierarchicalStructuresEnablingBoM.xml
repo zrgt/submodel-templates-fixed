@@ -1,0 +1,390 @@
+<?xml version="1.0"?>
+<aas:aasenv xmlns:IEC="http://www.admin-shell.io/IEC61360/2/0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:abac="http://www.admin-shell.io/aas/abac/2/0" xsi:schemaLocation="http://www.admin-shell.io/aas/2/0 AAS.xsd http://www.admin-shell.io/IEC61360/2/0 IEC61360.xsd" xmlns:aas="http://www.admin-shell.io/aas/2/0">
+  <aas:assetAdministrationShells>
+    <aas:assetAdministrationShell>
+      <aas:idShort>ModellingContainer</aas:idShort>
+      <aas:category>CONSTANT</aas:category>
+      <aas:identification idType="IRI">https://example.com/ids/aas/9194_9081_3022_4668</aas:identification>
+      <aas:assetRef>
+        <aas:keys>
+          <aas:key type="Asset" local="true" idType="IRI">https://example.com/ids/asset/6394_9081_3022_6516</aas:key>
+        </aas:keys>
+      </aas:assetRef>
+      <aas:submodelRefs>
+        <aas:submodelRef>
+          <aas:keys>
+            <aas:key type="Submodel" local="true" idType="IRI">https://admin-shell.io/idta/HierarchicalStructures/Template/1/0/Submodel</aas:key>
+          </aas:keys>
+        </aas:submodelRef>
+      </aas:submodelRefs>
+      <aas:conceptDictionaries />
+    </aas:assetAdministrationShell>
+  </aas:assetAdministrationShells>
+  <aas:assets>
+    <aas:asset>
+      <aas:idShort>Placeholder</aas:idShort>
+      <aas:identification idType="IRI">https://example.com/ids/asset/6394_9081_3022_6516</aas:identification>
+      <aas:kind>Instance</aas:kind>
+    </aas:asset>
+  </aas:assets>
+  <aas:submodels>
+    <aas:submodel>
+      <aas:idShort>HierarchicalStructures</aas:idShort>
+      <aas:description>
+        <aas:langString lang="en">The Submodel HierarchicalStructures identified by its semanticId. The Submodel idShort can be picked freely.</aas:langString>
+      </aas:description>
+      <aas:identification idType="IRI">https://admin-shell.io/idta/HierarchicalStructures/Template/1/0/Submodel</aas:identification>
+      <aas:kind>Template</aas:kind>
+      <aas:semanticId>
+        <aas:keys>
+          <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel</aas:key>
+        </aas:keys>
+      </aas:semanticId>
+      <aas:qualifier>
+        <aas:qualifier>
+          <aas:type>Multiplicity</aas:type>
+          <aas:valueType />
+          <aas:value>ZeroToOne</aas:value>
+        </aas:qualifier>
+        <aas:qualifier>
+          <aas:type>EditIdShort</aas:type>
+          <aas:valueType />
+          <aas:value>True</aas:value>
+        </aas:qualifier>
+      </aas:qualifier>
+      <aas:submodelElements>
+        <aas:submodelElement>
+          <aas:entity>
+            <aas:idShort>EntryNode</aas:idShort>
+            <aas:description>
+              <aas:langString lang="en">Base entry point for the Entity tree in this Submodel, this must be a Self-managed Entity reflecting the Assets administrated in the AAS this Submodel is part of.</aas:langString>
+            </aas:description>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys>
+                <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/idta/HierarchicalStructures/EntryNode/1/0</aas:key>
+              </aas:keys>
+            </aas:semanticId>
+            <aas:qualifier>
+              <aas:qualifier>
+                <aas:type>Multiplicity</aas:type>
+                <aas:valueType />
+                <aas:value>One</aas:value>
+              </aas:qualifier>
+              <aas:qualifier>
+                <aas:type>EditIdShort</aas:type>
+                <aas:valueType />
+                <aas:value>True</aas:value>
+              </aas:qualifier>
+            </aas:qualifier>
+            <aas:entityType>SelfManagedEntity</aas:entityType>
+            <aas:statements>
+              <aas:submodelElement>
+                <aas:entity>
+                  <aas:idShort>Node</aas:idShort>
+                  <aas:description>
+                    <aas:langString lang="en">Base entry point for the Entity tree in this Submodel, this must be a Self-managed Entity reflecting the Assets administrated in the Asset Administration Shell this Submodel is part of. The idShort of the EntryNode can be picked freely and may reflect a name of the asset.</aas:langString>
+                  </aas:description>
+                  <aas:kind>Instance</aas:kind>
+                  <aas:semanticId>
+                    <aas:keys>
+                      <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/idta/HierarchicalStructures/Node/1/0</aas:key>
+                    </aas:keys>
+                  </aas:semanticId>
+                  <aas:qualifier>
+                    <aas:qualifier>
+                      <aas:type>Multiplicity</aas:type>
+                      <aas:valueType />
+                      <aas:value>OneToMany</aas:value>
+                    </aas:qualifier>
+                    <aas:qualifier>
+                      <aas:type>EditIdShort</aas:type>
+                      <aas:valueType />
+                      <aas:value>True</aas:value>
+                    </aas:qualifier>
+                  </aas:qualifier>
+                  <aas:entityType>SelfManagedEntity</aas:entityType>
+                  <aas:statements>
+                    <aas:submodelElement>
+                      <aas:entity>
+                        <aas:idShort>Node</aas:idShort>
+                        <aas:description>
+                          <aas:langString lang="en">Can be a Co-managed or Self-managed entity. A Node reflects an element in the hierarchical model is set into relation with one or more defined relations. The name of a node can be picked freely but it must be unique in its hierarchical (sub-)level.</aas:langString>
+                        </aas:description>
+                        <aas:kind>Instance</aas:kind>
+                        <aas:semanticId>
+                          <aas:keys>
+                            <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/idta/HierarchicalStructures/Node/1/0</aas:key>
+                          </aas:keys>
+                        </aas:semanticId>
+                        <aas:qualifier>
+                          <aas:qualifier>
+                            <aas:type>Multiplicity</aas:type>
+                            <aas:valueType />
+                            <aas:value>ZeroToMany</aas:value>
+                          </aas:qualifier>
+                          <aas:qualifier>
+                            <aas:type>EditIdShort</aas:type>
+                            <aas:valueType />
+                            <aas:value>True</aas:value>
+                          </aas:qualifier>
+                        </aas:qualifier>
+                        <aas:entityType>SelfManagedEntity</aas:entityType>
+                        <aas:statements />
+                      </aas:entity>
+                    </aas:submodelElement>
+                    <aas:submodelElement>
+                      <aas:relationshipElement>
+                        <aas:idShort>SameAs</aas:idShort>
+                        <aas:description>
+                          <aas:langString lang="en">Reference between two Entities in the same Submodel or across Submodels.</aas:langString>
+                        </aas:description>
+                        <aas:kind>Instance</aas:kind>
+                        <aas:semanticId>
+                          <aas:keys>
+                            <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/idta/HierarchicalStructures/SameAs/1/0</aas:key>
+                          </aas:keys>
+                        </aas:semanticId>
+                        <aas:qualifier>
+                          <aas:qualifier>
+                            <aas:type>Multiplicity</aas:type>
+                            <aas:valueType />
+                            <aas:value>ZeroToMany</aas:value>
+                          </aas:qualifier>
+                          <aas:qualifier>
+                            <aas:type>EditIdShort</aas:type>
+                            <aas:valueType />
+                            <aas:value>True</aas:value>
+                          </aas:qualifier>
+                        </aas:qualifier>
+                        <aas:first>
+                          <aas:keys />
+                        </aas:first>
+                        <aas:second>
+                          <aas:keys />
+                        </aas:second>
+                      </aas:relationshipElement>
+                    </aas:submodelElement>
+                    <aas:submodelElement>
+                      <aas:relationshipElement>
+                        <aas:idShort>IsPartOf</aas:idShort>
+                        <aas:description>
+                          <aas:langString lang="en">Modeling of logical connections between components and sub-components. Either this or "HasPart" must be used, not both.</aas:langString>
+                        </aas:description>
+                        <aas:kind>Instance</aas:kind>
+                        <aas:semanticId>
+                          <aas:keys>
+                            <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/idta/HierarchicalStructures/IsPartOf/1/0</aas:key>
+                          </aas:keys>
+                        </aas:semanticId>
+                        <aas:qualifier>
+                          <aas:qualifier>
+                            <aas:type>Multiplicity</aas:type>
+                            <aas:valueType />
+                            <aas:value>ZeroToMany</aas:value>
+                          </aas:qualifier>
+                          <aas:qualifier>
+                            <aas:type>EditIdShort</aas:type>
+                            <aas:valueType />
+                            <aas:value>True</aas:value>
+                          </aas:qualifier>
+                        </aas:qualifier>
+                        <aas:first>
+                          <aas:keys />
+                        </aas:first>
+                        <aas:second>
+                          <aas:keys />
+                        </aas:second>
+                      </aas:relationshipElement>
+                    </aas:submodelElement>
+                    <aas:submodelElement>
+                      <aas:relationshipElement>
+                        <aas:idShort>HasPart</aas:idShort>
+                        <aas:description>
+                          <aas:langString lang="en">Modeling of logical connections between components and sub-components. Either this or "IsPartOf" must be used, not both.</aas:langString>
+                        </aas:description>
+                        <aas:kind>Instance</aas:kind>
+                        <aas:semanticId>
+                          <aas:keys>
+                            <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/idta/HierarchicalStructures/HasPart/1/0</aas:key>
+                          </aas:keys>
+                        </aas:semanticId>
+                        <aas:qualifier>
+                          <aas:qualifier>
+                            <aas:type>Multiplicity</aas:type>
+                            <aas:valueType />
+                            <aas:value>ZeroToMany</aas:value>
+                          </aas:qualifier>
+                          <aas:qualifier>
+                            <aas:type>EditIdShort</aas:type>
+                            <aas:valueType />
+                            <aas:value>True</aas:value>
+                          </aas:qualifier>
+                        </aas:qualifier>
+                        <aas:first>
+                          <aas:keys />
+                        </aas:first>
+                        <aas:second>
+                          <aas:keys />
+                        </aas:second>
+                      </aas:relationshipElement>
+                    </aas:submodelElement>
+                    <aas:submodelElement>
+                      <aas:property>
+                        <aas:idShort>BulkCount</aas:idShort>
+                        <aas:description>
+                          <aas:langString lang="en">To be used if bulk components are referenced, e.g., a 10x M4x30 screw.</aas:langString>
+                        </aas:description>
+                        <aas:kind>Instance</aas:kind>
+                        <aas:semanticId>
+                          <aas:keys>
+                            <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/idta/HierarchicalStructures/BulkCount/1/0</aas:key>
+                          </aas:keys>
+                        </aas:semanticId>
+                        <aas:qualifier>
+                          <aas:qualifier>
+                            <aas:type>Multiplicity</aas:type>
+                            <aas:valueType />
+                            <aas:value>ZeroToOne</aas:value>
+                          </aas:qualifier>
+                        </aas:qualifier>
+                        <aas:valueType>unsignedLong</aas:valueType>
+                        <aas:value />
+                      </aas:property>
+                    </aas:submodelElement>
+                  </aas:statements>
+                </aas:entity>
+              </aas:submodelElement>
+              <aas:submodelElement>
+                <aas:relationshipElement>
+                  <aas:idShort>SameAs</aas:idShort>
+                  <aas:description>
+                    <aas:langString lang="en">Reference between two Entities in the same Submodel or across Submodels.</aas:langString>
+                  </aas:description>
+                  <aas:kind>Instance</aas:kind>
+                  <aas:semanticId>
+                    <aas:keys>
+                      <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/idta/HierarchicalStructures/SameAs/1/0</aas:key>
+                    </aas:keys>
+                  </aas:semanticId>
+                  <aas:qualifier>
+                    <aas:qualifier>
+                      <aas:type>Multiplicity</aas:type>
+                      <aas:valueType />
+                      <aas:value>ZeroToMany</aas:value>
+                    </aas:qualifier>
+                    <aas:qualifier>
+                      <aas:type>EditIdShort</aas:type>
+                      <aas:valueType />
+                      <aas:value>True</aas:value>
+                    </aas:qualifier>
+                  </aas:qualifier>
+                  <aas:first>
+                    <aas:keys />
+                  </aas:first>
+                  <aas:second>
+                    <aas:keys />
+                  </aas:second>
+                </aas:relationshipElement>
+              </aas:submodelElement>
+              <aas:submodelElement>
+                <aas:relationshipElement>
+                  <aas:idShort>IsPartOf</aas:idShort>
+                  <aas:description>
+                    <aas:langString lang="en">Modeling of logical connections between asset and sub-asset. Either this or "HasPart" must be used, not both.</aas:langString>
+                  </aas:description>
+                  <aas:kind>Instance</aas:kind>
+                  <aas:semanticId>
+                    <aas:keys>
+                      <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/idta/HierarchicalStructures/IsPartOf/1/0</aas:key>
+                    </aas:keys>
+                  </aas:semanticId>
+                  <aas:qualifier>
+                    <aas:qualifier>
+                      <aas:type>Multiplicity</aas:type>
+                      <aas:valueType />
+                      <aas:value>ZeroToMany</aas:value>
+                    </aas:qualifier>
+                    <aas:qualifier>
+                      <aas:type>EditIdShort</aas:type>
+                      <aas:valueType />
+                      <aas:value>True</aas:value>
+                    </aas:qualifier>
+                  </aas:qualifier>
+                  <aas:first>
+                    <aas:keys />
+                  </aas:first>
+                  <aas:second>
+                    <aas:keys />
+                  </aas:second>
+                </aas:relationshipElement>
+              </aas:submodelElement>
+              <aas:submodelElement>
+                <aas:relationshipElement>
+                  <aas:idShort>HasPart</aas:idShort>
+                  <aas:description>
+                    <aas:langString lang="en">Modeling of logical connections between components and sub-components. Either this or "IsPartOf" must be used, not both.</aas:langString>
+                  </aas:description>
+                  <aas:kind>Instance</aas:kind>
+                  <aas:semanticId>
+                    <aas:keys>
+                      <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/idta/HierarchicalStructures/HasPart/1/0</aas:key>
+                    </aas:keys>
+                  </aas:semanticId>
+                  <aas:qualifier>
+                    <aas:qualifier>
+                      <aas:type>Multiplicity</aas:type>
+                      <aas:valueType />
+                      <aas:value>ZeroToMany</aas:value>
+                    </aas:qualifier>
+                    <aas:qualifier>
+                      <aas:type>EditIdShort</aas:type>
+                      <aas:valueType />
+                      <aas:value>True</aas:value>
+                    </aas:qualifier>
+                  </aas:qualifier>
+                  <aas:first>
+                    <aas:keys />
+                  </aas:first>
+                  <aas:second>
+                    <aas:keys />
+                  </aas:second>
+                </aas:relationshipElement>
+              </aas:submodelElement>
+            </aas:statements>
+          </aas:entity>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>ArcheType</aas:idShort>
+            <aas:category>CONSTANT</aas:category>
+            <aas:description>
+              <aas:langString lang="en">ArcheType of the Submodel, there are three allowed enumeration entries: 1. “Full”, 2. “OneDown” and 3. “OneUp”. </aas:langString>
+            </aas:description>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys>
+                <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/idta/HierarchicalStructures/ArcheType/1/0</aas:key>
+              </aas:keys>
+            </aas:semanticId>
+            <aas:qualifier>
+              <aas:qualifier>
+                <aas:type>Multiplicity</aas:type>
+                <aas:valueType />
+                <aas:value>One</aas:value>
+              </aas:qualifier>
+              <aas:qualifier>
+                <aas:type>FormChoices</aas:type>
+                <aas:valueType />
+                <aas:value>Full;OneDown;OneUp</aas:value>
+              </aas:qualifier>
+            </aas:qualifier>
+            <aas:valueType>string</aas:valueType>
+            <aas:value />
+          </aas:property>
+        </aas:submodelElement>
+      </aas:submodelElements>
+    </aas:submodel>
+  </aas:submodels>
+  <aas:conceptDescriptions />
+</aas:aasenv>
