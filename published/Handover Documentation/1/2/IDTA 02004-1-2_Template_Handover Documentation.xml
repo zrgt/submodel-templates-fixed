@@ -55,9 +55,9 @@
                     <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/SubmodelTemplates/Cardinality/1/0</aas:key>
                   </aas:keys>
                 </aas:semanticId>
-                <aas:type>Relevance</aas:type>
-                <aas:valueType />
-                <aas:value>optional</aas:value>
+                <aas:type>Cardinality</aas:type>
+                <aas:valueType>string</aas:valueType>
+                <aas:value>ZeroToOne</aas:value>
               </aas:qualifier>
             </aas:qualifier>
             <aas:valueType>integer</aas:valueType>
