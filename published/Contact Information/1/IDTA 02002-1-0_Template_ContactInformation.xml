@@ -69,7 +69,7 @@
                       <aas:value>ZeroToOne</aas:value>
                     </aas:qualifier>
                   </aas:qualifier>
-                  <aas:valueType>String</aas:valueType>
+                  <aas:valueType>string</aas:valueType>
                   <aas:value>0173-1#07-AAS931#001</aas:value>
                 </aas:property>
               </aas:submodelElement>
@@ -116,7 +116,7 @@
                       <aas:value>ZeroToMany</aas:value>
                     </aas:qualifier>
                   </aas:qualifier>
-                  <aas:valueType>String</aas:valueType>
+                  <aas:valueType>string</aas:valueType>
                   <aas:value>de</aas:value>
                 </aas:property>
               </aas:submodelElement>
@@ -266,7 +266,7 @@
                             <aas:value>ZeroToOne</aas:value>
                           </aas:qualifier>
                         </aas:qualifier>
-                        <aas:valueType>String</aas:valueType>
+                        <aas:valueType>string</aas:valueType>
                         <aas:value>0173-1#07-AAS754#001</aas:value>
                       </aas:property>
                     </aas:submodelElement>
@@ -356,7 +356,7 @@
                             <aas:value>ZeroToOne</aas:value>
                           </aas:qualifier>
                         </aas:qualifier>
-                        <aas:valueType>String</aas:valueType>
+                        <aas:valueType>string</aas:valueType>
                         <aas:value> 0173-1#07-AAS754#001</aas:value>
                       </aas:property>
                     </aas:submodelElement>
@@ -398,7 +398,7 @@
                             <aas:value>One</aas:value>
                           </aas:qualifier>
                         </aas:qualifier>
-                        <aas:valueType>String</aas:valueType>
+                        <aas:valueType>string</aas:valueType>
                         <aas:value>email@muster-ag.de</aas:value>
                       </aas:property>
                     </aas:submodelElement>
@@ -443,7 +443,7 @@
                             <aas:value>ZeroToOne</aas:value>
                           </aas:qualifier>
                         </aas:qualifier>
-                        <aas:valueType>String</aas:valueType>
+                        <aas:valueType>string</aas:valueType>
                         <aas:value>0173-1#07-AAS754#001</aas:value>
                       </aas:property>
                     </aas:submodelElement>
@@ -504,7 +504,7 @@
                             <aas:value>One</aas:value>
                           </aas:qualifier>
                         </aas:qualifier>
-                        <aas:valueType>String</aas:valueType>
+                        <aas:valueType>string</aas:valueType>
                         <aas:value />
                       </aas:property>
                     </aas:submodelElement>
@@ -524,7 +524,7 @@
                             <aas:value>ZeroToOne</aas:value>
                           </aas:qualifier>
                         </aas:qualifier>
-                        <aas:valueType>String</aas:valueType>
+                        <aas:valueType>string</aas:valueType>
                         <aas:value>Chat</aas:value>
                       </aas:property>
                     </aas:submodelElement>
@@ -795,7 +795,7 @@
                       <aas:value>ZeroToOne</aas:value>
                     </aas:qualifier>
                   </aas:qualifier>
-                  <aas:valueType>String</aas:valueType>
+                  <aas:valueType>string</aas:valueType>
                   <aas:value />
                 </aas:property>
               </aas:submodelElement>
