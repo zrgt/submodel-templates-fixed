@@ -34,7 +34,7 @@
       <aas:kind>Template</aas:kind>
       <aas:semanticId>
         <aas:keys>
-          <aas:key type="" local="false" idType="IRI">https://admin-shell.io/idta/ControlComponent/Type/1/0</aas:key>
+          <aas:key type="ConceptDescription" local="false" idType="IRI">https://admin-shell.io/idta/ControlComponent/Type/1/0</aas:key>
         </aas:keys>
       </aas:semanticId>
       <aas:qualifier />
@@ -54,7 +54,7 @@
             <aas:qualifier>
               <aas:qualifier>
                 <aas:type>Multiplicity</aas:type>
-                <aas:valueType />
+                <aas:valueType>string</aas:valueType>
                 <aas:value>One</aas:value>
               </aas:qualifier>
             </aas:qualifier>
@@ -74,12 +74,12 @@
                   <aas:qualifier>
                     <aas:qualifier>
                       <aas:type>Multiplicity</aas:type>
-                      <aas:valueType />
+                      <aas:valueType>string</aas:valueType>
                       <aas:value>ZeroToMany</aas:value>
                     </aas:qualifier>
                     <aas:qualifier>
                       <aas:type>PresetIdShort</aas:type>
-                      <aas:valueType />
+                      <aas:valueType>string</aas:valueType>
                       <aas:value>To be filled; normally same as idShort, might be with {00}</aas:value>
                     </aas:qualifier>
                   </aas:qualifier>
@@ -108,7 +108,7 @@
             <aas:qualifier>
               <aas:qualifier>
                 <aas:type>Multiplicity</aas:type>
-                <aas:valueType />
+                <aas:valueType>string</aas:valueType>
                 <aas:value>One</aas:value>
               </aas:qualifier>
             </aas:qualifier>
@@ -128,7 +128,7 @@
                   <aas:qualifier>
                     <aas:qualifier>
                       <aas:type>PresetIdShort</aas:type>
-                      <aas:valueType />
+                      <aas:valueType>string</aas:valueType>
                       <aas:value>To be filled; normally same as idShort, might be with {00}</aas:value>
                     </aas:qualifier>
                   </aas:qualifier>
@@ -148,7 +148,7 @@
                         <aas:qualifier>
                           <aas:qualifier>
                             <aas:type>Multiplicity</aas:type>
-                            <aas:valueType />
+                            <aas:valueType>string</aas:valueType>
                             <aas:value>One</aas:value>
                           </aas:qualifier>
                         </aas:qualifier>
@@ -171,7 +171,7 @@
                         <aas:qualifier>
                           <aas:qualifier>
                             <aas:type>Multiplicity</aas:type>
-                            <aas:valueType />
+                            <aas:valueType>string</aas:valueType>
                             <aas:value>ZeroToOne</aas:value>
                           </aas:qualifier>
                         </aas:qualifier>
@@ -193,7 +193,7 @@
                         <aas:qualifier>
                           <aas:qualifier>
                             <aas:type>Multiplicity</aas:type>
-                            <aas:valueType />
+                            <aas:valueType>string</aas:valueType>
                             <aas:value>One</aas:value>
                           </aas:qualifier>
                         </aas:qualifier>
@@ -216,7 +216,7 @@
                         <aas:qualifier>
                           <aas:qualifier>
                             <aas:type>Multiplicity</aas:type>
-                            <aas:valueType />
+                            <aas:valueType>string</aas:valueType>
                             <aas:value>One</aas:value>
                           </aas:qualifier>
                         </aas:qualifier>
@@ -236,12 +236,12 @@
                               <aas:qualifier>
                                 <aas:qualifier>
                                   <aas:type>Multiplicity</aas:type>
-                                  <aas:valueType />
+                                  <aas:valueType>string</aas:valueType>
                                   <aas:value>OneToMany</aas:value>
                                 </aas:qualifier>
                                 <aas:qualifier>
                                   <aas:type>PresetIdShort</aas:type>
-                                  <aas:valueType />
+                                  <aas:valueType>string</aas:valueType>
                                   <aas:value>To be filled; normally same as idShort, might be with {00}</aas:value>
                                 </aas:qualifier>
                               </aas:qualifier>
@@ -269,7 +269,7 @@
                         <aas:qualifier>
                           <aas:qualifier>
                             <aas:type>Multiplicity</aas:type>
-                            <aas:valueType />
+                            <aas:valueType>string</aas:valueType>
                             <aas:value>One</aas:value>
                           </aas:qualifier>
                         </aas:qualifier>
@@ -289,12 +289,12 @@
                               <aas:qualifier>
                                 <aas:qualifier>
                                   <aas:type>Multiplicity</aas:type>
-                                  <aas:valueType />
+                                  <aas:valueType>string</aas:valueType>
                                   <aas:value>ZeroToMany</aas:value>
                                 </aas:qualifier>
                                 <aas:qualifier>
                                   <aas:type>PresetIdShort</aas:type>
-                                  <aas:valueType />
+                                  <aas:valueType>string</aas:valueType>
                                   <aas:value>To be filled; normally same as idShort, might be with {00}</aas:value>
                                 </aas:qualifier>
                               </aas:qualifier>
@@ -314,7 +314,7 @@
                                     <aas:qualifier>
                                       <aas:qualifier>
                                         <aas:type>Multiplicity</aas:type>
-                                        <aas:valueType />
+                                        <aas:valueType>string</aas:valueType>
                                         <aas:value>One</aas:value>
                                       </aas:qualifier>
                                     </aas:qualifier>
@@ -337,7 +337,7 @@
                                     <aas:qualifier>
                                       <aas:qualifier>
                                         <aas:type>Multiplicity</aas:type>
-                                        <aas:valueType />
+                                        <aas:valueType>string</aas:valueType>
                                         <aas:value>One</aas:value>
                                       </aas:qualifier>
                                     </aas:qualifier>
@@ -360,7 +360,7 @@
                                     <aas:qualifier>
                                       <aas:qualifier>
                                         <aas:type>Multiplicity</aas:type>
-                                        <aas:valueType />
+                                        <aas:valueType>string</aas:valueType>
                                         <aas:value>One</aas:value>
                                       </aas:qualifier>
                                     </aas:qualifier>
@@ -383,7 +383,7 @@
                                     <aas:qualifier>
                                       <aas:qualifier>
                                         <aas:type>Multiplicity</aas:type>
-                                        <aas:valueType />
+                                        <aas:valueType>string</aas:valueType>
                                         <aas:value>One</aas:value>
                                       </aas:qualifier>
                                     </aas:qualifier>
@@ -417,7 +417,7 @@
                         <aas:qualifier>
                           <aas:qualifier>
                             <aas:type>Multiplicity</aas:type>
-                            <aas:valueType />
+                            <aas:valueType>string</aas:valueType>
                             <aas:value>One</aas:value>
                           </aas:qualifier>
                         </aas:qualifier>
@@ -441,7 +441,7 @@
                         <aas:qualifier>
                           <aas:qualifier>
                             <aas:type>Multiplicity</aas:type>
-                            <aas:valueType />
+                            <aas:valueType>string</aas:valueType>
                             <aas:value>One</aas:value>
                           </aas:qualifier>
                         </aas:qualifier>
@@ -475,7 +475,7 @@
             <aas:qualifier>
               <aas:qualifier>
                 <aas:type>Multiplicity</aas:type>
-                <aas:valueType />
+                <aas:valueType>string</aas:valueType>
                 <aas:value>One</aas:value>
               </aas:qualifier>
             </aas:qualifier>
@@ -495,12 +495,12 @@
                   <aas:qualifier>
                     <aas:qualifier>
                       <aas:type>Multiplicity</aas:type>
-                      <aas:valueType />
+                      <aas:valueType>string</aas:valueType>
                       <aas:value>ZeroToMany</aas:value>
                     </aas:qualifier>
                     <aas:qualifier>
                       <aas:type>PresetIdShort</aas:type>
-                      <aas:valueType />
+                      <aas:valueType>string</aas:valueType>
                       <aas:value>To be filled; normally same as idShort, might be with {00}</aas:value>
                     </aas:qualifier>
                   </aas:qualifier>
