@@ -115,9 +115,6 @@
                       <aas:value>ZeroToOne</aas:value>
                     </aas:qualifier>
                   </aas:qualifier>
-                  <aas:value>
-                    <aas:langString lang="" />
-                  </aas:value>
                 </aas:multiLanguageProperty>
               </aas:submodelElement>
               <aas:submodelElement>
