@@ -77,6 +77,8 @@
                       <aas:valueType>string</aas:valueType>
                       <aas:value>ZeroToMany</aas:value>
                     </aas:qualifier>
+                  </aas:qualifier>
+                  <aas:qualifier>
                     <aas:qualifier>
                       <aas:type>PresetIdShort</aas:type>
                       <aas:valueType>string</aas:valueType>
@@ -239,6 +241,8 @@
                                   <aas:valueType>string</aas:valueType>
                                   <aas:value>OneToMany</aas:value>
                                 </aas:qualifier>
+                              </aas:qualifier>
+                              <aas:qualifier>
                                 <aas:qualifier>
                                   <aas:type>PresetIdShort</aas:type>
                                   <aas:valueType>string</aas:valueType>
@@ -292,6 +296,8 @@
                                   <aas:valueType>string</aas:valueType>
                                   <aas:value>ZeroToMany</aas:value>
                                 </aas:qualifier>
+                              </aas:qualifier>
+                              <aas:qualifier>
                                 <aas:qualifier>
                                   <aas:type>PresetIdShort</aas:type>
                                   <aas:valueType>string</aas:valueType>
@@ -498,6 +504,8 @@
                       <aas:valueType>string</aas:valueType>
                       <aas:value>ZeroToMany</aas:value>
                     </aas:qualifier>
+                  </aas:qualifier>
+                  <aas:qualifier>
                     <aas:qualifier>
                       <aas:type>PresetIdShort</aas:type>
                       <aas:valueType>string</aas:valueType>
