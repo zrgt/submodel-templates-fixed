@@ -48,11 +48,11 @@
             <aas:qualifier>
               <aas:qualifier>
                 <aas:type>Multiplicity</aas:type>
-                <aas:valueType />
+                <aas:valueType>string</aas:valueType>
                 <aas:value>One</aas:value>
               </aas:qualifier>
             </aas:qualifier>
-            <aas:valueType>String</aas:valueType>
+            <aas:valueType>string</aas:valueType>
             <aas:value>https://www.domain-abc.com/Model-Nr-1234/Serial-Nr-5678</aas:value>
           </aas:property>
         </aas:submodelElement>
@@ -71,7 +71,7 @@
             <aas:qualifier>
               <aas:qualifier>
                 <aas:type>Multiplicity</aas:type>
-                <aas:valueType />
+                <aas:valueType>string</aas:valueType>
                 <aas:value>One</aas:value>
               </aas:qualifier>
             </aas:qualifier>
@@ -95,7 +95,7 @@
             <aas:qualifier>
               <aas:qualifier>
                 <aas:type>Multiplicity</aas:type>
-                <aas:valueType />
+                <aas:valueType>string</aas:valueType>
                 <aas:value>One</aas:value>
               </aas:qualifier>
             </aas:qualifier>
@@ -119,12 +119,10 @@
             <aas:qualifier>
               <aas:qualifier>
                 <aas:type>Multiplicity</aas:type>
-                <aas:valueType />
+                <aas:valueType>string</aas:valueType>
                 <aas:value>One</aas:value>
               </aas:qualifier>
             </aas:qualifier>
-            <aas:ordered>false</aas:ordered>
-            <aas:allowDuplicates>true</aas:allowDuplicates>
             <aas:value>
               <aas:submodelElement>
                 <aas:property>
@@ -141,11 +139,11 @@
                   <aas:qualifier>
                     <aas:qualifier>
                       <aas:type>Multiplicity</aas:type>
-                      <aas:valueType />
+                      <aas:valueType>string</aas:valueType>
                       <aas:value>ZeroToOne</aas:value>
                     </aas:qualifier>
                   </aas:qualifier>
-                  <aas:valueType>String</aas:valueType>
+                  <aas:valueType>string</aas:valueType>
                   <aas:value>0173-1#07-AAS931#001</aas:value>
                 </aas:property>
               </aas:submodelElement>
@@ -164,7 +162,7 @@
                   <aas:qualifier>
                     <aas:qualifier>
                       <aas:type>Multiplicity</aas:type>
-                      <aas:valueType />
+                      <aas:valueType>string</aas:valueType>
                       <aas:value>One</aas:value>
                     </aas:qualifier>
                   </aas:qualifier>
@@ -188,11 +186,11 @@
                   <aas:qualifier>
                     <aas:qualifier>
                       <aas:type>Multiplicity</aas:type>
-                      <aas:valueType />
+                      <aas:valueType>string</aas:valueType>
                       <aas:value>ZeroToMany</aas:value>
                     </aas:qualifier>
                   </aas:qualifier>
-                  <aas:valueType>String</aas:valueType>
+                  <aas:valueType>string</aas:valueType>
                   <aas:value>de</aas:value>
                 </aas:property>
               </aas:submodelElement>
@@ -211,7 +209,7 @@
                   <aas:qualifier>
                     <aas:qualifier>
                       <aas:type>Multiplicity</aas:type>
-                      <aas:valueType />
+                      <aas:valueType>string</aas:valueType>
                       <aas:value>ZeroToOne</aas:value>
                     </aas:qualifier>
                   </aas:qualifier>
@@ -234,7 +232,7 @@
                   <aas:qualifier>
                     <aas:qualifier>
                       <aas:type>Multiplicity</aas:type>
-                      <aas:valueType />
+                      <aas:valueType>string</aas:valueType>
                       <aas:value>One</aas:value>
                     </aas:qualifier>
                   </aas:qualifier>
@@ -255,7 +253,7 @@
                   <aas:qualifier>
                     <aas:qualifier>
                       <aas:type>Multiplicity</aas:type>
-                      <aas:valueType />
+                      <aas:valueType>string</aas:valueType>
                       <aas:value>ZeroToOne</aas:value>
                     </aas:qualifier>
                   </aas:qualifier>
@@ -276,7 +274,7 @@
                   <aas:qualifier>
                     <aas:qualifier>
                       <aas:type>Multiplicity</aas:type>
-                      <aas:valueType />
+                      <aas:valueType>string</aas:valueType>
                       <aas:value>ZeroToOne</aas:value>
                     </aas:qualifier>
                   </aas:qualifier>
@@ -297,12 +295,10 @@
                   <aas:qualifier>
                     <aas:qualifier>
                       <aas:type>Multiplicity</aas:type>
-                      <aas:valueType />
+                      <aas:valueType>string</aas:valueType>
                       <aas:value>ZeroToOne</aas:value>
                     </aas:qualifier>
                   </aas:qualifier>
-                  <aas:ordered>false</aas:ordered>
-                  <aas:allowDuplicates>false</aas:allowDuplicates>
                   <aas:value>
                     <aas:submodelElement>
                       <aas:multiLanguageProperty>
@@ -319,7 +315,7 @@
                         <aas:qualifier>
                           <aas:qualifier>
                             <aas:type>Multiplicity</aas:type>
-                            <aas:valueType />
+                            <aas:valueType>string</aas:valueType>
                             <aas:value>One</aas:value>
                           </aas:qualifier>
                         </aas:qualifier>
@@ -343,11 +339,11 @@
                         <aas:qualifier>
                           <aas:qualifier>
                             <aas:type>Multiplicity</aas:type>
-                            <aas:valueType />
+                            <aas:valueType>string</aas:valueType>
                             <aas:value>ZeroToOne</aas:value>
                           </aas:qualifier>
                         </aas:qualifier>
-                        <aas:valueType>String</aas:valueType>
+                        <aas:valueType>string</aas:valueType>
                         <aas:value>0173-1#07-AAS754#001</aas:value>
                       </aas:property>
                     </aas:submodelElement>
@@ -363,7 +359,7 @@
                         <aas:qualifier>
                           <aas:qualifier>
                             <aas:type>Multiplicity</aas:type>
-                            <aas:valueType />
+                            <aas:valueType>string</aas:valueType>
                             <aas:value>ZeroToOne</aas:value>
                           </aas:qualifier>
                         </aas:qualifier>
@@ -373,6 +369,8 @@
                       </aas:multiLanguageProperty>
                     </aas:submodelElement>
                   </aas:value>
+                  <aas:ordered>false</aas:ordered>
+                  <aas:allowDuplicates>false</aas:allowDuplicates>
                 </aas:submodelElementCollection>
               </aas:submodelElement>
               <aas:submodelElement>
@@ -387,12 +385,10 @@
                   <aas:qualifier>
                     <aas:qualifier>
                       <aas:type>Multiplicity</aas:type>
-                      <aas:valueType />
+                      <aas:valueType>string</aas:valueType>
                       <aas:value>ZeroToOne</aas:value>
                     </aas:qualifier>
                   </aas:qualifier>
-                  <aas:ordered>false</aas:ordered>
-                  <aas:allowDuplicates>false</aas:allowDuplicates>
                   <aas:value>
                     <aas:submodelElement>
                       <aas:multiLanguageProperty>
@@ -409,7 +405,7 @@
                         <aas:qualifier>
                           <aas:qualifier>
                             <aas:type>Multiplicity</aas:type>
-                            <aas:valueType />
+                            <aas:valueType>string</aas:valueType>
                             <aas:value>One</aas:value>
                           </aas:qualifier>
                         </aas:qualifier>
@@ -433,15 +429,17 @@
                         <aas:qualifier>
                           <aas:qualifier>
                             <aas:type>Multiplicity</aas:type>
-                            <aas:valueType />
+                            <aas:valueType>string</aas:valueType>
                             <aas:value>ZeroToOne</aas:value>
                           </aas:qualifier>
                         </aas:qualifier>
-                        <aas:valueType>String</aas:valueType>
+                        <aas:valueType>string</aas:valueType>
                         <aas:value> 0173-1#07-AAS754#001</aas:value>
                       </aas:property>
                     </aas:submodelElement>
                   </aas:value>
+                  <aas:ordered>false</aas:ordered>
+                  <aas:allowDuplicates>false</aas:allowDuplicates>
                 </aas:submodelElementCollection>
               </aas:submodelElement>
               <aas:submodelElement>
@@ -456,12 +454,10 @@
                   <aas:qualifier>
                     <aas:qualifier>
                       <aas:type>Multiplicity</aas:type>
-                      <aas:valueType />
+                      <aas:valueType>string</aas:valueType>
                       <aas:value>ZeroToOne</aas:value>
                     </aas:qualifier>
                   </aas:qualifier>
-                  <aas:ordered>false</aas:ordered>
-                  <aas:allowDuplicates>false</aas:allowDuplicates>
                   <aas:value>
                     <aas:submodelElement>
                       <aas:property>
@@ -475,11 +471,11 @@
                         <aas:qualifier>
                           <aas:qualifier>
                             <aas:type>Multiplicity</aas:type>
-                            <aas:valueType />
+                            <aas:valueType>string</aas:valueType>
                             <aas:value>One</aas:value>
                           </aas:qualifier>
                         </aas:qualifier>
-                        <aas:valueType>String</aas:valueType>
+                        <aas:valueType>string</aas:valueType>
                         <aas:value>email@muster-ag.de</aas:value>
                       </aas:property>
                     </aas:submodelElement>
@@ -498,11 +494,10 @@
                         <aas:qualifier>
                           <aas:qualifier>
                             <aas:type>Multiplicity</aas:type>
-                            <aas:valueType />
+                            <aas:valueType>string</aas:valueType>
                             <aas:value>ZeroToOne</aas:value>
                           </aas:qualifier>
                         </aas:qualifier>
-                        <aas:value />
                       </aas:multiLanguageProperty>
                     </aas:submodelElement>
                     <aas:submodelElement>
@@ -520,11 +515,11 @@
                         <aas:qualifier>
                           <aas:qualifier>
                             <aas:type>Multiplicity</aas:type>
-                            <aas:valueType />
+                            <aas:valueType>string</aas:valueType>
                             <aas:value>ZeroToOne</aas:value>
                           </aas:qualifier>
                         </aas:qualifier>
-                        <aas:valueType>String</aas:valueType>
+                        <aas:valueType>string</aas:valueType>
                         <aas:value>0173-1#07-AAS754#001</aas:value>
                       </aas:property>
                     </aas:submodelElement>
@@ -540,19 +535,20 @@
                         <aas:qualifier>
                           <aas:qualifier>
                             <aas:type>Multiplicity</aas:type>
-                            <aas:valueType />
+                            <aas:valueType>string</aas:valueType>
                             <aas:value>ZeroToOne</aas:value>
                           </aas:qualifier>
                         </aas:qualifier>
-                        <aas:value />
                       </aas:multiLanguageProperty>
                     </aas:submodelElement>
                   </aas:value>
+                  <aas:ordered>false</aas:ordered>
+                  <aas:allowDuplicates>false</aas:allowDuplicates>
                 </aas:submodelElementCollection>
               </aas:submodelElement>
               <aas:submodelElement>
                 <aas:submodelElementCollection>
-                  <aas:idShort>IPCommunication{00}</aas:idShort>
+                  <aas:idShort>IPCommunication_00</aas:idShort>
                   <aas:kind>Template</aas:kind>
                   <aas:semanticId>
                     <aas:keys>
@@ -562,12 +558,10 @@
                   <aas:qualifier>
                     <aas:qualifier>
                       <aas:type>Multiplicity</aas:type>
-                      <aas:valueType />
+                      <aas:valueType>string</aas:valueType>
                       <aas:value>ZeroToMany</aas:value>
                     </aas:qualifier>
                   </aas:qualifier>
-                  <aas:ordered>false</aas:ordered>
-                  <aas:allowDuplicates>false</aas:allowDuplicates>
                   <aas:value>
                     <aas:submodelElement>
                       <aas:property>
@@ -581,12 +575,11 @@
                         <aas:qualifier>
                           <aas:qualifier>
                             <aas:type>Multiplicity</aas:type>
-                            <aas:valueType />
+                            <aas:valueType>string</aas:valueType>
                             <aas:value>One</aas:value>
                           </aas:qualifier>
                         </aas:qualifier>
-                        <aas:valueType>String</aas:valueType>
-                        <aas:value />
+                        <aas:valueType>string</aas:valueType>
                       </aas:property>
                     </aas:submodelElement>
                     <aas:submodelElement>
@@ -601,11 +594,11 @@
                         <aas:qualifier>
                           <aas:qualifier>
                             <aas:type>Multiplicity</aas:type>
-                            <aas:valueType />
+                            <aas:valueType>string</aas:valueType>
                             <aas:value>ZeroToOne</aas:value>
                           </aas:qualifier>
                         </aas:qualifier>
-                        <aas:valueType>String</aas:valueType>
+                        <aas:valueType>string</aas:valueType>
                         <aas:value>Chat</aas:value>
                       </aas:property>
                     </aas:submodelElement>
@@ -621,7 +614,7 @@
                         <aas:qualifier>
                           <aas:qualifier>
                             <aas:type>Multiplicity</aas:type>
-                            <aas:valueType />
+                            <aas:valueType>string</aas:valueType>
                             <aas:value>ZeroToOne</aas:value>
                           </aas:qualifier>
                         </aas:qualifier>
@@ -631,6 +624,8 @@
                       </aas:multiLanguageProperty>
                     </aas:submodelElement>
                   </aas:value>
+                  <aas:ordered>false</aas:ordered>
+                  <aas:allowDuplicates>false</aas:allowDuplicates>
                 </aas:submodelElementCollection>
               </aas:submodelElement>
               <aas:submodelElement>
@@ -648,7 +643,7 @@
                   <aas:qualifier>
                     <aas:qualifier>
                       <aas:type>Multiplicity</aas:type>
-                      <aas:valueType />
+                      <aas:valueType>string</aas:valueType>
                       <aas:value>One</aas:value>
                     </aas:qualifier>
                   </aas:qualifier>
@@ -672,7 +667,7 @@
                   <aas:qualifier>
                     <aas:qualifier>
                       <aas:type>Multiplicity</aas:type>
-                      <aas:valueType />
+                      <aas:valueType>string</aas:valueType>
                       <aas:value>One</aas:value>
                     </aas:qualifier>
                   </aas:qualifier>
@@ -693,7 +688,7 @@
                   <aas:qualifier>
                     <aas:qualifier>
                       <aas:type>Multiplicity</aas:type>
-                      <aas:valueType />
+                      <aas:valueType>string</aas:valueType>
                       <aas:value>ZeroToOne</aas:value>
                     </aas:qualifier>
                   </aas:qualifier>
@@ -717,7 +712,7 @@
                   <aas:qualifier>
                     <aas:qualifier>
                       <aas:type>Multiplicity</aas:type>
-                      <aas:valueType />
+                      <aas:valueType>string</aas:valueType>
                       <aas:value>ZeroToOne</aas:value>
                     </aas:qualifier>
                   </aas:qualifier>
@@ -738,7 +733,7 @@
                   <aas:qualifier>
                     <aas:qualifier>
                       <aas:type>Multiplicity</aas:type>
-                      <aas:valueType />
+                      <aas:valueType>string</aas:valueType>
                       <aas:value>ZeroToOne</aas:value>
                     </aas:qualifier>
                   </aas:qualifier>
@@ -759,11 +754,10 @@
                   <aas:qualifier>
                     <aas:qualifier>
                       <aas:type>Multiplicity</aas:type>
-                      <aas:valueType />
+                      <aas:valueType>string</aas:valueType>
                       <aas:value>ZeroToOne</aas:value>
                     </aas:qualifier>
                   </aas:qualifier>
-                  <aas:value />
                 </aas:multiLanguageProperty>
               </aas:submodelElement>
               <aas:submodelElement>
@@ -778,11 +772,10 @@
                   <aas:qualifier>
                     <aas:qualifier>
                       <aas:type>Multiplicity</aas:type>
-                      <aas:valueType />
+                      <aas:valueType>string</aas:valueType>
                       <aas:value>ZeroToOne</aas:value>
                     </aas:qualifier>
                   </aas:qualifier>
-                  <aas:value />
                 </aas:multiLanguageProperty>
               </aas:submodelElement>
               <aas:submodelElement>
@@ -797,11 +790,10 @@
                   <aas:qualifier>
                     <aas:qualifier>
                       <aas:type>Multiplicity</aas:type>
-                      <aas:valueType />
+                      <aas:valueType>string</aas:valueType>
                       <aas:value>ZeroToOne</aas:value>
                     </aas:qualifier>
                   </aas:qualifier>
-                  <aas:value />
                 </aas:multiLanguageProperty>
               </aas:submodelElement>
               <aas:submodelElement>
@@ -816,11 +808,10 @@
                   <aas:qualifier>
                     <aas:qualifier>
                       <aas:type>Multiplicity</aas:type>
-                      <aas:valueType />
+                      <aas:valueType>string</aas:valueType>
                       <aas:value>ZeroToOne</aas:value>
                     </aas:qualifier>
                   </aas:qualifier>
-                  <aas:value />
                 </aas:multiLanguageProperty>
               </aas:submodelElement>
               <aas:submodelElement>
@@ -835,11 +826,10 @@
                   <aas:qualifier>
                     <aas:qualifier>
                       <aas:type>Multiplicity</aas:type>
-                      <aas:valueType />
+                      <aas:valueType>string</aas:valueType>
                       <aas:value>ZeroToOne</aas:value>
                     </aas:qualifier>
                   </aas:qualifier>
-                  <aas:value />
                 </aas:multiLanguageProperty>
               </aas:submodelElement>
               <aas:submodelElement>
@@ -854,11 +844,10 @@
                   <aas:qualifier>
                     <aas:qualifier>
                       <aas:type>Multiplicity</aas:type>
-                      <aas:valueType />
+                      <aas:valueType>string</aas:valueType>
                       <aas:value>ZeroToOne</aas:value>
                     </aas:qualifier>
                   </aas:qualifier>
-                  <aas:value />
                 </aas:multiLanguageProperty>
               </aas:submodelElement>
               <aas:submodelElement>
@@ -873,15 +862,16 @@
                   <aas:qualifier>
                     <aas:qualifier>
                       <aas:type>Multiplicity</aas:type>
-                      <aas:valueType />
+                      <aas:valueType>string</aas:valueType>
                       <aas:value>ZeroToOne</aas:value>
                     </aas:qualifier>
                   </aas:qualifier>
-                  <aas:valueType>String</aas:valueType>
-                  <aas:value />
+                  <aas:valueType>string</aas:valueType>
                 </aas:property>
               </aas:submodelElement>
             </aas:value>
+            <aas:ordered>false</aas:ordered>
+            <aas:allowDuplicates>true</aas:allowDuplicates>
           </aas:submodelElementCollection>
         </aas:submodelElement>
         <aas:submodelElement>
@@ -896,7 +886,7 @@
             <aas:qualifier>
               <aas:qualifier>
                 <aas:type>Multiplicity</aas:type>
-                <aas:valueType />
+                <aas:valueType>string</aas:valueType>
                 <aas:value>ZeroToOne</aas:value>
               </aas:qualifier>
             </aas:qualifier>
@@ -920,7 +910,7 @@
             <aas:qualifier>
               <aas:qualifier>
                 <aas:type>Multiplicity</aas:type>
-                <aas:valueType />
+                <aas:valueType>string</aas:valueType>
                 <aas:value>ZeroToOne</aas:value>
               </aas:qualifier>
             </aas:qualifier>
@@ -944,7 +934,7 @@
             <aas:qualifier>
               <aas:qualifier>
                 <aas:type>Multiplicity</aas:type>
-                <aas:valueType />
+                <aas:valueType>string</aas:valueType>
                 <aas:value>ZeroToOne</aas:value>
               </aas:qualifier>
             </aas:qualifier>
@@ -968,7 +958,7 @@
             <aas:qualifier>
               <aas:qualifier>
                 <aas:type>Multiplicity</aas:type>
-                <aas:valueType />
+                <aas:valueType>string</aas:valueType>
                 <aas:value>ZeroToOne</aas:value>
               </aas:qualifier>
             </aas:qualifier>
@@ -992,7 +982,7 @@
             <aas:qualifier>
               <aas:qualifier>
                 <aas:type>Multiplicity</aas:type>
-                <aas:valueType />
+                <aas:valueType>string</aas:valueType>
                 <aas:value>ZeroToOne</aas:value>
               </aas:qualifier>
             </aas:qualifier>
@@ -1016,11 +1006,11 @@
             <aas:qualifier>
               <aas:qualifier>
                 <aas:type>Multiplicity</aas:type>
-                <aas:valueType />
+                <aas:valueType>string</aas:valueType>
                 <aas:value>ZeroToOne</aas:value>
               </aas:qualifier>
             </aas:qualifier>
-            <aas:valueType>String</aas:valueType>
+            <aas:valueType>string</aas:valueType>
             <aas:value>12345678</aas:value>
           </aas:property>
         </aas:submodelElement>
@@ -1039,11 +1029,11 @@
             <aas:qualifier>
               <aas:qualifier>
                 <aas:type>Multiplicity</aas:type>
-                <aas:valueType />
+                <aas:valueType>string</aas:valueType>
                 <aas:value>One</aas:value>
               </aas:qualifier>
             </aas:qualifier>
-            <aas:valueType>String</aas:valueType>
+            <aas:valueType>string</aas:valueType>
             <aas:value>2022</aas:value>
           </aas:property>
         </aas:submodelElement>
@@ -1062,7 +1052,7 @@
             <aas:qualifier>
               <aas:qualifier>
                 <aas:type>Multiplicity</aas:type>
-                <aas:valueType />
+                <aas:valueType>string</aas:valueType>
                 <aas:value>ZeroToOne</aas:value>
               </aas:qualifier>
             </aas:qualifier>
@@ -1085,7 +1075,7 @@
             <aas:qualifier>
               <aas:qualifier>
                 <aas:type>Multiplicity</aas:type>
-                <aas:valueType />
+                <aas:valueType>string</aas:valueType>
                 <aas:value>ZeroToOne</aas:value>
               </aas:qualifier>
             </aas:qualifier>
@@ -1109,7 +1099,7 @@
             <aas:qualifier>
               <aas:qualifier>
                 <aas:type>Multiplicity</aas:type>
-                <aas:valueType />
+                <aas:valueType>string</aas:valueType>
                 <aas:value>ZeroToOne</aas:value>
               </aas:qualifier>
             </aas:qualifier>
@@ -1133,7 +1123,7 @@
             <aas:qualifier>
               <aas:qualifier>
                 <aas:type>Multiplicity</aas:type>
-                <aas:valueType />
+                <aas:valueType>string</aas:valueType>
                 <aas:value>ZeroToOne</aas:value>
               </aas:qualifier>
             </aas:qualifier>
@@ -1157,11 +1147,11 @@
             <aas:qualifier>
               <aas:qualifier>
                 <aas:type>Multiplicity</aas:type>
-                <aas:valueType />
+                <aas:valueType>string</aas:valueType>
                 <aas:value>ZeroToOne</aas:value>
               </aas:qualifier>
             </aas:qualifier>
-            <aas:valueType>String</aas:valueType>
+            <aas:valueType>string</aas:valueType>
             <aas:value>DE</aas:value>
           </aas:property>
         </aas:submodelElement>
@@ -1177,12 +1167,11 @@
             <aas:qualifier>
               <aas:qualifier>
                 <aas:type>Multiplicity</aas:type>
-                <aas:valueType />
+                <aas:valueType>string</aas:valueType>
                 <aas:value>ZeroToOne</aas:value>
               </aas:qualifier>
             </aas:qualifier>
-            <aas:mimeType />
-            <aas:value />
+            <aas:mimeType>{arbitrary}</aas:mimeType>
           </aas:file>
         </aas:submodelElement>
         <aas:submodelElement>
@@ -1200,12 +1189,10 @@
             <aas:qualifier>
               <aas:qualifier>
                 <aas:type>Multiplicity</aas:type>
-                <aas:valueType />
+                <aas:valueType>string</aas:valueType>
                 <aas:value>ZeroToOne</aas:value>
               </aas:qualifier>
             </aas:qualifier>
-            <aas:ordered>false</aas:ordered>
-            <aas:allowDuplicates>true</aas:allowDuplicates>
             <aas:value>
               <aas:submodelElement>
                 <aas:submodelElementCollection>
@@ -1220,8 +1207,6 @@
                     </aas:keys>
                   </aas:semanticId>
                   <aas:qualifier />
-                  <aas:ordered>false</aas:ordered>
-                  <aas:allowDuplicates>true</aas:allowDuplicates>
                   <aas:value>
                     <aas:submodelElement>
                       <aas:property>
@@ -1238,11 +1223,11 @@
                         <aas:qualifier>
                           <aas:qualifier>
                             <aas:type>Multiplicity</aas:type>
-                            <aas:valueType />
+                            <aas:valueType>string</aas:valueType>
                             <aas:value>One</aas:value>
                           </aas:qualifier>
                         </aas:qualifier>
-                        <aas:valueType>String</aas:valueType>
+                        <aas:valueType>string</aas:valueType>
                         <aas:value>0173-1#07-DAA603#004</aas:value>
                       </aas:property>
                     </aas:submodelElement>
@@ -1261,11 +1246,11 @@
                         <aas:qualifier>
                           <aas:qualifier>
                             <aas:type>Multiplicity</aas:type>
-                            <aas:valueType />
+                            <aas:valueType>string</aas:valueType>
                             <aas:value>ZeroToOne</aas:value>
                           </aas:qualifier>
                         </aas:qualifier>
-                        <aas:valueType>String</aas:valueType>
+                        <aas:valueType>string</aas:valueType>
                         <aas:value>KEMA99IECEX1105/128</aas:value>
                       </aas:property>
                     </aas:submodelElement>
@@ -1284,11 +1269,11 @@
                         <aas:qualifier>
                           <aas:qualifier>
                             <aas:type>Multiplicity</aas:type>
-                            <aas:valueType />
+                            <aas:valueType>string</aas:valueType>
                             <aas:value>ZeroToOne</aas:value>
                           </aas:qualifier>
                         </aas:qualifier>
-                        <aas:valueType>Date</aas:valueType>
+                        <aas:valueType>date</aas:valueType>
                         <aas:value>2022-01-01</aas:value>
                       </aas:property>
                     </aas:submodelElement>
@@ -1307,11 +1292,11 @@
                         <aas:qualifier>
                           <aas:qualifier>
                             <aas:type>Multiplicity</aas:type>
-                            <aas:valueType />
+                            <aas:valueType>string</aas:valueType>
                             <aas:value>ZeroToOne</aas:value>
                           </aas:qualifier>
                         </aas:qualifier>
-                        <aas:valueType>Date</aas:valueType>
+                        <aas:valueType>date</aas:valueType>
                         <aas:value>2022-01-01</aas:value>
                       </aas:property>
                     </aas:submodelElement>
@@ -1327,12 +1312,12 @@
                         <aas:qualifier>
                           <aas:qualifier>
                             <aas:type>Multiplicity</aas:type>
-                            <aas:valueType />
+                            <aas:valueType>string</aas:valueType>
                             <aas:value>One</aas:value>
                           </aas:qualifier>
                         </aas:qualifier>
-                        <aas:mimeType />
-                        <aas:value>/aasx/Nameplate/marking_ce.png </aas:value>
+                        <aas:mimeType>{arbitrary}</aas:mimeType>
+                        <aas:value />
                       </aas:file>
                     </aas:submodelElement>
                     <aas:submodelElement>
@@ -1350,11 +1335,11 @@
                         <aas:qualifier>
                           <aas:qualifier>
                             <aas:type>Multiplicity</aas:type>
-                            <aas:valueType />
+                            <aas:valueType>string</aas:valueType>
                             <aas:value>ZeroToMany</aas:value>
                           </aas:qualifier>
                         </aas:qualifier>
-                        <aas:valueType>String</aas:valueType>
+                        <aas:valueType>string</aas:valueType>
                         <aas:value>0044</aas:value>
                       </aas:property>
                     </aas:submodelElement>
@@ -1370,12 +1355,10 @@
                         <aas:qualifier>
                           <aas:qualifier>
                             <aas:type>Multiplicity</aas:type>
-                            <aas:valueType />
+                            <aas:valueType>string</aas:valueType>
                             <aas:value>ZeroToOne</aas:value>
                           </aas:qualifier>
                         </aas:qualifier>
-                        <aas:ordered>false</aas:ordered>
-                        <aas:allowDuplicates>true</aas:allowDuplicates>
                         <aas:value>
                           <aas:submodelElement>
                             <aas:submodelElementCollection>
@@ -1389,12 +1372,10 @@
                               <aas:qualifier>
                                 <aas:qualifier>
                                   <aas:type>Multiplicity</aas:type>
-                                  <aas:valueType />
+                                  <aas:valueType>string</aas:valueType>
                                   <aas:value>OneToMany</aas:value>
                                 </aas:qualifier>
                               </aas:qualifier>
-                              <aas:ordered>false</aas:ordered>
-                              <aas:allowDuplicates>true</aas:allowDuplicates>
                               <aas:value>
                                 <aas:submodelElement>
                                   <aas:property>
@@ -1411,11 +1392,11 @@
                                     <aas:qualifier>
                                       <aas:qualifier>
                                         <aas:type>Multiplicity</aas:type>
-                                        <aas:valueType />
+                                        <aas:valueType>string</aas:valueType>
                                         <aas:value>ZeroToOne</aas:value>
                                       </aas:qualifier>
                                     </aas:qualifier>
-                                    <aas:valueType>String</aas:valueType>
+                                    <aas:valueType>string</aas:valueType>
                                     <aas:value>KEMA99IECEX1105/128</aas:value>
                                   </aas:property>
                                 </aas:submodelElement>
@@ -1434,7 +1415,7 @@
                                     <aas:qualifier>
                                       <aas:qualifier>
                                         <aas:type>Multiplicity</aas:type>
-                                        <aas:valueType />
+                                        <aas:valueType>string</aas:valueType>
                                         <aas:value>ZeroToOne</aas:value>
                                       </aas:qualifier>
                                     </aas:qualifier>
@@ -1458,7 +1439,7 @@
                                     <aas:qualifier>
                                       <aas:qualifier>
                                         <aas:type>Multiplicity</aas:type>
-                                        <aas:valueType />
+                                        <aas:valueType>string</aas:valueType>
                                         <aas:value>ZeroToOne</aas:value>
                                       </aas:qualifier>
                                     </aas:qualifier>
@@ -1482,11 +1463,11 @@
                                     <aas:qualifier>
                                       <aas:qualifier>
                                         <aas:type>Multiplicity</aas:type>
-                                        <aas:valueType />
+                                        <aas:valueType>string</aas:valueType>
                                         <aas:value>ZeroToOne</aas:value>
                                       </aas:qualifier>
                                     </aas:qualifier>
-                                    <aas:valueType>String</aas:valueType>
+                                    <aas:valueType>string</aas:valueType>
                                     <aas:value>db</aas:value>
                                   </aas:property>
                                 </aas:submodelElement>
@@ -1505,11 +1486,11 @@
                                     <aas:qualifier>
                                       <aas:qualifier>
                                         <aas:type>Multiplicity</aas:type>
-                                        <aas:valueType />
+                                        <aas:valueType>string</aas:valueType>
                                         <aas:value>ZeroToOne</aas:value>
                                       </aas:qualifier>
                                     </aas:qualifier>
-                                    <aas:valueType>Decimal</aas:valueType>
+                                    <aas:valueType>decimal</aas:valueType>
                                     <aas:value>250</aas:value>
                                   </aas:property>
                                 </aas:submodelElement>
@@ -1528,7 +1509,7 @@
                                     <aas:qualifier>
                                       <aas:qualifier>
                                         <aas:type>Multiplicity</aas:type>
-                                        <aas:valueType />
+                                        <aas:valueType>string</aas:valueType>
                                         <aas:value>ZeroToOne</aas:value>
                                       </aas:qualifier>
                                     </aas:qualifier>
@@ -1552,7 +1533,7 @@
                                     <aas:qualifier>
                                       <aas:qualifier>
                                         <aas:type>Multiplicity</aas:type>
-                                        <aas:valueType />
+                                        <aas:valueType>string</aas:valueType>
                                         <aas:value>ZeroToOne</aas:value>
                                       </aas:qualifier>
                                     </aas:qualifier>
@@ -1572,7 +1553,7 @@
                                     <aas:qualifier>
                                       <aas:qualifier>
                                         <aas:type>Multiplicity</aas:type>
-                                        <aas:valueType />
+                                        <aas:valueType>string</aas:valueType>
                                         <aas:value>ZeroToOne</aas:value>
                                       </aas:qualifier>
                                     </aas:qualifier>
@@ -1595,12 +1576,10 @@
                                     <aas:qualifier>
                                       <aas:qualifier>
                                         <aas:type>Multiplicity</aas:type>
-                                        <aas:valueType />
+                                        <aas:valueType>string</aas:valueType>
                                         <aas:value>ZeroToOne</aas:value>
                                       </aas:qualifier>
                                     </aas:qualifier>
-                                    <aas:ordered>false</aas:ordered>
-                                    <aas:allowDuplicates>false</aas:allowDuplicates>
                                     <aas:value>
                                       <aas:submodelElement>
                                         <aas:property>
@@ -1617,11 +1596,11 @@
                                           <aas:qualifier>
                                             <aas:qualifier>
                                               <aas:type>Multiplicity</aas:type>
-                                              <aas:valueType />
+                                              <aas:valueType>string</aas:valueType>
                                               <aas:value>ZeroToOne</aas:value>
                                             </aas:qualifier>
                                           </aas:qualifier>
-                                          <aas:valueType>String</aas:valueType>
+                                          <aas:valueType>string</aas:valueType>
                                           <aas:value>2G</aas:value>
                                         </aas:property>
                                       </aas:submodelElement>
@@ -1640,7 +1619,7 @@
                                           <aas:qualifier>
                                             <aas:qualifier>
                                               <aas:type>Multiplicity</aas:type>
-                                              <aas:valueType />
+                                              <aas:valueType>string</aas:valueType>
                                               <aas:value>ZeroToOne</aas:value>
                                             </aas:qualifier>
                                           </aas:qualifier>
@@ -1661,11 +1640,11 @@
                                           <aas:qualifier>
                                             <aas:qualifier>
                                               <aas:type>Multiplicity</aas:type>
-                                              <aas:valueType />
+                                              <aas:valueType>string</aas:valueType>
                                               <aas:value>ZeroToOne</aas:value>
                                             </aas:qualifier>
                                           </aas:qualifier>
-                                          <aas:valueType>String</aas:valueType>
+                                          <aas:valueType>string</aas:valueType>
                                           <aas:value>Class I, Division 2</aas:value>
                                         </aas:property>
                                       </aas:submodelElement>
@@ -1684,11 +1663,11 @@
                                           <aas:qualifier>
                                             <aas:qualifier>
                                               <aas:type>Multiplicity</aas:type>
-                                              <aas:valueType />
+                                              <aas:valueType>string</aas:valueType>
                                               <aas:value>ZeroToOne</aas:value>
                                             </aas:qualifier>
                                           </aas:qualifier>
-                                          <aas:valueType>String</aas:valueType>
+                                          <aas:valueType>string</aas:valueType>
                                           <aas:value>db</aas:value>
                                         </aas:property>
                                       </aas:submodelElement>
@@ -1707,11 +1686,11 @@
                                           <aas:qualifier>
                                             <aas:qualifier>
                                               <aas:type>Multiplicity</aas:type>
-                                              <aas:valueType />
+                                              <aas:valueType>string</aas:valueType>
                                               <aas:value>ZeroToOne</aas:value>
                                             </aas:qualifier>
                                           </aas:qualifier>
-                                          <aas:valueType>String</aas:valueType>
+                                          <aas:valueType>string</aas:valueType>
                                           <aas:value>IIC</aas:value>
                                         </aas:property>
                                       </aas:submodelElement>
@@ -1730,11 +1709,11 @@
                                           <aas:qualifier>
                                             <aas:qualifier>
                                               <aas:type>Multiplicity</aas:type>
-                                              <aas:valueType />
+                                              <aas:valueType>string</aas:valueType>
                                               <aas:value>ZeroToOne</aas:value>
                                             </aas:qualifier>
                                           </aas:qualifier>
-                                          <aas:valueType>Decimal</aas:valueType>
+                                          <aas:valueType>decimal</aas:valueType>
                                           <aas:value>-40</aas:value>
                                         </aas:property>
                                       </aas:submodelElement>
@@ -1753,11 +1732,11 @@
                                           <aas:qualifier>
                                             <aas:qualifier>
                                               <aas:type>Multiplicity</aas:type>
-                                              <aas:valueType />
+                                              <aas:valueType>string</aas:valueType>
                                               <aas:value>ZeroToOne</aas:value>
                                             </aas:qualifier>
                                           </aas:qualifier>
-                                          <aas:valueType>Decimal</aas:valueType>
+                                          <aas:valueType>decimal</aas:valueType>
                                           <aas:value>120</aas:value>
                                         </aas:property>
                                       </aas:submodelElement>
@@ -1776,11 +1755,11 @@
                                           <aas:qualifier>
                                             <aas:qualifier>
                                               <aas:type>Multiplicity</aas:type>
-                                              <aas:valueType />
+                                              <aas:valueType>string</aas:valueType>
                                               <aas:value>ZeroToOne</aas:value>
                                             </aas:qualifier>
                                           </aas:qualifier>
-                                          <aas:valueType>Decimal</aas:valueType>
+                                          <aas:valueType>decimal</aas:valueType>
                                           <aas:value>100</aas:value>
                                         </aas:property>
                                       </aas:submodelElement>
@@ -1799,15 +1778,17 @@
                                           <aas:qualifier>
                                             <aas:qualifier>
                                               <aas:type>Multiplicity</aas:type>
-                                              <aas:valueType />
+                                              <aas:valueType>string</aas:valueType>
                                               <aas:value>ZeroToOne</aas:value>
                                             </aas:qualifier>
                                           </aas:qualifier>
-                                          <aas:valueType>String</aas:valueType>
+                                          <aas:valueType>string</aas:valueType>
                                           <aas:value>T4</aas:value>
                                         </aas:property>
                                       </aas:submodelElement>
                                     </aas:value>
+                                    <aas:ordered>false</aas:ordered>
+                                    <aas:allowDuplicates>false</aas:allowDuplicates>
                                   </aas:submodelElementCollection>
                                 </aas:submodelElement>
                                 <aas:submodelElement>
@@ -1825,12 +1806,10 @@
                                     <aas:qualifier>
                                       <aas:qualifier>
                                         <aas:type>Multiplicity</aas:type>
-                                        <aas:valueType />
+                                        <aas:valueType>string</aas:valueType>
                                         <aas:value>ZeroToOne</aas:value>
                                       </aas:qualifier>
                                     </aas:qualifier>
-                                    <aas:ordered>false</aas:ordered>
-                                    <aas:allowDuplicates>false</aas:allowDuplicates>
                                     <aas:value>
                                       <aas:submodelElement>
                                         <aas:property>
@@ -1847,11 +1826,11 @@
                                           <aas:qualifier>
                                             <aas:qualifier>
                                               <aas:type>Multiplicity</aas:type>
-                                              <aas:valueType />
+                                              <aas:valueType>string</aas:valueType>
                                               <aas:value>ZeroToOne</aas:value>
                                             </aas:qualifier>
                                           </aas:qualifier>
-                                          <aas:valueType>String</aas:valueType>
+                                          <aas:valueType>string</aas:valueType>
                                           <aas:value>1G</aas:value>
                                         </aas:property>
                                       </aas:submodelElement>
@@ -1870,7 +1849,7 @@
                                           <aas:qualifier>
                                             <aas:qualifier>
                                               <aas:type>Multiplicity</aas:type>
-                                              <aas:valueType />
+                                              <aas:valueType>string</aas:valueType>
                                               <aas:value>ZeroToOne</aas:value>
                                             </aas:qualifier>
                                           </aas:qualifier>
@@ -1891,11 +1870,11 @@
                                           <aas:qualifier>
                                             <aas:qualifier>
                                               <aas:type>Multiplicity</aas:type>
-                                              <aas:valueType />
+                                              <aas:valueType>string</aas:valueType>
                                               <aas:value>ZeroToOne</aas:value>
                                             </aas:qualifier>
                                           </aas:qualifier>
-                                          <aas:valueType>String</aas:valueType>
+                                          <aas:valueType>string</aas:valueType>
                                           <aas:value>IS</aas:value>
                                         </aas:property>
                                       </aas:submodelElement>
@@ -1914,11 +1893,11 @@
                                           <aas:qualifier>
                                             <aas:qualifier>
                                               <aas:type>Multiplicity</aas:type>
-                                              <aas:valueType />
+                                              <aas:valueType>string</aas:valueType>
                                               <aas:value>ZeroToOne</aas:value>
                                             </aas:qualifier>
                                           </aas:qualifier>
-                                          <aas:valueType>String</aas:valueType>
+                                          <aas:valueType>string</aas:valueType>
                                           <aas:value>ia</aas:value>
                                         </aas:property>
                                       </aas:submodelElement>
@@ -1937,11 +1916,11 @@
                                           <aas:qualifier>
                                             <aas:qualifier>
                                               <aas:type>Multiplicity</aas:type>
-                                              <aas:valueType />
+                                              <aas:valueType>string</aas:valueType>
                                               <aas:value>ZeroToOne</aas:value>
                                             </aas:qualifier>
                                           </aas:qualifier>
-                                          <aas:valueType>String</aas:valueType>
+                                          <aas:valueType>string</aas:valueType>
                                           <aas:value>IIC</aas:value>
                                         </aas:property>
                                       </aas:submodelElement>
@@ -1960,11 +1939,11 @@
                                           <aas:qualifier>
                                             <aas:qualifier>
                                               <aas:type>Multiplicity</aas:type>
-                                              <aas:valueType />
+                                              <aas:valueType>string</aas:valueType>
                                               <aas:value>ZeroToOne</aas:value>
                                             </aas:qualifier>
                                           </aas:qualifier>
-                                          <aas:valueType>Decimal</aas:valueType>
+                                          <aas:valueType>decimal</aas:valueType>
                                           <aas:value>-40</aas:value>
                                         </aas:property>
                                       </aas:submodelElement>
@@ -1983,11 +1962,11 @@
                                           <aas:qualifier>
                                             <aas:qualifier>
                                               <aas:type>Multiplicity</aas:type>
-                                              <aas:valueType />
+                                              <aas:valueType>string</aas:valueType>
                                               <aas:value>ZeroToOne</aas:value>
                                             </aas:qualifier>
                                           </aas:qualifier>
-                                          <aas:valueType>Decimal</aas:valueType>
+                                          <aas:valueType>decimal</aas:valueType>
                                           <aas:value>120</aas:value>
                                         </aas:property>
                                       </aas:submodelElement>
@@ -2006,11 +1985,11 @@
                                           <aas:qualifier>
                                             <aas:qualifier>
                                               <aas:type>Multiplicity</aas:type>
-                                              <aas:valueType />
+                                              <aas:valueType>string</aas:valueType>
                                               <aas:value>ZeroToOne</aas:value>
                                             </aas:qualifier>
                                           </aas:qualifier>
-                                          <aas:valueType>Decimal</aas:valueType>
+                                          <aas:valueType>decimal</aas:valueType>
                                           <aas:value>85</aas:value>
                                         </aas:property>
                                       </aas:submodelElement>
@@ -2029,15 +2008,17 @@
                                           <aas:qualifier>
                                             <aas:qualifier>
                                               <aas:type>Multiplicity</aas:type>
-                                              <aas:valueType />
+                                              <aas:valueType>string</aas:valueType>
                                               <aas:value>ZeroToOne</aas:value>
                                             </aas:qualifier>
                                           </aas:qualifier>
-                                          <aas:valueType>String</aas:valueType>
+                                          <aas:valueType>string</aas:valueType>
                                           <aas:value>T4</aas:value>
                                         </aas:property>
                                       </aas:submodelElement>
                                     </aas:value>
+                                    <aas:ordered>false</aas:ordered>
+                                    <aas:allowDuplicates>false</aas:allowDuplicates>
                                   </aas:submodelElementCollection>
                                 </aas:submodelElement>
                                 <aas:submodelElement>
@@ -2055,12 +2036,10 @@
                                     <aas:qualifier>
                                       <aas:qualifier>
                                         <aas:type>Multiplicity</aas:type>
-                                        <aas:valueType />
+                                        <aas:valueType>string</aas:valueType>
                                         <aas:value>ZeroToMany</aas:value>
                                       </aas:qualifier>
                                     </aas:qualifier>
-                                    <aas:ordered>false</aas:ordered>
-                                    <aas:allowDuplicates>false</aas:allowDuplicates>
                                     <aas:value>
                                       <aas:submodelElement>
                                         <aas:property>
@@ -2077,11 +2056,11 @@
                                           <aas:qualifier>
                                             <aas:qualifier>
                                               <aas:type>Multiplicity</aas:type>
-                                              <aas:valueType />
+                                              <aas:valueType>string</aas:valueType>
                                               <aas:value>ZeroToOne</aas:value>
                                             </aas:qualifier>
                                           </aas:qualifier>
-                                          <aas:valueType>String</aas:valueType>
+                                          <aas:valueType>string</aas:valueType>
                                           <aas:value>+/-</aas:value>
                                         </aas:property>
                                       </aas:submodelElement>
@@ -2100,11 +2079,11 @@
                                           <aas:qualifier>
                                             <aas:qualifier>
                                               <aas:type>Multiplicity</aas:type>
-                                              <aas:valueType />
+                                              <aas:valueType>string</aas:valueType>
                                               <aas:value>ZeroToOne</aas:value>
                                             </aas:qualifier>
                                           </aas:qualifier>
-                                          <aas:valueType>String</aas:valueType>
+                                          <aas:valueType>string</aas:valueType>
                                           <aas:value>db</aas:value>
                                         </aas:property>
                                       </aas:submodelElement>
@@ -2123,7 +2102,7 @@
                                           <aas:qualifier>
                                             <aas:qualifier>
                                               <aas:type>Multiplicity</aas:type>
-                                              <aas:valueType />
+                                              <aas:valueType>string</aas:valueType>
                                               <aas:value>ZeroToOne</aas:value>
                                             </aas:qualifier>
                                           </aas:qualifier>
@@ -2147,11 +2126,11 @@
                                           <aas:qualifier>
                                             <aas:qualifier>
                                               <aas:type>Multiplicity</aas:type>
-                                              <aas:valueType />
+                                              <aas:valueType>string</aas:valueType>
                                               <aas:value>ZeroToOne</aas:value>
                                             </aas:qualifier>
                                           </aas:qualifier>
-                                          <aas:valueType>String</aas:valueType>
+                                          <aas:valueType>string</aas:valueType>
                                           <aas:value>IIC</aas:value>
                                         </aas:property>
                                       </aas:submodelElement>
@@ -2170,11 +2149,11 @@
                                           <aas:qualifier>
                                             <aas:qualifier>
                                               <aas:type>Multiplicity</aas:type>
-                                              <aas:valueType />
+                                              <aas:valueType>string</aas:valueType>
                                               <aas:value>ZeroToOne</aas:value>
                                             </aas:qualifier>
                                           </aas:qualifier>
-                                          <aas:valueType>String</aas:valueType>
+                                          <aas:valueType>string</aas:valueType>
                                           <aas:value>linear</aas:value>
                                         </aas:property>
                                       </aas:submodelElement>
@@ -2193,11 +2172,11 @@
                                           <aas:qualifier>
                                             <aas:qualifier>
                                               <aas:type>Multiplicity</aas:type>
-                                              <aas:valueType />
+                                              <aas:valueType>string</aas:valueType>
                                               <aas:value>ZeroToOne</aas:value>
                                             </aas:qualifier>
                                           </aas:qualifier>
-                                          <aas:valueType>String</aas:valueType>
+                                          <aas:valueType>string</aas:valueType>
                                           <aas:value>x</aas:value>
                                         </aas:property>
                                       </aas:submodelElement>
@@ -2216,11 +2195,11 @@
                                           <aas:qualifier>
                                             <aas:qualifier>
                                               <aas:type>Multiplicity</aas:type>
-                                              <aas:valueType />
+                                              <aas:valueType>string</aas:valueType>
                                               <aas:value>ZeroToOne</aas:value>
                                             </aas:qualifier>
                                           </aas:qualifier>
-                                          <aas:valueType>String</aas:valueType>
+                                          <aas:valueType>string</aas:valueType>
                                           <aas:value>x</aas:value>
                                         </aas:property>
                                       </aas:submodelElement>
@@ -2239,12 +2218,10 @@
                                           <aas:qualifier>
                                             <aas:qualifier>
                                               <aas:type>Multiplicity</aas:type>
-                                              <aas:valueType />
+                                              <aas:valueType>string</aas:valueType>
                                               <aas:value>ZeroToOne</aas:value>
                                             </aas:qualifier>
                                           </aas:qualifier>
-                                          <aas:ordered>false</aas:ordered>
-                                          <aas:allowDuplicates>false</aas:allowDuplicates>
                                           <aas:value>
                                             <aas:submodelElement>
                                               <aas:property>
@@ -2261,11 +2238,11 @@
                                                 <aas:qualifier>
                                                   <aas:qualifier>
                                                     <aas:type>Multiplicity</aas:type>
-                                                    <aas:valueType />
+                                                    <aas:valueType>string</aas:valueType>
                                                     <aas:value>ZeroToOne</aas:value>
                                                   </aas:qualifier>
                                                 </aas:qualifier>
-                                                <aas:valueType>Decimal</aas:valueType>
+                                                <aas:valueType>decimal</aas:valueType>
                                                 <aas:value>1250</aas:value>
                                               </aas:property>
                                             </aas:submodelElement>
@@ -2284,11 +2261,11 @@
                                                 <aas:qualifier>
                                                   <aas:qualifier>
                                                     <aas:type>Multiplicity</aas:type>
-                                                    <aas:valueType />
+                                                    <aas:valueType>string</aas:valueType>
                                                     <aas:value>ZeroToOne</aas:value>
                                                   </aas:qualifier>
                                                 </aas:qualifier>
-                                                <aas:valueType>Decimal</aas:valueType>
+                                                <aas:valueType>decimal</aas:valueType>
                                                 <aas:value>30</aas:value>
                                               </aas:property>
                                             </aas:submodelElement>
@@ -2307,11 +2284,11 @@
                                                 <aas:qualifier>
                                                   <aas:qualifier>
                                                     <aas:type>Multiplicity</aas:type>
-                                                    <aas:valueType />
+                                                    <aas:valueType>string</aas:valueType>
                                                     <aas:value>ZeroToOne</aas:value>
                                                   </aas:qualifier>
                                                 </aas:qualifier>
-                                                <aas:valueType>Decimal</aas:valueType>
+                                                <aas:valueType>decimal</aas:valueType>
                                                 <aas:value>100</aas:value>
                                               </aas:property>
                                             </aas:submodelElement>
@@ -2330,11 +2307,11 @@
                                                 <aas:qualifier>
                                                   <aas:qualifier>
                                                     <aas:type>Multiplicity</aas:type>
-                                                    <aas:valueType />
+                                                    <aas:valueType>string</aas:valueType>
                                                     <aas:value>ZeroToOne</aas:value>
                                                   </aas:qualifier>
                                                 </aas:qualifier>
-                                                <aas:valueType>Decimal</aas:valueType>
+                                                <aas:valueType>decimal</aas:valueType>
                                                 <aas:value>0</aas:value>
                                               </aas:property>
                                             </aas:submodelElement>
@@ -2353,15 +2330,17 @@
                                                 <aas:qualifier>
                                                   <aas:qualifier>
                                                     <aas:type>Multiplicity</aas:type>
-                                                    <aas:valueType />
+                                                    <aas:valueType>string</aas:valueType>
                                                     <aas:value>ZeroToOne</aas:value>
                                                   </aas:qualifier>
                                                 </aas:qualifier>
-                                                <aas:valueType>Decimal</aas:valueType>
+                                                <aas:valueType>decimal</aas:valueType>
                                                 <aas:value>0</aas:value>
                                               </aas:property>
                                             </aas:submodelElement>
                                           </aas:value>
+                                          <aas:ordered>false</aas:ordered>
+                                          <aas:allowDuplicates>false</aas:allowDuplicates>
                                         </aas:submodelElementCollection>
                                       </aas:submodelElement>
                                       <aas:submodelElement>
@@ -2379,12 +2358,10 @@
                                           <aas:qualifier>
                                             <aas:qualifier>
                                               <aas:type>Multiplicity</aas:type>
-                                              <aas:valueType />
+                                              <aas:valueType>string</aas:valueType>
                                               <aas:value>ZeroToOne</aas:value>
                                             </aas:qualifier>
                                           </aas:qualifier>
-                                          <aas:ordered>false</aas:ordered>
-                                          <aas:allowDuplicates>false</aas:allowDuplicates>
                                           <aas:value>
                                             <aas:submodelElement>
                                               <aas:property>
@@ -2401,11 +2378,11 @@
                                                 <aas:qualifier>
                                                   <aas:qualifier>
                                                     <aas:type>Multiplicity</aas:type>
-                                                    <aas:valueType />
+                                                    <aas:valueType>string</aas:valueType>
                                                     <aas:value>ZeroToOne</aas:value>
                                                   </aas:qualifier>
                                                 </aas:qualifier>
-                                                <aas:valueType>Decimal</aas:valueType>
+                                                <aas:valueType>decimal</aas:valueType>
                                                 <aas:value>960</aas:value>
                                               </aas:property>
                                             </aas:submodelElement>
@@ -2424,11 +2401,11 @@
                                                 <aas:qualifier>
                                                   <aas:qualifier>
                                                     <aas:type>Multiplicity</aas:type>
-                                                    <aas:valueType />
+                                                    <aas:valueType>string</aas:valueType>
                                                     <aas:value>ZeroToOne</aas:value>
                                                   </aas:qualifier>
                                                 </aas:qualifier>
-                                                <aas:valueType>Decimal</aas:valueType>
+                                                <aas:valueType>decimal</aas:valueType>
                                                 <aas:value>15.7</aas:value>
                                               </aas:property>
                                             </aas:submodelElement>
@@ -2447,11 +2424,11 @@
                                                 <aas:qualifier>
                                                   <aas:qualifier>
                                                     <aas:type>Multiplicity</aas:type>
-                                                    <aas:valueType />
+                                                    <aas:valueType>string</aas:valueType>
                                                     <aas:value>ZeroToOne</aas:value>
                                                   </aas:qualifier>
                                                 </aas:qualifier>
-                                                <aas:valueType>Decimal</aas:valueType>
+                                                <aas:valueType>decimal</aas:valueType>
                                                 <aas:value>245</aas:value>
                                               </aas:property>
                                             </aas:submodelElement>
@@ -2470,11 +2447,11 @@
                                                 <aas:qualifier>
                                                   <aas:qualifier>
                                                     <aas:type>Multiplicity</aas:type>
-                                                    <aas:valueType />
+                                                    <aas:valueType>string</aas:valueType>
                                                     <aas:value>ZeroToOne</aas:value>
                                                   </aas:qualifier>
                                                 </aas:qualifier>
-                                                <aas:valueType>Decimal</aas:valueType>
+                                                <aas:valueType>decimal</aas:valueType>
                                                 <aas:value>2878</aas:value>
                                               </aas:property>
                                             </aas:submodelElement>
@@ -2493,11 +2470,11 @@
                                                 <aas:qualifier>
                                                   <aas:qualifier>
                                                     <aas:type>Multiplicity</aas:type>
-                                                    <aas:valueType />
+                                                    <aas:valueType>string</aas:valueType>
                                                     <aas:value>ZeroToOne</aas:value>
                                                   </aas:qualifier>
                                                 </aas:qualifier>
-                                                <aas:valueType>Decimal</aas:valueType>
+                                                <aas:valueType>decimal</aas:valueType>
                                                 <aas:value>2.9</aas:value>
                                               </aas:property>
                                             </aas:submodelElement>
@@ -2516,30 +2493,41 @@
                                                 <aas:qualifier>
                                                   <aas:qualifier>
                                                     <aas:type>Multiplicity</aas:type>
-                                                    <aas:valueType />
+                                                    <aas:valueType>string</aas:valueType>
                                                     <aas:value>ZeroToOne</aas:value>
                                                   </aas:qualifier>
                                                 </aas:qualifier>
-                                                <aas:valueType>Decimal</aas:valueType>
-                                                <aas:value />
+                                                <aas:valueType>decimal</aas:valueType>
                                               </aas:property>
                                             </aas:submodelElement>
                                           </aas:value>
+                                          <aas:ordered>false</aas:ordered>
+                                          <aas:allowDuplicates>false</aas:allowDuplicates>
                                         </aas:submodelElementCollection>
                                       </aas:submodelElement>
                                     </aas:value>
+                                    <aas:ordered>false</aas:ordered>
+                                    <aas:allowDuplicates>false</aas:allowDuplicates>
                                   </aas:submodelElementCollection>
                                 </aas:submodelElement>
                               </aas:value>
+                              <aas:ordered>false</aas:ordered>
+                              <aas:allowDuplicates>true</aas:allowDuplicates>
                             </aas:submodelElementCollection>
                           </aas:submodelElement>
                         </aas:value>
+                        <aas:ordered>false</aas:ordered>
+                        <aas:allowDuplicates>true</aas:allowDuplicates>
                       </aas:submodelElementCollection>
                     </aas:submodelElement>
                   </aas:value>
+                  <aas:ordered>false</aas:ordered>
+                  <aas:allowDuplicates>true</aas:allowDuplicates>
                 </aas:submodelElementCollection>
               </aas:submodelElement>
             </aas:value>
+            <aas:ordered>false</aas:ordered>
+            <aas:allowDuplicates>true</aas:allowDuplicates>
           </aas:submodelElementCollection>
         </aas:submodelElement>
         <aas:submodelElement>
@@ -2557,16 +2545,14 @@
             <aas:qualifier>
               <aas:qualifier>
                 <aas:type>Multiplicity</aas:type>
-                <aas:valueType />
+                <aas:valueType>string</aas:valueType>
                 <aas:value>ZeroToOne</aas:value>
               </aas:qualifier>
             </aas:qualifier>
-            <aas:ordered>false</aas:ordered>
-            <aas:allowDuplicates>true</aas:allowDuplicates>
             <aas:value>
               <aas:submodelElement>
                 <aas:submodelElementCollection>
-                  <aas:idShort>GuidelineSpecificProperties{00}</aas:idShort>
+                  <aas:idShort>GuidelineSpecificProperties_00</aas:idShort>
                   <aas:kind>Template</aas:kind>
                   <aas:semanticId>
                     <aas:keys>
@@ -2576,12 +2562,10 @@
                   <aas:qualifier>
                     <aas:qualifier>
                       <aas:type>Multiplicity</aas:type>
-                      <aas:valueType />
+                      <aas:valueType>string</aas:valueType>
                       <aas:value>OneToMany</aas:value>
                     </aas:qualifier>
                   </aas:qualifier>
-                  <aas:ordered>false</aas:ordered>
-                  <aas:allowDuplicates>false</aas:allowDuplicates>
                   <aas:value>
                     <aas:submodelElement>
                       <aas:property>
@@ -2595,12 +2579,11 @@
                         <aas:qualifier>
                           <aas:qualifier>
                             <aas:type>Multiplicity</aas:type>
-                            <aas:valueType />
+                            <aas:valueType>string</aas:valueType>
                             <aas:value>One</aas:value>
                           </aas:qualifier>
                         </aas:qualifier>
-                        <aas:valueType>String</aas:valueType>
-                        <aas:value />
+                        <aas:valueType>string</aas:valueType>
                       </aas:property>
                     </aas:submodelElement>
                     <aas:submodelElement>
@@ -2615,15 +2598,16 @@
                         <aas:qualifier>
                           <aas:qualifier>
                             <aas:type>Multiplicity</aas:type>
-                            <aas:valueType />
+                            <aas:valueType>string</aas:valueType>
                             <aas:value>OneToMany</aas:value>
                           </aas:qualifier>
                         </aas:qualifier>
-                        <aas:valueType>String</aas:valueType>
-                        <aas:value />
+                        <aas:valueType>string</aas:valueType>
                       </aas:property>
                     </aas:submodelElement>
                   </aas:value>
+                  <aas:ordered>false</aas:ordered>
+                  <aas:allowDuplicates>false</aas:allowDuplicates>
                 </aas:submodelElementCollection>
               </aas:submodelElement>
               <aas:submodelElement>
@@ -2638,15 +2622,16 @@
                   <aas:qualifier>
                     <aas:qualifier>
                       <aas:type>Multiplicity</aas:type>
-                      <aas:valueType />
+                      <aas:valueType>string</aas:valueType>
                       <aas:value>OneToMany</aas:value>
                     </aas:qualifier>
                   </aas:qualifier>
                   <aas:valueType />
-                  <aas:value />
                 </aas:property>
               </aas:submodelElement>
             </aas:value>
+            <aas:ordered>false</aas:ordered>
+            <aas:allowDuplicates>true</aas:allowDuplicates>
           </aas:submodelElementCollection>
         </aas:submodelElement>
       </aas:submodelElements>
@@ -2659,8 +2644,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">URIOfTheProduct</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -2681,8 +2667,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">ManufacturerName</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -2703,8 +2690,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">ManufacturerProductDesignation</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -2725,8 +2713,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">ManufacturerProductRoot</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -2747,8 +2736,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">ManufacturerProductFamily</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -2769,8 +2759,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">ManufacturerProductType</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -2791,8 +2782,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">OrderCodeOfManufacturer</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -2813,8 +2805,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">ProductArticleNumberOfManufacturer</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -2835,8 +2828,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">SerialNumber</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -2857,8 +2851,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">YearOfConstruction</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -2879,8 +2874,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">DateOfManufacture</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -2901,8 +2897,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">HardwareVersion</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -2923,8 +2920,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">FirmwareVersion</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -2945,8 +2943,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">SoftwareVersion</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -2967,8 +2966,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">CountryOfOrigin</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -2989,8 +2989,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">CompanyLogo</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -3011,8 +3012,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">Markings</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -3033,8 +3035,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">AssetSpecificProperties</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -3055,8 +3058,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">MarkingName</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -3077,8 +3081,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">DesignationOfCertificateOrApproval</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -3099,8 +3104,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">IssueDate</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -3121,8 +3127,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">ExpiryDate</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -3143,8 +3150,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">MarkingFile</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -3160,13 +3168,14 @@
       </aas:embeddedDataSpecification>
     </aas:conceptDescription>
     <aas:conceptDescription>
-      <aas:idShort>MarkingAdditionalText{00}</aas:idShort>
+      <aas:idShort>MarkingAdditionalText_00</aas:idShort>
       <aas:identification idType="IRI">https://admin-shell.io/zvei/nameplate/2/0/Nameplate/Markings/Marking/MarkingAdditionalText</aas:identification>
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">MarkingAdditionalText_00</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -3187,8 +3196,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">ExplosionSafety</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -3209,8 +3219,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">TypeOfApproval</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -3231,8 +3242,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">ApprovalAgencyTestingAgency</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -3253,8 +3265,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">TypeOfProtection</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -3275,8 +3288,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">RatedInsulationVoltage</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit>V</IEC:unit>
             <IEC:unitId>
               <IEC:keys>
@@ -3302,8 +3316,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">InstructionsControlDrawing</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -3324,8 +3339,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">SpecificConditionsForUse</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -3346,8 +3362,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">IncompleteDevice</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -3368,8 +3385,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">AmbientConditions</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -3390,8 +3408,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">ProcessConditions</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -3412,8 +3431,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">ExternalElectricalCircuit</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -3434,8 +3454,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">DeviceCategory</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -3456,8 +3477,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">EquipmentProtectionLevel</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -3478,8 +3500,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">RegionalSpecificMarking</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -3500,8 +3523,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">ExplosionGroup</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -3522,8 +3546,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">MinimumAmbientTemperature</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit>ºC</IEC:unit>
             <IEC:unitId>
               <IEC:keys>
@@ -3549,8 +3574,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">MaxAmbientTemperature</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit>ºC</IEC:unit>
             <IEC:unitId>
               <IEC:keys>
@@ -3576,8 +3602,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">MaxSurfaceTemperatureForDustProof</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit>ºC</IEC:unit>
             <IEC:unitId>
               <IEC:keys>
@@ -3603,8 +3630,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">LowerLimitingValueOfProcessTemperature</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit>ºC</IEC:unit>
             <IEC:unitId>
               <IEC:keys>
@@ -3630,8 +3658,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">UpperLimitingValueOfProcessTemperature</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit>ºC</IEC:unit>
             <IEC:unitId>
               <IEC:keys>
@@ -3657,8 +3686,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">TemperatureClass</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -3679,8 +3709,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">DesignationOfElectricalTerminal</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -3701,8 +3732,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">Characteristics</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -3723,8 +3755,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">Fisco</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -3745,8 +3778,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">TwoWISE</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -3767,8 +3801,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">SafetyRelatedPropertiesForPassiveBehaviour</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -3789,8 +3824,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">SafetyRelatedPropertiesForActiveBehaviour</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -3811,8 +3847,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">MaxInputPower</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit>mW</IEC:unit>
             <IEC:unitId>
               <IEC:keys>
@@ -3838,8 +3875,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">MaxInputVoltage</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit>V</IEC:unit>
             <IEC:unitId>
               <IEC:keys>
@@ -3865,8 +3903,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">MaxInputCurrent</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit> mA</IEC:unit>
             <IEC:unitId>
               <IEC:keys>
@@ -3892,8 +3931,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">MaxInternalCapacitance</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit>µF</IEC:unit>
             <IEC:unitId>
               <IEC:keys>
@@ -3919,8 +3959,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">MaxInternalInductance</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit>mH</IEC:unit>
             <IEC:unitId>
               <IEC:keys>
@@ -3946,8 +3987,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">MaxOutputPower</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit> mW</IEC:unit>
             <IEC:unitId>
               <IEC:keys>
@@ -3973,8 +4015,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">MaxOutputVoltage</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit>V</IEC:unit>
             <IEC:unitId>
               <IEC:keys>
@@ -4000,8 +4043,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">MaxOutputCurrent</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit>mA</IEC:unit>
             <IEC:unitId>
               <IEC:keys>
@@ -4027,8 +4071,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">MaxExternalCapacitance</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit> µF</IEC:unit>
             <IEC:unitId>
               <IEC:keys>
@@ -4054,8 +4099,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">MaxExternalInductance</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit> mH</IEC:unit>
             <IEC:unitId>
               <IEC:keys>
@@ -4081,8 +4127,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">MaxExternalInductanceResistanceRatio</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit>mH/Ω</IEC:unit>
             <IEC:unitId>
               <IEC:keys>
@@ -4109,8 +4156,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">GuidelineSpecificProperties</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4131,56 +4179,13 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">GuidelineForConformityDeclaration</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
               <IEC:langString lang="en">guideline, stipulation or legislation used for determining conformity</IEC:langString>
-            </IEC:definition>
-          </aas:dataSpecificationIEC61360>
-        </aas:dataSpecificationContent>
-        <aas:dataSpecification>
-          <aas:keys>
-            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
-          </aas:keys>
-        </aas:dataSpecification>
-      </aas:embeddedDataSpecification>
-    </aas:conceptDescription>
-    <aas:conceptDescription>
-      <aas:idShort>SpecificConditionsForUse</aas:idShort>
-      <aas:identification idType="IRI">https://admin-shell.io/zvei/nameplate/2/0/Nameplate/Markings/Marking/ExplosionSafeties/ExplosionSafety/SpecificConditionsForUse</aas:identification>
-      <aas:embeddedDataSpecification>
-        <aas:dataSpecificationContent>
-          <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
-            <IEC:unit />
-            <IEC:dataType />
-            <IEC:definition>
-              <IEC:langString lang="en">X if any, otherwise no entry</IEC:langString>
-            </IEC:definition>
-          </aas:dataSpecificationIEC61360>
-        </aas:dataSpecificationContent>
-        <aas:dataSpecification>
-          <aas:keys>
-            <aas:key type="GlobalReference" local="false" idType="IRI">http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0</aas:key>
-          </aas:keys>
-        </aas:dataSpecification>
-      </aas:embeddedDataSpecification>
-    </aas:conceptDescription>
-    <aas:conceptDescription>
-      <aas:idShort>IncompleteDevice</aas:idShort>
-      <aas:identification idType="IRI">https://admin-shell.io/zvei/nameplate/2/0/Nameplate/Markings/Marking/ExplosionSafeties/ExplosionSafety/IncompleteDevice</aas:identification>
-      <aas:embeddedDataSpecification>
-        <aas:dataSpecificationContent>
-          <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
-            <IEC:unit />
-            <IEC:dataType />
-            <IEC:definition>
-              <IEC:langString lang="en">U if any, otherwise no entry</IEC:langString>
             </IEC:definition>
           </aas:dataSpecificationIEC61360>
         </aas:dataSpecificationContent>
@@ -4201,8 +4206,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">ContactInformation</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4228,8 +4234,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">RoleOfContactPerson</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4250,8 +4257,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">NationalCode</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4272,8 +4280,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">Language</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4299,8 +4308,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">TimeZone</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4321,8 +4331,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">CityTown</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4343,8 +4354,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">Company</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4365,8 +4377,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">Department</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4387,8 +4400,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">Phone</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4409,8 +4423,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">TelephoneNumber</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4431,8 +4446,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">TypeOfTelephone</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4453,8 +4469,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">AvailableTime</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4475,8 +4492,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">Fax</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4497,8 +4515,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">FaxNumber</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4519,8 +4538,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">TypeOfFaxNumber</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4541,8 +4561,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">Email</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4563,8 +4584,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">EmailAddress</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4585,8 +4607,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">PublicKey</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4607,8 +4630,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">TypeOfEmailAddress</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4629,8 +4653,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">TypeOfPublicKey</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4646,13 +4671,14 @@
       </aas:embeddedDataSpecification>
     </aas:conceptDescription>
     <aas:conceptDescription>
-      <aas:idShort>IPCommunication{00}</aas:idShort>
+      <aas:idShort>IPCommunication_00</aas:idShort>
       <aas:identification idType="IRI">https://admin-shell.io/zvei/nameplate/1/0/ContactInformations/</aas:identification>
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">IPCommunication_00</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4673,8 +4699,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">AddressOfAdditionalLink</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4695,8 +4722,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">TypeOfCommunication</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4717,8 +4745,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">Street</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4739,8 +4768,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">Zipcode</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4761,8 +4791,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">POBox</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4783,8 +4814,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">ZipCodeOfPOBox</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4805,8 +4837,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">StateCounty</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4827,8 +4860,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">NameOfContact</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4849,8 +4883,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">FirstName</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4871,8 +4906,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">MiddleNames</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4893,8 +4929,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">Title</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4915,8 +4952,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">AcademicTitle</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4937,8 +4975,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">FurtherDetailsOfContact</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
@@ -4959,8 +4998,9 @@
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
           <aas:dataSpecificationIEC61360>
-            <IEC:preferredName />
-            <IEC:shortName />
+            <IEC:preferredName>
+              <IEC:langString lang="en">ExplosionSafeties</IEC:langString>
+            </IEC:preferredName>
             <IEC:unit />
             <IEC:dataType />
             <IEC:definition>
