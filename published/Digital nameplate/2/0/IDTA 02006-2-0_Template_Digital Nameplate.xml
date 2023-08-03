@@ -1171,7 +1171,7 @@
                 <aas:value>ZeroToOne</aas:value>
               </aas:qualifier>
             </aas:qualifier>
-            <aas:mimeType />
+            <aas:mimeType>{arbitrary}</aas:mimeType>
           </aas:file>
         </aas:submodelElement>
         <aas:submodelElement>
@@ -1316,7 +1316,7 @@
                             <aas:value>One</aas:value>
                           </aas:qualifier>
                         </aas:qualifier>
-                        <aas:mimeType />
+                        <aas:mimeType>{arbitrary}</aas:mimeType>
                         <aas:value />
                       </aas:file>
                     </aas:submodelElement>
