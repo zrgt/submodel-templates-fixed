@@ -2,9 +2,9 @@
 <aas:aasenv xmlns:IEC="http://www.admin-shell.io/IEC61360/2/0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:abac="http://www.admin-shell.io/aas/abac/2/0" xsi:schemaLocation="http://www.admin-shell.io/aas/2/0 AAS.xsd http://www.admin-shell.io/IEC61360/2/0 IEC61360.xsd" xmlns:aas="http://www.admin-shell.io/aas/2/0">
   <aas:assetAdministrationShells>
     <aas:assetAdministrationShell>
-      <aas:idShort>Provision of Simulation Models</aas:idShort>
+      <aas:idShort>Provision_of_Simulation_Models</aas:idShort>
       <aas:category>CONSTANT</aas:category>
-      <aas:identification idType="" />
+      <aas:identification idType="Custom">AssetAdministrationShell_Demo</aas:identification>
       <aas:assetRef>
         <aas:keys />
       </aas:assetRef>
