@@ -55,9 +55,9 @@
                     <aas:key type="GlobalReference" local="false" idType="IRI">https://admin-shell.io/SubmodelTemplates/Cardinality/1/0</aas:key>
                   </aas:keys>
                 </aas:semanticId>
-                <aas:type>Relevance</aas:type>
-                <aas:valueType />
-                <aas:value>optional</aas:value>
+                <aas:type>Cardinality</aas:type>
+                <aas:valueType>string</aas:valueType>
+                <aas:value>ZeroToOne</aas:value>
               </aas:qualifier>
             </aas:qualifier>
             <aas:valueType>integer</aas:valueType>
@@ -84,7 +84,7 @@
                   </aas:keys>
                 </aas:semanticId>
                 <aas:type>Cardinality</aas:type>
-                <aas:valueType />
+                <aas:valueType>string</aas:valueType>
                 <aas:value>ZeroToMany</aas:value>
               </aas:qualifier>
             </aas:qualifier>
@@ -112,7 +112,7 @@
                         </aas:keys>
                       </aas:semanticId>
                       <aas:type>Cardinality</aas:type>
-                      <aas:valueType />
+                      <aas:valueType>string</aas:valueType>
                       <aas:value>OneToMany</aas:value>
                     </aas:qualifier>
                   </aas:qualifier>
@@ -140,9 +140,11 @@
                               </aas:keys>
                             </aas:semanticId>
                             <aas:type>Cardinality</aas:type>
-                            <aas:valueType />
+                            <aas:valueType>string</aas:valueType>
                             <aas:value>One</aas:value>
                           </aas:qualifier>
+                        </aas:qualifier>
+                        <aas:qualifier>
                           <aas:qualifier>
                             <aas:semanticId>
                               <aas:keys>
@@ -150,7 +152,7 @@
                               </aas:keys>
                             </aas:semanticId>
                             <aas:type>ExampleValue</aas:type>
-                            <aas:valueType />
+                            <aas:valueType>string</aas:valueType>
                             <aas:value>1213455566</aas:value>
                           </aas:qualifier>
                         </aas:qualifier>
@@ -179,9 +181,11 @@
                               </aas:keys>
                             </aas:semanticId>
                             <aas:type>Cardinality</aas:type>
-                            <aas:valueType />
+                            <aas:valueType>string</aas:valueType>
                             <aas:value>One</aas:value>
                           </aas:qualifier>
+                        </aas:qualifier>
+                        <aas:qualifier>
                           <aas:qualifier>
                             <aas:semanticId>
                               <aas:keys>
@@ -189,7 +193,7 @@
                               </aas:keys>
                             </aas:semanticId>
                             <aas:type>ExampleValue</aas:type>
-                            <aas:valueType />
+                            <aas:valueType>string</aas:valueType>
                             <aas:value>XF90-884</aas:value>
                           </aas:qualifier>
                         </aas:qualifier>
@@ -218,9 +222,11 @@
                               </aas:keys>
                             </aas:semanticId>
                             <aas:type>Cardinality</aas:type>
-                            <aas:valueType />
+                            <aas:valueType>string</aas:valueType>
                             <aas:value>ZeroToOne</aas:value>
                           </aas:qualifier>
+                        </aas:qualifier>
+                        <aas:qualifier>
                           <aas:qualifier>
                             <aas:semanticId>
                               <aas:keys>
@@ -228,7 +234,7 @@
                               </aas:keys>
                             </aas:semanticId>
                             <aas:type>ExampleValue</aas:type>
-                            <aas:valueType />
+                            <aas:valueType>boolean</aas:valueType>
                             <aas:value>true</aas:value>
                           </aas:qualifier>
                         </aas:qualifier>
@@ -260,7 +266,7 @@
                         </aas:keys>
                       </aas:semanticId>
                       <aas:type>Cardinality</aas:type>
-                      <aas:valueType />
+                      <aas:valueType>string</aas:valueType>
                       <aas:value>OneToMany</aas:value>
                     </aas:qualifier>
                   </aas:qualifier>
@@ -288,9 +294,11 @@
                               </aas:keys>
                             </aas:semanticId>
                             <aas:type>Cardinality</aas:type>
-                            <aas:valueType />
+                            <aas:valueType>string</aas:valueType>
                             <aas:value>One</aas:value>
                           </aas:qualifier>
+                        </aas:qualifier>
+                        <aas:qualifier>
                           <aas:qualifier>
                             <aas:semanticId>
                               <aas:keys>
@@ -298,7 +306,7 @@
                               </aas:keys>
                             </aas:semanticId>
                             <aas:type>ExampleValue</aas:type>
-                            <aas:valueType />
+                            <aas:valueType>string</aas:valueType>
                             <aas:value>03-02</aas:value>
                           </aas:qualifier>
                         </aas:qualifier>
@@ -327,9 +335,11 @@
                               </aas:keys>
                             </aas:semanticId>
                             <aas:type>Cardinality</aas:type>
-                            <aas:valueType />
+                            <aas:valueType>string</aas:valueType>
                             <aas:value>One</aas:value>
                           </aas:qualifier>
+                        </aas:qualifier>
+                        <aas:qualifier>
                           <aas:qualifier>
                             <aas:semanticId>
                               <aas:keys>
@@ -337,7 +347,7 @@
                               </aas:keys>
                             </aas:semanticId>
                             <aas:type>ExampleValue</aas:type>
-                            <aas:valueType />
+                            <aas:valueType>string</aas:valueType>
                             <aas:value>Operation@en</aas:value>
                           </aas:qualifier>
                         </aas:qualifier>
@@ -365,9 +375,11 @@
                               </aas:keys>
                             </aas:semanticId>
                             <aas:type>Cardinality</aas:type>
-                            <aas:valueType />
+                            <aas:valueType>string</aas:valueType>
                             <aas:value>One</aas:value>
                           </aas:qualifier>
+                        </aas:qualifier>
+                        <aas:qualifier>
                           <aas:qualifier>
                             <aas:semanticId>
                               <aas:keys>
@@ -375,7 +387,7 @@
                               </aas:keys>
                             </aas:semanticId>
                             <aas:type>ExampleValue</aas:type>
-                            <aas:valueType />
+                            <aas:valueType>string</aas:valueType>
                             <aas:value>VDI2770:2018</aas:value>
                           </aas:qualifier>
                         </aas:qualifier>
@@ -407,7 +419,7 @@
                         </aas:keys>
                       </aas:semanticId>
                       <aas:type>Cardinality</aas:type>
-                      <aas:valueType />
+                      <aas:valueType>string</aas:valueType>
                       <aas:value>ZeroToMany</aas:value>
                     </aas:qualifier>
                   </aas:qualifier>
@@ -435,9 +447,11 @@
                               </aas:keys>
                             </aas:semanticId>
                             <aas:type>Cardinality</aas:type>
-                            <aas:valueType />
+                            <aas:valueType>string</aas:valueType>
                             <aas:value>OneToMany</aas:value>
                           </aas:qualifier>
+                        </aas:qualifier>
+                        <aas:qualifier>
                           <aas:qualifier>
                             <aas:semanticId>
                               <aas:keys>
@@ -445,9 +459,11 @@
                               </aas:keys>
                             </aas:semanticId>
                             <aas:type>ExampleValue</aas:type>
-                            <aas:valueType />
+                            <aas:valueType>string</aas:valueType>
                             <aas:value>en</aas:value>
                           </aas:qualifier>
+                        </aas:qualifier>
+                        <aas:qualifier>
                           <aas:qualifier>
                             <aas:semanticId>
                               <aas:keys>
@@ -455,7 +471,7 @@
                               </aas:keys>
                             </aas:semanticId>
                             <aas:type>AllowedIdShort</aas:type>
-                            <aas:valueType />
+                            <aas:valueType>string</aas:valueType>
                             <aas:value>Language[\d{2,3}]</aas:value>
                           </aas:qualifier>
                         </aas:qualifier>
@@ -484,9 +500,11 @@
                               </aas:keys>
                             </aas:semanticId>
                             <aas:type>Cardinality</aas:type>
-                            <aas:valueType />
+                            <aas:valueType>string</aas:valueType>
                             <aas:value>One</aas:value>
                           </aas:qualifier>
+                        </aas:qualifier>
+                        <aas:qualifier>
                           <aas:qualifier>
                             <aas:semanticId>
                               <aas:keys>
@@ -494,7 +512,7 @@
                               </aas:keys>
                             </aas:semanticId>
                             <aas:type>ExampleValue</aas:type>
-                            <aas:valueType />
+                            <aas:valueType>string</aas:valueType>
                             <aas:value>V1.2</aas:value>
                           </aas:qualifier>
                         </aas:qualifier>
@@ -523,9 +541,11 @@
                               </aas:keys>
                             </aas:semanticId>
                             <aas:type>Cardinality</aas:type>
-                            <aas:valueType />
+                            <aas:valueType>string</aas:valueType>
                             <aas:value>One</aas:value>
                           </aas:qualifier>
+                        </aas:qualifier>
+                        <aas:qualifier>
                           <aas:qualifier>
                             <aas:semanticId>
                               <aas:keys>
@@ -533,7 +553,7 @@
                               </aas:keys>
                             </aas:semanticId>
                             <aas:type>ExampleValue</aas:type>
-                            <aas:valueType />
+                            <aas:valueType>string</aas:valueType>
                             <aas:value>Examplary title@en</aas:value>
                           </aas:qualifier>
                         </aas:qualifier>
@@ -561,9 +581,11 @@
                               </aas:keys>
                             </aas:semanticId>
                             <aas:type>Cardinality</aas:type>
-                            <aas:valueType />
+                            <aas:valueType>string</aas:valueType>
                             <aas:value>ZeroToOne</aas:value>
                           </aas:qualifier>
+                        </aas:qualifier>
+                        <aas:qualifier>
                           <aas:qualifier>
                             <aas:semanticId>
                               <aas:keys>
@@ -571,7 +593,7 @@
                               </aas:keys>
                             </aas:semanticId>
                             <aas:type>ExampleValue</aas:type>
-                            <aas:valueType />
+                            <aas:valueType>string</aas:valueType>
                             <aas:value>Examplary subtitle@en</aas:value>
                           </aas:qualifier>
                         </aas:qualifier>
@@ -599,9 +621,11 @@
                               </aas:keys>
                             </aas:semanticId>
                             <aas:type>Cardinality</aas:type>
-                            <aas:valueType />
+                            <aas:valueType>string</aas:valueType>
                             <aas:value>One</aas:value>
                           </aas:qualifier>
+                        </aas:qualifier>
+                        <aas:qualifier>
                           <aas:qualifier>
                             <aas:semanticId>
                               <aas:keys>
@@ -609,7 +633,7 @@
                               </aas:keys>
                             </aas:semanticId>
                             <aas:type>ExampleValue</aas:type>
-                            <aas:valueType />
+                            <aas:valueType>string</aas:valueType>
                             <aas:value>Abstract@en</aas:value>
                           </aas:qualifier>
                         </aas:qualifier>
@@ -637,9 +661,11 @@
                               </aas:keys>
                             </aas:semanticId>
                             <aas:type>Cardinality</aas:type>
-                            <aas:valueType />
+                            <aas:valueType>string</aas:valueType>
                             <aas:value>One</aas:value>
                           </aas:qualifier>
+                        </aas:qualifier>
+                        <aas:qualifier>
                           <aas:qualifier>
                             <aas:semanticId>
                               <aas:keys>
@@ -647,7 +673,7 @@
                               </aas:keys>
                             </aas:semanticId>
                             <aas:type>ExampleValue</aas:type>
-                            <aas:valueType />
+                            <aas:valueType>string</aas:valueType>
                             <aas:value>Examplary keywords@en</aas:value>
                           </aas:qualifier>
                         </aas:qualifier>
@@ -675,9 +701,11 @@
                               </aas:keys>
                             </aas:semanticId>
                             <aas:type>Cardinality</aas:type>
-                            <aas:valueType />
+                            <aas:valueType>string</aas:valueType>
                             <aas:value>One</aas:value>
                           </aas:qualifier>
+                        </aas:qualifier>
+                        <aas:qualifier>
                           <aas:qualifier>
                             <aas:semanticId>
                               <aas:keys>
@@ -685,7 +713,7 @@
                               </aas:keys>
                             </aas:semanticId>
                             <aas:type>ExampleValue</aas:type>
-                            <aas:valueType />
+                            <aas:valueType>date</aas:valueType>
                             <aas:value>2020-02-06</aas:value>
                           </aas:qualifier>
                         </aas:qualifier>
@@ -714,9 +742,11 @@
                               </aas:keys>
                             </aas:semanticId>
                             <aas:type>Cardinality</aas:type>
-                            <aas:valueType />
+                            <aas:valueType>string</aas:valueType>
                             <aas:value>One</aas:value>
                           </aas:qualifier>
+                        </aas:qualifier>
+                        <aas:qualifier>
                           <aas:qualifier>
                             <aas:semanticId>
                               <aas:keys>
@@ -724,7 +754,7 @@
                               </aas:keys>
                             </aas:semanticId>
                             <aas:type>ExampleValue</aas:type>
-                            <aas:valueType />
+                            <aas:valueType>string</aas:valueType>
                             <aas:value>Released</aas:value>
                           </aas:qualifier>
                         </aas:qualifier>
@@ -753,9 +783,11 @@
                               </aas:keys>
                             </aas:semanticId>
                             <aas:type>Cardinality</aas:type>
-                            <aas:valueType />
+                            <aas:valueType>string</aas:valueType>
                             <aas:value>One</aas:value>
                           </aas:qualifier>
+                        </aas:qualifier>
+                        <aas:qualifier>
                           <aas:qualifier>
                             <aas:semanticId>
                               <aas:keys>
@@ -763,7 +795,7 @@
                               </aas:keys>
                             </aas:semanticId>
                             <aas:type>ExampleValue</aas:type>
-                            <aas:valueType />
+                            <aas:valueType>string</aas:valueType>
                             <aas:value>Example company</aas:value>
                           </aas:qualifier>
                         </aas:qualifier>
@@ -792,9 +824,11 @@
                               </aas:keys>
                             </aas:semanticId>
                             <aas:type>Cardinality</aas:type>
-                            <aas:valueType />
+                            <aas:valueType>string</aas:valueType>
                             <aas:value>One</aas:value>
                           </aas:qualifier>
+                        </aas:qualifier>
+                        <aas:qualifier>
                           <aas:qualifier>
                             <aas:semanticId>
                               <aas:keys>
@@ -802,7 +836,7 @@
                               </aas:keys>
                             </aas:semanticId>
                             <aas:type>ExampleValue</aas:type>
-                            <aas:valueType />
+                            <aas:valueType>string</aas:valueType>
                             <aas:value>Example company Ltd.</aas:value>
                           </aas:qualifier>
                         </aas:qualifier>
@@ -831,9 +865,11 @@
                               </aas:keys>
                             </aas:semanticId>
                             <aas:type>Cardinality</aas:type>
-                            <aas:valueType />
+                            <aas:valueType>string</aas:valueType>
                             <aas:value>ZeroToMany</aas:value>
                           </aas:qualifier>
+                        </aas:qualifier>
+                        <aas:qualifier>
                           <aas:qualifier>
                             <aas:semanticId>
                               <aas:keys>
@@ -841,7 +877,7 @@
                               </aas:keys>
                             </aas:semanticId>
                             <aas:type>AllowedIdShort</aas:type>
-                            <aas:valueType />
+                            <aas:valueType>string</aas:valueType>
                             <aas:value>RefersTo[\d{2,3}]</aas:value>
                           </aas:qualifier>
                         </aas:qualifier>
@@ -871,9 +907,11 @@
                               </aas:keys>
                             </aas:semanticId>
                             <aas:type>Cardinality</aas:type>
-                            <aas:valueType />
+                            <aas:valueType>string</aas:valueType>
                             <aas:value>ZeroToMany</aas:value>
                           </aas:qualifier>
+                        </aas:qualifier>
+                        <aas:qualifier>
                           <aas:qualifier>
                             <aas:semanticId>
                               <aas:keys>
@@ -881,7 +919,7 @@
                               </aas:keys>
                             </aas:semanticId>
                             <aas:type>AllowedIdShort</aas:type>
-                            <aas:valueType />
+                            <aas:valueType>string</aas:valueType>
                             <aas:value>BasedOn[\d{2,3}]</aas:value>
                           </aas:qualifier>
                         </aas:qualifier>
@@ -911,9 +949,11 @@
                               </aas:keys>
                             </aas:semanticId>
                             <aas:type>Cardinality</aas:type>
-                            <aas:valueType />
+                            <aas:valueType>string</aas:valueType>
                             <aas:value>ZeroToMany</aas:value>
                           </aas:qualifier>
+                        </aas:qualifier>
+                        <aas:qualifier>
                           <aas:qualifier>
                             <aas:semanticId>
                               <aas:keys>
@@ -921,7 +961,7 @@
                               </aas:keys>
                             </aas:semanticId>
                             <aas:type>AllowedIdShort</aas:type>
-                            <aas:valueType />
+                            <aas:valueType>string</aas:valueType>
                             <aas:value>TranslationOf[\d{2,3}]</aas:value>
                           </aas:qualifier>
                         </aas:qualifier>
@@ -950,9 +990,11 @@
                               </aas:keys>
                             </aas:semanticId>
                             <aas:type>Cardinality</aas:type>
-                            <aas:valueType />
+                            <aas:valueType>string</aas:valueType>
                             <aas:value>OneToMany</aas:value>
                           </aas:qualifier>
+                        </aas:qualifier>
+                        <aas:qualifier>
                           <aas:qualifier>
                             <aas:semanticId>
                               <aas:keys>
@@ -960,9 +1002,11 @@
                               </aas:keys>
                             </aas:semanticId>
                             <aas:type>ExampleValue</aas:type>
-                            <aas:valueType />
+                            <aas:valueType>string</aas:valueType>
                             <aas:value>docu_cecc_fullmanual_DE.PDF</aas:value>
                           </aas:qualifier>
+                        </aas:qualifier>
+                        <aas:qualifier>
                           <aas:qualifier>
                             <aas:semanticId>
                               <aas:keys>
@@ -970,7 +1014,7 @@
                               </aas:keys>
                             </aas:semanticId>
                             <aas:type>AllowedIdShort</aas:type>
-                            <aas:valueType />
+                            <aas:valueType>string</aas:valueType>
                             <aas:value>DigitalFile[\d{2,3}]</aas:value>
                           </aas:qualifier>
                         </aas:qualifier>
@@ -998,7 +1042,7 @@
                                     </aas:keys>
                                   </aas:semanticId>
                                   <aas:type>Cardinality</aas:type>
-                                  <aas:valueType />
+                                  <aas:valueType>string</aas:valueType>
                                   <aas:value>One</aas:value>
                                 </aas:qualifier>
                               </aas:qualifier>
@@ -1027,7 +1071,7 @@
                                     </aas:keys>
                                   </aas:semanticId>
                                   <aas:type>Cardinality</aas:type>
-                                  <aas:valueType />
+                                  <aas:valueType>string</aas:valueType>
                                   <aas:value>One</aas:value>
                                 </aas:qualifier>
                               </aas:qualifier>
@@ -1059,9 +1103,11 @@
                               </aas:keys>
                             </aas:semanticId>
                             <aas:type>Cardinality</aas:type>
-                            <aas:valueType />
+                            <aas:valueType>string</aas:valueType>
                             <aas:value>ZeroToMany</aas:value>
                           </aas:qualifier>
+                        </aas:qualifier>
+                        <aas:qualifier>
                           <aas:qualifier>
                             <aas:semanticId>
                               <aas:keys>
@@ -1069,9 +1115,11 @@
                               </aas:keys>
                             </aas:semanticId>
                             <aas:type>ExampleValue</aas:type>
-                            <aas:valueType />
+                            <aas:valueType>string</aas:valueType>
                             <aas:value>docu_cecc_fullmanual_DE.jpg</aas:value>
                           </aas:qualifier>
+                        </aas:qualifier>
+                        <aas:qualifier>
                           <aas:qualifier>
                             <aas:semanticId>
                               <aas:keys>
@@ -1079,7 +1127,7 @@
                               </aas:keys>
                             </aas:semanticId>
                             <aas:type>AllowedIdShort</aas:type>
-                            <aas:valueType />
+                            <aas:valueType>string</aas:valueType>
                             <aas:value>PreviewFile[\d{2,3}]</aas:value>
                           </aas:qualifier>
                         </aas:qualifier>
@@ -1107,7 +1155,7 @@
                                     </aas:keys>
                                   </aas:semanticId>
                                   <aas:type>Cardinality</aas:type>
-                                  <aas:valueType />
+                                  <aas:valueType>string</aas:valueType>
                                   <aas:value>One</aas:value>
                                 </aas:qualifier>
                               </aas:qualifier>
@@ -1136,7 +1184,7 @@
                                     </aas:keys>
                                   </aas:semanticId>
                                   <aas:type>Cardinality</aas:type>
-                                  <aas:valueType />
+                                  <aas:valueType>string</aas:valueType>
                                   <aas:value>One</aas:value>
                                 </aas:qualifier>
                               </aas:qualifier>
@@ -1171,7 +1219,7 @@
                         </aas:keys>
                       </aas:semanticId>
                       <aas:type>Cardinality</aas:type>
-                      <aas:valueType />
+                      <aas:valueType>string</aas:valueType>
                       <aas:value>ZeroToMany</aas:value>
                     </aas:qualifier>
                   </aas:qualifier>
@@ -1204,7 +1252,7 @@
                   </aas:keys>
                 </aas:semanticId>
                 <aas:type>Cardinality</aas:type>
-                <aas:valueType />
+                <aas:valueType>string</aas:valueType>
                 <aas:value>ZeroToMany</aas:value>
               </aas:qualifier>
             </aas:qualifier>
