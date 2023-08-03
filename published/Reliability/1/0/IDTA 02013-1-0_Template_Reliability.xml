@@ -313,9 +313,6 @@
               <aas:submodelElement>
                 <aas:property>
                   <aas:idShort>B10</aas:idShort>
-                  <aas:description>
-                    <aas:langString lang="en" />
-                  </aas:description>
                   <aas:kind>Template</aas:kind>
                   <aas:semanticId>
                     <aas:keys>
