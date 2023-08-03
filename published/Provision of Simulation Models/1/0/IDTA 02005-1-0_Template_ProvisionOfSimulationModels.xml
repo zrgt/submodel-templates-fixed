@@ -431,10 +431,6 @@
                     <aas:submodelElement>
                       <aas:property>
                         <aas:idShort>OperatingSystem</aas:idShort>
-                        <aas:description>
-                          <aas:langString lang="en" />
-                          <aas:langString lang="de" />
-                        </aas:description>
                         <aas:kind>Template</aas:kind>
                         <aas:semanticId>
                           <aas:keys>
@@ -688,9 +684,6 @@
                             <aas:property>
                               <aas:idShort>Compiler</aas:idShort>
                               <aas:category>CONSTANT</aas:category>
-                              <aas:description>
-                                <aas:langString lang="" />
-                              </aas:description>
                               <aas:kind>Template</aas:kind>
                               <aas:semanticId>
                                 <aas:keys>
@@ -3969,10 +3962,6 @@
     </aas:conceptDescription>
     <aas:conceptDescription>
       <aas:idShort>operatingSystem</aas:idShort>
-      <aas:description>
-        <aas:langString lang="" />
-        <aas:langString lang="" />
-      </aas:description>
       <aas:identification idType="IRI">https://admin-shell.io/idta/SimulationModels/OperatingSystem/1/0</aas:identification>
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
@@ -7482,10 +7471,6 @@
     </aas:conceptDescription>
     <aas:conceptDescription>
       <aas:idShort>operatingSystem</aas:idShort>
-      <aas:description>
-        <aas:langString lang="" />
-        <aas:langString lang="" />
-      </aas:description>
       <aas:identification idType="IRI">https://admin-shell.io/sandbox/pi40/SimulationModel/operatingSystem/1/0</aas:identification>
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
