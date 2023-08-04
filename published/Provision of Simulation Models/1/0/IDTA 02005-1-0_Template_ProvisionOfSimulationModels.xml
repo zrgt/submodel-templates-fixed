@@ -4689,7 +4689,7 @@
       <aas:idShort />
       <aas:identification idType="IRDI">0173-1#02-AAO677#002</aas:identification>
       <aas:administration>
-        <aas:version />
+        <aas:version>1</aas:version>
         <aas:revision>1</aas:revision>
       </aas:administration>
       <aas:embeddedDataSpecification>
@@ -4726,7 +4726,7 @@
       <aas:idShort />
       <aas:identification idType="IRDI">0173-1#02-AAW338#001</aas:identification>
       <aas:administration>
-        <aas:version />
+        <aas:version>1</aas:version>
         <aas:revision>1</aas:revision>
       </aas:administration>
       <aas:embeddedDataSpecification>
@@ -4763,7 +4763,7 @@
       <aas:idShort />
       <aas:identification idType="IRDI">0173-1#02-AAQ832#005</aas:identification>
       <aas:administration>
-        <aas:version />
+        <aas:version>1</aas:version>
         <aas:revision>1</aas:revision>
       </aas:administration>
       <aas:embeddedDataSpecification>
@@ -4800,7 +4800,7 @@
       <aas:idShort />
       <aas:identification idType="IRDI">0173-1#02-AAO127#003</aas:identification>
       <aas:administration>
-        <aas:version />
+        <aas:version>1</aas:version>
         <aas:revision>1</aas:revision>
       </aas:administration>
       <aas:embeddedDataSpecification>
@@ -4837,7 +4837,7 @@
       <aas:idShort />
       <aas:identification idType="IRDI">0173-1#02-AAO128#002</aas:identification>
       <aas:administration>
-        <aas:version />
+        <aas:version>1</aas:version>
         <aas:revision>1</aas:revision>
       </aas:administration>
       <aas:embeddedDataSpecification>
@@ -4874,7 +4874,7 @@
       <aas:idShort />
       <aas:identification idType="IRDI">0173-1#02-AAO129#002</aas:identification>
       <aas:administration>
-        <aas:version />
+        <aas:version>1</aas:version>
         <aas:revision>1</aas:revision>
       </aas:administration>
       <aas:embeddedDataSpecification>
@@ -4911,7 +4911,7 @@
       <aas:idShort />
       <aas:identification idType="IRDI">0173-1#02-AAO130#002</aas:identification>
       <aas:administration>
-        <aas:version />
+        <aas:version>1</aas:version>
         <aas:revision>1</aas:revision>
       </aas:administration>
       <aas:embeddedDataSpecification>
@@ -4948,7 +4948,7 @@
       <aas:idShort />
       <aas:identification idType="IRDI">0173-1#02-AAO131#002</aas:identification>
       <aas:administration>
-        <aas:version />
+        <aas:version>1</aas:version>
         <aas:revision>1</aas:revision>
       </aas:administration>
       <aas:embeddedDataSpecification>
@@ -4985,7 +4985,7 @@
       <aas:idShort />
       <aas:identification idType="IRDI">0173-1#02-AAO132#002</aas:identification>
       <aas:administration>
-        <aas:version />
+        <aas:version>1</aas:version>
         <aas:revision>1</aas:revision>
       </aas:administration>
       <aas:embeddedDataSpecification>
@@ -5022,7 +5022,7 @@
       <aas:idShort />
       <aas:identification idType="IRDI">0173-1#02-AAO133#002</aas:identification>
       <aas:administration>
-        <aas:version />
+        <aas:version>1</aas:version>
         <aas:revision>1</aas:revision>
       </aas:administration>
       <aas:embeddedDataSpecification>
@@ -5059,7 +5059,7 @@
       <aas:idShort />
       <aas:identification idType="IRDI">0173-1#02-AAO134#002</aas:identification>
       <aas:administration>
-        <aas:version />
+        <aas:version>1</aas:version>
         <aas:revision>1</aas:revision>
       </aas:administration>
       <aas:embeddedDataSpecification>
@@ -5096,7 +5096,7 @@
       <aas:idShort />
       <aas:identification idType="IRDI">0173-1#02-AAO135#002</aas:identification>
       <aas:administration>
-        <aas:version />
+        <aas:version>1</aas:version>
         <aas:revision>1</aas:revision>
       </aas:administration>
       <aas:embeddedDataSpecification>
@@ -5133,7 +5133,7 @@
       <aas:idShort />
       <aas:identification idType="IRDI">0173-1#02-AAO202#003</aas:identification>
       <aas:administration>
-        <aas:version />
+        <aas:version>1</aas:version>
         <aas:revision>1</aas:revision>
       </aas:administration>
       <aas:embeddedDataSpecification>
@@ -5170,7 +5170,7 @@
       <aas:idShort />
       <aas:identification idType="IRDI">0173-1#02-AAQ326#002</aas:identification>
       <aas:administration>
-        <aas:version />
+        <aas:version>1</aas:version>
         <aas:revision>1</aas:revision>
       </aas:administration>
       <aas:embeddedDataSpecification>
@@ -5207,7 +5207,7 @@
       <aas:idShort />
       <aas:identification idType="IRDI">0173-1#02-AAQ833#005</aas:identification>
       <aas:administration>
-        <aas:version />
+        <aas:version>1</aas:version>
         <aas:revision>1</aas:revision>
       </aas:administration>
       <aas:embeddedDataSpecification>
@@ -5244,7 +5244,7 @@
       <aas:idShort />
       <aas:identification idType="IRDI">0173-1#02-AAO136#002</aas:identification>
       <aas:administration>
-        <aas:version />
+        <aas:version>1</aas:version>
         <aas:revision>1</aas:revision>
       </aas:administration>
       <aas:embeddedDataSpecification>
@@ -5281,7 +5281,7 @@
       <aas:idShort />
       <aas:identification idType="IRDI">0173-1#02-AAO137#003</aas:identification>
       <aas:administration>
-        <aas:version />
+        <aas:version>1</aas:version>
         <aas:revision>1</aas:revision>
       </aas:administration>
       <aas:embeddedDataSpecification>
@@ -5318,7 +5318,7 @@
       <aas:idShort />
       <aas:identification idType="IRDI">0173-1#02-AAQ834#005</aas:identification>
       <aas:administration>
-        <aas:version />
+        <aas:version>1</aas:version>
         <aas:revision>1</aas:revision>
       </aas:administration>
       <aas:embeddedDataSpecification>
@@ -5355,7 +5355,7 @@
       <aas:idShort />
       <aas:identification idType="IRDI">0173-1#02-AAO195#002</aas:identification>
       <aas:administration>
-        <aas:version />
+        <aas:version>1</aas:version>
         <aas:revision>1</aas:revision>
       </aas:administration>
       <aas:embeddedDataSpecification>
@@ -5392,7 +5392,7 @@
       <aas:idShort />
       <aas:identification idType="IRDI">0173-1#02-AAO196#003</aas:identification>
       <aas:administration>
-        <aas:version />
+        <aas:version>1</aas:version>
         <aas:revision>1</aas:revision>
       </aas:administration>
       <aas:embeddedDataSpecification>
@@ -5429,7 +5429,7 @@
       <aas:idShort />
       <aas:identification idType="IRDI">0173-1#02-AAQ836#005</aas:identification>
       <aas:administration>
-        <aas:version />
+        <aas:version>1</aas:version>
         <aas:revision>1</aas:revision>
       </aas:administration>
       <aas:embeddedDataSpecification>
@@ -5466,7 +5466,7 @@
       <aas:idShort />
       <aas:identification idType="IRDI">0173-1#02-AAO198#002</aas:identification>
       <aas:administration>
-        <aas:version />
+        <aas:version>1</aas:version>
         <aas:revision>1</aas:revision>
       </aas:administration>
       <aas:embeddedDataSpecification>
@@ -5503,7 +5503,7 @@
       <aas:idShort />
       <aas:identification idType="IRDI">0173-1#02-AAO200#002</aas:identification>
       <aas:administration>
-        <aas:version />
+        <aas:version>1</aas:version>
         <aas:revision>1</aas:revision>
       </aas:administration>
       <aas:embeddedDataSpecification>
@@ -5540,7 +5540,7 @@
       <aas:idShort />
       <aas:identification idType="IRDI">0173-1#02-AAO199#003</aas:identification>
       <aas:administration>
-        <aas:version />
+        <aas:version>1</aas:version>
         <aas:revision>1</aas:revision>
       </aas:administration>
       <aas:embeddedDataSpecification>
@@ -5577,7 +5577,7 @@
       <aas:idShort />
       <aas:identification idType="IRDI">0173-1#02-AAO201#002</aas:identification>
       <aas:administration>
-        <aas:version />
+        <aas:version>1</aas:version>
         <aas:revision>1</aas:revision>
       </aas:administration>
       <aas:embeddedDataSpecification>
@@ -5614,7 +5614,7 @@
       <aas:idShort />
       <aas:identification idType="IRDI">0173-1#02-AAU731#001</aas:identification>
       <aas:administration>
-        <aas:version />
+        <aas:version>1</aas:version>
         <aas:revision>1</aas:revision>
       </aas:administration>
       <aas:embeddedDataSpecification>
@@ -5651,7 +5651,7 @@
       <aas:idShort />
       <aas:identification idType="IRDI">0173-1#02-AAM556#002</aas:identification>
       <aas:administration>
-        <aas:version />
+        <aas:version>1</aas:version>
         <aas:revision>1</aas:revision>
       </aas:administration>
       <aas:embeddedDataSpecification>
@@ -5688,7 +5688,7 @@
       <aas:idShort />
       <aas:identification idType="IRDI">0173-1#02-AAP906#001</aas:identification>
       <aas:administration>
-        <aas:version />
+        <aas:version>1</aas:version>
         <aas:revision>1</aas:revision>
       </aas:administration>
       <aas:embeddedDataSpecification>
@@ -5725,7 +5725,7 @@
       <aas:idShort />
       <aas:identification idType="IRI">https://admin-shell.io/zvei/nameplate/1/0/Nameplate/Markings</aas:identification>
       <aas:administration>
-        <aas:version />
+        <aas:version>1</aas:version>
         <aas:revision>1</aas:revision>
       </aas:administration>
       <aas:embeddedDataSpecification>
@@ -5758,7 +5758,7 @@
       <aas:description />
       <aas:identification idType="IRI">https://admin-shell.io/zvei/nameplate/1/0/Nameplate/Markings/Marking</aas:identification>
       <aas:administration>
-        <aas:version />
+        <aas:version>1</aas:version>
         <aas:revision>1</aas:revision>
       </aas:administration>
       <aas:embeddedDataSpecification>
@@ -5790,7 +5790,7 @@
       <aas:idShort />
       <aas:identification idType="IRI">https://admin-shell.io/zvei/nameplate/1/0/Nameplate/Markings/Marking/MarkingName</aas:identification>
       <aas:administration>
-        <aas:version />
+        <aas:version>1</aas:version>
         <aas:revision>1</aas:revision>
       </aas:administration>
       <aas:embeddedDataSpecification>
@@ -5822,7 +5822,7 @@
       <aas:idShort />
       <aas:identification idType="IRI">https://admin-shell.io/zvei/nameplate/1/0/Nameplate/Markings/Marking/MarkingFile</aas:identification>
       <aas:administration>
-        <aas:version />
+        <aas:version>1</aas:version>
         <aas:revision>1</aas:revision>
       </aas:administration>
       <aas:embeddedDataSpecification>
@@ -5854,7 +5854,7 @@
       <aas:idShort />
       <aas:identification idType="IRI">https://admin-shell.io/zvei/nameplate/1/0/Nameplate/Markings/Marking/MarkingAdditionalText</aas:identification>
       <aas:administration>
-        <aas:version />
+        <aas:version>1</aas:version>
         <aas:revision>1</aas:revision>
       </aas:administration>
       <aas:embeddedDataSpecification>
@@ -5886,7 +5886,7 @@
       <aas:idShort />
       <aas:identification idType="IRI">https://admin-shell.io/zvei/nameplate/1/0/Nameplate/AssetSpecificProperties</aas:identification>
       <aas:administration>
-        <aas:version />
+        <aas:version>1</aas:version>
         <aas:revision>1</aas:revision>
       </aas:administration>
       <aas:embeddedDataSpecification>
@@ -5918,7 +5918,7 @@
       <aas:idShort />
       <aas:identification idType="IRI">https://admin-shell.io/zvei/nameplate/1/0/Nameplate/AssetSpecificProperties/GuidelineSpecificProperties</aas:identification>
       <aas:administration>
-        <aas:version />
+        <aas:version>1</aas:version>
         <aas:revision>1</aas:revision>
       </aas:administration>
       <aas:embeddedDataSpecification>
@@ -5950,7 +5950,7 @@
       <aas:idShort />
       <aas:identification idType="IRDI">0173-1#02-AAO856#002</aas:identification>
       <aas:administration>
-        <aas:version />
+        <aas:version>1</aas:version>
         <aas:revision>1</aas:revision>
       </aas:administration>
       <aas:embeddedDataSpecification>
