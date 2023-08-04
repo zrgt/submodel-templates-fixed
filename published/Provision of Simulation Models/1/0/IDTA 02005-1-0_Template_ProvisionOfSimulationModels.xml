@@ -6560,10 +6560,6 @@
     <aas:conceptDescription>
       <aas:idShort>fixedStepSize</aas:idShort>
       <aas:category>CONSTANT</aas:category>
-      <aas:description>
-        <aas:langString lang="EN" />
-        <aas:langString lang="DE" />
-      </aas:description>
       <aas:identification idType="IRI">https://admin-shell.io/sandbox/SimulationModel/fixedStepSize/1/0</aas:identification>
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
