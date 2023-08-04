@@ -6088,7 +6088,7 @@
       </aas:embeddedDataSpecification>
     </aas:conceptDescription>
     <aas:conceptDescription>
-      <aas:idShort>DigitalFile{00}</aas:idShort>
+      <aas:idShort>DigitalFile</aas:idShort>
       <aas:identification idType="IRI">https://admin-shell.io/vdi/2770/1/0/StoredDocumentRepresentation/DigitalFile</aas:identification>
       <aas:embeddedDataSpecification>
         <aas:dataSpecificationContent>
