@@ -1954,7 +1954,7 @@
                             </aas:property>
                           </aas:submodelElement>
                           <aas:submodelElement>
-                            <aas:property>
+                            <aas:multiLanguageProperty>
                               <aas:idShort>AvailableTime</aas:idShort>
                               <aas:kind>Template</aas:kind>
                               <aas:semanticId>
@@ -1984,9 +1984,7 @@
                                   <aas:value>ZeroToOne</aas:value>
                                 </aas:qualifier>
                               </aas:qualifier>
-                              <aas:valueType>langString</aas:valueType>
-                              <aas:value />
-                            </aas:property>
+                            </aas:multiLanguageProperty>
                           </aas:submodelElement>
                         </aas:value>
                       </aas:submodelElementCollection>
